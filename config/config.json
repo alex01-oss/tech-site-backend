@@ -1,0 +1,26 @@
+{
+  "searchTypes": {
+    "by_machine": {
+      "title": "Search for a tool by equipment",
+      "items": [
+        {
+          "text": "Search by name",
+          "isActive": true
+        }
+      ]
+    },
+    "by_tool": {
+      "title": "Search for equipment by tool",
+      "items": [
+        {
+          "text": "Search by brand",
+          "isActive": false
+        },
+        {
+          "text": "Search by specs",
+          "isActive": false
+        }
+      ]
+    }
+  }
+}
