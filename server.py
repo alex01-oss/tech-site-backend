@@ -22,13 +22,25 @@ def return_menu():
 def return_products():
     page = int(request.args.get('page', 1))
     items_per_page = int(request.args.get('items_per_page', ITEMS_PER_PAGE))
+    
+    search_type = request.args.get('search_type', 'name').lower()
     search_query = request.args.get('search', '').lower()
 
     try:
         df = pd.read_excel('construction.xlsx')
     
+        # search types
         if(search_query):
-            df = df[df["Name"].str.lower().str.contains(search_query)]
+            if search_type == 'name':
+                df = df[df["Name"].fillna('').str.lower().str.contains(search_query)]
+            if search_type == 'brand':
+                df = df[df["Type"].fillna('').str.lower().str.contains(search_query) |
+                        df["Line"].fillna('').str.lower().str.contains(search_query)]
+            if search_type == 'specs':
+                df = df[df["Value_param2"].fillna('').str.lower().str.contains(search_query) |
+                        df["Value_param3"].fillna('').str.lower().str.contains(search_query) |
+                        df["Value_param4"].fillna('').str.lower().str.contains(search_query) |
+                        df["Value_param5"].fillna('').str.lower().str.contains(search_query)]
         
         total_items = len(df)
         total_pages = math.ceil(total_items / items_per_page)

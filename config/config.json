@@ -5,7 +5,7 @@
       "items": [
         {
           "text": "Search by name",
-          "isActive": true
+          "searchType": "name"
         }
       ]
     },
@@ -14,11 +14,11 @@
       "items": [
         {
           "text": "Search by brand",
-          "isActive": false
+          "searchType": "brand"
         },
         {
           "text": "Search by specs",
-          "isActive": false
+          "searchType": "specs"
         }
       ]
     }
