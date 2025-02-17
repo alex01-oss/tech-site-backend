@@ -4,10 +4,8 @@ import pandas as pd
 import math
 
 app = Flask(__name__)
-
 CORS(app)
-
-ITEMS_PER_PAGE = 6
+ITEMS_PER_PAGE = 9
 
 @app.route("/api/menu", methods=['GET'])
 def return_menu():
@@ -22,25 +20,30 @@ def return_menu():
 def return_products():
     page = int(request.args.get('page', 1))
     items_per_page = int(request.args.get('items_per_page', ITEMS_PER_PAGE))
-    
     search_type = request.args.get('search_type', 'name').lower()
     search_query = request.args.get('search', '').lower()
 
     try:
         df = pd.read_excel('construction.xlsx')
+        
+        specs_columns = ['Value_param2', 'Value_param3', 'Value_param4', 'Value_param5']
+        for col in specs_columns:
+            if col in df.columns:
+                df[col] = df[col].astype(str)
     
         # search types
-        if(search_query):
+        if search_query:
             if search_type == 'name':
                 df = df[df["Name"].fillna('').str.lower().str.contains(search_query)]
-            if search_type == 'brand':
+            elif search_type == 'brand':
                 df = df[df["Type"].fillna('').str.lower().str.contains(search_query) |
-                        df["Line"].fillna('').str.lower().str.contains(search_query)]
-            if search_type == 'specs':
-                df = df[df["Value_param2"].fillna('').str.lower().str.contains(search_query) |
-                        df["Value_param3"].fillna('').str.lower().str.contains(search_query) |
-                        df["Value_param4"].fillna('').str.lower().str.contains(search_query) |
-                        df["Value_param5"].fillna('').str.lower().str.contains(search_query)]
+                       df["Line"].fillna('').str.lower().str.contains(search_query)]
+            elif search_type == 'specs':
+                specs_mask = pd.Series(False, index=df.index)
+                for col in specs_columns:
+                    if col in df.columns:
+                        specs_mask |= df[col].fillna('').str.lower().str.contains(search_query, na=False)
+                df = df[specs_mask]
         
         total_items = len(df)
         total_pages = math.ceil(total_items / items_per_page)
@@ -58,6 +61,7 @@ def return_products():
         })
 
     except Exception as e:
+        print(f"Error in return_products: {str(e)}")
         return jsonify({"error": f"Failed to load catalog data: {str(e)}"}), 500        
 
 if __name__ == "__main__":
