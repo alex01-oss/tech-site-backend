@@ -12,7 +12,7 @@ from schemas.schema import CatalogQuerySchema
 app = Flask(__name__)
 CORS(app)
 
-ITEMS_PER_PAGE = 8
+ITEMS_PER_PAGE = 10
 
 swagger = Swagger(app)
 logger = setup_logging()
