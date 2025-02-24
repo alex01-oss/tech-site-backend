@@ -26,7 +26,7 @@ app.config['CACHE_TYPE'] = 'simple'
 cache = Cache(app)
 
 # postgres
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:admin@localhost/construction'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:admin@localhost/catalog'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
@@ -92,13 +92,14 @@ def return_products():
         logger.info(f'Request for catalog received. Page: {page}, Items per page: {items_per_page}')
         
         query = db.session.query(Tool)
+        # print(query)
     
         # search types
         if search_query:
             if search_type == 'name':
-                query = query.filter(Tool.Name.like(f"%{search_query}%"))
+                query = query.filter(Tool.Title.like(f"%{search_query}%"))
             elif search_type == 'brand':
-                query = query.filter(Tool.Type.like(f"%{search_query}%"))
+                query = query.filter(Tool.Category.like(f"%{search_query}%"))
             elif search_type == 'specs':
                 query = query.filter(
                     (Tool.Value_param1.like(f"%{search_query}%")) |
@@ -126,10 +127,9 @@ def return_products():
         })
 
     except Exception as e:
-        # Log more detailed information about the error
         logger.error(f"Error occurred: {str(e)}")
         logger.error(f"Traceback: {traceback.format_exc()}")
-        
+        # print(traceback.format_exc())
         return jsonify({"error": "Failed to load catalog data", "details": str(e)}), 500
 
 
