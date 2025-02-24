@@ -5157,3 +5157,7 @@ AttributeError: type object 'Tool' has no attribute 'Type'
 2025-02-24 11:47:05,070 - INFO - Request for catalog received. Page: 1, Items per page: 8
 2025-02-24 11:47:05,119 - INFO - Successfully fetched 8 items.
 2025-02-24 11:47:05,140 - INFO - Successfully fetched 8 items.
+2025-02-24 13:37:18,914 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 13:37:18,974 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 13:37:19,103 - INFO - Successfully fetched 8 items.
+2025-02-24 13:37:19,104 - INFO - Successfully fetched 8 items.

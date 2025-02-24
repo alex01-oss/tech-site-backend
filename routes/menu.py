@@ -1,0 +1,22 @@
+import json
+from flask import Blueprint, jsonify
+
+menu_bp = Blueprint('menu', __name__)
+
+@menu_bp.route("/api/menu", methods=['GET'])
+def return_menu():
+    
+    """
+    Отримати меню
+    ---
+    responses:
+      200:
+        description: Список меню
+    """
+    
+    try:
+        with open('config/config.json', 'r') as file:
+            menu_data = json.load(file)
+        return jsonify(menu_data)
+    except Exception as e:
+        return jsonify({"error": f"Failed to load menu data: {str(e)}"}), 500
