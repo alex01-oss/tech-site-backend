@@ -2,7 +2,7 @@ import math
 import traceback
 from flask import Blueprint, request, jsonify
 from marshmallow import ValidationError
-from extensions import db, cache, logger  # Імпортуємо з extensions
+from extensions import db, cache, logger
 from schemas.tool_schema import Tool
 from schemas.query_schema import CatalogQuerySchema
 

@@ -5161,3 +5161,1077 @@ AttributeError: type object 'Tool' has no attribute 'Type'
 2025-02-24 13:37:18,974 - INFO - Request for catalog received. Page: 1, Items per page: 8
 2025-02-24 13:37:19,103 - INFO - Successfully fetched 8 items.
 2025-02-24 13:37:19,104 - INFO - Successfully fetched 8 items.
+2025-02-24 13:50:21,539 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 13:50:21,592 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 13:50:21,657 - INFO - Successfully fetched 8 items.
+2025-02-24 13:50:21,664 - INFO - Successfully fetched 8 items.
+2025-02-24 13:50:40,163 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-02-24 13:50:40,167 - INFO - Successfully fetched 8 items.
+2025-02-24 13:50:41,065 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-24 13:50:41,068 - INFO - Successfully fetched 5 items.
+2025-02-24 13:50:43,772 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 13:50:43,774 - INFO - Successfully fetched 8 items.
+2025-02-24 13:58:00,662 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 13:58:00,665 - INFO - Successfully fetched 8 items.
+2025-02-24 13:59:16,947 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 13:59:16,950 - INFO - Successfully fetched 8 items.
+2025-02-24 14:01:28,559 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 14:01:28,563 - INFO - Successfully fetched 8 items.
+2025-02-24 14:04:13,529 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 14:04:13,533 - INFO - Successfully fetched 8 items.
+2025-02-24 14:08:31,579 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 14:08:31,582 - INFO - Successfully fetched 8 items.
+2025-02-24 14:11:31,781 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 14:11:31,790 - INFO - Successfully fetched 8 items.
+2025-02-24 14:12:02,829 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 14:12:02,832 - INFO - Successfully fetched 8 items.
+2025-02-24 14:12:08,860 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 14:12:08,864 - INFO - Successfully fetched 8 items.
+2025-02-24 14:15:31,278 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:15:31,281 - INFO - Successfully fetched 8 items.
+2025-02-24 14:15:31,497 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:15:31,500 - INFO - Successfully fetched 8 items.
+2025-02-24 14:18:14,186 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-02-24 14:18:14,188 - INFO - Successfully fetched 8 items.
+2025-02-24 14:18:15,244 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-02-24 14:18:15,246 - INFO - Successfully fetched 8 items.
+2025-02-24 14:18:16,309 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-02-24 14:18:16,311 - INFO - Successfully fetched 8 items.
+2025-02-24 14:18:17,155 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-02-24 14:18:17,158 - INFO - Successfully fetched 8 items.
+2025-02-24 14:18:18,864 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:18:18,866 - INFO - Successfully fetched 8 items.
+2025-02-24 14:18:40,152 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:18:40,155 - INFO - Successfully fetched 8 items.
+2025-02-24 14:22:09,191 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:22:09,194 - INFO - Successfully fetched 8 items.
+2025-02-24 14:22:09,271 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:22:09,274 - INFO - Successfully fetched 8 items.
+2025-02-24 14:24:14,635 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:24:14,640 - INFO - Successfully fetched 8 items.
+2025-02-24 14:24:14,714 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:24:14,716 - INFO - Successfully fetched 8 items.
+2025-02-24 14:25:27,906 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 14:25:27,917 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:31,560 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:20:31,654 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:20:31,786 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:31,786 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:50,014 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-02-24 16:20:50,018 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:50,963 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-02-24 16:20:50,966 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:52,061 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-02-24 16:20:52,066 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:54,422 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-02-24 16:20:54,426 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:55,446 - INFO - Request for catalog received. Page: 6, Items per page: 8
+2025-02-24 16:20:55,449 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:57,289 - INFO - Request for catalog received. Page: 7, Items per page: 8
+2025-02-24 16:20:57,291 - INFO - Successfully fetched 8 items.
+2025-02-24 16:20:58,151 - INFO - Request for catalog received. Page: 8, Items per page: 8
+2025-02-24 16:20:58,153 - INFO - Successfully fetched 8 items.
+2025-02-24 16:21:00,641 - INFO - Request for catalog received. Page: 9, Items per page: 8
+2025-02-24 16:21:00,643 - INFO - Successfully fetched 8 items.
+2025-02-24 16:21:02,025 - INFO - Request for catalog received. Page: 10, Items per page: 8
+2025-02-24 16:21:02,028 - INFO - Successfully fetched 8 items.
+2025-02-24 16:21:03,449 - INFO - Request for catalog received. Page: 11, Items per page: 8
+2025-02-24 16:21:03,452 - INFO - Successfully fetched 8 items.
+2025-02-24 16:23:59,658 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:23:59,660 - INFO - Successfully fetched 8 items.
+2025-02-24 16:25:56,242 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:25:56,244 - INFO - Successfully fetched 8 items.
+2025-02-24 16:25:56,721 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:25:56,725 - INFO - Successfully fetched 8 items.
+2025-02-24 16:25:59,447 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:25:59,450 - INFO - Successfully fetched 8 items.
+2025-02-24 16:27:04,689 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-24 16:27:04,692 - INFO - Successfully fetched 5 items.
+2025-02-24 16:27:06,541 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-24 16:27:06,544 - INFO - Successfully fetched 8 items.
+2025-02-24 16:27:09,081 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:27:09,084 - INFO - Successfully fetched 8 items.
+2025-02-24 16:40:22,130 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:40:22,133 - INFO - Successfully fetched 8 items.
+2025-02-24 16:40:22,239 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-24 16:40:22,246 - INFO - Successfully fetched 8 items.
+2025-02-25 10:28:34,973 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:28:35,040 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:28:35,415 - INFO - Successfully fetched 8 items.
+2025-02-25 10:28:35,415 - INFO - Successfully fetched 8 items.
+2025-02-25 10:28:41,526 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:28:41,541 - INFO - Successfully fetched 3 items.
+2025-02-25 10:28:44,881 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:28:44,885 - INFO - Successfully fetched 8 items.
+2025-02-25 10:28:47,077 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:28:47,090 - INFO - Successfully fetched 0 items.
+2025-02-25 10:28:49,221 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:28:49,223 - INFO - Successfully fetched 8 items.
+2025-02-25 10:28:52,614 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:28:52,624 - INFO - Successfully fetched 0 items.
+2025-02-25 10:28:55,830 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-25 10:28:55,832 - INFO - Successfully fetched 5 items.
+2025-02-25 10:28:59,139 - INFO - Request for catalog received. Page: 6, Items per page: 8
+2025-02-25 10:28:59,141 - INFO - Successfully fetched 8 items.
+2025-02-25 10:28:59,995 - INFO - Request for catalog received. Page: 7, Items per page: 8
+2025-02-25 10:28:59,997 - INFO - Successfully fetched 8 items.
+2025-02-25 10:29:01,092 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-02-25 10:29:01,095 - INFO - Successfully fetched 8 items.
+2025-02-25 10:29:01,907 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-02-25 10:29:01,910 - INFO - Successfully fetched 8 items.
+2025-02-25 10:40:33,025 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:40:33,109 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:40:33,265 - INFO - Successfully fetched 8 items.
+2025-02-25 10:40:33,268 - INFO - Successfully fetched 8 items.
+2025-02-25 10:40:42,588 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 10:40:42,608 - INFO - Successfully fetched 3 items.
+2025-02-25 11:48:19,548 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 11:48:19,617 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 11:48:20,024 - INFO - Successfully fetched 8 items.
+2025-02-25 11:48:20,024 - INFO - Successfully fetched 8 items.
+2025-02-25 11:48:53,452 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-25 11:48:53,455 - INFO - Successfully fetched 5 items.
+2025-02-25 11:48:54,853 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-25 11:48:54,855 - INFO - Successfully fetched 8 items.
+2025-02-25 11:48:56,577 - INFO - Request for catalog received. Page: 21, Items per page: 8
+2025-02-25 11:48:56,579 - INFO - Successfully fetched 8 items.
+2025-02-25 11:49:05,437 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 11:49:05,453 - INFO - Successfully fetched 3 items.
+2025-02-25 11:50:03,952 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 11:50:03,955 - INFO - Successfully fetched 8 items.
+2025-02-25 11:52:03,618 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 11:52:03,620 - INFO - Successfully fetched 8 items.
+2025-02-25 13:08:56,684 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-25 13:08:56,689 - INFO - Successfully fetched 8 items.
+2025-02-25 13:08:58,271 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-25 13:08:58,276 - INFO - Successfully fetched 5 items.
+2025-02-25 13:09:14,713 - INFO - Request for catalog received. Page: 21, Items per page: 8
+2025-02-25 13:09:14,716 - INFO - Successfully fetched 8 items.
+2025-02-25 13:09:16,498 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 13:09:16,517 - INFO - Successfully fetched 8 items.
+2025-02-25 13:09:27,631 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-02-25 13:09:27,633 - INFO - Successfully fetched 8 items.
+2025-02-25 13:09:28,249 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-02-25 13:09:28,252 - INFO - Successfully fetched 8 items.
+2025-02-25 13:28:37,690 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 13:28:37,888 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 13:28:38,106 - INFO - Successfully fetched 8 items.
+2025-02-25 13:28:38,107 - INFO - Successfully fetched 8 items.
+2025-02-25 13:31:38,124 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 13:31:38,129 - INFO - Successfully fetched 8 items.
+2025-02-25 14:22:04,877 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 14:22:05,096 - INFO - Successfully fetched 8 items.
+2025-02-25 14:22:05,138 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-25 14:22:05,141 - INFO - Successfully fetched 8 items.
+2025-02-26 08:15:25,891 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:15:25,946 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:15:28,242 - ERROR - Error occurred: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-26 08:15:28,257 - ERROR - Error occurred: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-26 08:15:28,651 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "db" to address: Name or service not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\server\routes\catalog.py", line 70, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2025-02-26 08:15:28,651 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "db" to address: Name or service not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\server\routes\catalog.py", line 70, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2025-02-26 08:16:42,175 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:16:42,260 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:16:42,668 - INFO - Successfully fetched 8 items.
+2025-02-26 08:16:42,669 - INFO - Successfully fetched 8 items.
+2025-02-26 08:17:07,554 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:17:07,557 - INFO - Successfully fetched 8 items.
+2025-02-26 08:17:09,789 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:17:09,798 - INFO - Successfully fetched 8 items.
+2025-02-26 08:21:52,486 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:21:52,488 - INFO - Successfully fetched 8 items.
+2025-02-26 08:22:01,989 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:22:01,991 - INFO - Successfully fetched 8 items.
+2025-02-26 08:22:02,883 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:22:02,887 - INFO - Successfully fetched 8 items.
+2025-02-26 08:22:20,505 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:22:20,519 - INFO - Successfully fetched 8 items.
+2025-02-26 08:22:23,113 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:22:23,121 - INFO - Successfully fetched 3 items.
+2025-02-26 08:22:27,708 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:22:27,712 - INFO - Successfully fetched 8 items.
+2025-02-26 08:22:29,359 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:22:29,364 - INFO - Successfully fetched 0 items.
+2025-02-26 08:22:32,626 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:22:32,632 - INFO - Successfully fetched 0 items.
+2025-02-26 08:34:28,885 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:34:28,941 - INFO - Successfully fetched 8 items.
+2025-02-26 08:34:29,046 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:34:29,061 - INFO - Successfully fetched 8 items.
+2025-02-26 08:36:40,923 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:36:40,927 - INFO - Successfully fetched 8 items.
+2025-02-26 08:36:40,976 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 08:36:40,978 - INFO - Successfully fetched 8 items.
+2025-02-26 09:54:19,923 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 09:54:19,990 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 09:54:22,253 - ERROR - Error occurred: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-26 09:54:22,296 - ERROR - Error occurred: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-26 09:54:22,405 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "db" to address: Name or service not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\server\routes\catalog.py", line 70, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2025-02-26 09:54:22,405 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "db" to address: Name or service not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\server\routes\catalog.py", line 70, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2025-02-26 09:58:26,274 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 09:58:26,366 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 09:58:26,518 - INFO - Successfully fetched 8 items.
+2025-02-26 09:58:26,519 - INFO - Successfully fetched 8 items.
+2025-02-26 10:01:14,294 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:01:14,297 - INFO - Successfully fetched 8 items.
+2025-02-26 10:03:15,674 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:03:15,678 - INFO - Successfully fetched 8 items.
+2025-02-26 10:03:15,747 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:03:15,751 - INFO - Successfully fetched 8 items.
+2025-02-26 10:11:20,883 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:11:20,908 - INFO - Successfully fetched 8 items.
+2025-02-26 10:11:20,957 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:11:20,959 - INFO - Successfully fetched 8 items.
+2025-02-26 10:15:14,908 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:15:14,932 - INFO - Successfully fetched 8 items.
+2025-02-26 10:15:14,978 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:15:14,981 - INFO - Successfully fetched 8 items.
+2025-02-26 10:18:31,733 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:18:31,736 - INFO - Successfully fetched 8 items.
+2025-02-26 10:18:31,805 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:18:31,810 - INFO - Successfully fetched 8 items.
+2025-02-26 10:21:03,082 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:21:03,085 - INFO - Successfully fetched 8 items.
+2025-02-26 10:21:03,153 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:21:03,155 - INFO - Successfully fetched 8 items.
+2025-02-26 10:23:14,409 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:23:14,689 - INFO - Successfully fetched 3 items.
+2025-02-26 10:23:33,848 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:23:33,852 - INFO - Successfully fetched 8 items.
+2025-02-26 10:23:34,043 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:23:34,046 - INFO - Successfully fetched 8 items.
+2025-02-26 10:31:10,934 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:31:10,938 - INFO - Successfully fetched 8 items.
+2025-02-26 10:31:11,035 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:31:11,038 - INFO - Successfully fetched 8 items.
+2025-02-26 10:31:58,457 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-26 10:31:58,460 - INFO - Successfully fetched 5 items.
+2025-02-26 10:32:00,890 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-26 10:32:00,893 - INFO - Successfully fetched 8 items.
+2025-02-26 10:32:10,441 - INFO - Request for catalog received. Page: 6, Items per page: 8
+2025-02-26 10:32:10,444 - INFO - Successfully fetched 8 items.
+2025-02-26 10:32:12,241 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-02-26 10:32:12,243 - INFO - Successfully fetched 8 items.
+2025-02-26 10:32:14,054 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-02-26 10:32:14,057 - INFO - Successfully fetched 8 items.
+2025-02-26 10:32:16,214 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:32:16,216 - INFO - Successfully fetched 8 items.
+2025-02-26 10:35:25,926 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-26 10:35:25,929 - INFO - Successfully fetched 5 items.
+2025-02-26 10:35:27,993 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:35:27,995 - INFO - Successfully fetched 8 items.
+2025-02-26 10:40:13,996 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:40:14,001 - INFO - Successfully fetched 8 items.
+2025-02-26 10:40:14,337 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:40:14,341 - INFO - Successfully fetched 8 items.
+2025-02-26 10:41:22,405 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:41:22,410 - INFO - Successfully fetched 8 items.
+2025-02-26 10:41:22,463 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:41:22,466 - INFO - Successfully fetched 8 items.
+2025-02-26 10:41:29,542 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:41:29,545 - INFO - Successfully fetched 8 items.
+2025-02-26 10:41:30,079 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:41:30,082 - INFO - Successfully fetched 8 items.
+2025-02-26 10:41:59,828 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-02-26 10:41:59,848 - INFO - Successfully fetched 8 items.
+2025-02-26 10:42:00,440 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-02-26 10:42:00,445 - INFO - Successfully fetched 8 items.
+2025-02-26 10:42:00,967 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-02-26 10:42:00,971 - INFO - Successfully fetched 8 items.
+2025-02-26 10:42:01,627 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-02-26 10:42:01,630 - INFO - Successfully fetched 8 items.
+2025-02-26 10:42:02,284 - INFO - Request for catalog received. Page: 6, Items per page: 8
+2025-02-26 10:42:02,286 - INFO - Successfully fetched 8 items.
+2025-02-26 10:42:03,134 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-26 10:42:03,137 - INFO - Successfully fetched 5 items.
+2025-02-26 10:42:05,343 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-26 10:42:05,345 - INFO - Successfully fetched 8 items.
+2025-02-26 10:42:12,469 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-26 10:42:12,472 - INFO - Successfully fetched 8 items.
+2025-02-26 10:42:13,217 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-26 10:42:13,221 - INFO - Successfully fetched 8 items.
+2025-02-26 10:43:13,761 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-02-26 10:43:13,792 - INFO - Successfully fetched 8 items.
+2025-02-26 10:46:18,279 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:46:18,283 - INFO - Successfully fetched 8 items.
+2025-02-26 10:46:18,939 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:46:18,944 - INFO - Successfully fetched 8 items.
+2025-02-26 10:47:27,637 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:47:27,640 - INFO - Successfully fetched 8 items.
+2025-02-26 10:48:27,332 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:48:27,347 - INFO - Successfully fetched 8 items.
+2025-02-26 10:48:27,430 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:48:27,433 - INFO - Successfully fetched 8 items.
+2025-02-26 10:50:04,914 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:50:04,919 - INFO - Successfully fetched 8 items.
+2025-02-26 10:50:05,140 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:50:05,145 - INFO - Successfully fetched 8 items.
+2025-02-26 10:51:38,849 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 10:51:38,852 - INFO - Successfully fetched 8 items.
+2025-02-26 11:06:04,319 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:06:04,327 - INFO - Successfully fetched 8 items.
+2025-02-26 11:06:04,579 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:06:04,582 - INFO - Successfully fetched 8 items.
+2025-02-26 11:07:06,207 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:07:06,210 - INFO - Successfully fetched 8 items.
+2025-02-26 11:07:06,579 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:07:06,582 - INFO - Successfully fetched 8 items.
+2025-02-26 11:08:15,455 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:08:15,479 - INFO - Successfully fetched 8 items.
+2025-02-26 11:08:15,537 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:08:15,541 - INFO - Successfully fetched 8 items.
+2025-02-26 11:09:40,888 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:09:40,892 - INFO - Successfully fetched 8 items.
+2025-02-26 11:09:41,241 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:09:41,244 - INFO - Successfully fetched 8 items.
+2025-02-26 11:12:16,431 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:12:16,434 - INFO - Successfully fetched 8 items.
+2025-02-26 11:12:16,743 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:12:16,750 - INFO - Successfully fetched 8 items.
+2025-02-26 11:13:36,128 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:13:36,132 - INFO - Successfully fetched 8 items.
+2025-02-26 11:13:36,486 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:13:36,489 - INFO - Successfully fetched 8 items.
+2025-02-26 11:14:37,343 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:14:37,346 - INFO - Successfully fetched 8 items.
+2025-02-26 11:14:37,827 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:14:37,830 - INFO - Successfully fetched 8 items.
+2025-02-26 11:15:39,886 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:15:39,894 - INFO - Successfully fetched 8 items.
+2025-02-26 11:15:39,981 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:15:39,984 - INFO - Successfully fetched 8 items.
+2025-02-26 11:21:38,927 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:21:38,930 - INFO - Successfully fetched 8 items.
+2025-02-26 11:24:20,229 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:24:20,233 - INFO - Successfully fetched 8 items.
+2025-02-26 11:24:51,278 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:24:51,317 - INFO - Successfully fetched 3 items.
+2025-02-26 11:39:46,408 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:39:46,412 - INFO - Successfully fetched 8 items.
+2025-02-26 11:40:26,020 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:40:26,024 - INFO - Successfully fetched 8 items.
+2025-02-26 11:40:26,711 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:40:26,714 - INFO - Successfully fetched 8 items.
+2025-02-26 11:41:18,107 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:41:18,112 - INFO - Successfully fetched 8 items.
+2025-02-26 11:44:53,587 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:44:53,595 - INFO - Successfully fetched 8 items.
+2025-02-26 11:44:53,900 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:44:53,918 - INFO - Successfully fetched 8 items.
+2025-02-26 11:54:19,787 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:54:19,793 - INFO - Successfully fetched 8 items.
+2025-02-26 11:54:20,211 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:54:20,214 - INFO - Successfully fetched 8 items.
+2025-02-26 11:55:56,420 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:55:56,426 - INFO - Successfully fetched 8 items.
+2025-02-26 11:55:56,612 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 11:55:56,614 - INFO - Successfully fetched 8 items.
+2025-02-26 12:46:30,102 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 12:46:30,107 - INFO - Successfully fetched 8 items.
+2025-02-26 12:46:30,250 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 12:46:30,257 - INFO - Successfully fetched 8 items.
+2025-02-26 12:58:38,572 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 12:58:38,579 - INFO - Successfully fetched 8 items.
+2025-02-26 12:58:38,639 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 12:58:38,643 - INFO - Successfully fetched 8 items.
+2025-02-26 13:00:33,852 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:00:33,856 - INFO - Successfully fetched 8 items.
+2025-02-26 13:00:33,966 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:00:33,968 - INFO - Successfully fetched 8 items.
+2025-02-26 13:03:51,151 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:03:51,154 - INFO - Successfully fetched 8 items.
+2025-02-26 13:03:51,210 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:03:51,214 - INFO - Successfully fetched 8 items.
+2025-02-26 13:24:17,194 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:24:17,199 - INFO - Successfully fetched 8 items.
+2025-02-26 13:24:17,316 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:24:17,322 - INFO - Successfully fetched 8 items.
+2025-02-26 13:24:37,566 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:24:37,568 - INFO - Successfully fetched 8 items.
+2025-02-26 13:24:38,192 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:24:38,195 - INFO - Successfully fetched 8 items.
+2025-02-26 13:27:37,309 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:27:37,319 - INFO - Successfully fetched 8 items.
+2025-02-26 13:27:37,394 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 13:27:37,398 - INFO - Successfully fetched 8 items.
+2025-02-26 14:00:59,710 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:00:59,908 - INFO - Successfully fetched 8 items.
+2025-02-26 14:06:25,020 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:06:25,030 - INFO - Successfully fetched 8 items.
+2025-02-26 14:06:25,251 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:06:25,254 - INFO - Successfully fetched 8 items.
+2025-02-26 14:07:25,313 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:07:25,317 - INFO - Successfully fetched 8 items.
+2025-02-26 14:07:25,497 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:07:25,502 - INFO - Successfully fetched 8 items.
+2025-02-26 14:22:39,485 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:22:39,595 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:22:39,709 - INFO - Successfully fetched 8 items.
+2025-02-26 14:22:39,710 - INFO - Successfully fetched 8 items.
+2025-02-26 14:24:48,692 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:24:48,699 - INFO - Successfully fetched 8 items.
+2025-02-26 14:24:48,952 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:24:48,961 - INFO - Successfully fetched 8 items.
+2025-02-26 14:39:13,386 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:39:13,533 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:39:14,147 - INFO - Successfully fetched 8 items.
+2025-02-26 14:39:14,147 - INFO - Successfully fetched 8 items.
+2025-02-26 14:45:37,327 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:45:37,334 - INFO - Successfully fetched 8 items.
+2025-02-26 14:45:37,562 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:45:37,565 - INFO - Successfully fetched 8 items.
+2025-02-26 14:47:02,169 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:47:02,173 - INFO - Successfully fetched 8 items.
+2025-02-26 14:47:02,375 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:47:02,379 - INFO - Successfully fetched 8 items.
+2025-02-26 14:53:23,026 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:53:23,029 - INFO - Successfully fetched 8 items.
+2025-02-26 14:53:23,165 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 14:53:23,170 - INFO - Successfully fetched 8 items.
+2025-02-26 15:01:21,568 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:01:21,687 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:01:21,727 - INFO - Successfully fetched 8 items.
+2025-02-26 15:01:21,794 - INFO - Successfully fetched 8 items.
+2025-02-26 15:23:18,150 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:23:18,156 - INFO - Successfully fetched 8 items.
+2025-02-26 15:23:18,240 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:23:18,247 - INFO - Successfully fetched 8 items.
+2025-02-26 15:32:32,735 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:32:32,743 - INFO - Successfully fetched 8 items.
+2025-02-26 15:32:33,148 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:32:33,152 - INFO - Successfully fetched 8 items.
+2025-02-26 15:36:31,267 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:36:31,272 - INFO - Successfully fetched 8 items.
+2025-02-26 15:36:31,333 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:36:31,338 - INFO - Successfully fetched 8 items.
+2025-02-26 15:47:30,437 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:47:30,543 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 15:47:30,604 - INFO - Successfully fetched 8 items.
+2025-02-26 15:47:30,634 - INFO - Successfully fetched 8 items.
+2025-02-26 16:38:34,526 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:38:34,746 - INFO - Successfully fetched 8 items.
+2025-02-26 16:38:35,052 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:38:35,058 - INFO - Successfully fetched 8 items.
+2025-02-26 16:50:51,017 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:50:51,021 - INFO - Successfully fetched 8 items.
+2025-02-26 16:50:51,262 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:50:51,267 - INFO - Successfully fetched 8 items.
+2025-02-26 16:53:00,670 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:53:00,673 - INFO - Successfully fetched 8 items.
+2025-02-26 16:53:00,902 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:53:00,906 - INFO - Successfully fetched 8 items.
+2025-02-26 16:53:12,655 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-26 16:53:12,659 - INFO - Successfully fetched 5 items.
+2025-02-26 16:56:46,443 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-02-26 16:56:46,448 - INFO - Successfully fetched 8 items.
+2025-02-26 16:56:48,576 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:56:48,579 - INFO - Successfully fetched 8 items.
+2025-02-26 16:56:48,809 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:56:48,814 - INFO - Successfully fetched 8 items.
+2025-02-26 16:56:51,442 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-02-26 16:56:51,445 - INFO - Successfully fetched 8 items.
+2025-02-26 16:59:33,571 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:59:33,578 - INFO - Successfully fetched 8 items.
+2025-02-26 16:59:33,841 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:59:33,843 - INFO - Successfully fetched 8 items.
+2025-02-26 16:59:35,891 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-02-26 16:59:35,894 - INFO - Successfully fetched 8 items.
+2025-02-26 16:59:39,598 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:59:39,601 - INFO - Successfully fetched 8 items.
+2025-02-26 16:59:40,648 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-26 16:59:40,651 - INFO - Successfully fetched 8 items.
