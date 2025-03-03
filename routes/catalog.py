@@ -3,7 +3,7 @@ import traceback
 from flask import Blueprint, request, jsonify
 from marshmallow import ValidationError
 from extensions import db, cache, logger
-from schemas.tool_schema import Tool
+from schemas.db_schemas import Tool
 from schemas.query_schema import CatalogQuerySchema
 
 catalog_bp = Blueprint('catalog', __name__)

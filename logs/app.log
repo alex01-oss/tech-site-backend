@@ -6235,3 +6235,678 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 2025-02-26 16:59:39,601 - INFO - Successfully fetched 8 items.
 2025-02-26 16:59:40,648 - INFO - Request for catalog received. Page: 1, Items per page: 8
 2025-02-26 16:59:40,651 - INFO - Successfully fetched 8 items.
+2025-02-27 10:51:10,873 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 10:51:11,482 - INFO - Successfully fetched 8 items.
+2025-02-27 10:51:13,329 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 10:51:13,340 - INFO - Successfully fetched 8 items.
+2025-02-27 11:51:21,547 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 11:51:22,458 - INFO - Successfully fetched 8 items.
+2025-02-27 11:51:23,628 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 11:51:23,631 - INFO - Successfully fetched 8 items.
+2025-02-27 11:58:00,972 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 11:58:01,201 - INFO - Successfully fetched 8 items.
+2025-02-27 11:58:01,509 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 11:58:01,512 - INFO - Successfully fetched 8 items.
+2025-02-27 13:04:47,080 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 13:04:47,185 - INFO - Successfully fetched 8 items.
+2025-02-27 13:04:47,194 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 13:04:47,197 - INFO - Successfully fetched 8 items.
+2025-02-27 13:35:52,569 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 13:35:52,782 - INFO - Successfully fetched 8 items.
+2025-02-27 13:35:52,989 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 13:35:52,993 - INFO - Successfully fetched 8 items.
+2025-02-27 14:24:40,177 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:24:40,190 - INFO - Successfully fetched 8 items.
+2025-02-27 14:24:40,372 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:24:40,374 - INFO - Successfully fetched 8 items.
+2025-02-27 14:41:05,459 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:41:05,468 - INFO - Successfully fetched 8 items.
+2025-02-27 14:41:05,704 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:41:05,736 - INFO - Successfully fetched 8 items.
+2025-02-27 14:54:17,298 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:54:17,309 - INFO - Successfully fetched 8 items.
+2025-02-27 14:54:17,612 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:54:17,614 - INFO - Successfully fetched 8 items.
+2025-02-27 14:55:07,063 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-27 14:55:07,067 - INFO - Successfully fetched 5 items.
+2025-02-27 14:55:15,196 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:55:15,199 - INFO - Successfully fetched 8 items.
+2025-02-27 14:55:16,708 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:55:16,711 - INFO - Successfully fetched 8 items.
+2025-02-27 14:55:17,636 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 14:55:17,639 - INFO - Successfully fetched 8 items.
+2025-02-27 15:04:56,536 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:04:56,546 - INFO - Successfully fetched 8 items.
+2025-02-27 15:04:56,767 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:04:56,769 - INFO - Successfully fetched 8 items.
+2025-02-27 15:10:58,217 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:10:58,221 - INFO - Successfully fetched 8 items.
+2025-02-27 15:10:58,645 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:10:58,648 - INFO - Successfully fetched 8 items.
+2025-02-27 15:12:42,678 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:12:42,683 - INFO - Successfully fetched 8 items.
+2025-02-27 15:12:42,911 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:12:42,914 - INFO - Successfully fetched 8 items.
+2025-02-27 15:13:21,085 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-27 15:13:21,103 - INFO - Successfully fetched 5 items.
+2025-02-27 15:22:38,451 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:22:38,460 - INFO - Successfully fetched 8 items.
+2025-02-27 15:22:38,751 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:22:38,755 - INFO - Successfully fetched 8 items.
+2025-02-27 15:34:36,104 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:34:36,113 - INFO - Successfully fetched 8 items.
+2025-02-27 15:34:36,419 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:34:36,421 - INFO - Successfully fetched 8 items.
+2025-02-27 15:35:56,892 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:35:57,146 - INFO - Successfully fetched 8 items.
+2025-02-27 15:35:57,307 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:35:57,309 - INFO - Successfully fetched 8 items.
+2025-02-27 15:40:47,589 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:40:47,593 - INFO - Successfully fetched 8 items.
+2025-02-27 15:40:47,806 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-27 15:40:47,808 - INFO - Successfully fetched 8 items.
+2025-02-28 08:07:05,412 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 08:07:05,659 - INFO - Successfully fetched 8 items.
+2025-02-28 08:07:06,001 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 08:07:06,003 - INFO - Successfully fetched 8 items.
+2025-02-28 08:13:54,804 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 08:13:54,808 - INFO - Successfully fetched 8 items.
+2025-02-28 08:13:55,082 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 08:13:55,094 - INFO - Successfully fetched 8 items.
+2025-02-28 08:14:19,778 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 08:14:19,781 - INFO - Successfully fetched 8 items.
+2025-02-28 08:14:20,666 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 08:14:20,669 - INFO - Successfully fetched 8 items.
+2025-02-28 08:14:34,891 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-02-28 08:14:34,895 - INFO - Successfully fetched 5 items.
+2025-02-28 10:10:34,714 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 10:10:35,073 - INFO - Successfully fetched 8 items.
+2025-02-28 10:10:35,233 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 10:10:35,236 - INFO - Successfully fetched 8 items.
+2025-02-28 13:33:24,106 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 13:33:24,126 - INFO - Successfully fetched 8 items.
+2025-02-28 13:42:49,451 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 13:42:49,455 - INFO - Successfully fetched 8 items.
+2025-02-28 16:04:09,995 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:04:10,000 - INFO - Successfully fetched 8 items.
+2025-02-28 16:46:46,092 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:46:46,341 - INFO - Successfully fetched 8 items.
+2025-02-28 16:48:57,499 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:48:57,566 - INFO - Successfully fetched 8 items.
+2025-02-28 16:50:54,093 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:50:54,095 - INFO - Successfully fetched 8 items.
+2025-02-28 16:52:40,740 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:52:40,832 - INFO - Successfully fetched 8 items.
+2025-02-28 16:54:12,266 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:54:12,390 - INFO - Successfully fetched 8 items.
+2025-02-28 16:55:41,749 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:55:41,753 - INFO - Successfully fetched 8 items.
+2025-02-28 16:58:07,562 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-02-28 16:58:07,565 - INFO - Successfully fetched 8 items.
+2025-03-03 08:08:44,642 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 08:08:44,895 - INFO - Successfully fetched 8 items.
+2025-03-03 08:24:52,955 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 08:24:52,959 - INFO - Successfully fetched 8 items.
+2025-03-03 08:39:11,841 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 08:39:11,844 - INFO - Successfully fetched 8 items.
+2025-03-03 08:53:17,551 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 08:53:17,553 - INFO - Successfully fetched 8 items.
+2025-03-03 09:10:24,538 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:10:24,541 - INFO - Successfully fetched 8 items.
+2025-03-03 09:16:25,252 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:16:25,257 - INFO - Successfully fetched 8 items.
+2025-03-03 09:21:36,792 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:21:36,795 - INFO - Successfully fetched 8 items.
+2025-03-03 09:26:30,833 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:26:30,837 - INFO - Successfully fetched 8 items.
+2025-03-03 09:29:51,670 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:29:51,674 - INFO - Successfully fetched 8 items.
+2025-03-03 09:33:07,659 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:33:07,661 - INFO - Successfully fetched 8 items.
+2025-03-03 09:36:44,212 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:36:44,214 - INFO - Successfully fetched 8 items.
+2025-03-03 09:43:57,323 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:43:57,325 - INFO - Successfully fetched 8 items.
+2025-03-03 09:49:46,273 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:49:46,285 - INFO - Successfully fetched 8 items.
+2025-03-03 09:51:44,895 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:51:44,898 - INFO - Successfully fetched 8 items.
+2025-03-03 09:53:50,405 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:53:50,408 - INFO - Successfully fetched 8 items.
+2025-03-03 09:55:50,303 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:55:50,305 - INFO - Successfully fetched 8 items.
+2025-03-03 09:57:35,425 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:57:35,429 - INFO - Successfully fetched 8 items.
+2025-03-03 09:58:40,159 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 09:58:40,165 - INFO - Successfully fetched 8 items.
+2025-03-03 10:00:01,889 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:00:01,894 - INFO - Successfully fetched 8 items.
+2025-03-03 10:07:36,389 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:07:36,394 - INFO - Successfully fetched 8 items.
+2025-03-03 10:14:10,331 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:14:10,333 - INFO - Successfully fetched 8 items.
+2025-03-03 10:15:37,256 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:15:37,261 - INFO - Successfully fetched 8 items.
+2025-03-03 10:17:35,386 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:17:35,388 - INFO - Successfully fetched 8 items.
+2025-03-03 10:19:52,906 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:19:52,908 - INFO - Successfully fetched 8 items.
+2025-03-03 10:30:10,909 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:30:10,914 - INFO - Successfully fetched 8 items.
+2025-03-03 10:35:17,549 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:35:17,551 - INFO - Successfully fetched 8 items.
+2025-03-03 10:48:36,803 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:48:36,806 - INFO - Successfully fetched 8 items.
+2025-03-03 10:49:58,021 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:49:58,025 - INFO - Successfully fetched 8 items.
+2025-03-03 10:53:17,992 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:53:17,996 - INFO - Successfully fetched 8 items.
+2025-03-03 10:57:19,836 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:57:19,838 - INFO - Successfully fetched 8 items.
+2025-03-03 10:58:21,684 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 10:58:21,686 - INFO - Successfully fetched 8 items.
+2025-03-03 11:00:15,743 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:00:15,745 - INFO - Successfully fetched 8 items.
+2025-03-03 11:02:14,821 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:02:14,825 - INFO - Successfully fetched 8 items.
+2025-03-03 11:11:55,424 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:11:55,439 - INFO - Successfully fetched 8 items.
+2025-03-03 11:15:22,822 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:15:22,825 - INFO - Successfully fetched 8 items.
+2025-03-03 11:16:27,247 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:16:27,251 - INFO - Successfully fetched 8 items.
+2025-03-03 11:30:08,298 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:30:08,303 - INFO - Successfully fetched 8 items.
+2025-03-03 11:30:08,436 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:30:08,438 - INFO - Successfully fetched 8 items.
+2025-03-03 11:31:10,507 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:31:10,512 - INFO - Successfully fetched 8 items.
+2025-03-03 11:31:10,838 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:31:10,840 - INFO - Successfully fetched 8 items.
+2025-03-03 11:31:25,463 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-03 11:31:25,465 - INFO - Successfully fetched 8 items.
+2025-03-03 11:31:29,755 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-03 11:31:29,758 - INFO - Successfully fetched 5 items.
+2025-03-03 11:31:33,990 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:31:34,042 - INFO - Successfully fetched 8 items.
+2025-03-03 11:31:37,409 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:31:37,415 - INFO - Successfully fetched 3 items.
+2025-03-03 11:31:39,142 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:31:39,143 - INFO - Successfully fetched 8 items.
+2025-03-03 11:31:39,887 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:31:39,889 - INFO - Successfully fetched 8 items.
+2025-03-03 11:35:32,061 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:35:32,063 - INFO - Successfully fetched 8 items.
+2025-03-03 11:38:22,722 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:38:22,724 - INFO - Successfully fetched 8 items.
+2025-03-03 11:38:22,860 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:38:22,862 - INFO - Successfully fetched 8 items.
+2025-03-03 11:38:30,034 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-03 11:38:30,036 - INFO - Successfully fetched 8 items.
+2025-03-03 11:41:31,722 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:41:31,724 - INFO - Successfully fetched 8 items.
+2025-03-03 11:41:31,864 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:41:31,890 - INFO - Successfully fetched 8 items.
+2025-03-03 11:41:38,553 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:41:38,555 - INFO - Successfully fetched 8 items.
+2025-03-03 11:41:58,286 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:41:58,287 - INFO - Successfully fetched 8 items.
+2025-03-03 11:41:59,889 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-03 11:41:59,891 - INFO - Successfully fetched 8 items.
+2025-03-03 11:42:00,901 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-03 11:42:00,904 - INFO - Successfully fetched 8 items.
+2025-03-03 11:42:03,223 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:42:03,230 - INFO - Successfully fetched 3 items.
+2025-03-03 11:42:41,037 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:42:41,041 - INFO - Successfully fetched 8 items.
+2025-03-03 11:42:41,186 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 11:42:41,188 - INFO - Successfully fetched 8 items.
+2025-03-03 13:28:09,664 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 13:28:09,680 - INFO - Successfully fetched 8 items.
+2025-03-03 13:28:09,825 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 13:28:09,829 - INFO - Successfully fetched 8 items.
+2025-03-03 13:31:31,305 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 13:31:31,310 - INFO - Successfully fetched 8 items.
+2025-03-03 13:31:31,475 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 13:31:31,477 - INFO - Successfully fetched 8 items.
+2025-03-03 13:31:49,526 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-03 13:31:49,529 - INFO - Successfully fetched 5 items.
+2025-03-03 14:43:20,753 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 14:43:20,756 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 21, in get_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 14:43:56,650 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 14:43:56,813 - INFO - Successfully fetched 8 items.
+2025-03-03 14:43:56,985 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 14:43:56,988 - INFO - Successfully fetched 8 items.
+2025-03-03 14:51:57,016 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 14:51:57,018 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 14:52:27,248 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 14:52:27,249 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 21, in get_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 14:52:34,384 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 14:52:34,385 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 21, in get_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 14:53:47,985 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 14:53:47,987 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 21, in get_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 14:56:36,688 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 14:56:36,690 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 21, in get_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 14:56:45,833 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 14:56:45,834 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 21, in get_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 15:14:06,275 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:14:06,425 - INFO - Successfully fetched 8 items.
+2025-03-03 15:14:06,536 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:14:06,538 - INFO - Successfully fetched 8 items.
+2025-03-03 15:15:26,314 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:15:26,317 - INFO - Successfully fetched 8 items.
+2025-03-03 15:15:26,535 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:15:26,540 - INFO - Successfully fetched 8 items.
+2025-03-03 15:15:45,086 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-03 15:15:45,088 - INFO - Successfully fetched 8 items.
+2025-03-03 15:15:45,918 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-03 15:15:45,920 - INFO - Successfully fetched 8 items.
+2025-03-03 15:30:45,531 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 15:30:45,533 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 15:33:53,935 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:33:54,030 - INFO - Successfully fetched 8 items.
+2025-03-03 15:33:54,349 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:33:54,352 - INFO - Successfully fetched 8 items.
+2025-03-03 15:42:39,140 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 15:42:39,141 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 15:48:28,086 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 15:48:28,093 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 15:48:54,331 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTAwOTMzNSwianRpIjoiMjliNjI3ZGMtZDFhNy00NWMxLWE3N2EtYjUyOTVjNDVmNjUyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwMDkzMzUsImNzcmYiOiJlOWY5M2FhNy1iZDhjLTRkNzAtOTAyNy1kZmQ3MzhkZGIzMzIiLCJleHAiOjE3NDEwMTAyMzV9.hvUSTNeZnJ62MPvUixudCV90rubaQ5x6kBKwcofFSCY
+2025-03-03 15:48:54,331 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-03 15:48:56,900 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTAwOTMzNSwianRpIjoiMjliNjI3ZGMtZDFhNy00NWMxLWE3N2EtYjUyOTVjNDVmNjUyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwMDkzMzUsImNzcmYiOiJlOWY5M2FhNy1iZDhjLTRkNzAtOTAyNy1kZmQ3MzhkZGIzMzIiLCJleHAiOjE3NDEwMTAyMzV9.hvUSTNeZnJ62MPvUixudCV90rubaQ5x6kBKwcofFSCY
+2025-03-03 15:48:56,901 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-03 15:49:00,340 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTAwOTMzNSwianRpIjoiMjliNjI3ZGMtZDFhNy00NWMxLWE3N2EtYjUyOTVjNDVmNjUyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwMDkzMzUsImNzcmYiOiJlOWY5M2FhNy1iZDhjLTRkNzAtOTAyNy1kZmQ3MzhkZGIzMzIiLCJleHAiOjE3NDEwMTAyMzV9.hvUSTNeZnJ62MPvUixudCV90rubaQ5x6kBKwcofFSCY
+2025-03-03 15:49:00,340 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-03 15:51:15,525 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:51:15,542 - INFO - Successfully fetched 8 items.
+2025-03-03 15:51:15,771 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:51:15,774 - INFO - Successfully fetched 8 items.
+2025-03-03 15:57:40,932 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:57:40,942 - INFO - Successfully fetched 8 items.
+2025-03-03 15:57:41,176 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 15:57:41,179 - INFO - Successfully fetched 8 items.
+2025-03-03 16:01:31,953 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:01:31,956 - INFO - Successfully fetched 8 items.
+2025-03-03 16:01:32,286 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:01:32,289 - INFO - Successfully fetched 8 items.
+2025-03-03 16:03:37,037 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:03:37,046 - INFO - Successfully fetched 8 items.
+2025-03-03 16:03:37,474 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:03:37,478 - INFO - Successfully fetched 8 items.
+2025-03-03 16:03:38,670 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:03:38,671 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:03:43,314 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:03:43,314 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:03:43,751 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:03:43,752 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:03:44,410 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:03:44,411 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 21, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:04:38,331 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:04:38,333 - INFO - Successfully fetched 8 items.
+2025-03-03 16:04:38,486 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:04:38,490 - INFO - Successfully fetched 8 items.
+2025-03-03 16:05:40,293 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTAxMDcyNywianRpIjoiYTllZTQzY2EtYWI5NS00NTkyLTg3ZjctMGU3NWVkYWUyNDhiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwMTA3MjcsImNzcmYiOiJhNTczOGU3Ny03MzM2LTQ0YWUtOWFhNC0xMTY2ZWRjNmMwODgiLCJleHAiOjE3NDEwMTE2Mjd9.ci9UiH9gnrys_KyVUxKP37rT-WT5OE9odAyUVjmgyg0
+2025-03-03 16:05:40,293 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-03 16:05:51,294 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:05:51,303 - INFO - Successfully fetched 8 items.
+2025-03-03 16:05:51,456 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:05:51,458 - INFO - Successfully fetched 8 items.
+2025-03-03 16:18:25,733 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:18:25,818 - INFO - Successfully fetched 8 items.
+2025-03-03 16:18:25,973 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:18:25,975 - INFO - Successfully fetched 8 items.
+2025-03-03 16:18:48,039 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:18:48,042 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 23, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:18:49,667 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:18:49,667 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 23, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:18:50,244 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:18:50,244 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 23, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:19:27,700 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:19:27,703 - INFO - Successfully fetched 8 items.
+2025-03-03 16:19:27,858 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:19:27,860 - INFO - Successfully fetched 8 items.
+2025-03-03 16:19:29,088 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:19:29,088 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 23, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:19:30,915 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:19:30,915 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 23, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:19:31,644 - ERROR - Error fetching cart: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2025-03-03 16:19:31,645 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 23, in add_to_cart
+    user_id = get_jwt_identity()
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 63, in get_jwt_identity
+    return get_jwt().get(config.identity_claim_key, None)
+           ~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\flask_jwt_extended\utils.py", line 29, in get_jwt
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+
+2025-03-03 16:20:51,795 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:20:51,985 - INFO - Successfully fetched 8 items.
+2025-03-03 16:20:52,129 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:20:52,133 - INFO - Successfully fetched 8 items.
+2025-03-03 16:20:54,905 - INFO - User ID: 1
+2025-03-03 16:20:54,905 - INFO - Received data: {'acticle': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту'}
+2025-03-03 16:20:54,906 - WARNING - Missing article in request
+2025-03-03 16:21:25,425 - INFO - User ID: 1
+2025-03-03 16:21:25,425 - INFO - Received data: {'acticle': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту'}
+2025-03-03 16:21:25,425 - WARNING - Missing article in request
+2025-03-03 16:25:51,557 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:25:51,561 - INFO - Successfully fetched 8 items.
+2025-03-03 16:25:51,699 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:25:51,701 - INFO - Successfully fetched 8 items.
+2025-03-03 16:25:52,561 - INFO - User ID: 1
+2025-03-03 16:25:52,561 - INFO - Received data: {}
+2025-03-03 16:25:52,561 - WARNING - Missing article in request
+2025-03-03 16:26:51,344 - INFO - User ID: 1
+2025-03-03 16:26:51,344 - INFO - Received data: {'acticle': '820101CRMSu'}
+2025-03-03 16:26:51,345 - WARNING - Missing article in request
+2025-03-03 16:29:26,889 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:29:26,891 - INFO - Successfully fetched 8 items.
+2025-03-03 16:29:27,278 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:29:27,281 - INFO - Successfully fetched 8 items.
+2025-03-03 16:29:30,337 - INFO - User ID: 1
+2025-03-03 16:29:30,337 - INFO - Received data: {'article': '820101CRMSu'}
+2025-03-03 16:29:30,350 - INFO - Item successfully added to cart!
+2025-03-03 16:29:31,836 - INFO - User ID: 1
+2025-03-03 16:29:31,836 - INFO - Received data: {'article': '820203CRMSu'}
+2025-03-03 16:29:31,838 - INFO - Item successfully added to cart!
+2025-03-03 16:29:32,260 - INFO - User ID: 1
+2025-03-03 16:29:32,260 - INFO - Received data: {'article': '820109RLFU'}
+2025-03-03 16:29:32,262 - INFO - Item successfully added to cart!
+2025-03-03 16:32:12,666 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:32:12,668 - INFO - Successfully fetched 8 items.
+2025-03-03 16:32:12,821 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:32:12,824 - INFO - Successfully fetched 8 items.
+2025-03-03 16:32:14,017 - INFO - User ID: 1
+2025-03-03 16:32:14,017 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-03 16:32:14,018 - INFO - Item already in cart
+2025-03-03 16:32:30,152 - INFO - User ID: 1
+2025-03-03 16:32:30,152 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-03 16:32:30,153 - INFO - Item already in cart
+2025-03-03 16:32:30,476 - INFO - User ID: 1
+2025-03-03 16:32:30,476 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-03 16:32:30,477 - INFO - Item already in cart
+2025-03-03 16:40:15,814 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:40:15,905 - INFO - Successfully fetched 8 items.
+2025-03-03 16:40:16,041 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:40:16,043 - INFO - Successfully fetched 8 items.
+2025-03-03 16:41:45,371 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:41:45,376 - INFO - Successfully fetched 8 items.
+2025-03-03 16:41:45,517 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:41:45,522 - INFO - Successfully fetched 8 items.
+2025-03-03 16:41:59,666 - INFO - User ID: 1
+2025-03-03 16:41:59,667 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-03 16:41:59,671 - INFO - Item already in cart
+2025-03-03 16:42:00,564 - INFO - User ID: 1
+2025-03-03 16:42:00,565 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-03 16:42:00,566 - INFO - Item already in cart
+2025-03-03 16:42:01,005 - INFO - User ID: 1
+2025-03-03 16:42:01,005 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-03 16:42:01,006 - INFO - Item already in cart
+2025-03-03 16:42:56,661 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:42:56,735 - INFO - Successfully fetched 8 items.
+2025-03-03 16:42:56,871 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:42:56,873 - INFO - Successfully fetched 8 items.
+2025-03-03 16:42:57,939 - INFO - User ID: 1
+2025-03-03 16:42:57,939 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-03 16:42:57,943 - INFO - Item already in cart
+2025-03-03 16:42:58,485 - INFO - User ID: 1
+2025-03-03 16:42:58,485 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-03 16:42:58,486 - INFO - Item already in cart
+2025-03-03 16:42:58,917 - INFO - User ID: 1
+2025-03-03 16:42:58,917 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-03 16:42:58,918 - INFO - Item already in cart
+2025-03-03 16:43:00,085 - INFO - User ID: 1
+2025-03-03 16:43:00,085 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH'}
+2025-03-03 16:43:00,090 - INFO - Item successfully added to cart!
+2025-03-03 16:43:00,565 - INFO - User ID: 1
+2025-03-03 16:43:00,565 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH'}
+2025-03-03 16:43:00,568 - INFO - Item successfully added to cart!
+2025-03-03 16:50:32,321 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:50:32,323 - INFO - Successfully fetched 8 items.
+2025-03-03 16:50:32,459 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-03 16:50:32,463 - INFO - Successfully fetched 8 items.
+2025-03-03 16:50:34,156 - INFO - User ID: 1
+2025-03-03 16:50:34,156 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-03 16:50:34,157 - INFO - Item already in cart
+2025-03-03 16:50:35,077 - INFO - User ID: 1
+2025-03-03 16:50:35,077 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-03 16:50:35,078 - INFO - Item already in cart
+2025-03-03 16:50:35,389 - INFO - User ID: 1
+2025-03-03 16:50:35,389 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-03 16:50:35,390 - INFO - Item already in cart
+2025-03-03 16:50:38,815 - INFO - User ID: 1
+2025-03-03 16:50:38,815 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-03 16:50:38,816 - INFO - Item already in cart
+2025-03-03 16:50:39,161 - INFO - User ID: 1
+2025-03-03 16:50:39,161 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-03 16:50:39,162 - INFO - Item already in cart
+2025-03-03 16:50:39,550 - INFO - User ID: 1
+2025-03-03 16:50:39,550 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-03 16:50:39,552 - INFO - Item already in cart
+2025-03-03 16:50:39,972 - INFO - User ID: 1
+2025-03-03 16:50:39,972 - INFO - Received data: {'article': '820205RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 125 RELIEF ULTRA для ручного інструменту', 'price': '918', 'currency': 'UAH'}
+2025-03-03 16:50:39,974 - INFO - Item successfully added to cart!
+2025-03-03 16:50:40,452 - INFO - User ID: 1
+2025-03-03 16:50:40,453 - INFO - Received data: {'article': '820108RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF для ручного інструменту', 'price': '857', 'currency': 'UAH'}
+2025-03-03 16:50:40,455 - INFO - Item successfully added to cart!
+2025-03-03 16:50:40,901 - INFO - User ID: 1
+2025-03-03 16:50:40,901 - INFO - Received data: {'article': '820204RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 125 RELIEF для ручного інструменту', 'price': '793', 'currency': 'UAH'}
+2025-03-03 16:50:40,904 - INFO - Item successfully added to cart!
+2025-03-03 16:50:41,901 - INFO - User ID: 1
+2025-03-03 16:50:41,901 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH'}
+2025-03-03 16:50:41,903 - INFO - Item already in cart
+2025-03-03 16:50:42,436 - INFO - User ID: 1
+2025-03-03 16:50:42,437 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH'}
+2025-03-03 16:50:42,438 - INFO - Item already in cart
