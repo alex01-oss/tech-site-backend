@@ -19,6 +19,7 @@ def add_to_cart():
         title = data.get("title")
         price = data.get("price")
         currency = data.get("currency")
+        # images = data.get("images")
 
         logger.info(f"User ID: {user_id}")
         logger.info(f"Received data: {data}")
@@ -33,7 +34,15 @@ def add_to_cart():
             logger.info("Item already in cart")
             return jsonify({"message": "item already in cart"}), 200
 
-        new_item = CartItem(user_id=user_id, article=article, quantity=1, title=title, price=price, currency=currency)
+        new_item = CartItem(
+            user_id=user_id,
+            article=article,
+            title=title,
+            price=price,
+            currency=currency,
+            quantity=1,
+            # images=images
+        )
         db.session.add(new_item)
         db.session.commit()
         logger.info("Item successfully added to cart!")

@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from schemas.db_schemas import User
+from models.user import User
 from flask_jwt_extended import create_access_token
 
 login_bp = Blueprint('login', __name__)

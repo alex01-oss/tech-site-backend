@@ -1,7 +1,7 @@
 import traceback
 from flask import Blueprint, jsonify, request
 from flask_jwt_extended import get_jwt_identity, jwt_required
-from extensions import db, logger
+from extensions import logger
 from schemas.cart_schema import CartResponseSchema as Cart
 from models.cart import CartItem
 
@@ -17,6 +17,8 @@ def get_cart():
     responses:
       200:
         description: Показати список товарів до замовлення
+      500:
+        description: Не вдалось показати кошик
     """
     
     try:

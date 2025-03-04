@@ -24,7 +24,8 @@ db.init_app(app)
 
 migrate = Migrate(app, db)
 
-from schemas.db_schemas import User, Tool
+from models.user import User
+from models.tool import Tool
 
 jwt = JWTManager(app)
 

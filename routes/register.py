@@ -1,5 +1,6 @@
 from flask import Blueprint, jsonify, request
-from schemas.db_schemas import User
+from flask_jwt_extended import create_access_token
+from models.user import User
 from extensions import db
 
 register_bp = Blueprint('register', __name__)
@@ -13,10 +14,13 @@ def register():
     responses:
       200:
         description: Регістрація успішна
+      409:
+        descriprion: Пошта вже зареєстрована
+      201:
+        description: Реєстрація успішна
     """
     
     data = request.get_json()
-    # print(request.data)
     
     if not data or not all(k in data for k in ("username", "email", "password")):
         return jsonify({"error": "missing required fields"}), 400
@@ -29,5 +33,7 @@ def register():
     
     db.session.add(new_user)
     db.session.commit()
+    
+    token = create_access_token(identity=new_user.id)
 
-    return jsonify({"message": "user registered succesfully"}), 201
+    return jsonify({"message": "user registered succesfully", "token": token}), 201

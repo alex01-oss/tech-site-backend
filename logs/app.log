@@ -6910,3 +6910,838 @@ RuntimeError: You must call `@jwt_required()` or `verify_jwt_in_request()` befor
 2025-03-03 16:50:42,436 - INFO - User ID: 1
 2025-03-03 16:50:42,437 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH'}
 2025-03-03 16:50:42,438 - INFO - Item already in cart
+2025-03-04 08:11:36,629 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 08:11:36,852 - INFO - Successfully fetched 8 items.
+2025-03-04 08:11:37,077 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 08:11:37,080 - INFO - Successfully fetched 8 items.
+2025-03-04 10:09:37,926 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:09:37,930 - INFO - Successfully fetched 8 items.
+2025-03-04 10:09:38,225 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:09:38,228 - INFO - Successfully fetched 8 items.
+2025-03-04 10:09:53,957 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:09:53,960 - INFO - Successfully fetched 8 items.
+2025-03-04 10:09:54,390 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:09:54,393 - INFO - Successfully fetched 8 items.
+2025-03-04 10:11:07,405 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:11:07,409 - INFO - Successfully fetched 8 items.
+2025-03-04 10:12:04,929 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:12:04,931 - INFO - Successfully fetched 8 items.
+2025-03-04 10:12:07,334 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:12:07,340 - INFO - Successfully fetched 8 items.
+2025-03-04 10:12:16,422 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-04 10:12:16,425 - INFO - Successfully fetched 5 items.
+2025-03-04 10:12:48,320 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:12:48,323 - INFO - Successfully fetched 8 items.
+2025-03-04 10:12:49,243 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:12:49,246 - INFO - Successfully fetched 8 items.
+2025-03-04 10:12:50,328 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:12:50,331 - INFO - Successfully fetched 8 items.
+2025-03-04 10:17:43,709 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:17:43,712 - INFO - Successfully fetched 8 items.
+2025-03-04 10:18:30,707 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:18:30,709 - INFO - Successfully fetched 8 items.
+2025-03-04 10:18:52,950 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:18:52,955 - INFO - Successfully fetched 8 items.
+2025-03-04 10:19:00,498 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:19:00,500 - INFO - Successfully fetched 8 items.
+2025-03-04 10:19:01,415 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:19:01,417 - INFO - Successfully fetched 8 items.
+2025-03-04 10:19:02,292 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:19:02,295 - INFO - Successfully fetched 8 items.
+2025-03-04 10:19:02,997 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:19:03,000 - INFO - Successfully fetched 8 items.
+2025-03-04 10:19:31,129 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:19:31,133 - INFO - Successfully fetched 8 items.
+2025-03-04 10:34:54,765 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:34:54,770 - INFO - Successfully fetched 8 items.
+2025-03-04 10:34:55,055 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:34:55,058 - INFO - Successfully fetched 8 items.
+2025-03-04 10:35:00,939 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:35:00,941 - INFO - Successfully fetched 8 items.
+2025-03-04 10:36:14,854 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:36:14,857 - INFO - Successfully fetched 8 items.
+2025-03-04 10:36:14,892 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:36:14,896 - INFO - Successfully fetched 8 items.
+2025-03-04 10:36:21,067 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:36:21,069 - INFO - Successfully fetched 8 items.
+2025-03-04 10:36:22,040 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:36:22,042 - INFO - Successfully fetched 8 items.
+2025-03-04 10:36:23,947 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:36:23,951 - INFO - Successfully fetched 8 items.
+2025-03-04 10:36:24,707 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:36:24,709 - INFO - Successfully fetched 8 items.
+2025-03-04 10:40:06,999 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:40:07,003 - INFO - Successfully fetched 8 items.
+2025-03-04 10:40:07,201 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:40:07,205 - INFO - Successfully fetched 8 items.
+2025-03-04 10:43:52,982 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:43:52,984 - INFO - Successfully fetched 8 items.
+2025-03-04 10:43:53,530 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:43:53,533 - INFO - Successfully fetched 8 items.
+2025-03-04 10:43:54,108 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-03-04 10:43:54,110 - INFO - Successfully fetched 8 items.
+2025-03-04 10:43:55,021 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:43:55,023 - INFO - Successfully fetched 8 items.
+2025-03-04 10:44:07,253 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:44:07,256 - INFO - Successfully fetched 8 items.
+2025-03-04 10:46:52,886 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:46:52,889 - INFO - Successfully fetched 8 items.
+2025-03-04 10:46:53,066 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:46:53,068 - INFO - Successfully fetched 8 items.
+2025-03-04 10:47:00,514 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:47:00,516 - INFO - Successfully fetched 8 items.
+2025-03-04 10:47:01,038 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:47:01,041 - INFO - Successfully fetched 8 items.
+2025-03-04 10:47:03,052 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:47:03,054 - INFO - Successfully fetched 8 items.
+2025-03-04 10:47:03,732 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:47:03,734 - INFO - Successfully fetched 8 items.
+2025-03-04 10:50:01,937 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:50:01,939 - INFO - Successfully fetched 8 items.
+2025-03-04 10:50:21,038 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:50:21,040 - INFO - Successfully fetched 8 items.
+2025-03-04 10:50:27,650 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:50:27,654 - INFO - Successfully fetched 8 items.
+2025-03-04 10:50:29,692 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:50:29,699 - INFO - Successfully fetched 8 items.
+2025-03-04 10:50:30,424 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:50:30,426 - INFO - Successfully fetched 8 items.
+2025-03-04 10:52:29,964 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:52:29,968 - INFO - Successfully fetched 8 items.
+2025-03-04 10:55:36,293 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:55:36,299 - INFO - Successfully fetched 8 items.
+2025-03-04 10:55:36,357 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:55:36,359 - INFO - Successfully fetched 8 items.
+2025-03-04 10:55:41,375 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:55:41,379 - INFO - Successfully fetched 8 items.
+2025-03-04 10:55:41,898 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:55:41,904 - INFO - Successfully fetched 8 items.
+2025-03-04 10:55:42,720 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:55:42,722 - INFO - Successfully fetched 8 items.
+2025-03-04 10:55:43,831 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:55:43,833 - INFO - Successfully fetched 8 items.
+2025-03-04 10:55:44,385 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-03-04 10:55:44,387 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:06,298 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:57:06,302 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:06,345 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:57:06,347 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:11,949 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 10:57:11,951 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:12,832 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 10:57:12,834 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:13,463 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-03-04 10:57:13,465 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:14,031 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-03-04 10:57:14,033 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:17,192 - INFO - Request for catalog received. Page: 6, Items per page: 8
+2025-03-04 10:57:17,194 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:20,002 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:57:20,006 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:20,524 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:57:20,526 - INFO - Successfully fetched 8 items.
+2025-03-04 10:57:22,676 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 10:57:22,704 - INFO - Successfully fetched 3 items.
+2025-03-04 11:00:11,746 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:00:11,751 - INFO - Successfully fetched 8 items.
+2025-03-04 11:00:11,987 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:00:11,990 - INFO - Successfully fetched 8 items.
+2025-03-04 11:00:26,546 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 11:00:26,548 - INFO - Successfully fetched 8 items.
+2025-03-04 11:00:27,257 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 11:00:27,259 - INFO - Successfully fetched 8 items.
+2025-03-04 11:01:01,903 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-03-04 11:01:01,905 - INFO - Successfully fetched 8 items.
+2025-03-04 11:02:50,896 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:02:50,898 - INFO - Successfully fetched 8 items.
+2025-03-04 11:02:56,323 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:02:56,327 - INFO - Successfully fetched 8 items.
+2025-03-04 11:02:57,448 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 11:02:57,452 - INFO - Successfully fetched 8 items.
+2025-03-04 11:02:58,211 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 11:02:58,213 - INFO - Successfully fetched 8 items.
+2025-03-04 11:06:13,266 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 11:06:13,268 - INFO - Successfully fetched 8 items.
+2025-03-04 11:06:17,115 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:06:17,118 - INFO - Successfully fetched 8 items.
+2025-03-04 11:06:17,322 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:06:17,324 - INFO - Successfully fetched 8 items.
+2025-03-04 11:15:34,261 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:15:34,264 - INFO - Successfully fetched 8 items.
+2025-03-04 11:15:34,333 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:15:34,335 - INFO - Successfully fetched 8 items.
+2025-03-04 11:20:56,889 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:20:56,891 - INFO - Successfully fetched 8 items.
+2025-03-04 11:21:36,691 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:21:36,697 - INFO - Successfully fetched 8 items.
+2025-03-04 11:22:04,659 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:22:04,662 - INFO - Successfully fetched 8 items.
+2025-03-04 11:22:49,768 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:22:49,770 - INFO - Successfully fetched 8 items.
+2025-03-04 11:24:16,271 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:24:16,274 - INFO - Successfully fetched 8 items.
+2025-03-04 11:24:16,446 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:24:16,447 - INFO - Successfully fetched 8 items.
+2025-03-04 11:25:36,044 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:25:36,047 - INFO - Successfully fetched 8 items.
+2025-03-04 11:25:36,154 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:25:36,156 - INFO - Successfully fetched 8 items.
+2025-03-04 11:29:46,761 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:29:46,763 - INFO - Successfully fetched 8 items.
+2025-03-04 11:29:55,439 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:29:55,442 - INFO - Successfully fetched 8 items.
+2025-03-04 11:31:14,502 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:31:14,506 - INFO - Successfully fetched 8 items.
+2025-03-04 11:34:26,723 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:34:26,735 - INFO - Successfully fetched 8 items.
+2025-03-04 11:35:52,806 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:35:52,810 - INFO - Successfully fetched 8 items.
+2025-03-04 11:36:41,261 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:36:41,266 - INFO - Successfully fetched 8 items.
+2025-03-04 11:37:19,611 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:37:19,617 - INFO - Successfully fetched 8 items.
+2025-03-04 11:39:27,834 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:39:27,836 - INFO - Successfully fetched 8 items.
+2025-03-04 11:39:31,016 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:39:31,018 - INFO - Successfully fetched 8 items.
+2025-03-04 11:45:47,403 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:45:47,405 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:25,967 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:51:25,969 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:26,012 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4MTE3NiwianRpIjoiZDFmNzRhMzAtYmNjMC00MWFkLThjZDItNzYxMDJlYTY1MjAyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODExNzYsImNzcmYiOiJkYmVkYWNjZC1lZTFjLTRmZGQtYjdiMC0wZTQzMDAxY2E5NjMiLCJleHAiOjE3NDEwODIwNzZ9.-AqHnOO2ThW6OOQ6HwQppq7r42QvBHQbW-xqb5i2Hgw
+2025-03-04 11:51:26,013 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 11:51:26,067 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 11:51:26,071 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:31,824 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-03-04 11:51:31,826 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:33,988 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 11:51:33,990 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:34,620 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 11:51:34,623 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:35,388 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-03-04 11:51:35,391 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:35,907 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-03-04 11:51:35,909 - INFO - Successfully fetched 8 items.
+2025-03-04 11:51:40,735 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4MTE3NiwianRpIjoiZDFmNzRhMzAtYmNjMC00MWFkLThjZDItNzYxMDJlYTY1MjAyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODExNzYsImNzcmYiOiJkYmVkYWNjZC1lZTFjLTRmZGQtYjdiMC0wZTQzMDAxY2E5NjMiLCJleHAiOjE3NDEwODIwNzZ9.-AqHnOO2ThW6OOQ6HwQppq7r42QvBHQbW-xqb5i2Hgw
+2025-03-04 11:51:40,736 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 13:09:39,871 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 13:09:39,875 - INFO - Successfully fetched 8 items.
+2025-03-04 13:09:39,942 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 13:09:39,955 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:02,481 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4NjYwMiwianRpIjoiZDRhMDIxYTctMjRjNi00Zjk0LThhYzQtNmRmMjEwN2FiNzE1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODY2MDIsImNzcmYiOiJjY2Y5ZTA2MS0zY2EyLTQyZWItYmY5ZC02ZWVjNjNjNWYwMWEiLCJleHAiOjE3NDEwODc1MDJ9.Po8SZXK8K8Mf8rMrwSt_TjG7Ul9X5zlbCVj3uRXHuSk
+2025-03-04 13:10:02,481 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 13:10:09,742 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 13:10:09,745 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:11,225 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 13:10:11,227 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:11,910 - INFO - Request for catalog received. Page: 4, Items per page: 8
+2025-03-04 13:10:11,912 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:12,813 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-03-04 13:10:12,816 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:13,821 - INFO - Request for catalog received. Page: 6, Items per page: 8
+2025-03-04 13:10:13,824 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:15,046 - INFO - Request for catalog received. Page: 7, Items per page: 8
+2025-03-04 13:10:15,047 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:16,095 - INFO - Request for catalog received. Page: 8, Items per page: 8
+2025-03-04 13:10:16,097 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:17,112 - INFO - Request for catalog received. Page: 9, Items per page: 8
+2025-03-04 13:10:17,114 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:17,930 - INFO - Request for catalog received. Page: 10, Items per page: 8
+2025-03-04 13:10:17,932 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:18,740 - INFO - Request for catalog received. Page: 11, Items per page: 8
+2025-03-04 13:10:18,743 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:19,328 - INFO - Request for catalog received. Page: 12, Items per page: 8
+2025-03-04 13:10:19,331 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:19,799 - INFO - Request for catalog received. Page: 13, Items per page: 8
+2025-03-04 13:10:19,802 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:20,261 - INFO - Request for catalog received. Page: 14, Items per page: 8
+2025-03-04 13:10:20,264 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:20,624 - INFO - Request for catalog received. Page: 15, Items per page: 8
+2025-03-04 13:10:20,627 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:21,273 - INFO - Request for catalog received. Page: 16, Items per page: 8
+2025-03-04 13:10:21,275 - INFO - Successfully fetched 8 items.
+2025-03-04 13:10:21,997 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-04 13:10:21,999 - INFO - Successfully fetched 5 items.
+2025-03-04 13:10:31,594 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-03-04 13:10:31,597 - INFO - Successfully fetched 8 items.
+2025-03-04 13:15:22,100 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 13:15:22,105 - INFO - Successfully fetched 8 items.
+2025-03-04 13:15:22,127 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4NjYwMiwianRpIjoiZDRhMDIxYTctMjRjNi00Zjk0LThhYzQtNmRmMjEwN2FiNzE1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODY2MDIsImNzcmYiOiJjY2Y5ZTA2MS0zY2EyLTQyZWItYmY5ZC02ZWVjNjNjNWYwMWEiLCJleHAiOjE3NDEwODc1MDJ9.Po8SZXK8K8Mf8rMrwSt_TjG7Ul9X5zlbCVj3uRXHuSk
+2025-03-04 13:15:22,127 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 13:15:22,218 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 13:15:22,222 - INFO - Successfully fetched 8 items.
+2025-03-04 13:38:57,780 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 13:38:57,807 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 13:38:58,002 - INFO - Successfully fetched 8 items.
+2025-03-04 13:38:58,002 - INFO - Successfully fetched 8 items.
+2025-03-04 13:39:24,156 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4ODM2MywianRpIjoiYTI2MzllMjMtMjMzNi00OWE5LTgyM2MtODRiZTQzODE4NDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODgzNjMsImNzcmYiOiJiMDY3NjczOS1jMjkwLTRlNTEtYTNjOS1mOTk0NGM0NTIwNTUiLCJleHAiOjE3NDEwODkyNjN9.HWTOFz5xTBSjlkkbof0kKnos1XwbX9xJIjgm0YKNvBs
+2025-03-04 13:39:24,156 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:02:35,120 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:02:35,124 - INFO - Successfully fetched 8 items.
+2025-03-04 14:02:35,156 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:02:35,160 - INFO - Successfully fetched 8 items.
+2025-03-04 14:02:56,144 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 14:02:56,146 - INFO - Successfully fetched 8 items.
+2025-03-04 14:02:57,938 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-04 14:02:57,940 - INFO - Successfully fetched 5 items.
+2025-03-04 14:03:02,791 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:03:02,793 - INFO - Successfully fetched 8 items.
+2025-03-04 14:03:03,611 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:03:03,613 - INFO - Successfully fetched 8 items.
+2025-03-04 14:03:54,044 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:03:54,046 - INFO - Successfully fetched 8 items.
+2025-03-04 14:03:54,152 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:03:54,155 - INFO - Successfully fetched 8 items.
+2025-03-04 14:04:15,828 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:04:15,828 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:04:17,216 - INFO - item with 820101CRMSu removed from cart
+2025-03-04 14:04:18,131 - INFO - item with 820203CRMSu removed from cart
+2025-03-04 14:04:20,058 - INFO - item with 820109RLFU removed from cart
+2025-03-04 14:04:22,946 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:04:22,946 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:06:45,883 - INFO - User ID: 1
+2025-03-04 14:06:45,884 - INFO - Received data: {'article': '820109RLFU'}
+2025-03-04 14:06:45,894 - INFO - Item successfully added to cart!
+2025-03-04 14:06:46,414 - INFO - User ID: 1
+2025-03-04 14:06:46,414 - INFO - Received data: {'article': '820203CRMSu'}
+2025-03-04 14:06:46,417 - INFO - Item successfully added to cart!
+2025-03-04 14:06:46,854 - INFO - User ID: 1
+2025-03-04 14:06:46,854 - INFO - Received data: {'article': '820101CRMSu'}
+2025-03-04 14:06:46,857 - INFO - Item successfully added to cart!
+2025-03-04 14:06:58,330 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:06:58,334 - INFO - Successfully fetched 8 items.
+2025-03-04 14:06:58,376 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:06:58,376 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:06:58,426 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:06:58,429 - INFO - Successfully fetched 8 items.
+2025-03-04 14:07:28,989 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:07:28,989 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:07:29,007 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:07:29,007 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:07:31,403 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-04 14:07:31,405 - INFO - Successfully fetched 5 items.
+2025-03-04 14:07:32,886 - INFO - User ID: 1
+2025-03-04 14:07:32,886 - INFO - Received data: {'article': '65230ACRTP'}
+2025-03-04 14:07:32,889 - INFO - Item successfully added to cart!
+2025-03-04 14:09:03,197 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:09:03,201 - INFO - Successfully fetched 8 items.
+2025-03-04 14:09:03,204 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:09:03,205 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:09:03,286 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:09:03,288 - INFO - Successfully fetched 8 items.
+2025-03-04 14:09:34,100 - INFO - item with 820101CRMSu removed from cart
+2025-03-04 14:09:34,482 - INFO - item with 820203CRMSu removed from cart
+2025-03-04 14:09:35,048 - INFO - item with 820109RLFU removed from cart
+2025-03-04 14:09:35,648 - INFO - item with 820205RLFU removed from cart
+2025-03-04 14:09:36,105 - INFO - item with 820108RLF removed from cart
+2025-03-04 14:09:36,661 - INFO - item with 820204RLF removed from cart
+2025-03-04 14:09:37,176 - INFO - item with 820401CRMG removed from cart
+2025-03-04 14:09:37,689 - INFO - item with 820501CRMG removed from cart
+2025-03-04 14:09:38,480 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-04 14:09:38,482 - INFO - Successfully fetched 5 items.
+2025-03-04 14:09:39,638 - INFO - item with 65230ACRTP removed from cart
+2025-03-04 14:09:55,939 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:09:55,939 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:10:02,516 - INFO - User ID: 1
+2025-03-04 14:10:02,516 - INFO - Received data: {'article': '820203CRMSu'}
+2025-03-04 14:10:02,519 - INFO - Item successfully added to cart!
+2025-03-04 14:10:03,081 - INFO - User ID: 1
+2025-03-04 14:10:03,081 - INFO - Received data: {'article': '820101CRMSu'}
+2025-03-04 14:10:03,084 - INFO - Item successfully added to cart!
+2025-03-04 14:10:03,734 - INFO - User ID: 1
+2025-03-04 14:10:03,734 - INFO - Received data: {'article': '820109RLFU'}
+2025-03-04 14:10:03,737 - INFO - Item successfully added to cart!
+2025-03-04 14:14:50,853 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:14:50,960 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA4OTg1NSwianRpIjoiNWUxYzRjZDYtYzJhNC00ZmFhLThiOTQtMzZlZGJlZjRkNTlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwODk4NTUsImNzcmYiOiI5MThjY2IxMy1mYzY2LTQyZDQtYmExZS0yYTZlNDFkODllZjAiLCJleHAiOjE3NDEwOTA3NTV9.oIHuQKxFPW0A5CDk0BeFEW4Tx8b3AVCM1q5G83d3nyY
+2025-03-04 14:14:50,960 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:14:50,978 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:14:51,041 - INFO - Successfully fetched 8 items.
+2025-03-04 14:14:51,128 - INFO - Successfully fetched 8 items.
+2025-03-04 14:15:17,715 - INFO - item with 820109RLFU removed from cart
+2025-03-04 14:15:18,244 - INFO - item with 820203CRMSu removed from cart
+2025-03-04 14:15:18,803 - INFO - item with 820101CRMSu removed from cart
+2025-03-04 14:23:23,531 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:23:23,634 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:23:23,687 - INFO - Successfully fetched 8 items.
+2025-03-04 14:23:23,809 - INFO - Successfully fetched 8 items.
+2025-03-04 14:25:13,803 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:25:13,805 - INFO - Successfully fetched 8 items.
+2025-03-04 14:25:21,462 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:25:21,467 - INFO - Successfully fetched 8 items.
+2025-03-04 14:25:34,992 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:25:34,995 - INFO - Successfully fetched 8 items.
+2025-03-04 14:25:35,436 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:25:35,439 - INFO - Successfully fetched 8 items.
+2025-03-04 14:25:37,367 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-04 14:25:37,369 - INFO - Successfully fetched 5 items.
+2025-03-04 14:26:20,595 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:26:20,600 - INFO - Successfully fetched 8 items.
+2025-03-04 14:27:41,939 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:27:41,947 - INFO - Successfully fetched 8 items.
+2025-03-04 14:27:41,984 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:27:41,992 - INFO - Successfully fetched 8 items.
+2025-03-04 14:28:43,654 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:28:43,655 - INFO - Successfully fetched 8 items.
+2025-03-04 14:30:23,308 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:30:23,314 - INFO - Successfully fetched 8 items.
+2025-03-04 14:37:02,140 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:37:02,142 - INFO - Successfully fetched 8 items.
+2025-03-04 14:37:02,208 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:37:02,216 - INFO - Successfully fetched 8 items.
+2025-03-04 14:39:43,473 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:39:43,517 - INFO - Successfully fetched 8 items.
+2025-03-04 14:39:43,586 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:39:43,588 - INFO - Successfully fetched 8 items.
+2025-03-04 14:39:49,928 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MTk4OSwianRpIjoiMzRhM2MzNzUtZGI0MS00NWZmLWJiZmEtOGU2ZDZhZjAwZGZhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTE5ODksImNzcmYiOiJkOTNkOGZiOS1jYzEwLTRlZTEtYWI3Yi0xMGUxM2ExNjdhZWIiLCJleHAiOjE3NDEwOTI4ODl9.iN79ArFb4NQ70FqTQGcA2D9iT7fbssc3H7KSeUi3qq8
+2025-03-04 14:39:49,928 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:39:52,720 - INFO - User ID: 1
+2025-03-04 14:39:52,720 - INFO - Received data: {'article': '820101CRMSu'}
+2025-03-04 14:39:52,734 - INFO - Item successfully added to cart!
+2025-03-04 14:39:53,296 - INFO - User ID: 1
+2025-03-04 14:39:53,296 - INFO - Received data: {'article': '820203CRMSu'}
+2025-03-04 14:39:53,299 - INFO - Item successfully added to cart!
+2025-03-04 14:39:53,696 - INFO - User ID: 1
+2025-03-04 14:39:53,696 - INFO - Received data: {'article': '820109RLFU'}
+2025-03-04 14:39:53,698 - INFO - Item successfully added to cart!
+2025-03-04 14:39:54,209 - INFO - User ID: 1
+2025-03-04 14:39:54,209 - INFO - Received data: {'article': '820205RLFU'}
+2025-03-04 14:39:54,212 - INFO - Item successfully added to cart!
+2025-03-04 14:42:11,004 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:42:11,007 - INFO - Successfully fetched 8 items.
+2025-03-04 14:42:31,691 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:42:31,694 - INFO - Successfully fetched 8 items.
+2025-03-04 14:51:00,218 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:51:00,221 - INFO - Successfully fetched 8 items.
+2025-03-04 14:55:19,040 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:55:19,089 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:55:19,176 - INFO - Successfully fetched 8 items.
+2025-03-04 14:55:19,189 - INFO - Successfully fetched 8 items.
+2025-03-04 14:56:24,849 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:56:24,852 - INFO - Successfully fetched 8 items.
+2025-03-04 14:56:24,925 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MjkyOCwianRpIjoiZWU5N2VmZGUtMjFiYy00NGE3LWI1ZjEtNDRlODNkNThhZTljIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTI5MjgsImNzcmYiOiJiNWI3NDdjMS1hY2VjLTQ5MWYtYTE3Ny02ZjdiZTg4M2MyMjMiLCJleHAiOjE3NDEwOTM4Mjh9.bAVSsfSF6Kg7P0wsqy4IEnLny0NgCPbbZA9Aj4piZmQ
+2025-03-04 14:56:24,925 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:56:33,477 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:56:33,479 - INFO - Successfully fetched 8 items.
+2025-03-04 14:56:33,511 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MjkyOCwianRpIjoiZWU5N2VmZGUtMjFiYy00NGE3LWI1ZjEtNDRlODNkNThhZTljIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTI5MjgsImNzcmYiOiJiNWI3NDdjMS1hY2VjLTQ5MWYtYTE3Ny02ZjdiZTg4M2MyMjMiLCJleHAiOjE3NDEwOTM4Mjh9.bAVSsfSF6Kg7P0wsqy4IEnLny0NgCPbbZA9Aj4piZmQ
+2025-03-04 14:56:33,513 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:56:38,307 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MjkyOCwianRpIjoiZWU5N2VmZGUtMjFiYy00NGE3LWI1ZjEtNDRlODNkNThhZTljIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTI5MjgsImNzcmYiOiJiNWI3NDdjMS1hY2VjLTQ5MWYtYTE3Ny02ZjdiZTg4M2MyMjMiLCJleHAiOjE3NDEwOTM4Mjh9.bAVSsfSF6Kg7P0wsqy4IEnLny0NgCPbbZA9Aj4piZmQ
+2025-03-04 14:56:38,307 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:56:38,320 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MjkyOCwianRpIjoiZWU5N2VmZGUtMjFiYy00NGE3LWI1ZjEtNDRlODNkNThhZTljIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTI5MjgsImNzcmYiOiJiNWI3NDdjMS1hY2VjLTQ5MWYtYTE3Ny02ZjdiZTg4M2MyMjMiLCJleHAiOjE3NDEwOTM4Mjh9.bAVSsfSF6Kg7P0wsqy4IEnLny0NgCPbbZA9Aj4piZmQ
+2025-03-04 14:56:38,323 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:56:39,141 - INFO - item with 820101CRMSu removed from cart
+2025-03-04 14:56:39,797 - INFO - item with 820203CRMSu removed from cart
+2025-03-04 14:56:40,204 - INFO - item with 820109RLFU removed from cart
+2025-03-04 14:56:46,886 - INFO - item with 820205RLFU removed from cart
+2025-03-04 14:56:55,804 - INFO - User ID: 1
+2025-03-04 14:56:55,806 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-4.jpg'}
+2025-03-04 14:56:55,807 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:56:55,846 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 14:57:00,216 - INFO - User ID: 1
+2025-03-04 14:57:00,216 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-04 14:57:00,218 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:57:00,220 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 14:57:03,726 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MjkyOCwianRpIjoiZWU5N2VmZGUtMjFiYy00NGE3LWI1ZjEtNDRlODNkNThhZTljIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTI5MjgsImNzcmYiOiJiNWI3NDdjMS1hY2VjLTQ5MWYtYTE3Ny02ZjdiZTg4M2MyMjMiLCJleHAiOjE3NDEwOTM4Mjh9.bAVSsfSF6Kg7P0wsqy4IEnLny0NgCPbbZA9Aj4piZmQ
+2025-03-04 14:57:03,726 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:57:04,985 - INFO - User ID: 1
+2025-03-04 14:57:04,985 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-04 14:57:04,986 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:57:04,987 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 14:57:30,132 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 14:57:30,132 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:57:30,176 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:57:30,179 - INFO - Successfully fetched 8 items.
+2025-03-04 14:57:32,185 - INFO - User ID: 1
+2025-03-04 14:57:32,185 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-04 14:57:32,186 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:57:32,187 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 14:57:37,295 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:57:37,298 - INFO - Successfully fetched 8 items.
+2025-03-04 14:57:37,334 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 14:57:37,335 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:57:38,496 - INFO - User ID: 1
+2025-03-04 14:57:38,496 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-04 14:57:38,498 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:57:38,499 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 14:59:24,960 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:59:24,963 - INFO - Successfully fetched 8 items.
+2025-03-04 14:59:24,965 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 14:59:24,966 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 14:59:24,967 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 14:59:24,971 - INFO - Successfully fetched 8 items.
+2025-03-04 14:59:26,224 - INFO - User ID: 1
+2025-03-04 14:59:26,224 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-04 14:59:26,226 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:59:26,227 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 14:59:26,984 - INFO - User ID: 1
+2025-03-04 14:59:26,984 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-4.jpg'}
+2025-03-04 14:59:26,985 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:59:26,987 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 14:59:27,496 - INFO - User ID: 1
+2025-03-04 14:59:27,496 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-4.jpg'}
+2025-03-04 14:59:27,497 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 14:59:27,499 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 15:00:57,951 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:00:57,953 - INFO - Successfully fetched 8 items.
+2025-03-04 15:00:58,010 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 15:00:58,010 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:01:17,153 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:01:17,156 - INFO - Successfully fetched 8 items.
+2025-03-04 15:01:17,168 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 15:01:17,168 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:01:19,323 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 15:01:19,325 - INFO - Successfully fetched 8 items.
+2025-03-04 15:01:21,227 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:01:21,229 - INFO - Successfully fetched 8 items.
+2025-03-04 15:01:21,643 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:01:21,645 - INFO - Successfully fetched 8 items.
+2025-03-04 15:01:23,951 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 15:01:23,951 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:01:23,964 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 15:01:23,965 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:01:25,145 - INFO - User ID: 1
+2025-03-04 15:01:25,145 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-04 15:01:25,146 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:01:25,148 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 37, in add_to_cart
+    new_item = CartItem(
+        user_id=user_id,
+    ...<5 lines>...
+        images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'images' is an invalid keyword argument for CartItem
+
+2025-03-04 15:01:35,846 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 15:01:35,846 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:06:01,055 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:06:01,057 - INFO - Successfully fetched 8 items.
+2025-03-04 15:06:01,112 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 15:06:01,112 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:10:37,591 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:10:37,714 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5MzA0OSwianRpIjoiZGY1ZTA2MGMtNTE1ZS00MzQ1LWE0NjYtZTY3OWFkYmIzZmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTMwNDksImNzcmYiOiIwMjdlMTg4Ny1hMTQ4LTQ2ODYtOGYyOC01MjM0MmU0ZjBhMmEiLCJleHAiOjE3NDEwOTM5NDl9.tQwNqjgFilrsi0W34l_Z3Ymh9AHram66l9QJDENaLZY
+2025-03-04 15:10:37,718 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:10:37,744 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:10:37,773 - INFO - Successfully fetched 8 items.
+2025-03-04 15:10:37,812 - INFO - Successfully fetched 8 items.
+2025-03-04 15:10:39,511 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:40,453 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:40,626 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:50,783 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:10:50,783 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:10:52,018 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:53,010 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:53,930 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:57,274 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:10:57,275 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:10:58,370 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:58,538 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:10:59,082 - ERROR - Error adding item to cart: 'images' is an invalid keyword argument for CartItem
+2025-03-04 15:12:04,285 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:12:04,366 - INFO - Successfully fetched 8 items.
+2025-03-04 15:12:04,377 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:12:04,377 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:12:27,374 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:12:27,385 - INFO - Successfully fetched 8 items.
+2025-03-04 15:12:27,430 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:12:27,431 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:12:30,590 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:12:30,591 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:12:30,600 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:12:30,601 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:12:31,699 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:12:31,702 - INFO - Successfully fetched 8 items.
+2025-03-04 15:12:32,474 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:12:32,477 - INFO - Successfully fetched 8 items.
+2025-03-04 15:12:38,196 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:12:38,196 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:12:38,208 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:12:38,208 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:12:39,041 - INFO - User ID: 1
+2025-03-04 15:12:39,041 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-04 15:12:39,048 - INFO - Item successfully added to cart!
+2025-03-04 15:12:39,993 - INFO - User ID: 1
+2025-03-04 15:12:39,993 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-04 15:12:39,996 - INFO - Item successfully added to cart!
+2025-03-04 15:12:40,505 - INFO - User ID: 1
+2025-03-04 15:12:40,505 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-04 15:12:40,507 - INFO - Item successfully added to cart!
+2025-03-04 15:12:53,157 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzg1MCwianRpIjoiMTI2ZDBlMWQtMzU3Zi00N2E5LTg4YjQtYzI4YTY4YmY4MDJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM4NTAsImNzcmYiOiI3MzczYjExNy0xMzE2LTQyOGEtOGUyOS02MTA4ZTExYjI5OGEiLCJleHAiOjE3NDEwOTQ3NTB9.az0jfkuCc4YUWD8gBqObc7flBp8SxRG_aMcq7E8iv98
+2025-03-04 15:12:53,157 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:13:04,260 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5Mzk4NCwianRpIjoiM2Y0NGZmNmItY2I5OC00MDE3LWIwMDQtYzAyYjAyMzA4NzNhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTM5ODQsImNzcmYiOiIxMjMzZTkzMy1kNGRkLTRiMWEtYjI2Mi0wNGJkZTI5Mjc1NTIiLCJleHAiOjE3NDEwOTQ4ODR9.RLDoQKzecgQPHycVdx3QCqUbEGU6Cu2JnID4raqLfkI
+2025-03-04 15:13:04,260 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:13:04,274 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:13:04,276 - INFO - Successfully fetched 8 items.
+2025-03-04 15:13:08,844 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-04 15:13:08,846 - INFO - Successfully fetched 5 items.
+2025-03-04 15:42:43,150 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:42:43,172 - INFO - Successfully fetched 8 items.
+2025-03-04 15:42:43,214 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:42:43,218 - INFO - Successfully fetched 8 items.
+2025-03-04 15:49:22,448 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:49:22,451 - INFO - Successfully fetched 8 items.
+2025-03-04 15:49:22,515 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:49:22,522 - INFO - Successfully fetched 8 items.
+2025-03-04 15:49:46,278 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 15:49:46,281 - INFO - Successfully fetched 8 items.
+2025-03-04 15:49:46,815 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-04 15:49:46,818 - INFO - Successfully fetched 8 items.
+2025-03-04 15:49:50,682 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:49:50,695 - INFO - Successfully fetched 3 items.
+2025-03-04 15:54:13,711 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:54:13,778 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:54:13,867 - INFO - Successfully fetched 8 items.
+2025-03-04 15:54:13,868 - INFO - Successfully fetched 8 items.
+2025-03-04 15:55:19,575 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:55:19,577 - INFO - Successfully fetched 8 items.
+2025-03-04 15:55:20,325 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:55:20,327 - INFO - Successfully fetched 8 items.
+2025-03-04 15:55:28,315 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-04 15:55:28,318 - INFO - Successfully fetched 8 items.
+2025-03-04 15:55:35,684 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:55:35,692 - INFO - Successfully fetched 8 items.
+2025-03-04 15:55:35,838 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:55:35,841 - INFO - Successfully fetched 8 items.
+2025-03-04 15:55:49,922 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5NjU0OSwianRpIjoiYWM3NmZkODItYzkxZS00YmFjLTkwNzQtMjE5OGI4ZmViZTQ3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEwOTY1NDksImNzcmYiOiJkYWYzNThkNS0wNDE4LTQ4MjgtOWM3My0xZTUyZDExZWNhYWUiLCJleHAiOjE3NDEwOTc0NDl9.IOiZ9xI3RO2ucivGHdtp8dDqJSZ7M75T5ZHMGoHSuuM
+2025-03-04 15:55:49,923 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-04 15:55:51,906 - INFO - User ID: 3
+2025-03-04 15:55:51,907 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-04 15:55:51,914 - INFO - Item successfully added to cart!
+2025-03-04 15:55:52,859 - INFO - User ID: 3
+2025-03-04 15:55:52,859 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-04 15:55:52,863 - INFO - Item successfully added to cart!
+2025-03-04 15:55:53,346 - INFO - User ID: 3
+2025-03-04 15:55:53,346 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-04 15:55:53,349 - INFO - Item successfully added to cart!
+2025-03-04 15:56:41,879 - INFO - User ID: 3
+2025-03-04 15:56:41,879 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH'}
+2025-03-04 15:56:41,882 - INFO - Item successfully added to cart!
+2025-03-04 15:56:58,727 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:56:58,730 - INFO - Successfully fetched 8 items.
+2025-03-04 15:56:58,755 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5NjYxOCwianRpIjoiYzcyZTQ3OWUtOGZhNy00MGViLWIyYzctNzg2NjVhMmViNTEwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTY2MTgsImNzcmYiOiI0NDZiYzZmYS03YWE0LTRjMDQtYjQwMi1hMGQ1MGJlMjZhZjgiLCJleHAiOjE3NDEwOTc1MTh9.QtlgZyGTWoB2sQ_BJDFj7WV__CpFaigX2XO-xtJazVA
+2025-03-04 15:56:58,755 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 15:56:58,774 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 15:56:58,777 - INFO - Successfully fetched 8 items.
+2025-03-04 15:57:16,366 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5NjYzNiwianRpIjoiYjQzN2FkNGUtNzRlOC00YzZlLTk1MDItOGE3NjkxYjIxZjNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEwOTY2MzYsImNzcmYiOiIwM2FiOGU3Zi0wZjE3LTRjMjYtODE0ZC00YjYxYzM4OTQ1ZjkiLCJleHAiOjE3NDEwOTc1MzZ9.kMRznk7ASeuEz-kjVv0VBKzb4EI61ZGPMO80JacTpkg
+2025-03-04 15:57:16,366 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-04 16:27:38,422 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:27:38,453 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:27:38,586 - INFO - Successfully fetched 8 items.
+2025-03-04 16:27:38,587 - INFO - Successfully fetched 8 items.
+2025-03-04 16:28:31,316 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:28:31,441 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:28:31,539 - INFO - Successfully fetched 8 items.
+2025-03-04 16:28:31,539 - INFO - Successfully fetched 8 items.
+2025-03-04 16:28:52,199 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5ODUzMSwianRpIjoiYjU1Mzg2NTYtNmFmZS00NTRkLTk5NDUtYWEyOTcyYzA4YjY1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEwOTg1MzEsImNzcmYiOiIxN2IzYzhhOC02YjA4LTQzMGEtOWM0OS0xNzg0NjhjN2ZlMWEiLCJleHAiOjE3NDEwOTk0MzF9.uJC1mZwkVNzHbbmWUtCBzYYi5iSKUefswfvSs-i1oY4
+2025-03-04 16:28:52,199 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-04 16:29:17,226 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5ODU1NiwianRpIjoiMjMzYWI1YmMtMjc4MS00ZTA5LTg3ZTctYTY0MmMxZDBjMzA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTg1NTYsImNzcmYiOiJkMTBhYWRhZC1mZTZkLTQyYzctOWViMi0yYmZhZjEzMDE1Y2UiLCJleHAiOjE3NDEwOTk0NTZ9.Q3lw-ISVE2UX11nwfX4p_MViz4HWJylqLERXnWdJ_4A
+2025-03-04 16:29:17,226 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 16:30:02,747 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5ODU1NiwianRpIjoiMjMzYWI1YmMtMjc4MS00ZTA5LTg3ZTctYTY0MmMxZDBjMzA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTg1NTYsImNzcmYiOiJkMTBhYWRhZC1mZTZkLTQyYzctOWViMi0yYmZhZjEzMDE1Y2UiLCJleHAiOjE3NDEwOTk0NTZ9.Q3lw-ISVE2UX11nwfX4p_MViz4HWJylqLERXnWdJ_4A
+2025-03-04 16:30:02,748 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 16:30:02,749 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:30:02,755 - INFO - Successfully fetched 8 items.
+2025-03-04 16:30:02,759 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5ODU1NiwianRpIjoiMjMzYWI1YmMtMjc4MS00ZTA5LTg3ZTctYTY0MmMxZDBjMzA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTg1NTYsImNzcmYiOiJkMTBhYWRhZC1mZTZkLTQyYzctOWViMi0yYmZhZjEzMDE1Y2UiLCJleHAiOjE3NDEwOTk0NTZ9.Q3lw-ISVE2UX11nwfX4p_MViz4HWJylqLERXnWdJ_4A
+2025-03-04 16:30:02,760 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 16:30:02,785 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:30:02,791 - INFO - Successfully fetched 8 items.
+2025-03-04 16:42:49,982 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:42:49,985 - INFO - Successfully fetched 8 items.
+2025-03-04 16:42:50,069 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5ODU1NiwianRpIjoiMjMzYWI1YmMtMjc4MS00ZTA5LTg3ZTctYTY0MmMxZDBjMzA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTg1NTYsImNzcmYiOiJkMTBhYWRhZC1mZTZkLTQyYzctOWViMi0yYmZhZjEzMDE1Y2UiLCJleHAiOjE3NDEwOTk0NTZ9.Q3lw-ISVE2UX11nwfX4p_MViz4HWJylqLERXnWdJ_4A
+2025-03-04 16:42:50,070 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 16:42:50,139 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:42:50,142 - INFO - Successfully fetched 8 items.
+2025-03-04 16:43:17,287 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5ODU1NiwianRpIjoiMjMzYWI1YmMtMjc4MS00ZTA5LTg3ZTctYTY0MmMxZDBjMzA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEwOTg1NTYsImNzcmYiOiJkMTBhYWRhZC1mZTZkLTQyYzctOWViMi0yYmZhZjEzMDE1Y2UiLCJleHAiOjE3NDEwOTk0NTZ9.Q3lw-ISVE2UX11nwfX4p_MViz4HWJylqLERXnWdJ_4A
+2025-03-04 16:43:17,288 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-04 16:46:34,345 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:46:34,348 - INFO - Successfully fetched 8 items.
+2025-03-04 16:46:34,502 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:46:34,505 - INFO - Successfully fetched 8 items.
+2025-03-04 16:48:36,488 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:48:36,512 - INFO - Successfully fetched 8 items.
+2025-03-04 16:48:36,532 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:48:36,537 - INFO - Successfully fetched 8 items.
+2025-03-04 16:51:12,763 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:51:12,768 - INFO - Successfully fetched 8 items.
+2025-03-04 16:51:12,783 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTA5OTg3MiwianRpIjoiNjllMzlmZjEtMjU3YS00MTYwLWE0YzAtYzk0MTQ1NWJmYjNmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEwOTk4NzIsImNzcmYiOiJlZTUzMmJlZS03NjBlLTQxMDMtYWM0My0xYTM4YTZlNmE1YmMiLCJleHAiOjE3NDExMDA3NzJ9.QUZnXwxAVRZ6dJ2t05-SArZrbT91jug-vVSYrLjM4og
+2025-03-04 16:51:12,784 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-04 16:51:12,811 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-04 16:51:12,815 - INFO - Successfully fetched 8 items.
