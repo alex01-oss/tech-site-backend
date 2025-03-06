@@ -12,10 +12,13 @@ def return_menu():
     responses:
       200:
         description: Список меню
+      500:
+        description: Не вдалося завантажити меню
     """
     
     try:
-        with open('config/config.json', 'r') as file:
+        # with open('config/config.json', 'r') as file:
+        with open('config/menu.json', 'r') as file:
             menu_data = json.load(file)
         return jsonify(menu_data)
     except Exception as e:

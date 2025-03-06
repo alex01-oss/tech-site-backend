@@ -7745,3 +7745,1675 @@ TypeError: 'images' is an invalid keyword argument for CartItem
 2025-03-04 16:51:12,784 - INFO - Extracted user ID: 3 (type: <class 'str'>)
 2025-03-04 16:51:12,811 - INFO - Request for catalog received. Page: 1, Items per page: 8
 2025-03-04 16:51:12,815 - INFO - Successfully fetched 8 items.
+2025-03-05 08:33:37,488 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 08:33:37,625 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 08:33:37,717 - INFO - Successfully fetched 8 items.
+2025-03-05 08:33:37,718 - INFO - Successfully fetched 8 items.
+2025-03-05 08:44:42,944 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 08:44:42,950 - INFO - Successfully fetched 8 items.
+2025-03-05 08:44:42,966 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 08:44:42,969 - INFO - Successfully fetched 8 items.
+2025-03-05 08:49:44,323 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 08:49:44,325 - INFO - Successfully fetched 8 items.
+2025-03-05 08:49:44,341 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 08:49:44,343 - INFO - Successfully fetched 8 items.
+2025-03-05 09:00:27,432 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:00:27,434 - INFO - Successfully fetched 8 items.
+2025-03-05 09:00:27,505 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:00:27,509 - INFO - Successfully fetched 8 items.
+2025-03-05 09:05:29,381 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:05:29,383 - INFO - Successfully fetched 8 items.
+2025-03-05 09:05:29,402 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:05:29,406 - INFO - Successfully fetched 8 items.
+2025-03-05 09:11:58,116 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:11:58,124 - INFO - Successfully fetched 8 items.
+2025-03-05 09:11:58,149 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:11:58,149 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:11:58,175 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:11:58,178 - INFO - Successfully fetched 8 items.
+2025-03-05 09:18:44,444 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:18:44,447 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:18:44,450 - INFO - Successfully fetched 8 items.
+2025-03-05 09:18:44,450 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:18:44,485 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:18:44,487 - INFO - Successfully fetched 8 items.
+2025-03-05 09:19:26,587 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:19:26,588 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:20:02,045 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:20:02,047 - INFO - Successfully fetched 8 items.
+2025-03-05 09:20:24,716 - INFO - item with 820109RLFU removed from cart
+2025-03-05 09:20:25,292 - INFO - User ID: 3
+2025-03-05 09:20:25,292 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-05 09:20:25,304 - INFO - Item successfully added to cart!
+2025-03-05 09:20:26,167 - INFO - item with 820401CRMG removed from cart
+2025-03-05 09:20:26,460 - INFO - User ID: 3
+2025-03-05 09:20:26,460 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH'}
+2025-03-05 09:20:26,463 - INFO - Item successfully added to cart!
+2025-03-05 09:22:17,809 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:22:17,812 - INFO - Successfully fetched 8 items.
+2025-03-05 09:22:22,240 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:22:22,242 - INFO - Successfully fetched 8 items.
+2025-03-05 09:22:22,378 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:22:22,378 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:22:25,191 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:22:25,191 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:22:27,258 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:22:27,258 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:22:35,387 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:22:35,387 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:22:39,654 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:22:39,654 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:24:35,566 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:24:35,569 - INFO - Successfully fetched 8 items.
+2025-03-05 09:24:35,622 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:24:35,622 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:24:41,326 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:24:41,330 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:24:41,330 - INFO - Successfully fetched 8 items.
+2025-03-05 09:24:41,330 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:24:48,575 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1ODcxNywianRpIjoiZThmMjI3ZDItM2MyOC00ZTI1LTg0ZmUtZjFlNjAwNGMyZTdhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTg3MTcsImNzcmYiOiIzOWEyNTA0OC1jYjU5LTRlMTMtYjUyYS0wM2QwOGQ2MTQ4MTIiLCJleHAiOjE3NDExNTk2MTd9.uvi_zTq0M74s824247GUGofL0eV2oHb7FZxWcTG6AJI
+2025-03-05 09:24:48,575 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:24:53,691 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-05 09:24:53,693 - INFO - Successfully fetched 5 items.
+2025-03-05 09:25:34,410 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:25:34,412 - INFO - Successfully fetched 8 items.
+2025-03-05 09:25:35,020 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:25:35,022 - INFO - Successfully fetched 8 items.
+2025-03-05 09:25:35,725 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:25:35,727 - INFO - Successfully fetched 8 items.
+2025-03-05 09:27:17,662 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-05 09:27:17,667 - INFO - Successfully fetched 5 items.
+2025-03-05 09:27:20,005 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-03-05 09:27:20,008 - INFO - Successfully fetched 8 items.
+2025-03-05 09:27:25,952 - INFO - Request for catalog received. Page: 21, Items per page: 8
+2025-03-05 09:27:25,954 - INFO - Successfully fetched 8 items.
+2025-03-05 09:27:26,619 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:27:26,624 - INFO - Successfully fetched 8 items.
+2025-03-05 09:28:02,215 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:28:02,219 - INFO - Successfully fetched 8 items.
+2025-03-05 09:30:04,976 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:30:04,979 - INFO - Successfully fetched 8 items.
+2025-03-05 09:32:33,870 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:32:33,969 - INFO - Successfully fetched 8 items.
+2025-03-05 09:32:33,983 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:32:33,986 - INFO - Successfully fetched 8 items.
+2025-03-05 09:32:49,751 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1OTk2OSwianRpIjoiYjUyOGFjZWYtNDgwZC00MTk4LWE2ZjYtMWMyOTY0YzEzNjU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTk5NjksImNzcmYiOiI5Y2E5MzZhNi1mZmQ1LTRkYWUtYjk4YS1hOGRjMjQwYTE1NTAiLCJleHAiOjE3NDExNjA4Njl9.GT9pak2G0CBx5Pr3h3fDWDLXnogzQEUIfpCTP7iAOwk
+2025-03-05 09:32:49,752 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:32:59,643 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-05 09:32:59,645 - INFO - Successfully fetched 5 items.
+2025-03-05 09:33:02,959 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:33:02,961 - INFO - Successfully fetched 8 items.
+2025-03-05 09:33:03,566 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:33:03,569 - INFO - Successfully fetched 8 items.
+2025-03-05 09:33:28,622 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1OTk2OSwianRpIjoiYjUyOGFjZWYtNDgwZC00MTk4LWE2ZjYtMWMyOTY0YzEzNjU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTk5NjksImNzcmYiOiI5Y2E5MzZhNi1mZmQ1LTRkYWUtYjk4YS1hOGRjMjQwYTE1NTAiLCJleHAiOjE3NDExNjA4Njl9.GT9pak2G0CBx5Pr3h3fDWDLXnogzQEUIfpCTP7iAOwk
+2025-03-05 09:33:28,622 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:33:28,642 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE1OTk2OSwianRpIjoiYjUyOGFjZWYtNDgwZC00MTk4LWE2ZjYtMWMyOTY0YzEzNjU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNTk5NjksImNzcmYiOiI5Y2E5MzZhNi1mZmQ1LTRkYWUtYjk4YS1hOGRjMjQwYTE1NTAiLCJleHAiOjE3NDExNjA4Njl9.GT9pak2G0CBx5Pr3h3fDWDLXnogzQEUIfpCTP7iAOwk
+2025-03-05 09:33:28,643 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 09:56:02,295 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:56:02,315 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:56:02,316 - INFO - Successfully fetched 8 items.
+2025-03-05 09:56:02,414 - INFO - Successfully fetched 8 items.
+2025-03-05 09:59:34,060 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 09:59:34,063 - INFO - Successfully fetched 8 items.
+2025-03-05 10:03:14,804 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 10:03:14,832 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE2MTc5NCwianRpIjoiNzQ1NzllMzItOWZkYi00NzdkLTliNmEtMjcyNjEyYWQwZDYxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNjE3OTQsImNzcmYiOiIwZThhMjUzZC01YjI1LTQ0OWYtODZhOC1jMWVjOTljZTMzODUiLCJleHAiOjE3NDExNjI2OTR9.x7cRIdlw7DhD8zvMOQOdBYMa7LwZ1YhEK4_yjgTjW_w
+2025-03-05 10:03:14,833 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 10:03:14,836 - INFO - Successfully fetched 8 items.
+2025-03-05 10:03:14,855 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 10:03:14,860 - INFO - Successfully fetched 8 items.
+2025-03-05 10:57:33,439 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 10:57:33,446 - INFO - Successfully fetched 8 items.
+2025-03-05 10:57:33,454 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE2NTA1MywianRpIjoiMGQ4M2I4NTktNzRlZi00ZTBmLWEzNWEtNWNmNzIxODkyOGQxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNjUwNTMsImNzcmYiOiI5NmZhZDE2Yi1kODc0LTRmNTUtOTA0OC1lY2I2NzJhZTdjMWIiLCJleHAiOjE3NDExNjU5NTN9.S3-X5VPnThGjQgdqUvaBiYfjG38CqNwfDzSQMQrHkWs
+2025-03-05 10:57:33,455 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 10:57:33,467 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 10:57:33,473 - INFO - Successfully fetched 8 items.
+2025-03-05 10:57:33,475 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE2NTA1MywianRpIjoiMGQ4M2I4NTktNzRlZi00ZTBmLWEzNWEtNWNmNzIxODkyOGQxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNjUwNTMsImNzcmYiOiI5NmZhZDE2Yi1kODc0LTRmNTUtOTA0OC1lY2I2NzJhZTdjMWIiLCJleHAiOjE3NDExNjU5NTN9.S3-X5VPnThGjQgdqUvaBiYfjG38CqNwfDzSQMQrHkWs
+2025-03-05 10:57:33,475 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 11:52:16,851 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 11:52:16,854 - INFO - Successfully fetched 8 items.
+2025-03-05 11:52:16,902 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 11:52:16,908 - INFO - Successfully fetched 8 items.
+2025-03-05 11:52:22,976 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE2ODM0MiwianRpIjoiMTM5YjQwYTYtOTU3Zi00Y2M4LWI1NmUtMjQ1NWNmZWQ2YjIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNjgzNDIsImNzcmYiOiJhZjhiOTAwZS02OGYzLTRiMDYtOWY2Zi0xN2IwMzBiZWU4YWMiLCJleHAiOjE3NDExNjkyNDJ9.nf6LqrqHJpfv5hAs0GqarVXo6sABmT72CgRGXymniHA
+2025-03-05 11:52:22,976 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 11:52:27,617 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE2ODM0MiwianRpIjoiMTM5YjQwYTYtOTU3Zi00Y2M4LWI1NmUtMjQ1NWNmZWQ2YjIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNjgzNDIsImNzcmYiOiJhZjhiOTAwZS02OGYzLTRiMDYtOWY2Zi0xN2IwMzBiZWU4YWMiLCJleHAiOjE3NDExNjkyNDJ9.nf6LqrqHJpfv5hAs0GqarVXo6sABmT72CgRGXymniHA
+2025-03-05 11:52:27,617 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 11:52:27,623 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE2ODM0MiwianRpIjoiMTM5YjQwYTYtOTU3Zi00Y2M4LWI1NmUtMjQ1NWNmZWQ2YjIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNjgzNDIsImNzcmYiOiJhZjhiOTAwZS02OGYzLTRiMDYtOWY2Zi0xN2IwMzBiZWU4YWMiLCJleHAiOjE3NDExNjkyNDJ9.nf6LqrqHJpfv5hAs0GqarVXo6sABmT72CgRGXymniHA
+2025-03-05 11:52:27,626 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 11:57:58,827 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE2ODM0MiwianRpIjoiMTM5YjQwYTYtOTU3Zi00Y2M4LWI1NmUtMjQ1NWNmZWQ2YjIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNjgzNDIsImNzcmYiOiJhZjhiOTAwZS02OGYzLTRiMDYtOWY2Zi0xN2IwMzBiZWU4YWMiLCJleHAiOjE3NDExNjkyNDJ9.nf6LqrqHJpfv5hAs0GqarVXo6sABmT72CgRGXymniHA
+2025-03-05 11:57:58,827 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 13:41:10,660 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 13:41:10,666 - INFO - Successfully fetched 8 items.
+2025-03-05 13:41:10,670 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NDg3MCwianRpIjoiMTNiYmRmZmEtMjdhNC00ZmMxLTg4NDMtYzNkMGViYTc3YTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzQ4NzAsImNzcmYiOiIyN2QyMjUyZC1hYzE1LTQ4ZmEtOGQ1ZS0yNTM2YWExZWYwZjgiLCJleHAiOjE3NDExNzU3NzB9.DTUsmXVbl2erXFijDPBnUdm9c-3oMbFX-RYJiybwbtU
+2025-03-05 13:41:10,670 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 13:41:10,694 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 13:41:10,697 - INFO - Successfully fetched 8 items.
+2025-03-05 13:41:16,600 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NDg3MCwianRpIjoiMTNiYmRmZmEtMjdhNC00ZmMxLTg4NDMtYzNkMGViYTc3YTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzQ4NzAsImNzcmYiOiIyN2QyMjUyZC1hYzE1LTQ4ZmEtOGQ1ZS0yNTM2YWExZWYwZjgiLCJleHAiOjE3NDExNzU3NzB9.DTUsmXVbl2erXFijDPBnUdm9c-3oMbFX-RYJiybwbtU
+2025-03-05 13:41:16,600 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 13:41:16,608 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NDg3MCwianRpIjoiMTNiYmRmZmEtMjdhNC00ZmMxLTg4NDMtYzNkMGViYTc3YTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzQ4NzAsImNzcmYiOiIyN2QyMjUyZC1hYzE1LTQ4ZmEtOGQ1ZS0yNTM2YWExZWYwZjgiLCJleHAiOjE3NDExNzU3NzB9.DTUsmXVbl2erXFijDPBnUdm9c-3oMbFX-RYJiybwbtU
+2025-03-05 13:41:16,609 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 13:44:49,537 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NDg3MCwianRpIjoiMTNiYmRmZmEtMjdhNC00ZmMxLTg4NDMtYzNkMGViYTc3YTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzQ4NzAsImNzcmYiOiIyN2QyMjUyZC1hYzE1LTQ4ZmEtOGQ1ZS0yNTM2YWExZWYwZjgiLCJleHAiOjE3NDExNzU3NzB9.DTUsmXVbl2erXFijDPBnUdm9c-3oMbFX-RYJiybwbtU
+2025-03-05 13:44:49,538 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 13:44:49,539 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NDg3MCwianRpIjoiMTNiYmRmZmEtMjdhNC00ZmMxLTg4NDMtYzNkMGViYTc3YTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzQ4NzAsImNzcmYiOiIyN2QyMjUyZC1hYzE1LTQ4ZmEtOGQ1ZS0yNTM2YWExZWYwZjgiLCJleHAiOjE3NDExNzU3NzB9.DTUsmXVbl2erXFijDPBnUdm9c-3oMbFX-RYJiybwbtU
+2025-03-05 13:44:49,541 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 13:51:39,654 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 13:51:39,659 - INFO - Successfully fetched 8 items.
+2025-03-05 13:51:39,697 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NDg3MCwianRpIjoiMTNiYmRmZmEtMjdhNC00ZmMxLTg4NDMtYzNkMGViYTc3YTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzQ4NzAsImNzcmYiOiIyN2QyMjUyZC1hYzE1LTQ4ZmEtOGQ1ZS0yNTM2YWExZWYwZjgiLCJleHAiOjE3NDExNzU3NzB9.DTUsmXVbl2erXFijDPBnUdm9c-3oMbFX-RYJiybwbtU
+2025-03-05 13:51:39,697 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 13:51:39,734 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 13:51:39,737 - INFO - Successfully fetched 8 items.
+2025-03-05 13:53:37,111 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 13:53:37,113 - INFO - Successfully fetched 8 items.
+2025-03-05 13:53:39,260 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 13:53:39,263 - INFO - Successfully fetched 8 items.
+2025-03-05 13:53:41,978 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 13:53:41,979 - INFO - Successfully fetched 8 items.
+2025-03-05 14:04:35,778 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:04:35,782 - INFO - Successfully fetched 8 items.
+2025-03-05 14:04:35,805 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NjI3NSwianRpIjoiZGM1NTJiMjQtMTkxYy00NmQwLTk3ZWEtNmZkMmYwZTY4MTk0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzYyNzUsImNzcmYiOiIyY2I4MjU1MC1hZmM4LTRhMmUtOWFmZC02YzEyYWRlZDgwZWIiLCJleHAiOjE3NDExNzcxNzV9.jJF8QCDhJCUVtuChNY90PtuMiiM9dDd7n5PI9VE036k
+2025-03-05 14:04:35,806 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:04:35,820 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:04:35,823 - INFO - Successfully fetched 8 items.
+2025-03-05 14:04:52,090 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NjI3NSwianRpIjoiZGM1NTJiMjQtMTkxYy00NmQwLTk3ZWEtNmZkMmYwZTY4MTk0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzYyNzUsImNzcmYiOiIyY2I4MjU1MC1hZmM4LTRhMmUtOWFmZC02YzEyYWRlZDgwZWIiLCJleHAiOjE3NDExNzcxNzV9.jJF8QCDhJCUVtuChNY90PtuMiiM9dDd7n5PI9VE036k
+2025-03-05 14:04:52,090 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:04:52,097 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NjI3NSwianRpIjoiZGM1NTJiMjQtMTkxYy00NmQwLTk3ZWEtNmZkMmYwZTY4MTk0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzYyNzUsImNzcmYiOiIyY2I4MjU1MC1hZmM4LTRhMmUtOWFmZC02YzEyYWRlZDgwZWIiLCJleHAiOjE3NDExNzcxNzV9.jJF8QCDhJCUVtuChNY90PtuMiiM9dDd7n5PI9VE036k
+2025-03-05 14:04:52,097 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:13:20,073 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NjI3NSwianRpIjoiZGM1NTJiMjQtMTkxYy00NmQwLTk3ZWEtNmZkMmYwZTY4MTk0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzYyNzUsImNzcmYiOiIyY2I4MjU1MC1hZmM4LTRhMmUtOWFmZC02YzEyYWRlZDgwZWIiLCJleHAiOjE3NDExNzcxNzV9.jJF8QCDhJCUVtuChNY90PtuMiiM9dDd7n5PI9VE036k
+2025-03-05 14:13:20,073 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:25:45,532 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:25:45,537 - INFO - Successfully fetched 8 items.
+2025-03-05 14:25:45,581 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:25:45,585 - INFO - Successfully fetched 8 items.
+2025-03-05 14:26:07,075 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:26:07,075 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:26:15,887 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:26:15,888 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:26:52,703 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:26:52,705 - INFO - Successfully fetched 8 items.
+2025-03-05 14:26:52,720 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:26:52,720 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:26:52,763 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:26:52,767 - INFO - Successfully fetched 8 items.
+2025-03-05 14:27:46,238 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:27:46,238 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:27:46,254 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:27:46,254 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:27:47,115 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:27:47,116 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:27:47,127 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:27:47,128 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:27:48,768 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:27:48,769 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:27:48,777 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:27:48,777 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:30:50,324 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:30:50,324 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:30:50,326 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:30:50,332 - INFO - Successfully fetched 8 items.
+2025-03-05 14:30:50,341 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:30:50,342 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:30:50,355 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:30:50,359 - INFO - Successfully fetched 8 items.
+2025-03-05 14:30:52,695 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:30:52,695 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:30:52,707 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:30:52,709 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:35:28,461 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3NzU2NiwianRpIjoiNmI5MGM1ZWYtYmRlYi00YTI2LTkyZWQtNzAzZGViZGJmZDlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzc1NjYsImNzcmYiOiJiZjM2ZjI3Mi1lNmI0LTQ2YmYtYjg1OC1kMTkxY2U4N2RmZTAiLCJleHAiOjE3NDExNzg0NjZ9.1yKXND30awB2RSinTcRweikmRDSgD2dB82QkLGjOy4c
+2025-03-05 14:35:28,461 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:53:11,539 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:53:11,545 - INFO - Successfully fetched 8 items.
+2025-03-05 14:53:11,567 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 14:53:11,576 - INFO - Successfully fetched 8 items.
+2025-03-05 14:53:16,133 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3OTE5NSwianRpIjoiYzI2ZTRjOWItYjU1MS00ZmIzLTg5YzktZjQ2MTdiYTgzNjZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzkxOTUsImNzcmYiOiI3YjdmYTAyMy02ZWExLTQwYzYtOGRhYS02NWZjYTRlY2YzYmYiLCJleHAiOjE3NDExODAwOTV9.GbnEI16HIzj2HW3IM9srtUA5bIHiS1_QQFzQUxXQ1A0
+2025-03-05 14:53:16,133 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:53:19,749 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3OTE5NSwianRpIjoiYzI2ZTRjOWItYjU1MS00ZmIzLTg5YzktZjQ2MTdiYTgzNjZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzkxOTUsImNzcmYiOiI3YjdmYTAyMy02ZWExLTQwYzYtOGRhYS02NWZjYTRlY2YzYmYiLCJleHAiOjE3NDExODAwOTV9.GbnEI16HIzj2HW3IM9srtUA5bIHiS1_QQFzQUxXQ1A0
+2025-03-05 14:53:19,750 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 14:53:19,756 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3OTE5NSwianRpIjoiYzI2ZTRjOWItYjU1MS00ZmIzLTg5YzktZjQ2MTdiYTgzNjZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzkxOTUsImNzcmYiOiI3YjdmYTAyMy02ZWExLTQwYzYtOGRhYS02NWZjYTRlY2YzYmYiLCJleHAiOjE3NDExODAwOTV9.GbnEI16HIzj2HW3IM9srtUA5bIHiS1_QQFzQUxXQ1A0
+2025-03-05 14:53:19,759 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:01:25,370 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE3OTE5NSwianRpIjoiYzI2ZTRjOWItYjU1MS00ZmIzLTg5YzktZjQ2MTdiYTgzNjZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExNzkxOTUsImNzcmYiOiI3YjdmYTAyMy02ZWExLTQwYzYtOGRhYS02NWZjYTRlY2YzYmYiLCJleHAiOjE3NDExODAwOTV9.GbnEI16HIzj2HW3IM9srtUA5bIHiS1_QQFzQUxXQ1A0
+2025-03-05 15:01:25,371 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:32:38,675 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 15:32:38,679 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MTU1OCwianRpIjoiNjgzNjIyNjktNGMxZS00ZjFhLTk3MWUtYmVmYWI5ZDYzNjUzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODE1NTgsImNzcmYiOiIyNDg1MmM5Zi02ZWYxLTRjMzItYTQ1ZC1hOTBlOTZiNmY4YTYiLCJleHAiOjE3NDExODI0NTh9.TCh1EnUG7LI4fsuduvFXuiaUuiCGURCXqnFVJ7boVek
+2025-03-05 15:32:38,681 - INFO - Successfully fetched 8 items.
+2025-03-05 15:32:38,681 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:32:38,707 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 15:32:38,710 - INFO - Successfully fetched 8 items.
+2025-03-05 15:32:42,358 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MTU1OCwianRpIjoiNjgzNjIyNjktNGMxZS00ZjFhLTk3MWUtYmVmYWI5ZDYzNjUzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODE1NTgsImNzcmYiOiIyNDg1MmM5Zi02ZWYxLTRjMzItYTQ1ZC1hOTBlOTZiNmY4YTYiLCJleHAiOjE3NDExODI0NTh9.TCh1EnUG7LI4fsuduvFXuiaUuiCGURCXqnFVJ7boVek
+2025-03-05 15:32:42,358 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:32:42,363 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MTU1OCwianRpIjoiNjgzNjIyNjktNGMxZS00ZjFhLTk3MWUtYmVmYWI5ZDYzNjUzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODE1NTgsImNzcmYiOiIyNDg1MmM5Zi02ZWYxLTRjMzItYTQ1ZC1hOTBlOTZiNmY4YTYiLCJleHAiOjE3NDExODI0NTh9.TCh1EnUG7LI4fsuduvFXuiaUuiCGURCXqnFVJ7boVek
+2025-03-05 15:32:42,364 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:41:28,957 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MTU1OCwianRpIjoiNjgzNjIyNjktNGMxZS00ZjFhLTk3MWUtYmVmYWI5ZDYzNjUzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODE1NTgsImNzcmYiOiIyNDg1MmM5Zi02ZWYxLTRjMzItYTQ1ZC1hOTBlOTZiNmY4YTYiLCJleHAiOjE3NDExODI0NTh9.TCh1EnUG7LI4fsuduvFXuiaUuiCGURCXqnFVJ7boVek
+2025-03-05 15:41:28,957 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:44:54,077 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MTU1OCwianRpIjoiNjgzNjIyNjktNGMxZS00ZjFhLTk3MWUtYmVmYWI5ZDYzNjUzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODE1NTgsImNzcmYiOiIyNDg1MmM5Zi02ZWYxLTRjMzItYTQ1ZC1hOTBlOTZiNmY4YTYiLCJleHAiOjE3NDExODI0NTh9.TCh1EnUG7LI4fsuduvFXuiaUuiCGURCXqnFVJ7boVek
+2025-03-05 15:44:54,077 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:51:38,458 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 15:51:38,461 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MjY5NywianRpIjoiMmIyOTFlMGQtZTFkNS00NTY0LWE4MDctMGJiZDZjYjcxOTkwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODI2OTcsImNzcmYiOiIxNWNjMzM2MS05ZDk3LTRiOTgtODhkMy1hNWY0ODY2MWExNTEiLCJleHAiOjE3NDExODM1OTd9.qiHYQiTEIP4Cz-aPL0rxCk_N0Du8zPpJ8ykmhuMqx1Q
+2025-03-05 15:51:38,461 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:51:38,464 - INFO - Successfully fetched 8 items.
+2025-03-05 15:51:38,495 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 15:51:38,498 - INFO - Successfully fetched 8 items.
+2025-03-05 15:51:41,751 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MjY5NywianRpIjoiMmIyOTFlMGQtZTFkNS00NTY0LWE4MDctMGJiZDZjYjcxOTkwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODI2OTcsImNzcmYiOiIxNWNjMzM2MS05ZDk3LTRiOTgtODhkMy1hNWY0ODY2MWExNTEiLCJleHAiOjE3NDExODM1OTd9.qiHYQiTEIP4Cz-aPL0rxCk_N0Du8zPpJ8ykmhuMqx1Q
+2025-03-05 15:51:41,751 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:51:41,783 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MjY5NywianRpIjoiMmIyOTFlMGQtZTFkNS00NTY0LWE4MDctMGJiZDZjYjcxOTkwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODI2OTcsImNzcmYiOiIxNWNjMzM2MS05ZDk3LTRiOTgtODhkMy1hNWY0ODY2MWExNTEiLCJleHAiOjE3NDExODM1OTd9.qiHYQiTEIP4Cz-aPL0rxCk_N0Du8zPpJ8ykmhuMqx1Q
+2025-03-05 15:51:41,784 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 15:57:06,620 - INFO - item with 820101CRMSu removed from cart
+2025-03-05 15:57:13,381 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MjY5NywianRpIjoiMmIyOTFlMGQtZTFkNS00NTY0LWE4MDctMGJiZDZjYjcxOTkwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODI2OTcsImNzcmYiOiIxNWNjMzM2MS05ZDk3LTRiOTgtODhkMy1hNWY0ODY2MWExNTEiLCJleHAiOjE3NDExODM1OTd9.qiHYQiTEIP4Cz-aPL0rxCk_N0Du8zPpJ8ykmhuMqx1Q
+2025-03-05 15:57:13,381 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:00:23,448 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4MjY5NywianRpIjoiMmIyOTFlMGQtZTFkNS00NTY0LWE4MDctMGJiZDZjYjcxOTkwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODI2OTcsImNzcmYiOiIxNWNjMzM2MS05ZDk3LTRiOTgtODhkMy1hNWY0ODY2MWExNTEiLCJleHAiOjE3NDExODM1OTd9.qiHYQiTEIP4Cz-aPL0rxCk_N0Du8zPpJ8ykmhuMqx1Q
+2025-03-05 16:00:23,449 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:19:01,524 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:19:01,524 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:19:01,529 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:19:01,532 - INFO - Successfully fetched 8 items.
+2025-03-05 16:19:01,559 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:19:01,654 - INFO - Successfully fetched 8 items.
+2025-03-05 16:22:22,887 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:22:22,888 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:22:22,895 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:22:22,895 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:24:01,051 - INFO - item with 820203CRMSu removed from cart
+2025-03-05 16:24:01,631 - INFO - item with 820109RLFU removed from cart
+2025-03-05 16:25:02,227 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:02,227 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:02,228 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:25:02,234 - INFO - Successfully fetched 8 items.
+2025-03-05 16:25:02,240 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:02,242 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:02,255 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:25:02,258 - INFO - Successfully fetched 8 items.
+2025-03-05 16:25:06,133 - INFO - User ID: 3
+2025-03-05 16:25:06,134 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH'}
+2025-03-05 16:25:06,184 - INFO - Item successfully added to cart!
+2025-03-05 16:25:06,699 - INFO - User ID: 3
+2025-03-05 16:25:06,699 - INFO - Received data: {'article': '820204RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 125 RELIEF для ручного інструменту', 'price': '793', 'currency': 'UAH'}
+2025-03-05 16:25:06,704 - INFO - Item successfully added to cart!
+2025-03-05 16:25:07,219 - INFO - User ID: 3
+2025-03-05 16:25:07,219 - INFO - Received data: {'article': '820108RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF для ручного інструменту', 'price': '857', 'currency': 'UAH'}
+2025-03-05 16:25:07,221 - INFO - Item successfully added to cart!
+2025-03-05 16:25:08,639 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:08,639 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:08,646 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:08,647 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:14,831 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:14,831 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:14,850 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:14,852 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:16,124 - INFO - User ID: 3
+2025-03-05 16:25:16,124 - INFO - Received data: {'article': '820205RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 125 RELIEF ULTRA для ручного інструменту', 'price': '918', 'currency': 'UAH'}
+2025-03-05 16:25:16,126 - INFO - Item successfully added to cart!
+2025-03-05 16:25:16,483 - INFO - User ID: 3
+2025-03-05 16:25:16,483 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-05 16:25:16,486 - INFO - Item successfully added to cart!
+2025-03-05 16:25:16,940 - INFO - User ID: 3
+2025-03-05 16:25:16,941 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-05 16:25:16,944 - INFO - Item successfully added to cart!
+2025-03-05 16:25:17,340 - INFO - User ID: 3
+2025-03-05 16:25:17,340 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-05 16:25:17,342 - INFO - Item successfully added to cart!
+2025-03-05 16:25:18,451 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-05 16:25:18,454 - INFO - Successfully fetched 8 items.
+2025-03-05 16:25:19,380 - INFO - User ID: 3
+2025-03-05 16:25:19,380 - INFO - Received data: {'article': '820602CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 230 для стаціонарного обладнання ', 'price': '909', 'currency': 'UAH'}
+2025-03-05 16:25:19,382 - INFO - Item successfully added to cart!
+2025-03-05 16:25:19,811 - INFO - User ID: 3
+2025-03-05 16:25:19,811 - INFO - Received data: {'article': '820701CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 250 для стаціонарного обладнання ', 'price': '1120', 'currency': 'UAH'}
+2025-03-05 16:25:19,814 - INFO - Item successfully added to cart!
+2025-03-05 16:25:20,272 - INFO - User ID: 3
+2025-03-05 16:25:20,272 - INFO - Received data: {'article': '820804CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 300 для стаціонарного обладнання ', 'price': '1776', 'currency': 'UAH'}
+2025-03-05 16:25:20,274 - INFO - Item successfully added to cart!
+2025-03-05 16:25:20,715 - INFO - User ID: 3
+2025-03-05 16:25:20,715 - INFO - Received data: {'article': '820904CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 350 для стаціонарного обладнання ', 'price': '2401', 'currency': 'UAH'}
+2025-03-05 16:25:20,719 - INFO - Item successfully added to cart!
+2025-03-05 16:25:21,713 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:21,713 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:21,722 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:21,722 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:32,979 - INFO - item with 820804CRMG removed from cart
+2025-03-05 16:25:33,671 - INFO - item with 820602CRMG removed from cart
+2025-03-05 16:25:34,646 - INFO - item with 820701CRMG removed from cart
+2025-03-05 16:25:35,197 - INFO - item with 820904CRMG removed from cart
+2025-03-05 16:25:36,621 - INFO - item with 820101CRMSu removed from cart
+2025-03-05 16:25:38,777 - INFO - item with 820203CRMSu removed from cart
+2025-03-05 16:25:39,998 - INFO - item with 820109RLFU removed from cart
+2025-03-05 16:25:40,766 - INFO - item with 820205RLFU removed from cart
+2025-03-05 16:25:41,389 - INFO - item with 820108RLF removed from cart
+2025-03-05 16:25:48,045 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:48,045 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:25:48,054 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTE4NDM0MSwianRpIjoiYzc1ZDBjNDUtNWU5OS00MTRmLWIxZjctOGZiODY1YjRmYzM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDExODQzNDEsImNzcmYiOiIwNTdiMGNhYi00OTVhLTQ3NWYtODcwNi1hNTIwYzU4MmRkM2UiLCJleHAiOjE3NDExODUyNDF9.LwcWoz7MI8jYJ4_q7TxPv7quOF8Q5iF8g7AroFhx_FM
+2025-03-05 16:25:48,055 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-05 16:37:32,924 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:37:32,929 - INFO - Successfully fetched 8 items.
+2025-03-05 16:37:32,961 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:37:32,964 - INFO - Successfully fetched 8 items.
+2025-03-05 16:39:55,588 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:39:55,591 - INFO - Successfully fetched 8 items.
+2025-03-05 16:39:55,617 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:39:55,620 - INFO - Successfully fetched 8 items.
+2025-03-05 16:47:38,510 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-05 16:47:38,513 - INFO - Successfully fetched 8 items.
+2025-03-06 08:20:02,485 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:20:02,655 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:20:02,684 - INFO - Successfully fetched 8 items.
+2025-03-06 08:20:02,714 - INFO - Successfully fetched 8 items.
+2025-03-06 08:20:09,890 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0MjAwOSwianRpIjoiYmQ2ZmMxODAtZTViNC00YjM0LTg5MzgtZDczYmQzZWJjMmU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDIwMDksImNzcmYiOiI5NWE2M2M0Ni0yNGVhLTQ2ZDYtYjU2MS1mZDJkMjE0ZTYyMTUiLCJleHAiOjE3NDEyNDI5MDl9.iKgyOl_LpVY88r11BiEwKWIzv01fOEMqGFGRgK2_KAI
+2025-03-06 08:20:09,890 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:20:25,882 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0MjAyNSwianRpIjoiNzBlM2MxZWMtMTgxMy00ZTQ0LWIzY2QtOWNlNzNiNGIyODc5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEyNDIwMjUsImNzcmYiOiI3YmY1ZTNhNi0zYTIyLTRhMzEtOTE5YS1mZTdlMWMxODc3ZjIiLCJleHAiOjE3NDEyNDI5MjV9.0_7mXqQ83t2D8YmF9GgJh5Nw_jhGt7VGlbGGmutc71E
+2025-03-06 08:20:25,883 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-06 08:27:58,689 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0MjAyNSwianRpIjoiNzBlM2MxZWMtMTgxMy00ZTQ0LWIzY2QtOWNlNzNiNGIyODc5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEyNDIwMjUsImNzcmYiOiI3YmY1ZTNhNi0zYTIyLTRhMzEtOTE5YS1mZTdlMWMxODc3ZjIiLCJleHAiOjE3NDEyNDI5MjV9.0_7mXqQ83t2D8YmF9GgJh5Nw_jhGt7VGlbGGmutc71E
+2025-03-06 08:27:58,690 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-06 08:27:58,711 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:27:58,713 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:27:58,715 - INFO - Successfully fetched 8 items.
+2025-03-06 08:27:58,718 - INFO - Successfully fetched 8 items.
+2025-03-06 08:28:18,162 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0MjAyNSwianRpIjoiNzBlM2MxZWMtMTgxMy00ZTQ0LWIzY2QtOWNlNzNiNGIyODc5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEyNDIwMjUsImNzcmYiOiI3YmY1ZTNhNi0zYTIyLTRhMzEtOTE5YS1mZTdlMWMxODc3ZjIiLCJleHAiOjE3NDEyNDI5MjV9.0_7mXqQ83t2D8YmF9GgJh5Nw_jhGt7VGlbGGmutc71E
+2025-03-06 08:28:18,162 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-06 08:30:19,407 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:30:19,410 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0MjAyNSwianRpIjoiNzBlM2MxZWMtMTgxMy00ZTQ0LWIzY2QtOWNlNzNiNGIyODc5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEyNDIwMjUsImNzcmYiOiI3YmY1ZTNhNi0zYTIyLTRhMzEtOTE5YS1mZTdlMWMxODc3ZjIiLCJleHAiOjE3NDEyNDI5MjV9.0_7mXqQ83t2D8YmF9GgJh5Nw_jhGt7VGlbGGmutc71E
+2025-03-06 08:30:19,411 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-06 08:30:19,412 - INFO - Successfully fetched 8 items.
+2025-03-06 08:30:19,471 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:30:19,474 - INFO - Successfully fetched 8 items.
+2025-03-06 08:30:50,080 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0MjAyNSwianRpIjoiNzBlM2MxZWMtMTgxMy00ZTQ0LWIzY2QtOWNlNzNiNGIyODc5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEyNDIwMjUsImNzcmYiOiI3YmY1ZTNhNi0zYTIyLTRhMzEtOTE5YS1mZTdlMWMxODc3ZjIiLCJleHAiOjE3NDEyNDI5MjV9.0_7mXqQ83t2D8YmF9GgJh5Nw_jhGt7VGlbGGmutc71E
+2025-03-06 08:30:50,080 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-06 08:33:15,496 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:33:15,502 - INFO - Successfully fetched 8 items.
+2025-03-06 08:33:15,553 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0MjAyNSwianRpIjoiNzBlM2MxZWMtMTgxMy00ZTQ0LWIzY2QtOWNlNzNiNGIyODc5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDEyNDIwMjUsImNzcmYiOiI3YmY1ZTNhNi0zYTIyLTRhMzEtOTE5YS1mZTdlMWMxODc3ZjIiLCJleHAiOjE3NDEyNDI5MjV9.0_7mXqQ83t2D8YmF9GgJh5Nw_jhGt7VGlbGGmutc71E
+2025-03-06 08:33:15,554 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-06 08:33:15,641 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:33:15,643 - INFO - Successfully fetched 8 items.
+2025-03-06 08:35:54,878 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:35:54,882 - INFO - Successfully fetched 8 items.
+2025-03-06 08:35:54,999 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:35:55,002 - INFO - Successfully fetched 8 items.
+2025-03-06 08:35:59,552 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:35:59,553 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:36:02,521 - INFO - User ID: 3
+2025-03-06 08:36:02,522 - INFO - Received data: {'article': '820108RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF для ручного інструменту', 'price': '857', 'currency': 'UAH'}
+2025-03-06 08:36:02,542 - INFO - Item successfully added to cart!
+2025-03-06 08:36:03,865 - INFO - User ID: 3
+2025-03-06 08:36:03,865 - INFO - Received data: {'article': '820205RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 125 RELIEF ULTRA для ручного інструменту', 'price': '918', 'currency': 'UAH'}
+2025-03-06 08:36:03,870 - INFO - Item successfully added to cart!
+2025-03-06 08:36:05,705 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:36:05,705 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:36:05,711 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:36:05,712 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:36:32,004 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:36:32,004 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:36:32,015 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:36:32,017 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:36:59,123 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:36:59,125 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:36:59,130 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:36:59,133 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:38:01,509 - INFO - item with 820205RLFU removed from cart
+2025-03-06 08:38:02,484 - INFO - item with 820108RLF removed from cart
+2025-03-06 08:38:05,068 - INFO - item with 820204RLF removed from cart
+2025-03-06 08:38:39,149 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:38:39,153 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:38:39,154 - INFO - Successfully fetched 8 items.
+2025-03-06 08:38:39,154 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:38:39,198 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0Mjk1OSwianRpIjoiOGRlZWU3NTQtMmRkOS00ZDdhLTg1ZDgtZmZmYTc3YjRjZDA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDI5NTksImNzcmYiOiI5NTQyMWZjMy0yYzZlLTQ3ZjgtYjkyNi02NTk2MDMwZjc2OTkiLCJleHAiOjE3NDEyNDM4NTl9._nx50HlnXBve4cA5eYQPX2rOlpxiy-uDZuZKQHv_6_U
+2025-03-06 08:38:39,198 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 08:38:39,202 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 08:38:39,204 - INFO - Successfully fetched 8 items.
+2025-03-06 10:14:25,002 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:14:25,035 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:14:25,177 - INFO - Successfully fetched 8 items.
+2025-03-06 10:14:25,185 - INFO - Successfully fetched 8 items.
+2025-03-06 10:14:34,539 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0ODg3NCwianRpIjoiZmM0ZDc3NGUtZDUxZS00MDJkLTg5YjEtMmE3MmEyNmRkN2JjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDg4NzQsImNzcmYiOiI5MWRlM2EzNS1mMzZkLTRjN2EtYjJkMS0wMmNjNzcyNzEwYmMiLCJleHAiOjE3NDEyNDk3NzR9.C1pHwergzFrv4Ayfm6Yz7l6AJs8J46Ims3ZVZj34stY
+2025-03-06 10:14:34,541 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 10:14:37,943 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-06 10:14:37,947 - INFO - Successfully fetched 5 items.
+2025-03-06 10:27:31,258 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:27:31,322 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI0ODg3NCwianRpIjoiZmM0ZDc3NGUtZDUxZS00MDJkLTg5YjEtMmE3MmEyNmRkN2JjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNDg4NzQsImNzcmYiOiI5MWRlM2EzNS1mMzZkLTRjN2EtYjJkMS0wMmNjNzcyNzEwYmMiLCJleHAiOjE3NDEyNDk3NzR9.C1pHwergzFrv4Ayfm6Yz7l6AJs8J46Ims3ZVZj34stY
+2025-03-06 10:27:31,322 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 10:27:31,429 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:27:31,504 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:27:31,509 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:27:31,540 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 73, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:27:31,544 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 73, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:30:26,660 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:30:26,686 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:30:26,819 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:30:26,832 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 73, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:30:26,839 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:30:26,843 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 73, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "sharpening_stones" не существует
+LINE 3: FROM products JOIN sharpening_stones ON products.article = s...
+                           ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT products.article AS products_article, products.category AS products_category, products.line AS products_line, products.subline AS products_subline, products.title AS products_title, products.price AS products_price, products.currency AS products_currency, products.unit AS products_unit, products.images AS products_images, products.available AS products_available, products.name_param1 AS products_name_param1, products.unit_param1 AS products_unit_param1, products.value_param1 AS products_value_param1, products.name_param2 AS products_name_param2, products.unit_param2 AS products_unit_param2, products.value_param2 AS products_value_param2, products.name_param3 AS products_name_param3, products.unit_param3 AS products_unit_param3, products.value_param3 AS products_value_param3, products.name_param4 AS products_name_param4, products.unit_param4 AS products_unit_param4, products.value_param4 AS products_value_param4, products.name_param5 AS products_name_param5, products.unit_param5 AS products_unit_param5, products.value_param5 AS products_value_param5, products.name_param6 AS products_name_param6, products.unit_param6 AS products_unit_param6, products.value_param6 AS products_value_param6, products.name_param7 AS products_name_param7, products.unit_param7 AS products_unit_param7, products.value_param7 AS products_value_param7, sharpening_stones.article AS sharpening_stones_article, sharpening_stones.category AS sharpening_stones_category, sharpening_stones.line AS sharpening_stones_line, sharpening_stones.subline AS sharpening_stones_subline, sharpening_stones.title AS sharpening_stones_title, sharpening_stones.price AS sharpening_stones_price, sharpening_stones.currency AS sharpening_stones_currency, sharpening_stones.unit AS sharpening_stones_unit, sharpening_stones.images AS sharpening_stones_images, sharpening_stones.available AS sharpening_stones_available, sharpening_stones.name_param1 AS sharpening_stones_name_param1, sharpening_stones.unit_param1 AS sharpening_stones_unit_param1, sharpening_stones.value_param1 AS sharpening_stones_value_param1, sharpening_stones.name_param2 AS sharpening_stones_name_param2, sharpening_stones.unit_param2 AS sharpening_stones_unit_param2, sharpening_stones.value_param2 AS sharpening_stones_value_param2, sharpening_stones.name_param3 AS sharpening_stones_name_param3, sharpening_stones.unit_param3 AS sharpening_stones_unit_param3, sharpening_stones.value_param3 AS sharpening_stones_value_param3 
+FROM products JOIN sharpening_stones ON products.article = sharpening_stones.article) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:50:32,283 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:50:32,479 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:50:32,588 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:50:32,589 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:50:32,613 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 101, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:50:32,616 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 101, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:56:42,357 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:56:42,477 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:56:42,496 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 101, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:56:42,520 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:56:42,523 - ERROR - Error occurred: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-06 10:56:42,527 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\catalog.py", line 101, in return_products
+    total_items = query.count()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 3142, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2831, in scalar
+    ret = self.one()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2804, in one
+    return self._iter().one()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "tools" не существует
+LINE 3: FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool...
+             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tools.id AS tools_id, tools."Article" AS "tools_Article", tools."Category" AS "tools_Category", tools."Line" AS "tools_Line", tools."Subline" AS "tools_Subline", tools."Title" AS "tools_Title", tools."Price" AS "tools_Price", tools."Currency" AS "tools_Currency", tools."Unit" AS "tools_Unit", tools."Images" AS "tools_Images", tools."Available" AS "tools_Available", tools."Name_param1" AS "tools_Name_param1", tools."Unit_param1" AS "tools_Unit_param1", tools."Value_param1" AS "tools_Value_param1", tools."Name_param2" AS "tools_Name_param2", tools."Unit_param2" AS "tools_Unit_param2", tools."Value_param2" AS "tools_Value_param2", tools."Name_param3" AS "tools_Name_param3", tools."Unit_param3" AS "tools_Unit_param3", tools."Value_param3" AS "tools_Value_param3", tool_inventory.id AS tool_inventory_id, tool_inventory.tool_id AS tool_inventory_tool_id, tool_inventory.quantity AS tool_inventory_quantity, tool_inventory.warehouse AS tool_inventory_warehouse, tool_inventory.last_updated AS tool_inventory_last_updated 
+FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-06 10:57:58,040 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:57:58,056 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 10:57:58,155 - INFO - Successfully fetched 8 items.
+2025-03-06 10:57:58,156 - INFO - Successfully fetched 8 items.
+2025-03-06 13:16:43,121 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:16:43,248 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:16:43,369 - INFO - Successfully fetched 8 items.
+2025-03-06 13:16:43,370 - INFO - Successfully fetched 8 items.
+2025-03-06 13:28:32,815 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:28:32,817 - INFO - Successfully fetched 8 items.
+2025-03-06 13:28:32,864 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:28:32,866 - INFO - Successfully fetched 8 items.
+2025-03-06 13:29:14,797 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:29:14,804 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:29:14,885 - INFO - Successfully fetched 8 items.
+2025-03-06 13:29:14,886 - INFO - Successfully fetched 8 items.
+2025-03-06 13:30:56,162 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-06 13:30:56,333 - INFO - Successfully fetched 8 items.
+2025-03-06 13:30:57,471 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-06 13:30:57,474 - INFO - Successfully fetched 5 items.
+2025-03-06 13:31:02,430 - INFO - Request for catalog received. Page: 22, Items per page: 8
+2025-03-06 13:31:02,432 - INFO - Successfully fetched 8 items.
+2025-03-06 13:31:08,494 - INFO - Request for catalog received. Page: 21, Items per page: 8
+2025-03-06 13:31:08,496 - INFO - Successfully fetched 8 items.
+2025-03-06 13:31:12,606 - INFO - Request for catalog received. Page: 20, Items per page: 8
+2025-03-06 13:31:12,608 - INFO - Successfully fetched 8 items.
+2025-03-06 13:31:15,070 - INFO - Request for catalog received. Page: 19, Items per page: 8
+2025-03-06 13:31:15,072 - INFO - Successfully fetched 8 items.
+2025-03-06 13:31:16,845 - INFO - Request for catalog received. Page: 18, Items per page: 8
+2025-03-06 13:31:16,847 - INFO - Successfully fetched 8 items.
+2025-03-06 13:31:19,421 - INFO - Request for catalog received. Page: 17, Items per page: 8
+2025-03-06 13:31:19,423 - INFO - Successfully fetched 8 items.
+2025-03-06 13:31:23,343 - INFO - Request for catalog received. Page: 16, Items per page: 8
+2025-03-06 13:31:23,345 - INFO - Successfully fetched 8 items.
+2025-03-06 13:31:26,039 - INFO - Request for catalog received. Page: 15, Items per page: 8
+2025-03-06 13:31:26,041 - INFO - Successfully fetched 8 items.
+2025-03-06 13:32:05,850 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:32:05,855 - INFO - Successfully fetched 8 items.
+2025-03-06 13:32:05,908 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:32:05,911 - INFO - Successfully fetched 8 items.
+2025-03-06 13:34:40,976 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:34:41,208 - INFO - Successfully fetched 8 items.
+2025-03-06 13:39:44,921 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:39:44,924 - INFO - Successfully fetched 8 items.
+2025-03-06 13:39:45,009 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:39:45,013 - INFO - Successfully fetched 8 items.
+2025-03-06 13:43:40,713 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:43:40,716 - INFO - Successfully fetched 8 items.
+2025-03-06 13:48:36,272 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:48:36,371 - INFO - Successfully fetched 8 items.
+2025-03-06 13:49:18,149 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:49:18,287 - INFO - Successfully fetched 8 items.
+2025-03-06 13:49:21,434 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 13:49:22,624 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 13:52:04,416 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:52:04,537 - INFO - Successfully fetched 8 items.
+2025-03-06 13:55:11,760 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:55:11,765 - INFO - Successfully fetched 8 items.
+2025-03-06 13:55:48,281 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 13:55:51,106 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 13:55:51,963 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 13:55:52,472 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 13:59:26,590 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 13:59:26,594 - INFO - Successfully fetched 8 items.
+2025-03-06 14:02:03,589 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:08,577 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:15,992 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:25,044 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:26,126 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:26,694 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:27,093 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:27,461 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:28,228 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 14:04:30,323 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 14:04:30,325 - INFO - Successfully fetched 8 items.
+2025-03-06 14:04:31,441 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-06 14:04:31,442 - INFO - Successfully fetched 8 items.
+2025-03-06 14:04:32,343 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-06 14:04:32,346 - INFO - Successfully fetched 8 items.
+2025-03-06 14:04:36,302 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 14:04:36,305 - INFO - Successfully fetched 8 items.
+2025-03-06 14:17:41,034 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 14:17:41,146 - INFO - Successfully fetched 8 items.
+2025-03-06 15:01:57,372 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 15:01:57,375 - INFO - Successfully fetched 8 items.
+2025-03-06 15:04:29,773 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:04:30,225 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:04:30,751 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:04:31,959 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:09:28,971 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:09:33,904 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:09:39,178 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 15:09:39,181 - INFO - Successfully fetched 8 items.
+2025-03-06 15:09:40,901 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-06 15:09:40,903 - INFO - Successfully fetched 8 items.
+2025-03-06 15:09:41,939 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-06 15:09:41,942 - INFO - Successfully fetched 8 items.
+2025-03-06 15:17:29,200 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 15:17:29,204 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2NzA0OSwianRpIjoiN2NhNjFiYzctNDJiZC00ODc2LTk3MDktOTRhYmRkYTMxMDZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjcwNDksImNzcmYiOiI5ZjZhMzhlZi0xOWVmLTRkOTItYjkxNy0wNzRmZTljNDFmNGIiLCJleHAiOjE3NDEyNjc5NDl9.CzsGBgRutqRKirZIjvrhihSIPDmXwyEnafSY8U5_dm4
+2025-03-06 15:17:29,207 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 15:17:29,208 - INFO - Successfully fetched 8 items.
+2025-03-06 15:17:32,834 - INFO - User ID: 3
+2025-03-06 15:17:32,834 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-06 15:17:32,854 - INFO - Item successfully added to cart!
+2025-03-06 15:17:33,537 - INFO - User ID: 3
+2025-03-06 15:17:33,537 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH'}
+2025-03-06 15:17:33,542 - INFO - Item successfully added to cart!
+2025-03-06 15:17:36,120 - INFO - User ID: 3
+2025-03-06 15:17:36,121 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH'}
+2025-03-06 15:17:36,123 - INFO - Item successfully added to cart!
+2025-03-06 15:17:37,034 - INFO - User ID: 3
+2025-03-06 15:17:37,034 - INFO - Received data: {'article': '820205RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 125 RELIEF ULTRA для ручного інструменту', 'price': '918', 'currency': 'UAH'}
+2025-03-06 15:17:37,037 - INFO - Item successfully added to cart!
+2025-03-06 15:19:44,078 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:19:44,857 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:19:45,317 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 15:19:48,607 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2NzA0OSwianRpIjoiN2NhNjFiYzctNDJiZC00ODc2LTk3MDktOTRhYmRkYTMxMDZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjcwNDksImNzcmYiOiI5ZjZhMzhlZi0xOWVmLTRkOTItYjkxNy0wNzRmZTljNDFmNGIiLCJleHAiOjE3NDEyNjc5NDl9.CzsGBgRutqRKirZIjvrhihSIPDmXwyEnafSY8U5_dm4
+2025-03-06 15:19:48,607 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 15:19:48,616 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2NzA0OSwianRpIjoiN2NhNjFiYzctNDJiZC00ODc2LTk3MDktOTRhYmRkYTMxMDZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjcwNDksImNzcmYiOiI5ZjZhMzhlZi0xOWVmLTRkOTItYjkxNy0wNzRmZTljNDFmNGIiLCJleHAiOjE3NDEyNjc5NDl9.CzsGBgRutqRKirZIjvrhihSIPDmXwyEnafSY8U5_dm4
+2025-03-06 15:19:48,617 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 15:57:06,896 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 15:57:06,901 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 15:57:06,903 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 15:57:06,904 - INFO - Successfully fetched 8 items.
+2025-03-06 15:57:11,629 - INFO - item with 820205RLFU removed from cart
+2025-03-06 15:57:13,201 - INFO - item with 820109RLFU removed from cart
+2025-03-06 15:57:13,605 - INFO - item with 820203CRMSu removed from cart
+2025-03-06 15:57:13,990 - INFO - item with 820101CRMSu removed from cart
+2025-03-06 15:57:19,084 - INFO - item with 820401CRMG removed from cart
+2025-03-06 15:57:19,711 - INFO - item with 820501CRMG removed from cart
+2025-03-06 15:57:21,124 - INFO - User ID: 3
+2025-03-06 15:57:21,124 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH'}
+2025-03-06 15:57:21,127 - INFO - Item successfully added to cart!
+2025-03-06 16:05:41,034 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 16:05:41,034 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:05:41,040 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 16:05:41,040 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:06:09,584 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:06:09,589 - INFO - Successfully fetched 8 items.
+2025-03-06 16:06:09,601 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 16:06:09,602 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:06:09,612 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 16:06:09,612 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:06:16,311 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 16:06:19,217 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-06 16:06:22,728 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 16:06:22,729 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:06:25,228 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:06:25,231 - INFO - Successfully fetched 8 items.
+2025-03-06 16:07:08,008 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-06 16:07:08,010 - INFO - Successfully fetched 5 items.
+2025-03-06 16:07:09,663 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:07:09,669 - INFO - Successfully fetched 8 items.
+2025-03-06 16:08:42,531 - INFO - User ID: 3
+2025-03-06 16:08:42,531 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH'}
+2025-03-06 16:08:42,534 - INFO - Item successfully added to cart!
+2025-03-06 16:08:43,749 - INFO - User ID: 3
+2025-03-06 16:08:43,749 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH'}
+2025-03-06 16:08:43,757 - INFO - Item successfully added to cart!
+2025-03-06 16:08:46,009 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 16:08:46,010 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:08:46,082 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI2OTQyNiwianRpIjoiZDhjYTgxM2ItZjMyMi00YjUwLWE0ODAtZDA2YzRkOTRmYzBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNjk0MjYsImNzcmYiOiI1NTY3NzRjMC1lNjcwLTRmYmUtODI1OS05NzllMTFjM2EwNWQiLCJleHAiOjE3NDEyNzAzMjZ9.FbEDwsitLHHSZ56jdY4C5vCXvwzzQlSC81KokenzLWE
+2025-03-06 16:08:46,082 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:10:04,366 - INFO - item with 820101CRMSu removed from cart
+2025-03-06 16:23:11,255 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:23:11,258 - INFO - Successfully fetched 8 items.
+2025-03-06 16:35:09,686 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:35:09,689 - INFO - Successfully fetched 8 items.
+2025-03-06 16:36:11,790 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:36:11,794 - INFO - Successfully fetched 8 items.
+2025-03-06 16:36:11,820 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:11,820 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:15,397 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:15,397 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:15,403 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:15,404 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:17,982 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:17,982 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:17,995 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:17,997 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:19,434 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:19,434 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:19,439 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:19,440 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:20,421 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:20,422 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:20,434 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:36:20,435 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:36:30,419 - INFO - Request for catalog received. Page: 23, Items per page: 8
+2025-03-06 16:36:30,422 - INFO - Successfully fetched 5 items.
+2025-03-06 16:38:56,853 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:38:56,856 - INFO - Successfully fetched 8 items.
+2025-03-06 16:38:56,859 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:38:56,859 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:38:56,878 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:38:56,879 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:39:55,912 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:39:55,931 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:39:55,942 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:39:55,943 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:48,545 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:50:48,547 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:48,547 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:48,548 - INFO - Successfully fetched 8 items.
+2025-03-06 16:50:48,563 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:48,566 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:55,296 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:55,296 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:55,302 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:55,306 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:57,280 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:57,280 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:57,295 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:57,295 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:58,866 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:58,866 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:50:58,880 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:50:58,880 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:51:00,743 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:51:00,743 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:51:00,754 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MTc3MSwianRpIjoiMDQzM2YxZWYtZjJhZS00MjcxLWJmNTYtZWNjZTI0YmE5ZmFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzE3NzEsImNzcmYiOiI5ZjVlN2Q3YS05Y2Q2LTQ0YzAtYjBmMC1mOGUxNTE2MmEzMzUiLCJleHAiOjE3NDEyNzI2NzF9.Kbs3S20FK9bPs-syAs2HP713NNqMxi7QAR6tM9o_okQ
+2025-03-06 16:51:00,755 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:53:00,267 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:53:00,269 - INFO - Successfully fetched 8 items.
+2025-03-06 16:55:01,585 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-06 16:55:01,590 - INFO - Successfully fetched 8 items.
+2025-03-06 16:55:38,000 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MjkzNywianRpIjoiMzk5YmQxYjgtOGE2ZC00YWQyLWFhZGYtM2E0ZmQ0OGYzMDFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzI5MzcsImNzcmYiOiJlM2FiZGVhZi02OTUwLTRlOTQtOWQxOS05YjBmMDczZGMxNTMiLCJleHAiOjE3NDEyNzM4Mzd9.nxTGMBdI7I2FgWIeDi9IYZ6sKFpPkPRVSNxdtyqWj4M
+2025-03-06 16:55:38,003 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:55:43,034 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MjkzNywianRpIjoiMzk5YmQxYjgtOGE2ZC00YWQyLWFhZGYtM2E0ZmQ0OGYzMDFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzI5MzcsImNzcmYiOiJlM2FiZGVhZi02OTUwLTRlOTQtOWQxOS05YjBmMDczZGMxNTMiLCJleHAiOjE3NDEyNzM4Mzd9.nxTGMBdI7I2FgWIeDi9IYZ6sKFpPkPRVSNxdtyqWj4M
+2025-03-06 16:55:43,035 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:55:43,040 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MjkzNywianRpIjoiMzk5YmQxYjgtOGE2ZC00YWQyLWFhZGYtM2E0ZmQ0OGYzMDFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzI5MzcsImNzcmYiOiJlM2FiZGVhZi02OTUwLTRlOTQtOWQxOS05YjBmMDczZGMxNTMiLCJleHAiOjE3NDEyNzM4Mzd9.nxTGMBdI7I2FgWIeDi9IYZ6sKFpPkPRVSNxdtyqWj4M
+2025-03-06 16:55:43,041 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:55:46,892 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MjkzNywianRpIjoiMzk5YmQxYjgtOGE2ZC00YWQyLWFhZGYtM2E0ZmQ0OGYzMDFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzI5MzcsImNzcmYiOiJlM2FiZGVhZi02OTUwLTRlOTQtOWQxOS05YjBmMDczZGMxNTMiLCJleHAiOjE3NDEyNzM4Mzd9.nxTGMBdI7I2FgWIeDi9IYZ6sKFpPkPRVSNxdtyqWj4M
+2025-03-06 16:55:46,892 - INFO - Extracted user ID: 3 (type: <class 'str'>)
+2025-03-06 16:55:46,923 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTI3MjkzNywianRpIjoiMzk5YmQxYjgtOGE2ZC00YWQyLWFhZGYtM2E0ZmQ0OGYzMDFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3NDEyNzI5MzcsImNzcmYiOiJlM2FiZGVhZi02OTUwLTRlOTQtOWQxOS05YjBmMDczZGMxNTMiLCJleHAiOjE3NDEyNzM4Mzd9.nxTGMBdI7I2FgWIeDi9IYZ6sKFpPkPRVSNxdtyqWj4M
+2025-03-06 16:55:46,923 - INFO - Extracted user ID: 3 (type: <class 'str'>)
