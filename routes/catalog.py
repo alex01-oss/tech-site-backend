@@ -9,7 +9,7 @@ from schemas.query_schema import CatalogQuerySchema
 catalog_bp = Blueprint('catalog', __name__)
 
 @catalog_bp.route("/api/catalog", methods=['GET'])
-@cache.cached(timeout=60, query_string=True)
+@cache.cached(timeout=300, query_string=True)
 def return_products():
     
     """
@@ -56,15 +56,15 @@ def return_products():
 
         if search_query:
             if search_type == 'name':
-                query = query.filter(Tool.Title.ilike(f"%{search_query}%"))
+                query = query.filter(Tool.title.ilike(f"%{search_query}%"))
             elif search_type == 'brand':
-                query = query.filter(Tool.Category.ilike(f"%{search_query}%"))
+                query = query.filter(Tool.category.ilike(f"%{search_query}%"))
             elif search_type == 'specs':
                 query = query.filter(
-                    (Tool.Value_param1.ilike(f"%{search_query}%")) |
-                    (Tool.Value_param2.ilike(f"%{search_query}%")) |
-                    (Tool.Value_param3.ilike(f"%{search_query}%")) |
-                    (Tool.Value_param4.ilike(f"%{search_query}%"))
+                    (Tool.value_param1.ilike(f"%{search_query}%")) |
+                    (Tool.value_param2.ilike(f"%{search_query}%")) |
+                    (Tool.value_param3.ilike(f"%{search_query}%")) |
+                    (Tool.value_param4.ilike(f"%{search_query}%"))
                 )
 
         total_items = query.count()

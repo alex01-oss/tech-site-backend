@@ -1,8 +1,11 @@
 import json
+import time
 from flask import Blueprint, jsonify
+from extensions import cache
 
 menu_bp = Blueprint('menu', __name__)
 
+@cache.cached(timeout=60)
 @menu_bp.route("/api/menu", methods=['GET'])
 def return_menu():
     

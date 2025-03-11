@@ -1,10 +1,13 @@
 from flask import Blueprint, jsonify, request
 from flask_jwt_extended import create_access_token
+# from config.config import Config
 from models.user import User
 from extensions import db
+# from extensions import limiter
 
 register_bp = Blueprint('register', __name__)
 
+# @limiter.limit(Config.LIMIT_PER_MINUTE)
 @register_bp.route("/api/register", methods=['POST'])
 def register():
     

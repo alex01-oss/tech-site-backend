@@ -4,9 +4,11 @@ from flask_jwt_extended import get_jwt_identity, jwt_required
 from extensions import logger
 from schemas.cart_schema import CartResponseSchema as Cart
 from models.cart import CartItem
+from extensions import cache
 
 get_cart_bp = Blueprint('get_cart', __name__)
 
+@cache.cached(timeout=5)
 @get_cart_bp.route("/api/cart", methods=['GET'])
 @jwt_required()
 def get_cart():

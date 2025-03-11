@@ -1,9 +1,12 @@
 from flask import Blueprint, jsonify, request
 from models.user import User
 from flask_jwt_extended import create_access_token
+# from extensions import limiter
+# from config.config import Config
 
 login_bp = Blueprint('login', __name__)
 
+# @limiter.limit(Config.LIMIT_PER_MINUTE)
 @login_bp.route("/api/login", methods=['POST'])
 def login():
     
