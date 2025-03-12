@@ -10094,3 +10094,270 @@ FROM tools LEFT OUTER JOIN tool_inventory ON tools.id = tool_inventory.tool_id) 
 2025-03-11 08:16:22,407 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY3Mzc4MiwianRpIjoiOWQ3ZDA5NjQtZjQ3Zi00YzIyLTkxMDYtOWVkZDQyZGIwYTBlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDE2NzM3ODIsImNzcmYiOiJjMDM0MTU3My0yOWQ1LTQwYzktYTYwOC1hM2VmNmU0ZDJkZDQiLCJleHAiOjE3NDE2NzQ2ODJ9.XP-Coem9oE0zFvdsNO1LMBkqlqN6nbUduVS61vyk6BA
 2025-03-11 08:16:22,408 - INFO - Extracted user ID: 1 (type: <class 'str'>)
 2025-03-11 08:18:00,247 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 09:34:15,673 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 09:34:15,935 - INFO - Successfully fetched 8 items.
+2025-03-11 11:34:38,997 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 11:34:39,025 - INFO - Successfully fetched 8 items.
+2025-03-11 11:40:33,383 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 11:40:33,396 - INFO - Successfully fetched 8 items.
+2025-03-11 11:40:33,397 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY4NjAzMywianRpIjoiZGI3OTAxMDMtN2Q1YS00M2IzLWFmNzQtMmM5ZDE2MDU3OWNiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDE2ODYwMzMsImNzcmYiOiIwMTU3M2Y3Ny0zY2Q4LTQzYmYtODg1Zi1lYzlkMWYxOTg1NWQiLCJleHAiOjE3NDE2ODY5MzN9.KFcEfnsgc2PDQIaltuH3z03E7oBWMrb_tOuSWcsm_pQ
+2025-03-11 11:40:33,398 - INFO - Extracted user ID: 1 (type: <class 'str'>)
+2025-03-11 11:41:04,237 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY4NjA2MywianRpIjoiYWZkZmEyOWMtNWVhYS00YzQ3LThlMjEtOWUzMTg2NDc3MDAyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2ODYwNjMsImNzcmYiOiI2OTE5ZGRiOC04MmI5LTQ2MjYtODEwYy1kNzZjNWZhZjdmM2YiLCJleHAiOjE3NDE2ODY5NjN9.ID0dfgglb9mTQgoSRDZ-89a_PG6H8yrIifLGqW65r9s
+2025-03-11 11:41:04,250 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 11:41:09,052 - INFO - User ID: 5
+2025-03-11 11:41:09,053 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-11 11:41:09,063 - INFO - Item successfully added to cart!
+2025-03-11 11:41:10,008 - INFO - User ID: 5
+2025-03-11 11:41:10,008 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-4.jpg'}
+2025-03-11 11:41:10,014 - INFO - Item successfully added to cart!
+2025-03-11 11:41:10,731 - INFO - User ID: 5
+2025-03-11 11:41:10,732 - INFO - Received data: {'article': '820108RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF для ручного інструменту', 'price': '857', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-4.jpg'}
+2025-03-11 11:41:10,735 - INFO - Item successfully added to cart!
+2025-03-11 11:41:11,539 - INFO - User ID: 5
+2025-03-11 11:41:11,541 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-4.jpg'}
+2025-03-11 11:41:11,546 - INFO - Item successfully added to cart!
+2025-03-11 11:41:11,955 - INFO - User ID: 5
+2025-03-11 11:41:11,956 - INFO - Received data: {'article': '820204RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 125 RELIEF для ручного інструменту', 'price': '793', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_125.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_125-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_125-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_125-4.jpg'}
+2025-03-11 11:41:11,960 - INFO - Item successfully added to cart!
+2025-03-11 11:41:12,579 - INFO - User ID: 5
+2025-03-11 11:41:12,580 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-4.jpg'}
+2025-03-11 11:41:12,583 - INFO - Item successfully added to cart!
+2025-03-11 11:41:14,216 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY4NjA2MywianRpIjoiYWZkZmEyOWMtNWVhYS00YzQ3LThlMjEtOWUzMTg2NDc3MDAyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2ODYwNjMsImNzcmYiOiI2OTE5ZGRiOC04MmI5LTQ2MjYtODEwYy1kNzZjNWZhZjdmM2YiLCJleHAiOjE3NDE2ODY5NjN9.ID0dfgglb9mTQgoSRDZ-89a_PG6H8yrIifLGqW65r9s
+2025-03-11 11:41:14,217 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 11:47:43,487 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 11:47:43,493 - INFO - Successfully fetched 8 items.
+2025-03-11 11:48:01,536 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY4NjQ4MSwianRpIjoiN2MzOGVkYmEtOGQ5OS00OTM0LTg5OGItYjBhY2UwOTM2ZGFmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2ODY0ODEsImNzcmYiOiJkZDU2NjRmZi1lZTc0LTQ4ZDktYjNhYi0wYWM2ZmY3YTI5MzEiLCJleHAiOjE3NDE2ODczODF9.N90NFK7nGWZZh9igEDlMOh4Lgh9FxdKb5Fj9d6wvTF8
+2025-03-11 11:48:01,537 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 11:54:02,516 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 11:54:02,520 - INFO - Successfully fetched 8 items.
+2025-03-11 11:54:02,592 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY4NjQ4MSwianRpIjoiN2MzOGVkYmEtOGQ5OS00OTM0LTg5OGItYjBhY2UwOTM2ZGFmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2ODY0ODEsImNzcmYiOiJkZDU2NjRmZi1lZTc0LTQ4ZDktYjNhYi0wYWM2ZmY3YTI5MzEiLCJleHAiOjE3NDE2ODczODF9.N90NFK7nGWZZh9igEDlMOh4Lgh9FxdKb5Fj9d6wvTF8
+2025-03-11 11:54:02,593 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 13:05:50,099 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 13:05:50,256 - INFO - Successfully fetched 8 items.
+2025-03-11 13:08:26,348 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5MTMwNiwianRpIjoiNmM1ZjdkODItZThlNS00ZGEzLWE0YTQtZDMxNmI3NDU1YTEyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTEzMDYsImNzcmYiOiJiMzk0MzkxNC03ZTgxLTQ1YjUtYmEyMy1hNmU2Mjc0ZTBiODEiLCJleHAiOjE3NDE2OTIyMDZ9.RuHQx-t9oNNpjiV2P-I9KZ_F8kYmQUlwslAE0A4MSZQ
+2025-03-11 13:08:26,351 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 13:08:39,594 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5MTMwNiwianRpIjoiNmM1ZjdkODItZThlNS00ZGEzLWE0YTQtZDMxNmI3NDU1YTEyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTEzMDYsImNzcmYiOiJiMzk0MzkxNC03ZTgxLTQ1YjUtYmEyMy1hNmU2Mjc0ZTBiODEiLCJleHAiOjE3NDE2OTIyMDZ9.RuHQx-t9oNNpjiV2P-I9KZ_F8kYmQUlwslAE0A4MSZQ
+2025-03-11 13:08:39,597 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 13:08:39,612 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5MTMwNiwianRpIjoiNmM1ZjdkODItZThlNS00ZGEzLWE0YTQtZDMxNmI3NDU1YTEyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTEzMDYsImNzcmYiOiJiMzk0MzkxNC03ZTgxLTQ1YjUtYmEyMy1hNmU2Mjc0ZTBiODEiLCJleHAiOjE3NDE2OTIyMDZ9.RuHQx-t9oNNpjiV2P-I9KZ_F8kYmQUlwslAE0A4MSZQ
+2025-03-11 13:08:39,614 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 13:51:35,366 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 13:51:35,374 - INFO - Successfully fetched 8 items.
+2025-03-11 14:16:52,317 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 14:16:52,342 - INFO - Successfully fetched 8 items.
+2025-03-11 14:31:02,607 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 14:31:02,613 - INFO - Successfully fetched 8 items.
+2025-03-11 14:31:02,615 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NjI2MiwianRpIjoiN2IwMjUyZmQtNzQwZC00ODY0LThiNGEtZTdmNGIyOTFmNGU5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYiLCJuYmYiOjE3NDE2OTYyNjIsImNzcmYiOiIzNjJjYWFmZi05ZTA4LTQxZDMtOTVmNS1kYzliZTY5MzJiNTAiLCJleHAiOjE3NDE2OTcxNjJ9.yp8bPVGbsty0VZoWpOTGgcsErNbGatwnOi_spSWbaI4
+2025-03-11 14:31:02,617 - INFO - Extracted user ID: 6 (type: <class 'str'>)
+2025-03-11 14:31:15,064 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NjI3NCwianRpIjoiYTkwMzhmNDctZTQxMi00M2UyLThlMGEtOWU5YmMwZWVhMWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjciLCJuYmYiOjE3NDE2OTYyNzQsImNzcmYiOiIyOWI0OTU3Ni1mMTMzLTQ1MjAtYTg1NS1mZDU2NmE1Y2ViZWUiLCJleHAiOjE3NDE2OTcxNzR9.7PJ3dCctfqIMLCB2cRSxFcS-6BNzcl79wAmH1pAYkIo
+2025-03-11 14:31:15,065 - INFO - Extracted user ID: 7 (type: <class 'str'>)
+2025-03-11 14:31:34,343 - INFO - User ID: 7
+2025-03-11 14:31:34,344 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-11 14:31:34,352 - INFO - Item successfully added to cart!
+2025-03-11 14:31:35,956 - INFO - User ID: 7
+2025-03-11 14:31:35,956 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-4.jpg'}
+2025-03-11 14:31:35,959 - INFO - Item successfully added to cart!
+2025-03-11 14:31:37,270 - INFO - User ID: 7
+2025-03-11 14:31:37,271 - INFO - Received data: {'article': '820108RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF для ручного інструменту', 'price': '857', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-4.jpg'}
+2025-03-11 14:31:37,274 - INFO - Item successfully added to cart!
+2025-03-11 14:31:37,891 - INFO - User ID: 7
+2025-03-11 14:31:37,891 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-4.jpg'}
+2025-03-11 14:31:37,894 - INFO - Item successfully added to cart!
+2025-03-11 14:40:12,744 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 14:40:12,747 - INFO - Successfully fetched 8 items.
+2025-03-11 14:40:12,808 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NjI3NCwianRpIjoiYTkwMzhmNDctZTQxMi00M2UyLThlMGEtOWU5YmMwZWVhMWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjciLCJuYmYiOjE3NDE2OTYyNzQsImNzcmYiOiIyOWI0OTU3Ni1mMTMzLTQ1MjAtYTg1NS1mZDU2NmE1Y2ViZWUiLCJleHAiOjE3NDE2OTcxNzR9.7PJ3dCctfqIMLCB2cRSxFcS-6BNzcl79wAmH1pAYkIo
+2025-03-11 14:40:12,809 - INFO - Extracted user ID: 7 (type: <class 'str'>)
+2025-03-11 14:40:45,202 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5Njg0NCwianRpIjoiMmUzMGVjNjUtODY0ZC00NmY5LThiZWUtYjcyZTdhODE3ZDlkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTY4NDQsImNzcmYiOiIxMjkxNTgwYS0zMjdiLTQxOWUtYTQ5YS1mOWU5NzlhNDI2NjIiLCJleHAiOjE3NDE2OTc3NDR9.mNS8pzCaPPgxTI6noIk-QaDYtUelqGsoFpY6skxZzac
+2025-03-11 14:40:45,214 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:47:28,057 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 14:47:28,071 - INFO - Successfully fetched 8 items.
+2025-03-11 14:48:01,913 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:48:01,914 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:49:38,839 - INFO - User ID: 5
+2025-03-11 14:49:38,840 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-4.jpg'}
+2025-03-11 14:49:38,849 - INFO - Item successfully added to cart!
+2025-03-11 14:49:41,909 - INFO - item with 820401CRMG removed from cart
+2025-03-11 14:49:43,617 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:49:43,618 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:49:43,632 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:49:43,633 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:53:01,901 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 14:53:01,905 - INFO - Successfully fetched 8 items.
+2025-03-11 14:53:01,906 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:53:01,908 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:53:01,935 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:53:01,936 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:55:29,498 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 14:55:32,689 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 14:55:34,504 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 14:55:34,980 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 14:56:16,730 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 14:56:17,947 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 14:56:18,774 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-11 14:56:24,710 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:56:24,733 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:56:26,916 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-11 14:56:26,920 - INFO - Successfully fetched 8 items.
+2025-03-11 14:56:27,838 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-11 14:56:27,841 - INFO - Successfully fetched 8 items.
+2025-03-11 14:56:31,448 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:56:31,452 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:56:33,537 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:56:33,540 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:56:36,228 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:56:36,442 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:57:07,141 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:57:07,179 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:57:18,105 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:57:18,106 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:57:20,102 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:57:20,103 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:57:22,250 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:57:22,351 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:58:12,849 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 14:58:12,853 - INFO - Successfully fetched 8 items.
+2025-03-11 14:58:12,858 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:58:12,864 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:58:15,960 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:58:15,965 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:58:18,394 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:58:18,406 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:58:21,467 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:58:21,481 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:58:26,384 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:58:26,387 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:58:30,067 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:58:30,090 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:58:33,393 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:58:33,530 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:59:14,595 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:59:14,601 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:59:19,916 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:59:19,917 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 14:59:28,131 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 14:59:28,139 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 15:02:07,307 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 15:02:07,320 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 15:02:12,002 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTY5NzI2OSwianRpIjoiNGQ4NWVkZTktYzlkMy00OWJjLWFkZDMtYzYxNmZiMDJkZjc3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NDE2OTcyNjksImNzcmYiOiIzMWQ3Y2VlYi1jMjdhLTRmNjgtOWI4OS0yYzIwYmE4MWFhNTMiLCJleHAiOjE3NDE2OTgxNjl9.UoDRTzoh6CXrYhtM2spA2hWjJNjZr6o1prLtF4Fucas
+2025-03-11 15:02:12,003 - INFO - Extracted user ID: 5 (type: <class 'str'>)
+2025-03-11 15:23:12,169 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 15:23:12,181 - INFO - Successfully fetched 8 items.
+2025-03-11 15:48:42,802 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 15:48:42,805 - INFO - Successfully fetched 8 items.
+2025-03-11 15:49:06,034 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTcwMDk0NSwianRpIjoiZGIyNGZhNDktNGM0Zi00ZTFiLWJmMDMtMDcxYjQ1ODQ4OWY2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjgiLCJuYmYiOjE3NDE3MDA5NDUsImNzcmYiOiI2OTc3ZGZkYi0yMGI0LTQzMGItYmM3OC1jYzQzOWE0ZGM5NzQiLCJleHAiOjE3NDE3MDE4NDV9.G-9v0AW79-FMEKdRb8UAqfuAYX3TpzAseS0mpdWVMwk
+2025-03-11 15:49:06,037 - INFO - Extracted user ID: 8 (type: <class 'str'>)
+2025-03-11 15:49:10,270 - INFO - User ID: 8
+2025-03-11 15:49:10,270 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-11 15:49:10,274 - INFO - Item successfully added to cart!
+2025-03-11 15:49:11,114 - INFO - User ID: 8
+2025-03-11 15:49:11,114 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-4.jpg'}
+2025-03-11 15:49:11,134 - INFO - Item successfully added to cart!
+2025-03-11 15:49:11,526 - INFO - User ID: 8
+2025-03-11 15:49:11,526 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-4.jpg'}
+2025-03-11 15:49:11,530 - INFO - Item successfully added to cart!
+2025-03-11 15:50:57,054 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTcwMTA1NywianRpIjoiY2RiMTZiZWItZWE5ZS00NWVjLWI1Y2QtYjAxOThhMDdhN2IzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjkiLCJuYmYiOjE3NDE3MDEwNTcsImNzcmYiOiJhOGYwZmI0ZS1hNjM1LTQ3ZGQtYmFlZC1iNjY3NThiMDYyMTIiLCJleHAiOjE3NDE3MDE5NTd9.6OQq0Gegv9YqDI9MjLDG2CbTurxpwSNoin5ImZ6wIi0
+2025-03-11 15:50:57,055 - INFO - Extracted user ID: 9 (type: <class 'str'>)
+2025-03-11 15:50:57,356 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTcwMTA1NywianRpIjoiY2RiMTZiZWItZWE5ZS00NWVjLWI1Y2QtYjAxOThhMDdhN2IzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjkiLCJuYmYiOjE3NDE3MDEwNTcsImNzcmYiOiJhOGYwZmI0ZS1hNjM1LTQ3ZGQtYmFlZC1iNjY3NThiMDYyMTIiLCJleHAiOjE3NDE3MDE5NTd9.6OQq0Gegv9YqDI9MjLDG2CbTurxpwSNoin5ImZ6wIi0
+2025-03-11 15:50:57,362 - INFO - Extracted user ID: 9 (type: <class 'str'>)
+2025-03-11 15:50:57,379 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTcwMTA1NywianRpIjoiY2RiMTZiZWItZWE5ZS00NWVjLWI1Y2QtYjAxOThhMDdhN2IzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjkiLCJuYmYiOjE3NDE3MDEwNTcsImNzcmYiOiJhOGYwZmI0ZS1hNjM1LTQ3ZGQtYmFlZC1iNjY3NThiMDYyMTIiLCJleHAiOjE3NDE3MDE5NTd9.6OQq0Gegv9YqDI9MjLDG2CbTurxpwSNoin5ImZ6wIi0
+2025-03-11 15:50:57,380 - INFO - Extracted user ID: 9 (type: <class 'str'>)
+2025-03-11 15:51:02,954 - INFO - User ID: 9
+2025-03-11 15:51:02,954 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-11 15:51:02,958 - INFO - Item successfully added to cart!
+2025-03-11 15:51:04,605 - INFO - User ID: 9
+2025-03-11 15:51:04,606 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-4.jpg'}
+2025-03-11 15:51:04,609 - INFO - Item successfully added to cart!
+2025-03-11 15:51:05,287 - INFO - User ID: 9
+2025-03-11 15:51:05,287 - INFO - Received data: {'article': '820108RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF для ручного інструменту', 'price': '857', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-4.jpg'}
+2025-03-11 15:51:05,290 - INFO - Item successfully added to cart!
+2025-03-11 15:51:05,902 - INFO - User ID: 9
+2025-03-11 15:51:05,903 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-4.jpg'}
+2025-03-11 15:51:05,906 - INFO - Item successfully added to cart!
+2025-03-11 16:01:15,379 - INFO - User ID: 9
+2025-03-11 16:01:15,380 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-4.jpg'}
+2025-03-11 16:01:15,482 - INFO - Item successfully added to cart!
+2025-03-11 16:01:16,177 - INFO - item with 820501CRMG removed from cart
+2025-03-11 16:01:16,918 - INFO - User ID: 9
+2025-03-11 16:01:16,919 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-4.jpg'}
+2025-03-11 16:01:16,922 - INFO - Item successfully added to cart!
+2025-03-11 16:01:17,360 - INFO - item with 820501CRMG removed from cart
+2025-03-11 16:01:17,838 - INFO - User ID: 9
+2025-03-11 16:01:17,838 - INFO - Received data: {'article': '820501CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 200 для стаціонарного обладнання ', 'price': '813', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_200-4.jpg'}
+2025-03-11 16:01:17,841 - INFO - Item successfully added to cart!
+2025-03-11 16:01:18,160 - INFO - item with 820501CRMG removed from cart
+2025-03-11 16:56:44,333 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-11 16:56:44,608 - INFO - Successfully fetched 8 items.
+2025-03-12 08:30:06,845 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 08:30:07,110 - INFO - Successfully fetched 8 items.
+2025-03-12 08:35:38,325 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 08:35:38,581 - INFO - Successfully fetched 8 items.
+2025-03-12 08:44:55,717 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 08:44:55,852 - INFO - Successfully fetched 8 items.
+2025-03-12 08:54:53,023 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2MjQ5MiwianRpIjoiODY4ZjA5YmUtMjQzOS00YTI4LWE2MjctNjc3Y2Q1Y2VlZDdkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEwIiwibmJmIjoxNzQxNzYyNDkyLCJjc3JmIjoiMTlmNTc4ODMtODMzZC00MDA0LWI5NDUtMzUzYjdjNmRjNWQzIiwiZXhwIjoxNzQxNzYzMzkyfQ.YYvTb9lOuXf1f4UwXC6T9rgc6LXmupQS1dYM9ZcBINo
+2025-03-12 08:54:53,024 - INFO - Extracted user ID: 10 (type: <class 'str'>)
+2025-03-12 08:54:53,039 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2MjQ5MiwianRpIjoiODY4ZjA5YmUtMjQzOS00YTI4LWE2MjctNjc3Y2Q1Y2VlZDdkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEwIiwibmJmIjoxNzQxNzYyNDkyLCJjc3JmIjoiMTlmNTc4ODMtODMzZC00MDA0LWI5NDUtMzUzYjdjNmRjNWQzIiwiZXhwIjoxNzQxNzYzMzkyfQ.YYvTb9lOuXf1f4UwXC6T9rgc6LXmupQS1dYM9ZcBINo
+2025-03-12 08:54:53,056 - INFO - Extracted user ID: 10 (type: <class 'str'>)
+2025-03-12 08:54:53,482 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2MjQ5MiwianRpIjoiODY4ZjA5YmUtMjQzOS00YTI4LWE2MjctNjc3Y2Q1Y2VlZDdkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEwIiwibmJmIjoxNzQxNzYyNDkyLCJjc3JmIjoiMTlmNTc4ODMtODMzZC00MDA0LWI5NDUtMzUzYjdjNmRjNWQzIiwiZXhwIjoxNzQxNzYzMzkyfQ.YYvTb9lOuXf1f4UwXC6T9rgc6LXmupQS1dYM9ZcBINo
+2025-03-12 08:54:53,499 - INFO - Extracted user ID: 10 (type: <class 'str'>)
+2025-03-12 08:54:53,564 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 08:54:53,580 - INFO - Successfully fetched 8 items.
+2025-03-12 08:54:53,591 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2MjQ5MiwianRpIjoiODY4ZjA5YmUtMjQzOS00YTI4LWE2MjctNjc3Y2Q1Y2VlZDdkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEwIiwibmJmIjoxNzQxNzYyNDkyLCJjc3JmIjoiMTlmNTc4ODMtODMzZC00MDA0LWI5NDUtMzUzYjdjNmRjNWQzIiwiZXhwIjoxNzQxNzYzMzkyfQ.YYvTb9lOuXf1f4UwXC6T9rgc6LXmupQS1dYM9ZcBINo
+2025-03-12 08:54:53,605 - INFO - Extracted user ID: 10 (type: <class 'str'>)
+2025-03-12 08:55:03,166 - INFO - User ID: 10
+2025-03-12 08:55:03,168 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-12 08:55:03,205 - INFO - Item successfully added to cart!
+2025-03-12 08:55:04,840 - INFO - User ID: 10
+2025-03-12 08:55:04,841 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-4.jpg'}
+2025-03-12 08:55:04,845 - INFO - Item successfully added to cart!
+2025-03-12 08:55:05,744 - INFO - User ID: 10
+2025-03-12 08:55:05,745 - INFO - Received data: {'article': '820108RLF', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF для ручного інструменту', 'price': '857', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_22_115-4.jpg'}
+2025-03-12 08:55:05,749 - INFO - Item successfully added to cart!
+2025-03-12 08:55:06,567 - INFO - User ID: 10
+2025-03-12 08:55:06,568 - INFO - Received data: {'article': '820401CRMG', 'title': 'Круг алмазний вiдрiзний СERAMIC GRANITE 1A1R 180 для стаціонарного обладнання ', 'price': '675', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/ceramic_granite_25_180-4.jpg'}
+2025-03-12 08:55:06,571 - INFO - Item successfully added to cart!
+2025-03-12 08:55:15,796 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2MjQ5MiwianRpIjoiODY4ZjA5YmUtMjQzOS00YTI4LWE2MjctNjc3Y2Q1Y2VlZDdkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEwIiwibmJmIjoxNzQxNzYyNDkyLCJjc3JmIjoiMTlmNTc4ODMtODMzZC00MDA0LWI5NDUtMzUzYjdjNmRjNWQzIiwiZXhwIjoxNzQxNzYzMzkyfQ.YYvTb9lOuXf1f4UwXC6T9rgc6LXmupQS1dYM9ZcBINo
+2025-03-12 08:55:15,798 - INFO - Extracted user ID: 10 (type: <class 'str'>)
+2025-03-12 08:55:15,922 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2MjQ5MiwianRpIjoiODY4ZjA5YmUtMjQzOS00YTI4LWE2MjctNjc3Y2Q1Y2VlZDdkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEwIiwibmJmIjoxNzQxNzYyNDkyLCJjc3JmIjoiMTlmNTc4ODMtODMzZC00MDA0LWI5NDUtMzUzYjdjNmRjNWQzIiwiZXhwIjoxNzQxNzYzMzkyfQ.YYvTb9lOuXf1f4UwXC6T9rgc6LXmupQS1dYM9ZcBINo
+2025-03-12 08:55:15,925 - INFO - Extracted user ID: 10 (type: <class 'str'>)
+2025-03-12 08:55:32,008 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2MjUzMSwianRpIjoiZjM1MmMxODQtZThkZC00ODA1LTgzNDctMWYyMTYxZjk5NWMwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEwIiwibmJmIjoxNzQxNzYyNTMxLCJjc3JmIjoiYzJmNTIwN2EtN2FkMy00NmViLTk0MWItNzIwZTRjY2NhMWFiIiwiZXhwIjoxNzQxNzYzNDMxfQ.ATa6zgFfX8CfWRHKn5LJTrA51v1YBMs6F2_DGmvBgLQ
+2025-03-12 08:55:32,011 - INFO - Extracted user ID: 10 (type: <class 'str'>)
+2025-03-12 09:05:21,947 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 09:05:21,962 - INFO - Successfully fetched 8 items.
+2025-03-12 09:13:01,302 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 09:13:01,317 - INFO - Successfully fetched 8 items.
+2025-03-12 09:37:54,851 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 09:37:55,014 - INFO - Successfully fetched 8 items.
+2025-03-12 09:38:06,572 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTA4NiwianRpIjoiZWU1NzQ5OWUtNjQwNS00MTAxLTgwYWUtZWU3ODJjNDNlYjMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1MDg2LCJjc3JmIjoiOGJmNDA5NjctMTVlNi00OTQ5LWI4NTctNmIxZjQzMWMwZjliIiwiZXhwIjoxNzQxNzY1OTg2fQ.OZQ64T_ukS6B3vYimNtozlXnuOjFAJ4MFw4CM_AbXFw
+2025-03-12 09:38:06,573 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:38:06,738 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTA4NiwianRpIjoiZWU1NzQ5OWUtNjQwNS00MTAxLTgwYWUtZWU3ODJjNDNlYjMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1MDg2LCJjc3JmIjoiOGJmNDA5NjctMTVlNi00OTQ5LWI4NTctNmIxZjQzMWMwZjliIiwiZXhwIjoxNzQxNzY1OTg2fQ.OZQ64T_ukS6B3vYimNtozlXnuOjFAJ4MFw4CM_AbXFw
+2025-03-12 09:38:06,744 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:38:06,771 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTA4NiwianRpIjoiZWU1NzQ5OWUtNjQwNS00MTAxLTgwYWUtZWU3ODJjNDNlYjMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1MDg2LCJjc3JmIjoiOGJmNDA5NjctMTVlNi00OTQ5LWI4NTctNmIxZjQzMWMwZjliIiwiZXhwIjoxNzQxNzY1OTg2fQ.OZQ64T_ukS6B3vYimNtozlXnuOjFAJ4MFw4CM_AbXFw
+2025-03-12 09:38:06,774 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:38:08,257 - INFO - User ID: 14
+2025-03-12 09:38:08,259 - INFO - Received data: {'article': '820101CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  115 CERAMIC SLIM для ручного інструменту', 'price': '567', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_115-4.jpg'}
+2025-03-12 09:38:08,266 - INFO - Item successfully added to cart!
+2025-03-12 09:38:09,849 - INFO - User ID: 14
+2025-03-12 09:38:09,850 - INFO - Received data: {'article': '820109RLFU', 'title': 'Круг алмазний вiдрiзний 1A1R 115 RELIEF ULTRA для ручного інструменту', 'price': '872', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_RELIEF_ULTRA_22_115-4.jpg'}
+2025-03-12 09:38:09,853 - INFO - Item successfully added to cart!
+2025-03-12 09:44:45,552 - INFO - User ID: 14
+2025-03-12 09:44:45,553 - INFO - Received data: {'article': '820203CRMSu', 'title': 'Круг алмазний вiдрiзний 1A1R  125 CERAMIC SLIM для ручного інструменту', 'price': '597', 'currency': 'UAH', 'images': 'https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-2.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-3.jpg, https://pdtools.shop/sites/default/files/image-tovar/CERAMIC_SLIM_22_125-4.jpg'}
+2025-03-12 09:44:45,736 - INFO - Item successfully added to cart!
+2025-03-12 09:44:47,407 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTA4NiwianRpIjoiZWU1NzQ5OWUtNjQwNS00MTAxLTgwYWUtZWU3ODJjNDNlYjMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1MDg2LCJjc3JmIjoiOGJmNDA5NjctMTVlNi00OTQ5LWI4NTctNmIxZjQzMWMwZjliIiwiZXhwIjoxNzQxNzY1OTg2fQ.OZQ64T_ukS6B3vYimNtozlXnuOjFAJ4MFw4CM_AbXFw
+2025-03-12 09:44:47,408 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:44:47,421 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTA4NiwianRpIjoiZWU1NzQ5OWUtNjQwNS00MTAxLTgwYWUtZWU3ODJjNDNlYjMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1MDg2LCJjc3JmIjoiOGJmNDA5NjctMTVlNi00OTQ5LWI4NTctNmIxZjQzMWMwZjliIiwiZXhwIjoxNzQxNzY1OTg2fQ.OZQ64T_ukS6B3vYimNtozlXnuOjFAJ4MFw4CM_AbXFw
+2025-03-12 09:44:47,421 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:44:51,835 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTA4NiwianRpIjoiZWU1NzQ5OWUtNjQwNS00MTAxLTgwYWUtZWU3ODJjNDNlYjMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1MDg2LCJjc3JmIjoiOGJmNDA5NjctMTVlNi00OTQ5LWI4NTctNmIxZjQzMWMwZjliIiwiZXhwIjoxNzQxNzY1OTg2fQ.OZQ64T_ukS6B3vYimNtozlXnuOjFAJ4MFw4CM_AbXFw
+2025-03-12 09:44:51,836 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:44:51,840 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-12 09:44:51,859 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTA4NiwianRpIjoiZWU1NzQ5OWUtNjQwNS00MTAxLTgwYWUtZWU3ODJjNDNlYjMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1MDg2LCJjc3JmIjoiOGJmNDA5NjctMTVlNi00OTQ5LWI4NTctNmIxZjQzMWMwZjliIiwiZXhwIjoxNzQxNzY1OTg2fQ.OZQ64T_ukS6B3vYimNtozlXnuOjFAJ4MFw4CM_AbXFw
+2025-03-12 09:44:51,860 - INFO - Successfully fetched 8 items.
+2025-03-12 09:44:51,862 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:44:56,312 - INFO - Request for catalog received. Page: 2, Items per page: 8
+2025-03-12 09:44:56,315 - INFO - Successfully fetched 8 items.
+2025-03-12 09:44:57,452 - INFO - Request for catalog received. Page: 3, Items per page: 8
+2025-03-12 09:44:57,456 - INFO - Successfully fetched 8 items.
+2025-03-12 09:45:00,461 - INFO - Request for catalog received. Page: 5, Items per page: 8
+2025-03-12 09:45:00,463 - INFO - Successfully fetched 8 items.
+2025-03-12 09:45:37,740 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTUzNywianRpIjoiNTdlN2E3ZjAtYmM2ZC00MmJmLTk4MGQtYmQwN2YyNWVjZjcxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1NTM3LCJjc3JmIjoiYmU3Y2YyNDMtZTBlNS00ZjNlLWEwYTEtMjQ0MGY2MjRhZmUxIiwiZXhwIjoxNzQxNzY2NDM3fQ.0dx4cnD-VyVywTousU5p2HdBhOXU8DnaMbZz3txtn-U
+2025-03-12 09:45:37,741 - INFO - Extracted user ID: 14 (type: <class 'str'>)
+2025-03-12 09:48:31,598 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTc2NTUzNywianRpIjoiNTdlN2E3ZjAtYmM2ZC00MmJmLTk4MGQtYmQwN2YyNWVjZjcxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjE0IiwibmJmIjoxNzQxNzY1NTM3LCJjc3JmIjoiYmU3Y2YyNDMtZTBlNS00ZjNlLWEwYTEtMjQ0MGY2MjRhZmUxIiwiZXhwIjoxNzQxNzY2NDM3fQ.0dx4cnD-VyVywTousU5p2HdBhOXU8DnaMbZz3txtn-U
+2025-03-12 09:48:31,599 - INFO - Extracted user ID: 14 (type: <class 'str'>)

@@ -1,13 +1,11 @@
 from flask import Blueprint, jsonify, request
 from flask_jwt_extended import create_access_token
-# from config.config import Config
 from models.user import User
 from extensions import db
-# from extensions import limiter
+from flask_jwt_extended import create_refresh_token
 
 register_bp = Blueprint('register', __name__)
 
-# @limiter.limit(Config.LIMIT_PER_MINUTE)
 @register_bp.route("/api/register", methods=['POST'])
 def register():
     
@@ -15,8 +13,6 @@ def register():
     Регістрація
     ---
     responses:
-      200:
-        description: Регістрація успішна
       409:
         descriprion: Пошта вже зареєстрована
       201:
@@ -37,6 +33,15 @@ def register():
     db.session.add(new_user)
     db.session.commit()
     
-    token = create_access_token(identity=new_user.id)
+    access_token = create_access_token(identity=str(new_user.id))
+    refresh_token = create_refresh_token(identity=str(new_user.id))
 
-    return jsonify({"message": "user registered succesfully", "token": token}), 201
+    return jsonify({
+      "message": "user registered succesfully",
+      "token": access_token,
+      "refreshToken": refresh_token,
+      "user": {
+        "email": new_user.email,
+        "username": new_user.username
+      }
+    }), 201

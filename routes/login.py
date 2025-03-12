@@ -1,12 +1,10 @@
 from flask import Blueprint, jsonify, request
 from models.user import User
 from flask_jwt_extended import create_access_token
-# from extensions import limiter
-# from config.config import Config
+from flask_jwt_extended import create_refresh_token
 
 login_bp = Blueprint('login', __name__)
 
-# @limiter.limit(Config.LIMIT_PER_MINUTE)
 @login_bp.route("/api/login", methods=['POST'])
 def login():
     
@@ -16,6 +14,10 @@ def login():
     responses:
       200:
         description: Авторизація успішна
+      400:
+        description: Відсутні поля
+      401:
+        description: Невірна пошта чи пароль
     """
     
     data = request.get_json()
@@ -29,4 +31,10 @@ def login():
         return jsonify({"error": "invalid email or password"}), 401
     
     access_token = create_access_token(identity=str(user.id))
-    return jsonify({"token": access_token, "message": "Login successful"}), 200
+    refresh_token = create_refresh_token(identity=str(user.id))
+
+    return jsonify({
+        "message": "Login successful",
+        "token": access_token,
+        "refreshToken": refresh_token,
+    }), 200
