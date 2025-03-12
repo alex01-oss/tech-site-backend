@@ -1,14 +1,14 @@
 from flask import Flask
 from flask_cors import CORS
 from flasgger import Swagger
-from flask_limiter import Limiter
-from flask_migrate import Migrate
 from config.config import Config
 from extensions import db, cache
+from flask_limiter import Limiter
+from flask_migrate import Migrate
 
 from routes.menu import menu_bp
-from routes.catalog import catalog_bp
 from routes.login import login_bp
+from routes.catalog import catalog_bp
 from routes.register import register_bp
 from routes.get_cart import get_cart_bp
 from routes.add_to_cart import add_to_cart_bp
