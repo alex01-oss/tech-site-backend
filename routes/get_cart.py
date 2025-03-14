@@ -2,8 +2,13 @@ import traceback
 from flask import Blueprint, jsonify, request
 from flask_jwt_extended import get_jwt_identity, jwt_required
 from extensions import logger
-from schemas.cart_schema import CartResponseSchema as Cart
-from models.cart import CartItem
+
+# from schemas.cart_schema import CartResponseSchema as Cart
+from schemas.cart_wood_schema import CartWoodResponseSchema as WoodCart
+
+# from models.cart import CartItem
+from models.cart_wood import CartWoodItem
+
 from extensions import cache
 
 get_cart_bp = Blueprint('get_cart', __name__)
@@ -30,9 +35,13 @@ def get_cart():
         user_id = get_jwt_identity()
         logger.info(f"Extracted user ID: {user_id} (type: {type(user_id)})")
 
-        cart_items = CartItem.query.filter_by(user_id=user_id).all()
-        schema = Cart(many=True)
-        result = schema.dump(cart_items)
+        # cart_items = CartItem.query.filter_by(user_id=user_id).all()
+        cart_wood_items = CartWoodItem.query.filter_by(user_id=user_id).all()
+        
+        # schema = Cart(many=True)
+        schema = WoodCart(many=True)
+        
+        result = schema.dump(cart_wood_items)
 
         return jsonify({"cart": result}), 200
 

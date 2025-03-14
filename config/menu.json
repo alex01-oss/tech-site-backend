@@ -24,8 +24,8 @@
             "searchType": "shape"
           },
           {
-            "text": "By size",
-            "searchType": "size"
+            "text": "By dimensions",
+            "searchType": "dimensions"
           }
         ]
       },
@@ -65,8 +65,8 @@
             "searchType": "shape"
           },
           {
-            "text": "By size",
-            "searchType": "size"
+            "text": "By dimensions",
+            "searchType": "dimensions"
           }
         ]
       },
@@ -106,8 +106,8 @@
             "searchType": "shape"
           },
           {
-            "text": "By size",
-            "searchType": "size"
+            "text": "By dimensions",
+            "searchType": "dimensions"
           }
         ]
       },
@@ -147,8 +147,8 @@
             "searchType": "shape"
           },
           {
-            "text": "By size",
-            "searchType": "size"
+            "text": "By dimensions",
+            "searchType": "dimensions"
           }
         ]
       },

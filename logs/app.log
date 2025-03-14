@@ -1,0 +1,1434 @@
+2025-03-13 08:33:48,788 - INFO - Request for catalog received. Page: 1, Items per page: 8
+2025-03-13 08:33:49,163 - INFO - Successfully fetched 8 items.
+2025-03-13 08:35:12,201 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg0NzcxMiwianRpIjoiZmM3ZWQwMDEtOTQ1Ni00OTY4LWJhM2EtNDhmMDBkZDBmYWVlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIxIiwibmJmIjoxNzQxODQ3NzEyLCJjc3JmIjoiY2VmNDNjOWEtYWNhOS00N2MyLTlkNWEtZjAwMDI0MDNlOTczIiwiZXhwIjoxNzQxODQ4NjEyfQ.KyoSERPJuT7oqWkvZ0sZYh1GUo85qeaEacScMmIyNBI
+2025-03-13 08:35:12,203 - INFO - Extracted user ID: 21 (type: <class 'str'>)
+2025-03-13 08:35:12,390 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg0NzcxMiwianRpIjoiZmM3ZWQwMDEtOTQ1Ni00OTY4LWJhM2EtNDhmMDBkZDBmYWVlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIxIiwibmJmIjoxNzQxODQ3NzEyLCJjc3JmIjoiY2VmNDNjOWEtYWNhOS00N2MyLTlkNWEtZjAwMDI0MDNlOTczIiwiZXhwIjoxNzQxODQ4NjEyfQ.KyoSERPJuT7oqWkvZ0sZYh1GUo85qeaEacScMmIyNBI
+2025-03-13 08:35:12,417 - INFO - Extracted user ID: 21 (type: <class 'str'>)
+2025-03-13 08:35:12,455 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg0NzcxMiwianRpIjoiZmM3ZWQwMDEtOTQ1Ni00OTY4LWJhM2EtNDhmMDBkZDBmYWVlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIxIiwibmJmIjoxNzQxODQ3NzEyLCJjc3JmIjoiY2VmNDNjOWEtYWNhOS00N2MyLTlkNWEtZjAwMDI0MDNlOTczIiwiZXhwIjoxNzQxODQ4NjEyfQ.KyoSERPJuT7oqWkvZ0sZYh1GUo85qeaEacScMmIyNBI
+2025-03-13 08:35:12,457 - INFO - Extracted user ID: 21 (type: <class 'str'>)
+2025-03-13 08:35:27,518 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg0NzcxMiwianRpIjoiZmM3ZWQwMDEtOTQ1Ni00OTY4LWJhM2EtNDhmMDBkZDBmYWVlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIxIiwibmJmIjoxNzQxODQ3NzEyLCJjc3JmIjoiY2VmNDNjOWEtYWNhOS00N2MyLTlkNWEtZjAwMDI0MDNlOTczIiwiZXhwIjoxNzQxODQ4NjEyfQ.KyoSERPJuT7oqWkvZ0sZYh1GUo85qeaEacScMmIyNBI
+2025-03-13 08:35:27,522 - INFO - Extracted user ID: 21 (type: <class 'str'>)
+2025-03-13 08:35:27,534 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg0NzcxMiwianRpIjoiZmM3ZWQwMDEtOTQ1Ni00OTY4LWJhM2EtNDhmMDBkZDBmYWVlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIxIiwibmJmIjoxNzQxODQ3NzEyLCJjc3JmIjoiY2VmNDNjOWEtYWNhOS00N2MyLTlkNWEtZjAwMDI0MDNlOTczIiwiZXhwIjoxNzQxODQ4NjEyfQ.KyoSERPJuT7oqWkvZ0sZYh1GUo85qeaEacScMmIyNBI
+2025-03-13 08:35:27,536 - INFO - Extracted user ID: 21 (type: <class 'str'>)
+2025-03-13 08:35:43,744 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg0NzcxMiwianRpIjoiZmM3ZWQwMDEtOTQ1Ni00OTY4LWJhM2EtNDhmMDBkZDBmYWVlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIxIiwibmJmIjoxNzQxODQ3NzEyLCJjc3JmIjoiY2VmNDNjOWEtYWNhOS00N2MyLTlkNWEtZjAwMDI0MDNlOTczIiwiZXhwIjoxNzQxODQ4NjEyfQ.KyoSERPJuT7oqWkvZ0sZYh1GUo85qeaEacScMmIyNBI
+2025-03-13 08:35:43,749 - INFO - Extracted user ID: 21 (type: <class 'str'>)
+2025-03-13 08:35:43,769 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg0NzcxMiwianRpIjoiZmM3ZWQwMDEtOTQ1Ni00OTY4LWJhM2EtNDhmMDBkZDBmYWVlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIxIiwibmJmIjoxNzQxODQ3NzEyLCJjc3JmIjoiY2VmNDNjOWEtYWNhOS00N2MyLTlkNWEtZjAwMDI0MDNlOTczIiwiZXhwIjoxNzQxODQ4NjEyfQ.KyoSERPJuT7oqWkvZ0sZYh1GUo85qeaEacScMmIyNBI
+2025-03-13 08:35:43,775 - INFO - Extracted user ID: 21 (type: <class 'str'>)
+2025-03-13 09:54:40,828 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 09:54:40,945 - INFO - Successfully fetched 8 items.
+2025-03-13 09:57:54,950 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-13 09:57:54,953 - INFO - Successfully fetched 5 items.
+2025-03-13 10:01:00,094 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:01:00,096 - INFO - Successfully fetched 8 items.
+2025-03-13 10:01:08,184 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-13 10:01:08,186 - INFO - Successfully fetched 8 items.
+2025-03-13 10:01:08,885 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-13 10:01:08,888 - INFO - Successfully fetched 8 items.
+2025-03-13 10:06:12,919 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:06:12,922 - INFO - Successfully fetched 8 items.
+2025-03-13 10:13:33,682 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:13:33,827 - INFO - Successfully fetched 8 items.
+2025-03-13 10:19:02,598 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:19:02,600 - INFO - Successfully fetched 8 items.
+2025-03-13 10:19:05,414 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:19:05,416 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:23,974 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-13 10:21:23,976 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:25,037 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-13 10:21:25,040 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:25,692 - INFO - Request for woodworking received. Page: 4, Items per page: 8
+2025-03-13 10:21:25,694 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:26,500 - INFO - Request for woodworking received. Page: 5, Items per page: 8
+2025-03-13 10:21:26,503 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:27,163 - INFO - Request for woodworking received. Page: 6, Items per page: 8
+2025-03-13 10:21:27,166 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:28,362 - INFO - Request for woodworking received. Page: 7, Items per page: 8
+2025-03-13 10:21:28,365 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:32,861 - INFO - Request for woodworking received. Page: 8, Items per page: 8
+2025-03-13 10:21:32,864 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:33,684 - INFO - Request for woodworking received. Page: 9, Items per page: 8
+2025-03-13 10:21:33,686 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:34,299 - INFO - Request for woodworking received. Page: 10, Items per page: 8
+2025-03-13 10:21:34,302 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:34,786 - INFO - Request for woodworking received. Page: 11, Items per page: 8
+2025-03-13 10:21:34,788 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:35,498 - INFO - Request for woodworking received. Page: 12, Items per page: 8
+2025-03-13 10:21:35,501 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:36,121 - INFO - Request for woodworking received. Page: 13, Items per page: 8
+2025-03-13 10:21:36,123 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:37,058 - INFO - Request for woodworking received. Page: 14, Items per page: 8
+2025-03-13 10:21:37,061 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:37,609 - INFO - Request for woodworking received. Page: 15, Items per page: 8
+2025-03-13 10:21:37,612 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:38,099 - INFO - Request for woodworking received. Page: 16, Items per page: 8
+2025-03-13 10:21:38,102 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:38,898 - INFO - Request for woodworking received. Page: 17, Items per page: 8
+2025-03-13 10:21:38,900 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:39,465 - INFO - Request for woodworking received. Page: 18, Items per page: 8
+2025-03-13 10:21:39,468 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:40,072 - INFO - Request for woodworking received. Page: 19, Items per page: 8
+2025-03-13 10:21:40,074 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:40,683 - INFO - Request for woodworking received. Page: 20, Items per page: 8
+2025-03-13 10:21:40,685 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:41,155 - INFO - Request for woodworking received. Page: 21, Items per page: 8
+2025-03-13 10:21:41,157 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:43,489 - INFO - Request for woodworking received. Page: 22, Items per page: 8
+2025-03-13 10:21:43,492 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:45,746 - INFO - Request for woodworking received. Page: 23, Items per page: 8
+2025-03-13 10:21:45,749 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:46,368 - INFO - Request for woodworking received. Page: 24, Items per page: 8
+2025-03-13 10:21:46,370 - INFO - Successfully fetched 8 items.
+2025-03-13 10:21:47,569 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-13 10:21:47,572 - INFO - Successfully fetched 5 items.
+2025-03-13 10:26:15,581 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-13 10:26:15,584 - INFO - Successfully fetched 5 items.
+2025-03-13 10:26:21,299 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-13 10:26:43,838 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-13 10:26:43,841 - INFO - Successfully fetched 5 items.
+2025-03-13 10:26:48,815 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:26:48,826 - INFO - Successfully fetched 8 items.
+2025-03-13 10:27:39,765 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:27:39,891 - INFO - Successfully fetched 8 items.
+2025-03-13 10:27:44,844 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:27:44,849 - INFO - Successfully fetched 8 items.
+2025-03-13 10:27:48,556 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:27:48,560 - INFO - Successfully fetched 8 items.
+2025-03-13 10:27:54,184 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:27:54,189 - INFO - Successfully fetched 8 items.
+2025-03-13 10:27:55,385 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:27:55,388 - INFO - Successfully fetched 8 items.
+2025-03-13 10:27:56,953 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-13 10:27:56,956 - INFO - Successfully fetched 4 items.
+2025-03-13 10:28:00,933 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:28:00,936 - INFO - Successfully fetched 0 items.
+2025-03-13 10:28:03,408 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-13 10:34:13,880 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:34:13,964 - INFO - Successfully fetched 8 items.
+2025-03-13 10:35:08,182 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:35:08,185 - INFO - Successfully fetched 8 items.
+2025-03-13 10:46:05,142 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:46:05,145 - INFO - Successfully fetched 8 items.
+2025-03-13 10:46:22,781 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:46:22,784 - INFO - Successfully fetched 8 items.
+2025-03-13 10:46:33,092 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:46:33,095 - INFO - Successfully fetched 8 items.
+2025-03-13 10:46:34,538 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:46:34,547 - INFO - Successfully fetched 1 items.
+2025-03-13 10:48:35,981 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:48:35,984 - INFO - Successfully fetched 8 items.
+2025-03-13 10:48:38,359 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:48:38,363 - INFO - Successfully fetched 0 items.
+2025-03-13 10:48:43,397 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:48:43,400 - INFO - Successfully fetched 8 items.
+2025-03-13 10:48:44,603 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-13 10:48:44,605 - INFO - Successfully fetched 4 items.
+2025-03-13 10:48:45,904 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-13 10:48:45,908 - INFO - Successfully fetched 8 items.
+2025-03-13 10:48:48,164 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:48:48,168 - INFO - Successfully fetched 8 items.
+2025-03-13 10:48:53,791 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:48:53,794 - INFO - Successfully fetched 0 items.
+2025-03-13 10:48:56,852 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:48:56,856 - INFO - Successfully fetched 4 items.
+2025-03-13 10:50:10,702 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:50:10,704 - INFO - Successfully fetched 8 items.
+2025-03-13 10:56:58,012 - INFO - Request for woodworking received. Page: 6, Items per page: 8
+2025-03-13 10:56:58,020 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:00,353 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-13 10:57:00,356 - INFO - Successfully fetched 5 items.
+2025-03-13 10:57:03,960 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:03,963 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:08,467 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:08,470 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:11,712 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:11,715 - INFO - Successfully fetched 0 items.
+2025-03-13 10:57:14,308 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:14,311 - INFO - Successfully fetched 7 items.
+2025-03-13 10:57:18,099 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:18,102 - INFO - Successfully fetched 0 items.
+2025-03-13 10:57:21,047 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:21,051 - INFO - Successfully fetched 0 items.
+2025-03-13 10:57:23,059 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:23,062 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:24,539 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:24,543 - INFO - Successfully fetched 4 items.
+2025-03-13 10:57:28,666 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:28,669 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:33,381 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:33,383 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:34,023 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:34,026 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:35,627 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:35,629 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:48,338 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:48,341 - INFO - Successfully fetched 8 items.
+2025-03-13 10:57:53,316 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:53,319 - INFO - Successfully fetched 4 items.
+2025-03-13 10:57:55,900 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 10:57:55,903 - INFO - Successfully fetched 8 items.
+2025-03-13 10:59:52,082 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-13 10:59:52,084 - INFO - Successfully fetched 8 items.
+2025-03-13 10:59:52,888 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-13 10:59:52,890 - INFO - Successfully fetched 8 items.
+2025-03-13 10:59:54,153 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-13 10:59:54,155 - INFO - Successfully fetched 5 items.
+2025-03-13 10:59:55,603 - INFO - Request for woodworking received. Page: 24, Items per page: 8
+2025-03-13 10:59:55,605 - INFO - Successfully fetched 8 items.
+2025-03-13 10:59:56,962 - INFO - Request for woodworking received. Page: 23, Items per page: 8
+2025-03-13 10:59:56,964 - INFO - Successfully fetched 8 items.
+2025-03-13 10:59:58,089 - INFO - Request for woodworking received. Page: 22, Items per page: 8
+2025-03-13 10:59:58,092 - INFO - Successfully fetched 8 items.
+2025-03-13 10:59:59,385 - INFO - Request for woodworking received. Page: 21, Items per page: 8
+2025-03-13 10:59:59,387 - INFO - Successfully fetched 8 items.
+2025-03-13 11:00:20,043 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1NjQyMCwianRpIjoiNzJmYTdmMTUtZTFhNy00ZGI0LThkM2UtOWU5NjQ4OTI4YmJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU2NDIwLCJjc3JmIjoiOTViYjcxOTEtZjk2Ni00ZGNkLWI2ODMtNTBmMzgzZTAzOTE5IiwiZXhwIjoxNzQxODU3MzIwfQ.dRldg3GApGTxVk0X22ZwFiasCnukilUX_kRcsLGC1qQ
+2025-03-13 11:00:20,044 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:00:20,203 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1NjQyMCwianRpIjoiNzJmYTdmMTUtZTFhNy00ZGI0LThkM2UtOWU5NjQ4OTI4YmJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU2NDIwLCJjc3JmIjoiOTViYjcxOTEtZjk2Ni00ZGNkLWI2ODMtNTBmMzgzZTAzOTE5IiwiZXhwIjoxNzQxODU3MzIwfQ.dRldg3GApGTxVk0X22ZwFiasCnukilUX_kRcsLGC1qQ
+2025-03-13 11:00:20,207 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:00:20,226 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1NjQyMCwianRpIjoiNzJmYTdmMTUtZTFhNy00ZGI0LThkM2UtOWU5NjQ4OTI4YmJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU2NDIwLCJjc3JmIjoiOTViYjcxOTEtZjk2Ni00ZGNkLWI2ODMtNTBmMzgzZTAzOTE5IiwiZXhwIjoxNzQxODU3MzIwfQ.dRldg3GApGTxVk0X22ZwFiasCnukilUX_kRcsLGC1qQ
+2025-03-13 11:00:20,228 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:00:21,893 - INFO - User ID: 22
+2025-03-13 11:00:21,894 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:00:21,916 - ERROR - Error adding item to cart: (psycopg2.errors.InvalidTextRepresentation) ОШИБКА:  неверный синтаксис для типа double precision: "100x10x2.3x4x20"
+LINE 1: ...ity, currency) VALUES ('22', '3G3042', '12V9-20', '100x10x2....
+                                                             ^
+
+[SQL: INSERT INTO cart_items (user_id, article, title, price, quantity, currency) VALUES (%(user_id)s, %(article)s, %(title)s, %(price)s, %(quantity)s, %(currency)s) RETURNING cart_items.id]
+[parameters: {'user_id': '22', 'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'quantity': 1, 'currency': None}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-03-13 11:00:22,036 - ERROR - Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа double precision: "100x10x2.3x4x20"
+LINE 1: ...ity, currency) VALUES ('22', '3G3042', '12V9-20', '100x10x2....
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 47, in add_to_cart
+    db.session.commit()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\scoping.py", line 599, in commit
+    return self._proxied.commit()
+           ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2032, in commit
+    trans.commit(_to_root=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "<string>", line 2, in commit
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1313, in commit
+    self._prepare_impl()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 1288, in _prepare_impl
+    self.session.flush()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidTextRepresentation) ОШИБКА:  неверный синтаксис для типа double precision: "100x10x2.3x4x20"
+LINE 1: ...ity, currency) VALUES ('22', '3G3042', '12V9-20', '100x10x2....
+                                                             ^
+
+[SQL: INSERT INTO cart_items (user_id, article, title, price, quantity, currency) VALUES (%(user_id)s, %(article)s, %(title)s, %(price)s, %(quantity)s, %(currency)s) RETURNING cart_items.id]
+[parameters: {'user_id': '22', 'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'quantity': 1, 'currency': None}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+
+2025-03-13 11:22:44,621 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 11:22:44,757 - INFO - Successfully fetched 8 items.
+2025-03-13 11:22:56,944 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:22:56,954 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:22:57,121 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:22:57,124 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:22:57,158 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:22:57,159 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:22:58,542 - INFO - User ID: 22
+2025-03-13 11:22:58,542 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:22:58,543 - WARNING - Missing article in request
+2025-03-13 11:23:02,113 - INFO - User ID: 22
+2025-03-13 11:23:02,114 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:23:02,114 - WARNING - Missing article in request
+2025-03-13 11:23:03,132 - INFO - User ID: 22
+2025-03-13 11:23:03,133 - INFO - Received data: {'article': '3C3042', 'title': '12V9-20', 'price': '100x10x2.3x4x32', 'images': 'images/12V9-20.png'}
+2025-03-13 11:23:03,133 - WARNING - Missing article in request
+2025-03-13 11:23:03,661 - INFO - User ID: 22
+2025-03-13 11:23:03,662 - INFO - Received data: {'article': '3M3048', 'title': '12V9-20', 'price': '125x13x2.5x4x25', 'images': 'images/12V9-20.png'}
+2025-03-13 11:23:03,662 - WARNING - Missing article in request
+2025-03-13 11:23:18,713 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:23:18,714 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:23:20,421 - INFO - User ID: 22
+2025-03-13 11:23:20,422 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:23:20,422 - WARNING - Missing article in request
+2025-03-13 11:28:14,302 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 11:28:14,417 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:28:14,423 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:28:14,431 - INFO - Successfully fetched 8 items.
+2025-03-13 11:28:16,312 - INFO - User ID: 22
+2025-03-13 11:28:16,312 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:28:16,313 - WARNING - Missing article in request
+2025-03-13 11:31:34,975 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:31:34,975 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:31:36,567 - INFO - User ID: 22
+2025-03-13 11:31:36,568 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:31:36,568 - WARNING - Missing article in request
+2025-03-13 11:32:09,579 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:32:09,581 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:32:09,733 - ERROR - Error fetching cart: (psycopg2.errors.UndefinedColumn) ОШИБКА:  столбец cart_wood_items.images не существует
+LINE 1: ..._wood_items.currency AS cart_wood_items_currency, cart_wood_...
+                                                             ^
+
+[SQL: SELECT cart_wood_items.id AS cart_wood_items_id, cart_wood_items.user_id AS cart_wood_items_user_id, cart_wood_items.code AS cart_wood_items_code, cart_wood_items.shape AS cart_wood_items_shape, cart_wood_items.dimensions AS cart_wood_items_dimensions, cart_wood_items.currency AS cart_wood_items_currency, cart_wood_items.images AS cart_wood_items_images 
+FROM cart_wood_items 
+WHERE cart_wood_items.user_id = %(user_id_1)s]
+[parameters: {'user_id_1': '22'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-13 11:32:09,770 - ERROR - Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец cart_wood_items.images не существует
+LINE 1: ..._wood_items.currency AS cart_wood_items_currency, cart_wood_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 39, in get_cart
+    cart_wood_items = CartWoodItem.query.filter_by(user_id=user_id).all()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2699, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) ОШИБКА:  столбец cart_wood_items.images не существует
+LINE 1: ..._wood_items.currency AS cart_wood_items_currency, cart_wood_...
+                                                             ^
+
+[SQL: SELECT cart_wood_items.id AS cart_wood_items_id, cart_wood_items.user_id AS cart_wood_items_user_id, cart_wood_items.code AS cart_wood_items_code, cart_wood_items.shape AS cart_wood_items_shape, cart_wood_items.dimensions AS cart_wood_items_dimensions, cart_wood_items.currency AS cart_wood_items_currency, cart_wood_items.images AS cart_wood_items_images 
+FROM cart_wood_items 
+WHERE cart_wood_items.user_id = %(user_id_1)s]
+[parameters: {'user_id_1': '22'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-13 11:32:11,359 - INFO - User ID: 22
+2025-03-13 11:32:11,360 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:32:11,360 - WARNING - Missing article in request
+2025-03-13 11:32:47,339 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:32:47,344 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:32:47,447 - ERROR - Error fetching cart: (psycopg2.errors.UndefinedColumn) ОШИБКА:  столбец cart_wood_items.images не существует
+LINE 1: ..._wood_items.currency AS cart_wood_items_currency, cart_wood_...
+                                                             ^
+
+[SQL: SELECT cart_wood_items.id AS cart_wood_items_id, cart_wood_items.user_id AS cart_wood_items_user_id, cart_wood_items.code AS cart_wood_items_code, cart_wood_items.shape AS cart_wood_items_shape, cart_wood_items.dimensions AS cart_wood_items_dimensions, cart_wood_items.currency AS cart_wood_items_currency, cart_wood_items.images AS cart_wood_items_images 
+FROM cart_wood_items 
+WHERE cart_wood_items.user_id = %(user_id_1)s]
+[parameters: {'user_id_1': '22'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-13 11:32:47,472 - ERROR - Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: ОШИБКА:  столбец cart_wood_items.images не существует
+LINE 1: ..._wood_items.currency AS cart_wood_items_currency, cart_wood_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\get_cart.py", line 39, in get_cart
+    cart_wood_items = CartWoodItem.query.filter_by(user_id=user_id).all()
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2699, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) ОШИБКА:  столбец cart_wood_items.images не существует
+LINE 1: ..._wood_items.currency AS cart_wood_items_currency, cart_wood_...
+                                                             ^
+
+[SQL: SELECT cart_wood_items.id AS cart_wood_items_id, cart_wood_items.user_id AS cart_wood_items_user_id, cart_wood_items.code AS cart_wood_items_code, cart_wood_items.shape AS cart_wood_items_shape, cart_wood_items.dimensions AS cart_wood_items_dimensions, cart_wood_items.currency AS cart_wood_items_currency, cart_wood_items.images AS cart_wood_items_images 
+FROM cart_wood_items 
+WHERE cart_wood_items.user_id = %(user_id_1)s]
+[parameters: {'user_id_1': '22'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-03-13 11:32:50,479 - INFO - User ID: 22
+2025-03-13 11:32:50,480 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:32:50,480 - WARNING - Missing article in request
+2025-03-13 11:35:14,765 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 11:35:14,829 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:35:14,829 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:35:14,880 - INFO - Successfully fetched 8 items.
+2025-03-13 11:35:18,306 - INFO - User ID: 22
+2025-03-13 11:35:18,308 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:35:18,308 - WARNING - Missing article in request
+2025-03-13 11:35:48,267 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1Nzc3NiwianRpIjoiZTNjNzlkOWUtM2M0Mi00N2EzLTgxOTktZWEzOGJlNTE0NjQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU3Nzc2LCJjc3JmIjoiZjEzMGVmMmYtM2M2Ny00ZTFlLTk1MzYtZWMzMGQ2Y2UxOWZhIiwiZXhwIjoxNzQxODU4Njc2fQ.95sK4iKltiz6B84mo3ex1AxK5xlwIh58Cit_M3PDkUM
+2025-03-13 11:35:48,272 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:35:50,688 - INFO - User ID: 22
+2025-03-13 11:35:50,689 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:35:50,689 - WARNING - Missing article in request
+2025-03-13 11:38:46,149 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:38:46,162 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:38:46,286 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:38:46,292 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:38:46,312 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:38:46,313 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:38:47,744 - INFO - User ID: 22
+2025-03-13 11:38:47,745 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:38:47,745 - WARNING - Missing article in request
+2025-03-13 11:38:52,836 - INFO - User ID: 22
+2025-03-13 11:38:52,837 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:38:52,838 - WARNING - Missing article in request
+2025-03-13 11:38:52,992 - INFO - User ID: 22
+2025-03-13 11:38:52,992 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:38:52,993 - WARNING - Missing article in request
+2025-03-13 11:38:53,128 - INFO - User ID: 22
+2025-03-13 11:38:53,129 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:38:53,129 - WARNING - Missing article in request
+2025-03-13 11:38:53,273 - INFO - User ID: 22
+2025-03-13 11:38:53,273 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:38:53,274 - WARNING - Missing article in request
+2025-03-13 11:39:05,356 - INFO - User ID: 22
+2025-03-13 11:39:05,357 - INFO - Received data: {'article': '3G3042', 'title': '12V9-20', 'price': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:39:05,357 - WARNING - Missing article in request
+2025-03-13 11:39:05,904 - INFO - User ID: 22
+2025-03-13 11:39:05,905 - INFO - Received data: {'article': '3-3042', 'title': '12V9-20', 'price': '100x10x2.3x4x25', 'images': 'images/12V9-20.png'}
+2025-03-13 11:39:05,905 - WARNING - Missing article in request
+2025-03-13 11:42:41,117 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 11:42:41,124 - INFO - Successfully fetched 8 items.
+2025-03-13 11:42:41,192 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:42:41,193 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:44:07,104 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:44:07,104 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:45:03,211 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:45:03,212 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:45:04,746 - INFO - User ID: 22
+2025-03-13 11:45:04,748 - INFO - Received data: {'code': '3G3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:45:04,751 - ERROR - Error adding item to cart: 'quantity' is an invalid keyword argument for CartWoodItem
+2025-03-13 11:45:04,775 - ERROR - Traceback (most recent call last):
+  File "C:\Users\marketing-3\Desktop\tech-site\backend\routes\add_to_cart.py", line 50, in add_to_cart
+    new_item = CartWoodItem(
+    
+    ...<14 lines>...
+        # images=images
+    )
+  File "<string>", line 4, in __init__
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sqlalchemy\orm\decl_base.py", line 2175, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'quantity' is an invalid keyword argument for CartWoodItem
+
+2025-03-13 11:47:38,151 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:47:38,156 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:47:39,994 - INFO - User ID: 22
+2025-03-13 11:47:39,995 - INFO - Received data: {'code': '3G3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:47:40,005 - INFO - Item successfully added to cart!
+2025-03-13 11:47:41,330 - INFO - User ID: 22
+2025-03-13 11:47:41,331 - INFO - Received data: {'code': '3C3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x32', 'images': 'images/12V9-20.png'}
+2025-03-13 11:47:41,334 - INFO - Item successfully added to cart!
+2025-03-13 11:47:41,963 - INFO - User ID: 22
+2025-03-13 11:47:41,963 - INFO - Received data: {'code': '3M3048', 'shape': '12V9-20', 'dimensions': '125x13x2.5x4x25', 'images': 'images/12V9-20.png'}
+2025-03-13 11:47:41,966 - INFO - Item successfully added to cart!
+2025-03-13 11:47:42,699 - INFO - User ID: 22
+2025-03-13 11:47:42,699 - INFO - Received data: {'code': '3U3045', 'shape': '12V9-20', 'dimensions': '150x13x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:47:42,703 - INFO - Item successfully added to cart!
+2025-03-13 11:51:12,296 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:51:12,306 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:52:38,226 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:52:38,227 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:53:41,597 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:53:41,599 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:53:44,669 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:53:44,669 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:53:44,676 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 11:53:44,687 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1ODcyNiwianRpIjoiYmExNWIyNjMtZGJhMS00OWY3LWFhZWQtYzFlMmM2MDA2MzE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU4NzI2LCJjc3JmIjoiMGIwMzRhMTgtODZkYS00NmQxLWE2ZWItNmYxYmI0MDJlZjI1IiwiZXhwIjoxNzQxODU5NjI2fQ.OSY20Gu_Qu5NBtc9REuagBfC356WkedrfjFyoiMd5k4
+2025-03-13 11:53:44,688 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:53:44,691 - INFO - Successfully fetched 8 items.
+2025-03-13 11:53:45,923 - INFO - User ID: 22
+2025-03-13 11:53:45,924 - INFO - Received data: {'code': '3G3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:53:45,933 - INFO - Item successfully added to cart!
+2025-03-13 11:53:58,682 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:53:58,683 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:53:58,874 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:53:58,884 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:53:58,902 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:53:58,903 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:54:03,195 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:54:03,197 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:55:14,773 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:55:14,775 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:55:16,228 - INFO - User ID: 22
+2025-03-13 11:55:16,229 - INFO - Received data: {'code': '3-3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x25', 'images': 'images/12V9-20.png'}
+2025-03-13 11:55:16,236 - INFO - Item successfully added to cart!
+2025-03-13 11:57:46,856 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:57:46,870 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:57:49,593 - INFO - item not found in cart
+2025-03-13 11:57:59,120 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:57:59,121 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:58:05,234 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTYzOCwianRpIjoiODM1ODJlZjAtMDQyMS00YzgxLTllODgtNzYxY2FjZDVlOTI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5NjM4LCJjc3JmIjoiODBmNDdhMmItZWFkMC00ZTVmLTk0MzItZTRhNmJkODZiMmNlIiwiZXhwIjoxNzQxODYwNTM4fQ.22DBrE1zDmNdm8QRkRFelnequailG5kmki6Pf8aPsvU
+2025-03-13 11:58:05,236 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:58:25,851 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTkwNSwianRpIjoiNWVmMjE5N2MtZjE4MS00N2MyLTkyM2EtMDQ0OTY3ZDczMDMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5OTA1LCJjc3JmIjoiZDZlMzJmZTYtYzNiZS00YjU1LWE3MGQtOTMwYWQxN2I1NjZhIiwiZXhwIjoxNzQxODYwODA1fQ.EFLNh5B_hG9NtNu99Oix-xfFMros60n1KfY5LppajHw
+2025-03-13 11:58:25,856 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:58:26,029 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTkwNSwianRpIjoiNWVmMjE5N2MtZjE4MS00N2MyLTkyM2EtMDQ0OTY3ZDczMDMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5OTA1LCJjc3JmIjoiZDZlMzJmZTYtYzNiZS00YjU1LWE3MGQtOTMwYWQxN2I1NjZhIiwiZXhwIjoxNzQxODYwODA1fQ.EFLNh5B_hG9NtNu99Oix-xfFMros60n1KfY5LppajHw
+2025-03-13 11:58:26,036 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:58:26,066 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTkwNSwianRpIjoiNWVmMjE5N2MtZjE4MS00N2MyLTkyM2EtMDQ0OTY3ZDczMDMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5OTA1LCJjc3JmIjoiZDZlMzJmZTYtYzNiZS00YjU1LWE3MGQtOTMwYWQxN2I1NjZhIiwiZXhwIjoxNzQxODYwODA1fQ.EFLNh5B_hG9NtNu99Oix-xfFMros60n1KfY5LppajHw
+2025-03-13 11:58:26,068 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:58:28,005 - INFO - User ID: 22
+2025-03-13 11:58:28,005 - INFO - Received data: {'code': '3G3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 11:58:28,011 - INFO - Item successfully added to cart!
+2025-03-13 11:58:29,383 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTkwNSwianRpIjoiNWVmMjE5N2MtZjE4MS00N2MyLTkyM2EtMDQ0OTY3ZDczMDMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5OTA1LCJjc3JmIjoiZDZlMzJmZTYtYzNiZS00YjU1LWE3MGQtOTMwYWQxN2I1NjZhIiwiZXhwIjoxNzQxODYwODA1fQ.EFLNh5B_hG9NtNu99Oix-xfFMros60n1KfY5LppajHw
+2025-03-13 11:58:29,405 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 11:58:29,426 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg1OTkwNSwianRpIjoiNWVmMjE5N2MtZjE4MS00N2MyLTkyM2EtMDQ0OTY3ZDczMDMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODU5OTA1LCJjc3JmIjoiZDZlMzJmZTYtYzNiZS00YjU1LWE3MGQtOTMwYWQxN2I1NjZhIiwiZXhwIjoxNzQxODYwODA1fQ.EFLNh5B_hG9NtNu99Oix-xfFMros60n1KfY5LppajHw
+2025-03-13 11:58:29,428 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 12:51:08,825 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2MzA2OCwianRpIjoiOWIzMjU0Y2UtOTU2Ni00ODMwLWI5MWYtMTAyN2I0MTk2YWU0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODYzMDY4LCJjc3JmIjoiMzZkYTg0OTktZWY3NC00NzI5LTkzMDItNGExMDNjZGYwOGQ0IiwiZXhwIjoxNzQxODYzOTY4fQ.5lgFe_q0sdF9et7BRU3fKxt514-aHk3OdlNV-YfkFAY
+2025-03-13 12:51:08,827 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 12:51:09,111 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2MzA2OCwianRpIjoiOWIzMjU0Y2UtOTU2Ni00ODMwLWI5MWYtMTAyN2I0MTk2YWU0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODYzMDY4LCJjc3JmIjoiMzZkYTg0OTktZWY3NC00NzI5LTkzMDItNGExMDNjZGYwOGQ0IiwiZXhwIjoxNzQxODYzOTY4fQ.5lgFe_q0sdF9et7BRU3fKxt514-aHk3OdlNV-YfkFAY
+2025-03-13 12:51:09,117 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 12:51:09,127 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 12:51:09,140 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2MzA2OCwianRpIjoiOWIzMjU0Y2UtOTU2Ni00ODMwLWI5MWYtMTAyN2I0MTk2YWU0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODYzMDY4LCJjc3JmIjoiMzZkYTg0OTktZWY3NC00NzI5LTkzMDItNGExMDNjZGYwOGQ0IiwiZXhwIjoxNzQxODYzOTY4fQ.5lgFe_q0sdF9et7BRU3fKxt514-aHk3OdlNV-YfkFAY
+2025-03-13 12:51:09,140 - INFO - Successfully fetched 8 items.
+2025-03-13 12:51:09,141 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 12:51:11,290 - INFO - User ID: 22
+2025-03-13 12:51:11,290 - INFO - Received data: {'code': '3C3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x32', 'images': 'images/12V9-20.png'}
+2025-03-13 12:51:11,308 - INFO - Item successfully added to cart!
+2025-03-13 12:51:11,938 - INFO - User ID: 22
+2025-03-13 12:51:11,939 - INFO - Received data: {'code': '3M3048', 'shape': '12V9-20', 'dimensions': '125x13x2.5x4x25', 'images': 'images/12V9-20.png'}
+2025-03-13 12:51:11,945 - INFO - Item successfully added to cart!
+2025-03-13 12:51:12,482 - INFO - User ID: 22
+2025-03-13 12:51:12,483 - INFO - Received data: {'code': '3U3045', 'shape': '12V9-20', 'dimensions': '150x13x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-13 12:51:12,486 - INFO - Item successfully added to cart!
+2025-03-13 12:51:15,182 - INFO - User ID: 22
+2025-03-13 12:51:15,182 - INFO - Received data: {'code': '3-3048', 'shape': '12V9-20', 'dimensions': '125x13x2.5x4x32', 'images': 'images/12V9-20.png'}
+2025-03-13 12:51:15,185 - INFO - Item successfully added to cart!
+2025-03-13 13:20:53,111 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 13:20:53,332 - INFO - Successfully fetched 8 items.
+2025-03-13 13:21:03,364 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:03,370 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:03,553 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:03,556 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:03,600 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:03,601 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:06,446 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:06,472 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:06,490 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:06,491 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:39,487 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:39,488 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:39,522 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:39,523 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:42,004 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:42,005 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:21:42,018 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:21:42,019 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:33:21,103 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:33:21,106 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:35:48,509 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:35:48,529 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:35:59,487 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 13:35:59,489 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:35:59,494 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:35:59,497 - INFO - Successfully fetched 8 items.
+2025-03-13 13:35:59,568 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTg2NDg2MywianRpIjoiMWE0YWU1NGEtZWFhMy00Mjc0LWI4N2EtZDdkMmVkZDJkMWE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxODY0ODYzLCJjc3JmIjoiMzE0YTBkM2ItMWYwMS00Y2NmLWJiZTYtYzYyYTYyYzY4NjBmIiwiZXhwIjoxNzQxODY1NzYzfQ.OP5XuprRxKL80ff-w8cJdK5VEzTmCjqtK240ihrqhtA
+2025-03-13 13:35:59,569 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-13 13:36:21,616 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 13:36:21,620 - INFO - Successfully fetched 8 items.
+2025-03-13 13:36:22,266 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 13:36:22,269 - INFO - Successfully fetched 8 items.
+2025-03-13 14:18:57,902 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-13 14:18:58,174 - INFO - Successfully fetched 8 items.
+2025-03-14 08:12:14,749 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 08:12:14,971 - INFO - Successfully fetched 8 items.
+2025-03-14 08:14:04,934 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 08:14:04,938 - INFO - Successfully fetched 8 items.
+2025-03-14 08:14:05,603 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 08:14:05,605 - INFO - Successfully fetched 8 items.
+2025-03-14 08:14:09,215 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 08:14:09,218 - INFO - Successfully fetched 8 items.
+2025-03-14 08:14:10,245 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 08:14:10,248 - INFO - Successfully fetched 8 items.
+2025-03-14 08:25:02,761 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 08:25:02,764 - INFO - Successfully fetched 8 items.
+2025-03-14 08:40:32,472 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 08:40:32,477 - INFO - Successfully fetched 8 items.
+2025-03-14 08:40:39,997 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 08:40:39,999 - INFO - Successfully fetched 8 items.
+2025-03-14 08:40:42,731 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-14 08:40:42,734 - INFO - Successfully fetched 5 items.
+2025-03-14 08:40:45,153 - INFO - Request for woodworking received. Page: 24, Items per page: 8
+2025-03-14 08:40:45,156 - INFO - Successfully fetched 8 items.
+2025-03-14 08:46:36,313 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 08:46:36,318 - INFO - Successfully fetched 8 items.
+2025-03-14 08:47:38,974 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:38,976 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:39,305 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:39,306 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:39,339 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:39,341 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:44,467 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:44,470 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:44,487 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:44,488 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:56,219 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:56,221 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:56,231 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:56,232 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:58,294 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:58,296 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:47:58,309 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:47:58,310 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:48:19,488 - INFO - item with 3-3048 removed from cart
+2025-03-14 08:48:52,856 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 08:48:52,858 - INFO - Successfully fetched 8 items.
+2025-03-14 08:48:54,047 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 08:48:54,049 - INFO - Successfully fetched 8 items.
+2025-03-14 08:48:54,733 - INFO - Request for woodworking received. Page: 4, Items per page: 8
+2025-03-14 08:48:54,736 - INFO - Successfully fetched 8 items.
+2025-03-14 08:48:55,383 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-14 08:48:55,386 - INFO - Successfully fetched 5 items.
+2025-03-14 08:49:08,816 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:49:08,819 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:49:08,826 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:49:08,828 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:49:34,512 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:49:34,515 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:49:34,526 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:49:34,529 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:49:38,040 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:49:38,042 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:49:38,058 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:49:38,063 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:50:10,029 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:50:10,031 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:50:10,045 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:50:10,054 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 08:50:16,903 - INFO - Request for woodworking received. Page: 5, Items per page: 8
+2025-03-14 08:50:16,906 - INFO - Successfully fetched 8 items.
+2025-03-14 08:53:59,585 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 08:53:59,588 - INFO - Successfully fetched 8 items.
+2025-03-14 08:53:59,615 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNDg1OCwianRpIjoiNTQzZmFjNDUtZDcxNi00YjU2LTk3ZjAtOTc5OGUyZmZmNmQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM0ODU4LCJjc3JmIjoiNjI1N2NhNmEtZmU5Zi00NTE4LWJiOTMtYWIyZmM1Y2JhMjQ4IiwiZXhwIjoxNzQxOTM1NzU4fQ.4EFBBRitAdytGtpcB9zxsqoL706ij0EjlzmiEmaAtvE
+2025-03-14 08:53:59,618 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:03:26,950 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 09:03:26,952 - INFO - Successfully fetched 8 items.
+2025-03-14 09:03:28,114 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 09:03:28,117 - INFO - Successfully fetched 8 items.
+2025-03-14 09:03:29,811 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 09:03:29,813 - INFO - Successfully fetched 8 items.
+2025-03-14 09:08:40,884 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 09:08:40,894 - INFO - Successfully fetched 8 items.
+2025-03-14 09:09:08,983 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:09:08,985 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:09:09,183 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:09:09,188 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:09:09,221 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:09:09,222 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:09:47,748 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:09:47,749 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:09:47,757 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:09:47,759 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:09:55,023 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:09:55,032 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:09:55,042 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:09:55,050 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:10:59,539 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 09:10:59,542 - INFO - Successfully fetched 8 items.
+2025-03-14 09:10:59,982 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 09:10:59,985 - INFO - Successfully fetched 8 items.
+2025-03-14 09:11:29,632 - INFO - User ID: 22
+2025-03-14 09:11:29,632 - INFO - Received data: {'code': '3-3045', 'shape': '12V9-20', 'dimensions': '150x13x2.3x4x32', 'images': 'images/12V9-20.png'}
+2025-03-14 09:11:29,666 - INFO - Item successfully added to cart!
+2025-03-14 09:11:32,277 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:11:32,280 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:11:32,295 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:11:32,298 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:11:36,338 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:11:36,341 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:11:36,353 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNjE0OCwianRpIjoiYzRkYWE5YWMtM2M1ZC00YWRhLWE0Y2QtYjMyNDQ3YTRmMTA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM2MTQ4LCJjc3JmIjoiOGMzODkxNWUtMmExYS00N2Y5LTlmYTctOGJjNmVmMzFiYzJjIiwiZXhwIjoxNzQxOTM3MDQ4fQ.4oVF2as7OJkFc4-oOXUhocAIfbQnznK9CctnBc2zi7U
+2025-03-14 09:11:36,357 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:14:25,497 - INFO - item with 3G3042 removed from cart
+2025-03-14 09:14:26,219 - INFO - User ID: 22
+2025-03-14 09:14:26,219 - INFO - Received data: {'code': '3G3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-14 09:14:26,223 - INFO - Item successfully added to cart!
+2025-03-14 09:21:43,110 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 09:21:43,148 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:43,923 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 09:21:43,925 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:44,692 - INFO - Request for woodworking received. Page: 4, Items per page: 8
+2025-03-14 09:21:44,695 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:45,338 - INFO - Request for woodworking received. Page: 5, Items per page: 8
+2025-03-14 09:21:45,340 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:46,012 - INFO - Request for woodworking received. Page: 6, Items per page: 8
+2025-03-14 09:21:46,015 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:47,018 - INFO - Request for woodworking received. Page: 7, Items per page: 8
+2025-03-14 09:21:47,021 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:48,369 - INFO - Request for woodworking received. Page: 8, Items per page: 8
+2025-03-14 09:21:48,372 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:49,563 - INFO - Request for woodworking received. Page: 9, Items per page: 8
+2025-03-14 09:21:49,565 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:50,314 - INFO - Request for woodworking received. Page: 10, Items per page: 8
+2025-03-14 09:21:50,316 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:53,474 - INFO - Request for woodworking received. Page: 11, Items per page: 8
+2025-03-14 09:21:53,477 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:54,194 - INFO - Request for woodworking received. Page: 12, Items per page: 8
+2025-03-14 09:21:54,197 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:54,864 - INFO - Request for woodworking received. Page: 13, Items per page: 8
+2025-03-14 09:21:54,866 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:55,712 - INFO - Request for woodworking received. Page: 14, Items per page: 8
+2025-03-14 09:21:55,715 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:56,401 - INFO - Request for woodworking received. Page: 15, Items per page: 8
+2025-03-14 09:21:56,403 - INFO - Successfully fetched 8 items.
+2025-03-14 09:21:57,104 - INFO - Request for woodworking received. Page: 16, Items per page: 8
+2025-03-14 09:21:57,107 - INFO - Successfully fetched 8 items.
+2025-03-14 09:27:40,236 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNzI2MCwianRpIjoiNTY0YzIzZTgtMTIyOS00MjI1LTg1MGUtMDRkNjIwYTcyZjFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM3MjYwLCJjc3JmIjoiYmU1ZTAwYTAtYzNmZi00ZTQ5LWI4MDAtNjEyNzkxZGU1ZmJiIiwiZXhwIjoxNzQxOTM4MTYwfQ.MIU6OCnu3Ax2T2vrEJ0dR9vMt5uIGNPTaAZaV4zpbCI
+2025-03-14 09:27:40,237 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:27:40,626 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNzI2MCwianRpIjoiNTY0YzIzZTgtMTIyOS00MjI1LTg1MGUtMDRkNjIwYTcyZjFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM3MjYwLCJjc3JmIjoiYmU1ZTAwYTAtYzNmZi00ZTQ5LWI4MDAtNjEyNzkxZGU1ZmJiIiwiZXhwIjoxNzQxOTM4MTYwfQ.MIU6OCnu3Ax2T2vrEJ0dR9vMt5uIGNPTaAZaV4zpbCI
+2025-03-14 09:27:40,643 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:27:40,653 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 09:27:40,667 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzNzI2MCwianRpIjoiNTY0YzIzZTgtMTIyOS00MjI1LTg1MGUtMDRkNjIwYTcyZjFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM3MjYwLCJjc3JmIjoiYmU1ZTAwYTAtYzNmZi00ZTQ5LWI4MDAtNjEyNzkxZGU1ZmJiIiwiZXhwIjoxNzQxOTM4MTYwfQ.MIU6OCnu3Ax2T2vrEJ0dR9vMt5uIGNPTaAZaV4zpbCI
+2025-03-14 09:27:40,668 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 09:27:40,745 - INFO - Successfully fetched 8 items.
+2025-03-14 09:45:30,922 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 09:45:30,926 - INFO - Successfully fetched 8 items.
+2025-03-14 10:09:55,537 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzOTc5NSwianRpIjoiZDhiYWEyZTktZTgxMi00ZDY3LWIxNmQtZTUyM2YxMTQzOTc0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM5Nzk1LCJjc3JmIjoiNmQ3MmNlNmItMmQ3Mi00ZTJmLWI0NjYtYjM2NzQzMjQwNGUxIiwiZXhwIjoxNzQxOTQwNjk1fQ.rSx23oSYP-Yb_CXsDHaDalVm-otZRev1n7sTad4JFzc
+2025-03-14 10:09:55,538 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:09:56,008 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzOTc5NSwianRpIjoiZDhiYWEyZTktZTgxMi00ZDY3LWIxNmQtZTUyM2YxMTQzOTc0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM5Nzk1LCJjc3JmIjoiNmQ3MmNlNmItMmQ3Mi00ZTJmLWI0NjYtYjM2NzQzMjQwNGUxIiwiZXhwIjoxNzQxOTQwNjk1fQ.rSx23oSYP-Yb_CXsDHaDalVm-otZRev1n7sTad4JFzc
+2025-03-14 10:09:56,010 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:09:56,012 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 10:09:56,016 - INFO - Successfully fetched 8 items.
+2025-03-14 10:09:56,020 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzOTc5NSwianRpIjoiZDhiYWEyZTktZTgxMi00ZDY3LWIxNmQtZTUyM2YxMTQzOTc0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM5Nzk1LCJjc3JmIjoiNmQ3MmNlNmItMmQ3Mi00ZTJmLWI0NjYtYjM2NzQzMjQwNGUxIiwiZXhwIjoxNzQxOTQwNjk1fQ.rSx23oSYP-Yb_CXsDHaDalVm-otZRev1n7sTad4JFzc
+2025-03-14 10:09:56,023 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:14:32,801 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTkzOTc5NSwianRpIjoiZDhiYWEyZTktZTgxMi00ZDY3LWIxNmQtZTUyM2YxMTQzOTc0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTM5Nzk1LCJjc3JmIjoiNmQ3MmNlNmItMmQ3Mi00ZTJmLWI0NjYtYjM2NzQzMjQwNGUxIiwiZXhwIjoxNzQxOTQwNjk1fQ.rSx23oSYP-Yb_CXsDHaDalVm-otZRev1n7sTad4JFzc
+2025-03-14 10:14:32,802 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:14:48,063 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:14:48,064 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:14:48,216 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:14:48,228 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:14:48,254 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:14:48,264 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:15:16,805 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 10:15:16,807 - INFO - Successfully fetched 8 items.
+2025-03-14 10:15:16,872 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:15:16,874 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:19:12,382 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:19:12,384 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:24:09,639 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:24:09,640 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:24:09,646 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:24:09,649 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:27:48,577 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:27:48,578 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:27:48,584 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:27:48,585 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:27:59,640 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:27:59,642 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 10:27:59,643 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:27:59,646 - INFO - Successfully fetched 8 items.
+2025-03-14 10:27:59,658 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:27:59,661 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:28:01,605 - INFO - User ID: 22
+2025-03-14 10:28:01,605 - INFO - Received data: {'code': '3-3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x25', 'images': 'images/12V9-20.png'}
+2025-03-14 10:28:01,623 - INFO - Item successfully added to cart!
+2025-03-14 10:28:02,353 - INFO - item with 3-3042 removed from cart
+2025-03-14 10:28:04,075 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:28:04,077 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:28:04,093 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:28:04,095 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:28:06,738 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:28:06,740 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:28:06,756 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:28:06,758 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:28:07,907 - INFO - User ID: 22
+2025-03-14 10:28:07,908 - INFO - Received data: {'code': '3-3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x25', 'images': 'images/12V9-20.png'}
+2025-03-14 10:28:07,912 - INFO - Item successfully added to cart!
+2025-03-14 10:28:08,774 - INFO - item with 3-3042 removed from cart
+2025-03-14 10:28:09,375 - INFO - item with 3G3042 removed from cart
+2025-03-14 10:28:10,348 - INFO - User ID: 22
+2025-03-14 10:28:10,348 - INFO - Received data: {'code': '3G3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-14 10:28:10,354 - INFO - Item successfully added to cart!
+2025-03-14 10:28:57,534 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:28:57,536 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:28:57,549 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:28:57,553 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:29:00,595 - INFO - User ID: 22
+2025-03-14 10:29:00,595 - INFO - Received data: {'code': '3-3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x25', 'images': 'images/12V9-20.png'}
+2025-03-14 10:29:00,599 - INFO - Item successfully added to cart!
+2025-03-14 10:29:01,245 - INFO - item with 3-3042 removed from cart
+2025-03-14 10:29:14,757 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:29:14,758 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:29:14,766 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MDA4OCwianRpIjoiYjQ5NGU5ZWMtMTRlNy00YzUxLWI5ODEtZTRmN2I5YTQ0YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQwMDg4LCJjc3JmIjoiYTUxYzA0NjAtZGUzMC00ODU5LWJmNDItNDFlYmE3MWI4ODIwIiwiZXhwIjoxNzQxOTQwOTg4fQ.mh6hSDVCrAV2kVugNAPe0GeS5fFXfTl2LnrKEula9Ps
+2025-03-14 10:29:14,768 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 10:29:26,944 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 10:29:26,946 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:28,067 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 10:29:28,069 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:28,972 - INFO - Request for woodworking received. Page: 4, Items per page: 8
+2025-03-14 10:29:28,975 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:29,564 - INFO - Request for woodworking received. Page: 5, Items per page: 8
+2025-03-14 10:29:29,566 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:30,330 - INFO - Request for woodworking received. Page: 6, Items per page: 8
+2025-03-14 10:29:30,333 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:31,700 - INFO - Request for woodworking received. Page: 24, Items per page: 8
+2025-03-14 10:29:31,702 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:32,716 - INFO - Request for woodworking received. Page: 23, Items per page: 8
+2025-03-14 10:29:32,718 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:33,467 - INFO - Request for woodworking received. Page: 22, Items per page: 8
+2025-03-14 10:29:33,470 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:34,043 - INFO - Request for woodworking received. Page: 21, Items per page: 8
+2025-03-14 10:29:34,046 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:38,244 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-14 10:29:38,246 - INFO - Successfully fetched 5 items.
+2025-03-14 10:29:40,178 - INFO - Request for woodworking received. Page: 20, Items per page: 8
+2025-03-14 10:29:40,180 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:41,858 - INFO - Request for woodworking received. Page: 19, Items per page: 8
+2025-03-14 10:29:41,861 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:42,562 - INFO - Request for woodworking received. Page: 18, Items per page: 8
+2025-03-14 10:29:42,565 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:43,204 - INFO - Request for woodworking received. Page: 17, Items per page: 8
+2025-03-14 10:29:43,206 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:44,162 - INFO - Request for woodworking received. Page: 16, Items per page: 8
+2025-03-14 10:29:44,165 - INFO - Successfully fetched 8 items.
+2025-03-14 10:29:45,098 - INFO - Request for woodworking received. Page: 15, Items per page: 8
+2025-03-14 10:29:45,101 - INFO - Successfully fetched 8 items.
+2025-03-14 10:39:52,261 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 10:39:52,269 - INFO - Successfully fetched 8 items.
+2025-03-14 10:40:11,622 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 10:40:11,626 - INFO - Successfully fetched 8 items.
+2025-03-14 10:40:12,731 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 10:40:12,733 - INFO - Successfully fetched 8 items.
+2025-03-14 10:40:25,326 - ERROR - Validation error: {'search_type': ['Invalid value.']}
+2025-03-14 10:40:28,930 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 10:40:28,935 - INFO - Successfully fetched 8 items.
+2025-03-14 10:40:29,447 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 10:40:29,451 - INFO - Successfully fetched 8 items.
+2025-03-14 10:47:49,586 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 10:47:49,588 - INFO - Successfully fetched 8 items.
+2025-03-14 10:47:50,114 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 10:47:50,116 - INFO - Successfully fetched 8 items.
+2025-03-14 11:15:23,814 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:15:23,816 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:15:24,013 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:15:24,019 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 11:15:24,019 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:15:24,023 - INFO - Successfully fetched 8 items.
+2025-03-14 11:15:24,031 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:15:24,035 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:15:31,559 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:15:31,561 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:15:31,571 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:15:31,573 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:15:39,866 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:15:39,872 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:15:39,890 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:15:39,893 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:17:55,235 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:17:55,262 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:17:56,377 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:17:56,378 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:17:59,448 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:17:59,453 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:18:01,021 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:18:01,033 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:18:01,944 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:18:01,954 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:18:05,540 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:18:05,569 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:18:07,333 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:18:07,334 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:20:10,146 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:20:10,147 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:20:10,161 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:20:10,163 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:20:29,720 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 11:20:29,732 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:20:29,734 - INFO - Successfully fetched 8 items.
+2025-03-14 11:20:29,737 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:20:32,623 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:20:32,624 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:21:43,169 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:21:43,179 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:21:43,196 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:21:43,197 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:22:07,045 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:22:07,046 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:22:07,058 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:22:07,059 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:22:21,788 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:22:21,791 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:22:34,678 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:22:34,679 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:22:34,697 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:22:34,698 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:24:39,493 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:24:39,494 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:24:39,507 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:24:39,508 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:28:50,707 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 11:28:50,710 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:28:50,711 - INFO - Successfully fetched 8 items.
+2025-03-14 11:28:50,712 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:28:50,725 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:28:50,726 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:29:56,413 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:29:56,414 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:29:56,432 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0MzcyMywianRpIjoiOTk2NjJjMTYtZDQ1MC00ZWY1LWJkYTYtZmU2ZjM0YTg1ODI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQzNzIzLCJjc3JmIjoiOGE5ZGJmYjEtYTRjYi00MDQ2LTk5MmUtZWY4ZTQxNzUyN2ZkIiwiZXhwIjoxNzQxOTQ0NjIzfQ.zI7Du6rvlNfxS7HF5hQvVYiVdf7KQ2SKQ8tEbhSnUsI
+2025-03-14 11:29:56,434 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:37:31,382 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 11:37:31,386 - INFO - Successfully fetched 8 items.
+2025-03-14 11:37:44,938 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 11:37:44,941 - INFO - Successfully fetched 8 items.
+2025-03-14 11:37:45,487 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 11:37:45,490 - INFO - Successfully fetched 8 items.
+2025-03-14 11:37:46,082 - INFO - Request for woodworking received. Page: 4, Items per page: 8
+2025-03-14 11:37:46,084 - INFO - Successfully fetched 8 items.
+2025-03-14 11:37:46,709 - INFO - Request for woodworking received. Page: 5, Items per page: 8
+2025-03-14 11:37:46,712 - INFO - Successfully fetched 8 items.
+2025-03-14 11:38:14,920 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:38:14,920 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:38:15,109 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:38:15,114 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:38:15,129 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:38:15,139 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:38:18,503 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:38:18,506 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:38:18,531 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:38:18,534 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:38:21,072 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:38:21,076 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:38:21,097 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:38:21,098 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:38:43,729 - INFO - item with 3G3042 removed from cart
+2025-03-14 11:38:44,494 - INFO - User ID: 22
+2025-03-14 11:38:44,494 - INFO - Received data: {'code': '3G3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x20', 'images': 'images/12V9-20.png'}
+2025-03-14 11:38:44,510 - INFO - Item successfully added to cart!
+2025-03-14 11:41:00,762 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:00,763 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:00,774 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:00,777 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:09,850 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:09,852 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:09,865 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:09,866 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:34,855 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:34,856 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:34,866 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:34,868 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:38,236 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:38,238 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:38,251 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:38,254 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:40,405 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:40,411 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:41:40,431 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:41:40,434 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:42:10,146 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:42:10,147 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:42:10,163 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:42:10,164 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:42:17,637 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:42:17,638 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:42:17,654 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:42:17,657 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:42:32,883 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 11:42:32,884 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:42:32,888 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:42:32,888 - INFO - Successfully fetched 8 items.
+2025-03-14 11:42:32,895 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:42:32,900 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:12,983 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:12,984 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:13,024 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:13,025 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:29,089 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:29,091 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:29,104 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:29,106 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:30,992 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:30,993 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:31,013 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:31,016 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:56,905 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:56,906 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:43:56,923 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:43:56,924 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:45:50,420 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:45:50,421 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:45:50,446 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:45:50,447 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:45:57,798 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:45:57,799 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:46:12,060 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:46:12,061 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:46:12,073 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:46:12,074 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:51:40,587 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 11:51:40,591 - INFO - Successfully fetched 8 items.
+2025-03-14 11:51:40,599 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk0NTA5NCwianRpIjoiZjRhNzQ0NzQtNGQwZC00OWUyLWFkN2ItOGQzZTk5NmUyZmNkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTQ1MDk0LCJjc3JmIjoiYjU0OTYwODMtMGE2MS00N2Q2LTk0ZmYtYjVkMjBlOWRmN2M1IiwiZXhwIjoxNzQxOTQ1OTk0fQ.knbC7EEFPmZz1PFeRHKRYcKtUoKdZvfAVFh3SEkB9_s
+2025-03-14 11:51:40,600 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 11:59:02,285 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 11:59:02,289 - INFO - Successfully fetched 8 items.
+2025-03-14 13:07:33,162 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:07:33,165 - INFO - Successfully fetched 8 items.
+2025-03-14 13:15:43,207 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:15:43,221 - INFO - Successfully fetched 8 items.
+2025-03-14 13:22:52,149 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:22:52,153 - INFO - Successfully fetched 8 items.
+2025-03-14 13:28:00,254 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:28:00,258 - INFO - Successfully fetched 8 items.
+2025-03-14 13:38:39,033 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:38:39,036 - INFO - Successfully fetched 8 items.
+2025-03-14 13:59:23,309 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:59:23,312 - INFO - Successfully fetched 8 items.
+2025-03-14 13:59:29,739 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:59:29,742 - INFO - Successfully fetched 8 items.
+2025-03-14 13:59:30,131 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 13:59:30,134 - INFO - Successfully fetched 8 items.
+2025-03-14 14:00:01,843 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:00:01,845 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:00:02,150 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:00:02,156 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:00:02,180 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:00:02,181 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:00:05,234 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:00:05,237 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:00:05,270 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:00:05,280 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:00:06,714 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:00:06,714 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:00:06,725 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:00:06,729 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:01:02,812 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:01:02,812 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:01:10,649 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:01:10,650 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:01:10,663 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:01:10,665 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:01:23,177 - INFO - User ID: 22
+2025-03-14 14:01:23,178 - INFO - Received data: {'code': '3-3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x25', 'images': 'images/12V9-20.png'}
+2025-03-14 14:01:23,183 - INFO - Item successfully added to cart!
+2025-03-14 14:01:25,943 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:01:25,943 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:01:25,959 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:01:25,961 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:01:59,580 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:01:59,588 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:01:59,612 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:01:59,613 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:02:01,742 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 14:02:01,745 - INFO - Successfully fetched 8 items.
+2025-03-14 14:02:02,557 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 14:02:02,560 - INFO - Successfully fetched 8 items.
+2025-03-14 14:02:03,189 - INFO - Request for woodworking received. Page: 4, Items per page: 8
+2025-03-14 14:02:03,192 - INFO - Successfully fetched 8 items.
+2025-03-14 14:02:04,550 - INFO - Request for woodworking received. Page: 5, Items per page: 8
+2025-03-14 14:02:04,552 - INFO - Successfully fetched 8 items.
+2025-03-14 14:02:05,343 - INFO - Request for woodworking received. Page: 6, Items per page: 8
+2025-03-14 14:02:05,346 - INFO - Successfully fetched 8 items.
+2025-03-14 14:02:06,349 - INFO - Request for woodworking received. Page: 7, Items per page: 8
+2025-03-14 14:02:06,352 - INFO - Successfully fetched 8 items.
+2025-03-14 14:04:46,767 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 14:04:46,774 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:04:46,775 - INFO - Successfully fetched 8 items.
+2025-03-14 14:04:46,776 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:04:46,789 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1MzYwMSwianRpIjoiNDIzNDhjYWMtNzljNS00YWY4LWFjYWMtZjFiNzhiZTkzOGZjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzNjAxLCJjc3JmIjoiMjVhNzYyZmItYWUzZC00OWZkLTllMDItMTcxZDMwOGYzMWFlIiwiZXhwIjoxNzQxOTU0NTAxfQ.mOL4x2qlxa8emQa9awoJcdJNmZ7IUjjeIwlYBBPLPEE
+2025-03-14 14:04:46,794 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:06:34,018 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:06:34,021 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:06:34,214 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:06:34,219 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:06:34,255 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:06:34,258 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:06:37,856 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:06:37,865 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:06:37,887 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:06:37,888 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:06:40,146 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:06:40,147 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:06:40,168 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:06:40,169 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:09:24,005 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:09:24,008 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:09:24,037 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:09:24,038 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:16:16,075 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 14:16:16,078 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:16:16,080 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:16:16,082 - INFO - Successfully fetched 8 items.
+2025-03-14 14:16:16,096 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1Mzk5NCwianRpIjoiZmFlZDkwYzMtMWI3NS00OWY3LTgxZWUtNTMyNjRhZjQ2NjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTUzOTk0LCJjc3JmIjoiZDA2MmUzN2ItZmI3My00YWU0LWIzZjAtMmMyODM2MGM4MDZhIiwiZXhwIjoxNzQxOTU0ODk0fQ.HyjYz6eH18bPKXGRyHYOkXUiL0_2WcwJWrr3GUq7ZZc
+2025-03-14 14:16:16,098 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:16:30,566 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:16:30,568 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:16:30,742 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:16:30,745 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:16:30,768 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:16:30,770 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:19:51,441 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:19:51,442 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:20:15,105 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:20:15,107 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:20:15,119 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:20:15,120 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:20:25,096 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:20:25,097 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:20:25,103 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:20:25,105 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:20:48,799 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:20:48,802 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:20:48,809 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:20:48,811 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:24:03,242 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 14:24:03,246 - INFO - Successfully fetched 8 items.
+2025-03-14 14:24:03,247 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:24:03,249 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:25:00,731 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:25:00,734 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:25:00,744 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:25:00,746 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:25:04,435 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:25:04,437 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:26:22,349 - INFO - item with 3-3042 removed from cart
+2025-03-14 14:26:22,950 - INFO - User ID: 22
+2025-03-14 14:26:22,950 - INFO - Received data: {'code': '3-3042', 'shape': '12V9-20', 'dimensions': '100x10x2.3x4x25', 'images': 'images/12V9-20.png'}
+2025-03-14 14:26:22,955 - INFO - Item successfully added to cart!
+2025-03-14 14:26:28,402 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 14:26:28,405 - INFO - Successfully fetched 8 items.
+2025-03-14 14:26:31,123 - INFO - User ID: 22
+2025-03-14 14:26:31,123 - INFO - Received data: {'code': '5-1051', 'shape': '12R4', 'dimensions': '150x5x3x16x32', 'images': 'images/12R4.png'}
+2025-03-14 14:26:31,127 - INFO - Item successfully added to cart!
+2025-03-14 14:26:32,430 - INFO - User ID: 22
+2025-03-14 14:26:32,430 - INFO - Received data: {'code': '5-1041', 'shape': '12R4', 'dimensions': '125x3x2x13x32', 'images': 'images/12R4.png'}
+2025-03-14 14:26:32,433 - INFO - Item successfully added to cart!
+2025-03-14 14:26:33,783 - INFO - Request for woodworking received. Page: 6, Items per page: 8
+2025-03-14 14:26:33,785 - INFO - Successfully fetched 8 items.
+2025-03-14 14:26:35,078 - INFO - User ID: 22
+2025-03-14 14:26:35,078 - INFO - Received data: {'code': '5-0014', 'shape': '12A2-20', 'dimensions': '150x18x2x10x32', 'images': 'images/12A2-20.png'}
+2025-03-14 14:26:35,081 - INFO - Item successfully added to cart!
+2025-03-14 14:26:35,750 - INFO - User ID: 22
+2025-03-14 14:26:35,751 - INFO - Received data: {'code': '3D0088', 'shape': '6A2', 'dimensions': '125x5(2.5+2.5)x10x22x32', 'images': 'images/6A2.png'}
+2025-03-14 14:26:35,754 - INFO - Item successfully added to cart!
+2025-03-14 14:26:36,633 - INFO - Request for woodworking received. Page: 25, Items per page: 8
+2025-03-14 14:26:36,636 - INFO - Successfully fetched 5 items.
+2025-03-14 14:26:37,723 - INFO - User ID: 22
+2025-03-14 14:26:37,724 - INFO - Received data: {'code': 'W-0012', 'shape': '14F1', 'dimensions': '200x8x6x10x15x3x32', 'images': 'images/14F1.png'}
+2025-03-14 14:26:37,727 - INFO - Item successfully added to cart!
+2025-03-14 14:26:38,150 - INFO - User ID: 22
+2025-03-14 14:26:38,151 - INFO - Received data: {'code': 'W-0011', 'shape': '14F1', 'dimensions': '200x8x5.5x10x15x2.75x32', 'images': 'images/14F1.png'}
+2025-03-14 14:26:38,154 - INFO - Item successfully added to cart!
+2025-03-14 14:26:39,495 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:26:39,497 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:26:39,508 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:26:39,536 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:26:56,023 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:26:56,025 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:26:56,059 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:26:56,059 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:29:56,016 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 14:29:56,022 - INFO - Successfully fetched 8 items.
+2025-03-14 14:29:56,034 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:29:56,037 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:30:13,503 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:30:13,505 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:30:31,382 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:30:31,382 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:30:43,745 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:30:43,747 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:31:05,604 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:31:05,606 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:31:05,616 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:31:05,617 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:31:09,280 - INFO - Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MTk1NDU5MCwianRpIjoiYzU1OGI1ZWItM2ZiZS00YjlhLThiMzMtY2Y1ZjNhOTkzNmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIyIiwibmJmIjoxNzQxOTU0NTkwLCJjc3JmIjoiMWY1OWQxN2MtOGFjNS00ZWQyLTljYjMtODM3Yzk1ZjIxNzIwIiwiZXhwIjoxNzQxOTU1NDkwfQ.cmMzKNvvKD5DtyNkgfh9FHBM6p_Zb_6KCn-GiIr-RCY
+2025-03-14 14:31:09,281 - INFO - Extracted user ID: 22 (type: <class 'str'>)
+2025-03-14 14:42:28,597 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 14:42:28,602 - INFO - Successfully fetched 8 items.
+2025-03-14 14:42:44,493 - INFO - Request for woodworking received. Page: 24, Items per page: 8
+2025-03-14 14:42:44,495 - INFO - Successfully fetched 8 items.
+2025-03-14 14:49:32,514 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 14:49:32,518 - INFO - Successfully fetched 8 items.
+2025-03-14 14:49:36,219 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 14:49:36,222 - INFO - Successfully fetched 8 items.
+2025-03-14 14:49:36,856 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 14:49:36,858 - INFO - Successfully fetched 8 items.
+2025-03-14 14:56:30,101 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 14:56:30,108 - INFO - Successfully fetched 8 items.
+2025-03-14 14:57:05,873 - INFO - Request for woodworking received. Page: 2, Items per page: 8
+2025-03-14 14:57:05,875 - INFO - Successfully fetched 8 items.
+2025-03-14 14:57:06,792 - INFO - Request for woodworking received. Page: 3, Items per page: 8
+2025-03-14 14:57:06,795 - INFO - Successfully fetched 8 items.
+2025-03-14 15:01:47,930 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 15:01:47,931 - INFO - Successfully fetched 8 items.
+2025-03-14 15:16:28,468 - INFO - Request for woodworking received. Page: 1, Items per page: 8
+2025-03-14 15:16:28,471 - INFO - Successfully fetched 8 items.

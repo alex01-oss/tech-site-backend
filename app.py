@@ -13,7 +13,10 @@ from routes.register import register_bp
 from routes.get_cart import get_cart_bp
 from routes.add_to_cart import add_to_cart_bp
 from routes.update_cart import update_cart_bp
+from routes.woodworking import woodworking_bp
 from routes.remove_from_cart import remove_from_cart_bp
+
+from routes.static import images_bp
 
 from flask_jwt_extended import JWTManager
 from flask_limiter.util import get_remote_address
@@ -37,7 +40,10 @@ app.register_blueprint(register_bp)
 app.register_blueprint(get_cart_bp)
 app.register_blueprint(add_to_cart_bp)
 app.register_blueprint(update_cart_bp)
+app.register_blueprint(woodworking_bp)
 app.register_blueprint(remove_from_cart_bp)
+
+app.register_blueprint(images_bp)
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8080)
