@@ -28,17 +28,12 @@ def remove_from_cart():
     try:
       user_id = get_jwt_identity()
       data = request.get_json()
-      
-      # article = data.get("article")
       code = data.get("code")
       
-      # if not article:
       if not code:
-        
         logger.warning("missing article in request")
         return jsonify({"error": "article is required"}), 400
       
-      # item = CartItem.query.filter_by(user_id=user_id, article=article).first()
       item = CartWoodItem.query.filter_by(user_id=user_id, code=code).first()
       
       if not item:
@@ -48,9 +43,7 @@ def remove_from_cart():
       db.session.delete(item)
       db.session.commit()
       
-      # logger.info(f"item with {article} removed from cart")
       logger.info(f"item with {code} removed from cart")
-      
       return jsonify({"message": "item deleted from cart"}), 200
         
     except Exception as e:

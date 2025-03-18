@@ -11,7 +11,6 @@ class User(db.Model):
     email = db.Column(db.String(120), unique=True, nullable=False)
     password_hash = db.Column(db.String(256), nullable=False)
     
-    # cart_items = db.relationship("CartItem", backref="user", cascade="all, delete-orphan")
     cart_wood_items = db.relationship("CartWoodItem", backref="user", cascade="all, delete-orphan")
     
     def set_password(self, password):
