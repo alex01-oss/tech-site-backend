@@ -8,17 +8,6 @@ register_bp = Blueprint('register', __name__)
 
 @register_bp.route("/api/register", methods=['POST'])
 def register():
-    
-    """
-    Регістрація
-    ---
-    responses:
-      409:
-        descriprion: Пошта вже зареєстрована
-      201:
-        description: Реєстрація успішна
-    """
-    
     data = request.get_json()
     
     if not data or not all(k in data for k in ("username", "email", "password")):

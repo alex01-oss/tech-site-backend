@@ -11,8 +11,9 @@ from routes.login import login_bp
 from routes.register import register_bp
 from routes.get_cart import get_cart_bp
 from routes.add_to_cart import add_to_cart_bp
-from routes.woodworking import woodworking_bp
+from routes.catalog import catalog_bp
 from routes.remove_from_cart import remove_from_cart_bp
+from routes.refresh_token import refresh_token_bp
 
 from routes.static import images_bp
 
@@ -36,8 +37,9 @@ app.register_blueprint(login_bp)
 app.register_blueprint(register_bp)
 app.register_blueprint(get_cart_bp)
 app.register_blueprint(add_to_cart_bp)
-app.register_blueprint(woodworking_bp)
+app.register_blueprint(catalog_bp)
 app.register_blueprint(remove_from_cart_bp)
+app.register_blueprint(refresh_token_bp)
 
 app.register_blueprint(images_bp)
 

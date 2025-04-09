@@ -7,21 +7,6 @@ login_bp = Blueprint('login', __name__)
 
 @login_bp.route("/api/login", methods=['POST'])
 def login():
-    
-    """
-    Авторизація
-    ---
-    responses:
-      200:
-        description: Авторизація успішна
-      400:
-        description: Відсутні поля
-      401:
-        description: Невірна пошта чи пароль
-      404:
-        description: Користувача не існує
-    """
-    
     data = request.get_json()
     
     if not data or "email" not in data or "password" not in data:

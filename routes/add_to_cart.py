@@ -2,16 +2,13 @@ import traceback
 from flask import Blueprint, jsonify, request
 from flask_jwt_extended import get_jwt_identity, jwt_required
 from extensions import db, logger
-from models.cart_wood import CartWoodItem
+from models.cart_item import CartItem
 
 add_to_cart_bp = Blueprint('add_to_cart', __name__)
 
 @add_to_cart_bp.route("/api/cart", methods=['POST'])
 @jwt_required()
 def add_to_cart():
-    """
-    Додає товар у кошик (без оновлення кількості)
-    """
     try:
         user_id = get_jwt_identity()
         data = request.get_json()
@@ -27,13 +24,13 @@ def add_to_cart():
             logger.warning("Missing article in request")
             return jsonify({"error": "article is required"}), 400
 
-        item = CartWoodItem.query.filter_by(user_id=user_id, code=code).first()
+        item = CartItem.query.filter_by(user_id=user_id, code=code).first()
         
         if item:
             logger.info("Item already in cart")
             return jsonify({"message": "item already in cart"}), 200
 
-        new_item = CartWoodItem(    
+        new_item = CartItem(
             user_id=user_id,
             code=code,
             shape=shape,

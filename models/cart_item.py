@@ -1,7 +1,7 @@
 from extensions import db
 
-class CartWoodItem(db.Model):
-    __tablename__ = 'cart_wood_items'
+class CartItem(db.Model):
+    __tablename__ = 'cart'
     
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
@@ -12,4 +12,4 @@ class CartWoodItem(db.Model):
     images = db.Column(db.Text)
     
     def __repr__(self):
-        return f'<CartWoodItem {self.code} for user {self.user_id}>'
+        return f'<CartItem {self.code} for user {self.user_id}>'

@@ -1,6 +1,6 @@
 from marshmallow import Schema, fields
 
-class WoodWorkingQuerySchema(Schema):
+class CatalogQuerySchema(Schema):
     page = fields.Int(missing=1)
     items_per_page = fields.Int(missing=8)
     search = fields.Str(missing="")

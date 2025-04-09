@@ -1,14 +1,14 @@
 from marshmallow import Schema, fields
 
-class CartWoodItemSchema(Schema):
+class CartItemSchema(Schema):
     code = fields.String(required=True)
     quantity = fields.Integer(required=True, validate=lambda x: x > 0)
 
-class CartWoodUpdateSchema(Schema):
+class CartUpdateSchema(Schema):
     code = fields.String(required=True)
     quantity = fields.Integer(required=True, validate=lambda x: x >= 0)
 
-class CartWoodResponseSchema(Schema):
+class CartResponseSchema(Schema):
     code = fields.String()
     shape = fields.String()
     dimensions = fields.String()
