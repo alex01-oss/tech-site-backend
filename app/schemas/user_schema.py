@@ -8,6 +8,9 @@ class User(BaseModel):
     username: str
     email: EmailStr
 
+    class Config:
+        orm_mode = True
+
 class LoginRequest(BaseModel):
     email: EmailStr
     password: str
@@ -29,3 +32,9 @@ class RegisterResponse(BaseModel):
 
 class RefreshTokenResponse(BaseModel):
     token: str
+
+class LogoutResponse(BaseModel):
+    message: str
+
+class UserResponse(BaseModel):
+    user: User

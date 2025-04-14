@@ -8,7 +8,9 @@ from starlette.staticfiles import StaticFiles
 from app.api.routes.add_to_cart import add_router
 from app.api.routes.catalog import catalog_router
 from app.api.routes.get_cart import get_cart_router
+from app.api.routes.get_user import get_user_router
 from app.api.routes.login import login_router
+from app.api.routes.logout import logout_router
 from app.api.routes.menu import menu_router
 from app.api.routes.refresh_token import refresh_token_router
 from app.api.routes.register import register_router
@@ -21,7 +23,7 @@ app = FastAPI(title="Search App API")
 #     host=settings.CACHE_REDIS_HOST,
 #     port=settings.CACHE_REDIS_PORT,
 #     db=settings.CACHE_REDIS_DB,
-#     decode_responses=settings.CACHE_REDIS_DECODE_RESPONSES,
+#     decode_responses=settings.CACHE_REDIS_DECODE_RESPONSES
 # )
 
 app.add_middleware(
@@ -38,11 +40,13 @@ if os.path.exists("images"):
 app.include_router(menu_router)
 app.include_router(login_router)
 app.include_router(register_router)
+app.include_router(refresh_token_router)
+app.include_router(logout_router)
+app.include_router(get_user_router)
 app.include_router(get_cart_router)
 app.include_router(add_router)
 app.include_router(catalog_router)
 app.include_router(remove_router)
-app.include_router(refresh_token_router)
 app.include_router(static_router)
 
 if __name__ == "__main__":

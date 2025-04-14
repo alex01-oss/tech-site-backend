@@ -18,6 +18,3 @@ class User(Base):
         back_populates="user",
         cascade="all, delete-orphan"
     )
-
-    def set_password(self, password):
-        pass

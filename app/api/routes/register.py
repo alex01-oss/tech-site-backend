@@ -35,6 +35,7 @@ async def register(
       "token": access_token,
       "refreshToken": refresh_token,
       "user": {
+        "id": str(new_user.id),
         "email": new_user.email,
         "username": new_user.username
       }
