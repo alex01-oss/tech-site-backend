@@ -1,8 +1,8 @@
 from datetime import timedelta, datetime
-from typing import Union, Any, Type
+from typing import Union, Any, Type, Optional
 
 import jwt
-from fastapi import Depends, HTTPException
+from fastapi import Depends, HTTPException, Header
 from fastapi.security import OAuth2PasswordBearer
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
@@ -72,3 +72,29 @@ def get_current_user(
             detail="Could not validate credentials",
             headers={"WWW-Authenticate": "Bearer"},
         )
+
+# OPTIONAL
+def oauth2_scheme_optional(authorization: str = Header(None)) -> Optional[str]:
+    if authorization and authorization.startswith("Bearer "):
+        return authorization.replace("Bearer ", "")
+    return None
+
+
+def get_current_user_optional(
+        token: Optional[str] = Depends(oauth2_scheme_optional),
+        db: Session = Depends(get_db)
+) -> Optional[User]:
+    if not token:
+        return None
+
+    try:
+        payload = decode_token(token)
+        user_id = payload.get("sub")
+
+        if not user_id:
+            return None
+
+        user = db.query(User).filter(User.id == int(user_id)).first()
+        return user
+    except:
+        return None
