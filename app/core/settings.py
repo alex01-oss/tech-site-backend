@@ -8,7 +8,9 @@ load_dotenv()
 class Settings(BaseSettings):
     SQLALCHEMY_DATABASE_URI: str = os.getenv('DATABASE_URL')
     ITEMS_PER_PAGE: int = int(os.getenv('ITEMS_PER_PAGE', '10'))
-    SECRET_KEY: str = os.getenv("SECRET_KEY", "mysecretkey")
+
+    ACCESS_TOKEN_SECRET_KEY: str = os.getenv("SECRET_KEY", "mysecretaccesskey")
+    REFRESH_TOKEN_SECRET_KEY: str = os.getenv("SUPER_SECRET_KEY", "mysecretrefreshkey")
 
     ACCESS_TOKEN_EXPIRE_MINUTES=int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', '30'))
     REFRESH_TOKEN_EXPIRE_MINUTES=int(os.getenv('REFRESH_TOKEN_EXPIRE_MINUTES', '43200'))

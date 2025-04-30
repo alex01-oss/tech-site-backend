@@ -9,7 +9,7 @@ class RefreshToken(Base):
 
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey('users.id'))
-    token = Column(String)
+    refresh_token = Column(String)
     created_at = Column(DateTime)
 
-    user = relationship('User', backref='refresh_tokens')
+    user = relationship('User', back_populates='refresh_tokens')

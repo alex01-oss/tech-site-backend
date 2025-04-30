@@ -8,12 +8,25 @@ class User(Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True, index=True)
+    role = Column(String, index=True, default='user')
     username = Column(String, unique=True, nullable=False, index=True)
     email = Column(String, unique=True, nullable=False, index=True)
     password_hash = Column(String, nullable=False)
     
     cart_items = relationship(
         "CartItem",
+        back_populates="user",
+        cascade="all, delete-orphan"
+    )
+
+    posts = relationship(
+        "Post",
+        back_populates="user",
+        cascade="all, delete-orphan"
+    )
+
+    refresh_tokens = relationship(
+        "RefreshToken",
         back_populates="user",
         cascade="all, delete-orphan"
     )
