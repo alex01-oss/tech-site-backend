@@ -42,10 +42,17 @@ class LoginResponse(BaseModel):
     refreshToken: str
 
 
+class RefreshTokenRequest(BaseModel):
+    refreshToken: str
+
 class RefreshTokenResponse(BaseModel):
     accessToken: str
     refreshToken: str
     token_type: str = "bearer"
+
+
+class LogoutRequest(BaseModel):
+    refreshToken: str
 
 
 class LogoutResponse(BaseModel):

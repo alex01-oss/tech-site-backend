@@ -25,7 +25,7 @@ async def get_cart(
 
             cart.append(GetCartResponse(
                 product=item.product,
-                quantity=item.product.quantity,
+                quantity=item.quantity,
             ))
 
         return CartListResponse(cart=cart)

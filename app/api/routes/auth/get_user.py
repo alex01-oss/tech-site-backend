@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 
 from app.core.security import get_current_user
 from app.models.user import User
-from app.schemas.user_schema import UserResponse
+from app.schemas.user_schema import UserResponse, UserData
 
 get_user_router = APIRouter()
 
@@ -10,4 +10,4 @@ get_user_router = APIRouter()
 async def get_current_user(
         user: User = Depends(get_current_user),
 ):
-    return UserResponse.model_validate(user)
+    return UserResponse(user=UserData.model_validate(user))
