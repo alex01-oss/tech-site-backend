@@ -30,7 +30,7 @@ async def upload_image(
         content = await file.read()
         buffer.write(content)
 
-    file_url = f"/images/{filename}"
+    file_url = f"images/{filename}"
 
     return ImageUploadResponse(
         filename=filename,

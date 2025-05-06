@@ -1,12 +1,12 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, constr, Field
 from datetime import datetime
 from typing import Optional
 
 
 class CreatePostRequest(BaseModel):
-    title: str
-    content: str
-    image: Optional[str] = None
+    title: constr(min_length=1) = Field(..., description="Post title")
+    content: constr(min_length=1) = Field(..., description="Post content")
+    image: str | None = None
 
 
 class PostResponse(BaseModel):
@@ -30,6 +30,7 @@ class EditPostRequest(BaseModel):
 
 class DeletePostResponse(BaseModel):
     detail: str
+
 
 class ImageUploadResponse(BaseModel):
     filename: str
