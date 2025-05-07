@@ -23,7 +23,7 @@ def verify_password(plain_password, hashed_password) -> bool:
     return pwd_context.verify(plain_password, hashed_password)
 
 def create_access_token(identity: Union[str, Any]) -> str:
-    expire = datetime.now() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
+    expire = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
     to_encode = {
         "sub": str(identity),
         "exp": expire,
@@ -31,11 +31,12 @@ def create_access_token(identity: Union[str, Any]) -> str:
     }
     return jwt.encode(to_encode, settings.ACCESS_TOKEN_SECRET_KEY, algorithm=settings.ALGORITHM)
 
+
 def create_refresh_token(identity: Union[str, Any], db: Session) -> str:
     db.query(RefreshToken).filter(RefreshToken.user_id == int(identity)).delete()
     db.commit()
 
-    expire = datetime.now() + timedelta(minutes=settings.REFRESH_TOKEN_EXPIRE_MINUTES)
+    expire = datetime.utcnow() + timedelta(minutes=settings.REFRESH_TOKEN_EXPIRE_MINUTES)
     to_encode = {
         "sub": str(identity),
         "exp": expire,
@@ -46,7 +47,7 @@ def create_refresh_token(identity: Union[str, Any], db: Session) -> str:
     refresh_token = RefreshToken(
         user_id=int(identity),
         refresh_token=encoded_jwt,
-        created_at=datetime.now()
+        created_at=datetime.utcnow()
     )
     db.add(refresh_token)
     db.commit()
