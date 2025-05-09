@@ -14,6 +14,7 @@ from app.api.routes.cart.add_to_cart import add_router
 from app.api.routes.cart.get_cart import get_cart_router
 from app.api.routes.cart.remove_from_cart import remove_router
 from app.api.routes.catalog.catalog import catalog_router
+from app.api.routes.catalog.catalog_item import get_catalog_item_router
 from app.api.routes.other.menu import menu_router
 from app.api.routes.other.static import static_router
 from app.api.routes.posts.create_post import create_post_router
@@ -64,6 +65,7 @@ app.include_router(delete_post_router)
 app.include_router(get_post_router)
 app.include_router(get_all_posts_router)
 app.include_router(upload_image_router)
+app.include_router(get_catalog_item_router)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8080, reload=True)

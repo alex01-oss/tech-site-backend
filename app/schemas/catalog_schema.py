@@ -12,6 +12,23 @@ class CatalogQuerySchema(BaseModel):
     grid_size: Optional[str] = None
 
 
+class BondSchema(BaseModel):
+    name_bond: str
+    bond_description: str
+    bond_cooling: str
+
+    class Config:
+        from_attributes = True
+
+
+class EquipmentModelSchema(BaseModel):
+    name_equipment: str
+    name_producer: str
+
+    class Config:
+        from_attributes = True
+
+
 class CatalogItemSchema(BaseModel):
     code: str
     shape: Optional[str] = None
@@ -23,6 +40,11 @@ class CatalogItemSchema(BaseModel):
 
     class Config:
         from_attributes = True
+
+class CatalogItemDetailedSchema(BaseModel):
+    item: CatalogItemSchema
+    bond: Optional[BondSchema]
+    machines: List[EquipmentModelSchema] = []
 
 
 class CatalogResponseSchema(BaseModel):
