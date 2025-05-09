@@ -6,9 +6,9 @@ from sqlalchemy.orm import Session
 
 from app.api.dependencies import get_db
 from app.core.security import get_current_user_optional
-from app.models.cart_item import CartItem
-from app.models.catalog_item import CatalogItem
+from app.models import ProductGrindingWheels, Bond, ShapeImg, EquipmentCode, EquipmentModel, CartItem
 from app.models.user import User
+
 from app.schemas.catalog_schema import CatalogQuerySchema, CatalogResponseSchema, CatalogItemSchema
 
 catalog_router = APIRouter()
@@ -21,16 +21,33 @@ async def return_products(
         user: Optional[User] = Depends(get_current_user_optional)
 ):
     try:
-        query = db.query(CatalogItem)
+        query = db.query(ProductGrindingWheels) \
+            .join(Bond, ProductGrindingWheels.name_bond == Bond.name_bond) \
+            .join(ShapeImg, ProductGrindingWheels.shape == ShapeImg.shape)
 
         if query_params.search:
             search_query = query_params.search.lower()
+            print(f"Пошук за запитом: '{search_query}', тип пошуку: '{query_params.search_type}'")
+
             if query_params.search_type == 'code':
-                query = query.filter(CatalogItem.code.ilike(f"%{search_query}%"))
+                query = query.filter(ProductGrindingWheels.code.ilike(f"%{search_query}%"))
+
             elif query_params.search_type == 'shape':
-                query = query.filter(CatalogItem.shape.ilike(f"%{search_query}%"))
+                query = query.filter(ProductGrindingWheels.shape.ilike(f"%{search_query}%"))
+
             elif query_params.search_type == 'dimensions':
-                query = query.filter(CatalogItem.dimensions.ilike(f"%{search_query}%"))
+                query = query.filter(ProductGrindingWheels.dimensions.ilike(f"%{search_query}%"))
+
+            elif query_params.search_type == 'equipment':
+                query = query.join(EquipmentCode, EquipmentCode.code == ProductGrindingWheels.code) \
+                    .join(EquipmentModel, EquipmentCode.name_equipment == EquipmentModel.name_equipment) \
+                    .filter(EquipmentModel.name_equipment.ilike(f"%{search_query}%"))
+
+        if query_params.name_bond:
+            query = query.filter(ProductGrindingWheels.name_bond == query_params.name_bond)
+
+        if query_params.grid_size:
+            query = query.filter(ProductGrindingWheels.grid_size == query_params.grid_size)
 
         total_items = query.count()
         total_pages = math.ceil(total_items / query_params.items_per_page) if total_items > 0 else 1
@@ -48,11 +65,13 @@ async def return_products(
 
             catalog_item = CatalogItemSchema(
                 code=str(item.code),
-                shape=str(item.shape) if item.shape else None,
-                dimensions=str(item.dimensions) if item.dimensions else None,
-                images=str(item.images) if item.images else None,
+                shape=str(item.shape),
+                dimensions=str(item.dimensions),
+                name_bond=str(item.name_bond),
+                grid_size=str(item.grid_size),
                 is_in_cart=is_in_cart
             )
+
             items.append(catalog_item)
 
         response = CatalogResponseSchema(
@@ -66,4 +85,6 @@ async def return_products(
         return response
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to load catalog data: {str(e)}")
+        import traceback
+        error_msg = f"Failed to load catalog data: {str(e)}\nTraceback: {traceback.format_exc()}"
+        raise HTTPException(status_code=500, detail=error_msg)

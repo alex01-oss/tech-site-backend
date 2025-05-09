@@ -1,0 +1,7 @@
+id,name_bond,bond_description,bond_cooling
+1,B9-00,For face and backside grinding of circular saws with carbide tips.,"Oil-based coolant required, water-based coolant is permissible."
+2,B7-00,For face and backside grinding of circular saws with carbide tips.,"Oil-based coolant required, water-based coolant is permissible."
+3,B7-01,For backside grinding of circular saws on the back surface.,Oil-based coolant.
+4,B7-02,For face and backside grinding of circular saws with carbide tips.,"Oil-based coolant required, water-based coolant is permissible."
+5,B9-04,For face grinding of circular saws.,Oil-based coolant.
+6,HSS02,The universal bond for sharpening and re-profiling HSS disc saws. HSS02 is the bond with the best durability performance for HSS disc saw processing.,Can work with both water-based and oil-based coolants

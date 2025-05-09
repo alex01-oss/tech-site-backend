@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from app.api.dependencies import get_db
 from app.core.security import get_current_user
 from app.models.cart_item import CartItem
-from app.models.catalog_item import CatalogItem
+from app.models.product_grinding_wheels import ProductGrindingWheels
 from app.models.user import User
 from app.schemas.cart_schema import CartResponse, CartRequest
 
@@ -21,7 +21,7 @@ async def add_to_cart(
         if not item.code:
             raise HTTPException(status_code=400, detail="Article is empty")
 
-        catalog_item = db.query(CatalogItem).filter_by(code=item.code).first()
+        catalog_item = db.query(ProductGrindingWheels).filter_by(code=item.code).first()
         if not catalog_item:
             raise HTTPException(status_code=404, detail="Product not found in catalog")
 

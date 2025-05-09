@@ -10,16 +10,12 @@ from app.api.routes.auth.login import login_router
 from app.api.routes.auth.logout import logout_router
 from app.api.routes.auth.refresh_token import refresh_token_router
 from app.api.routes.auth.register import register_router
-
 from app.api.routes.cart.add_to_cart import add_router
 from app.api.routes.cart.get_cart import get_cart_router
 from app.api.routes.cart.remove_from_cart import remove_router
-
 from app.api.routes.catalog.catalog import catalog_router
-
 from app.api.routes.other.menu import menu_router
 from app.api.routes.other.static import static_router
-
 from app.api.routes.posts.create_post import create_post_router
 from app.api.routes.posts.delete_post import delete_post_router
 from app.api.routes.posts.edit_post import edit_post_router
