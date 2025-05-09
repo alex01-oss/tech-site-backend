@@ -6,6 +6,7 @@ from app.core.security import get_current_user
 from app.models.cart_item import CartItem
 from app.models.user import User
 from app.schemas.cart_schema import GetCartResponse, CartListResponse
+from app.schemas.catalog_schema import CatalogItemSchema
 
 get_cart_router = APIRouter()
 
@@ -20,12 +21,23 @@ async def get_cart(
 
         cart = []
         for item in cart_items:
-            if not item.product:
+            product = item.product
+            if not product:
                 continue
 
+            image_url = product.shape_info.img_url if product.shape_info else None
+
             cart.append(GetCartResponse(
-                product=item.product,
-                quantity=item.quantity,
+                product=CatalogItemSchema(
+                    code=product.code,
+                    shape=product.shape,
+                    dimensions=product.dimensions,
+                    images=image_url,
+                    name_bond=product.name_bond,
+                    grid_size=product.grid_size,
+                    is_in_cart=True
+                ),
+                quantity=str(item.quantity),
             ))
 
         return CartListResponse(cart=cart)

@@ -10,6 +10,6 @@ class Bond(Base):
     id = Column(Integer, primary_key=True)
     name_bond = Column(String, nullable=False, unique=True, index=True)
     bond_description = Column(String, nullable=False)
-    bond_cooling = Column(Integer, nullable=False)
+    bond_cooling = Column(String, nullable=False)
 
     products = relationship("ProductGrindingWheels", back_populates="bond")
