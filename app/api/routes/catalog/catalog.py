@@ -27,7 +27,6 @@ async def return_products(
 
         if query_params.search:
             search_query = query_params.search.lower()
-            print(f"Пошук за запитом: '{search_query}', тип пошуку: '{query_params.search_type}'")
 
             if query_params.search_type == 'code':
                 query = query.filter(ProductGrindingWheels.code.ilike(f"%{search_query}%"))
@@ -38,7 +37,7 @@ async def return_products(
             elif query_params.search_type == 'dimensions':
                 query = query.filter(ProductGrindingWheels.dimensions.ilike(f"%{search_query}%"))
 
-            elif query_params.search_type == 'equipment':
+            elif query_params.search_type == 'machine':
                 query = query.join(EquipmentCode, EquipmentCode.code == ProductGrindingWheels.code) \
                     .join(EquipmentModel, EquipmentCode.name_equipment == EquipmentModel.name_equipment) \
                     .filter(EquipmentModel.name_equipment.ilike(f"%{search_query}%"))
@@ -62,11 +61,13 @@ async def return_products(
         items = []
         for item in catalog_items:
             is_in_cart = item.code in cart_product_codes if user else False
+            image_url = item.shape_info.img_url if item.shape_info else None
 
             catalog_item = CatalogItemSchema(
                 code=str(item.code),
                 shape=str(item.shape),
                 dimensions=str(item.dimensions),
+                images=image_url,
                 name_bond=str(item.name_bond),
                 grid_size=str(item.grid_size),
                 is_in_cart=is_in_cart
