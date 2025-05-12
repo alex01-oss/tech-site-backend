@@ -7,7 +7,7 @@ from app.core.database import Base
 class EquipmentCode(Base):
     __tablename__ = 'equipment_code'
 
-    name_equipment = Column(String, ForeignKey('equipment_model.name_equipment'), nullable=False)
+    name_equipment = Column(String, ForeignKey('equipment_model.name_equipment'), nullable=False, primary_key=True)
     code = Column(String, ForeignKey('product_grinding_wheels.code'), nullable=False, primary_key=True, index=True)
 
     product = relationship(

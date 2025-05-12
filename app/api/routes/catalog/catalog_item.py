@@ -19,7 +19,7 @@ async def get_cart(
         .joinedload(EquipmentModel.producer),
         joinedload(ProductGrindingWheels.shape_info)
     ).filter(ProductGrindingWheels.code == code).first()
-
+    
     if not item:
         raise HTTPException(status_code=404, detail="Item not found")
 
@@ -30,7 +30,7 @@ async def get_cart(
         )
         for ec in item.equipment_codes
     ]
-
+    
     bond = db.query(Bond).filter(Bond.name_bond == item.name_bond).first()
 
     product = CatalogItemSchema(
