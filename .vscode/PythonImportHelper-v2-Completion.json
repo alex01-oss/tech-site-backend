@@ -107,6 +107,14 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Dict",
         "importPath": "typing",
         "description": "typing",
@@ -732,6 +740,14 @@
         "documentation": {}
     },
     {
+        "label": "CartItem",
+        "importPath": "app.models.cart_item",
+        "description": "app.models.cart_item",
+        "isExtraImport": true,
+        "detail": "app.models.cart_item",
+        "documentation": {}
+    },
+    {
         "label": "ProductGrindingWheels",
         "importPath": "app.models.product_grinding_wheels",
         "description": "app.models.product_grinding_wheels",
@@ -785,6 +801,14 @@
         "description": "app.models.shape_img",
         "isExtraImport": true,
         "detail": "app.models.shape_img",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
         "documentation": {}
     },
     {
@@ -1533,6 +1557,14 @@
     },
     {
         "label": "get_current_user",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user_optional",
         "importPath": "app.core.security",
         "description": "app.core.security",
         "isExtraImport": true,
@@ -2973,7 +3005,7 @@
         "kind": 5,
         "importPath": "app.api.routes.catalog.catalog_item",
         "description": "app.api.routes.catalog.catalog_item",
-        "peekOfCode": "get_catalog_item_router = APIRouter()\n@get_catalog_item_router.get(\"/api/catalog/{code}\", response_model=CatalogItemDetailedSchema)\nasync def get_cart(\n        code: str,\n        db: Session = Depends(get_db)\n):\n    item = db.query(ProductGrindingWheels).options(\n        joinedload(ProductGrindingWheels.equipment_codes)\n        .joinedload(EquipmentCode.equipment_model)\n        .joinedload(EquipmentModel.producer),",
+        "peekOfCode": "get_catalog_item_router = APIRouter()\n@get_catalog_item_router.get(\"/api/catalog/{code}\", response_model=CatalogItemDetailedSchema)\nasync def get_cart(\n        code: str,\n        db: Session = Depends(get_db),\n        user: Optional[User] = Depends(get_current_user_optional)\n):\n    item = db.query(ProductGrindingWheels).options(\n        joinedload(ProductGrindingWheels.equipment_codes)\n        .joinedload(EquipmentCode.equipment_model)",
         "detail": "app.api.routes.catalog.catalog_item",
         "documentation": {}
     },
