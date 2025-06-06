@@ -1,166 +1,168 @@
 {
-  "sharpening": {
-    "title": "Sharpening Tool",
-    "items": [
-      {
-        "text": "Catalog",
-        "items": [
-          {
-            "text": "PDF",
-            "type": "button",
-            "url": "https://example.com/catalog.pdf"
-          }
-        ]
-      },
-      {
-        "text": "Search by characteristics",
-        "items": [
-          {
-            "text": "By code",
-            "searchType": "code"
-          },
-          {
-            "text": "By shape",
-            "searchType": "shape"
-          },
-          {
-            "text": "By dimensions",
-            "searchType": "dimensions"
-          }
-        ]
-      },
-      {
-        "text": "Search by equipment",
-        "items": [
-          {
-            "text": "By machine",
-            "searchType": "machine"
-          }
-        ]
-      }
-    ]
-  },
-  "axial_tool": {
-    "title": "Axial Tool",
-    "items": [
-      {
-        "text": "Catalog",
-        "items": [
-          {
-            "text": "PDF",
-            "type": "button",
-            "url": "https://example.com/catalog.pdf"
-          }
-        ]
-      },
-      {
-        "text": "Search by characteristics",
-        "items": [
-          {
-            "text": "By code",
-            "searchType": "code"
-          },
-          {
-            "text": "By shape",
-            "searchType": "shape"
-          },
-          {
-            "text": "By dimensions",
-            "searchType": "dimensions"
-          }
-        ]
-      },
-      {
-        "text": "Search by equipment",
-        "items": [
-          {
-            "text": "By machine",
-            "searchType": "machine"
-          }
-        ]
-      }
-    ]
-  },
-  "grinding_tool": {
-    "title": "Grinding Tool",
-    "items": [
-      {
-        "text": "Catalog",
-        "items": [
-          {
-            "text": "PDF",
-            "type": "button",
-            "url": "https://example.com/catalog.pdf"
-          }
-        ]
-      },
-      {
-        "text": "Search by characteristics",
-        "items": [
-          {
-            "text": "By code",
-            "searchType": "code"
-          },
-          {
-            "text": "By shape",
-            "searchType": "shape"
-          },
-          {
-            "text": "By dimensions",
-            "searchType": "dimensions"
-          }
-        ]
-      },
-      {
-        "text": "Search by equipment",
-        "items": [
-          {
-            "text": "By machine",
-            "searchType": "machine"
-          }
-        ]
-      }
-    ]
-  },
-  "construction_tool": {
-    "title": "Construction Tool",
-    "items": [
-      {
-        "text": "Catalog",
-        "items": [
-          {
-            "text": "PDF",
-            "type": "button",
-            "url": "https://example.com/catalog.pdf"
-          }
-        ]
-      },
-      {
-        "text": "Search by characteristics",
-        "items": [
-          {
-            "text": "By code",
-            "searchType": "code"
-          },
-          {
-            "text": "By shape",
-            "searchType": "shape"
-          },
-          {
-            "text": "By dimensions",
-            "searchType": "dimensions"
-          }
-        ]
-      },
-      {
-        "text": "Search by equipment",
-        "items": [
-          {
-            "text": "By machine",
-            "searchType": "machine"
-          }
-        ]
-      }
-    ]
-  }
+  "categories": [
+    {
+      "title": "Sharpening Tool",
+      "items": [
+        {
+          "text": "Catalog",
+          "items": [
+            {
+              "text": "PDF",
+              "type": "button",
+              "url": "https://example.com/catalog.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Search by characteristics",
+          "items": [
+            {
+              "text": "By code",
+              "searchType": "code"
+            },
+            {
+              "text": "By shape",
+              "searchType": "shape"
+            },
+            {
+              "text": "By dimensions",
+              "searchType": "dimensions"
+            }
+          ]
+        },
+        {
+          "text": "Search by equipment",
+          "items": [
+            {
+              "text": "By machine",
+              "searchType": "machine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Axial Tool",
+      "items": [
+        {
+          "text": "Catalog",
+          "items": [
+            {
+              "text": "PDF",
+              "type": "button",
+              "url": "https://example.com/catalog.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Search by characteristics",
+          "items": [
+            {
+              "text": "By code",
+              "searchType": "code"
+            },
+            {
+              "text": "By shape",
+              "searchType": "shape"
+            },
+            {
+              "text": "By dimensions",
+              "searchType": "dimensions"
+            }
+          ]
+        },
+        {
+          "text": "Search by equipment",
+          "items": [
+            {
+              "text": "By machine",
+              "searchType": "machine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grinding Tool",
+      "items": [
+        {
+          "text": "Catalog",
+          "items": [
+            {
+              "text": "PDF",
+              "type": "button",
+              "url": "https://example.com/catalog.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Search by characteristics",
+          "items": [
+            {
+              "text": "By code",
+              "searchType": "code"
+            },
+            {
+              "text": "By shape",
+              "searchType": "shape"
+            },
+            {
+              "text": "By dimensions",
+              "searchType": "dimensions"
+            }
+          ]
+        },
+        {
+          "text": "Search by equipment",
+          "items": [
+            {
+              "text": "By machine",
+              "searchType": "machine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Construction Tool",
+      "items": [
+        {
+          "text": "Catalog",
+          "items": [
+            {
+              "text": "PDF",
+              "type": "button",
+              "url": "https://example.com/catalog.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Search by characteristics",
+          "items": [
+            {
+              "text": "By code",
+              "searchType": "code"
+            },
+            {
+              "text": "By shape",
+              "searchType": "shape"
+            },
+            {
+              "text": "By dimensions",
+              "searchType": "dimensions"
+            }
+          ]
+        },
+        {
+          "text": "Search by equipment",
+          "items": [
+            {
+              "text": "By machine",
+              "searchType": "machine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

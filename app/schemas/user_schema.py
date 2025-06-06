@@ -1,12 +1,13 @@
 from typing import Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr, Field
 
 
 class UserData(BaseModel):
-    id: Optional[int] = None
-    username: str
+    id: int
+    full_name: str
     email: str
+    phone: str
     role: str
 
     class Config:
@@ -18,16 +19,17 @@ class UserResponse(BaseModel):
 
 
 class RegisterRequest(BaseModel):
-    username: str
+    full_name: str
     email: str
+    phone: str
     password: str
 
 
 class RegisterResponse(BaseModel):
     message: str
     user: UserData
-    accessToken: str
-    refreshToken: str
+    access_token: str
+    refresh_token: str
 
 
 class LoginRequest(BaseModel):
@@ -38,22 +40,30 @@ class LoginRequest(BaseModel):
 class LoginResponse(BaseModel):
     message: str
     user: UserData
-    accessToken: str
-    refreshToken: str
+    access_token: str
+    refresh_token: str
 
 
 class RefreshTokenRequest(BaseModel):
-    refreshToken: str
+    refresh_token: str
+
 
 class RefreshTokenResponse(BaseModel):
-    accessToken: str
-    refreshToken: str
+    access_token: str
+    refresh_token: str
     token_type: str = "bearer"
 
 
 class LogoutRequest(BaseModel):
-    refreshToken: str
+    refresh_token: str
 
 
 class LogoutResponse(BaseModel):
     message: str
+
+
+class UpdateUserRequest(BaseModel):
+    full_name: str | None = Field(None, min_length=2)
+    email: EmailStr | None = None
+    phone: str | None = Field(None, min_length=8, max_length=20)
+    password: str | None = Field(None, min_length=6)

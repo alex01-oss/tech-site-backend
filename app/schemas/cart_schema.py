@@ -1,6 +1,6 @@
 from typing import List
 
-from pydantic import BaseModel, constr, conint
+from pydantic import BaseModel, Field
 
 from app.schemas.catalog_schema import CatalogItemSchema
 
@@ -13,10 +13,8 @@ class CartResponse(BaseModel):
     message: str
 
 
-# in soon
-class CartUpdate(BaseModel):
-    code: constr(strip_whitespace=True, min_length=1)
-    quantity: conint(gt=0)
+class UpdateCartItemRequest(BaseModel):
+    quantity: int = Field(..., ge=1)
 
 
 class GetCartResponse(BaseModel):

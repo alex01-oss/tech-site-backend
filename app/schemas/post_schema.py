@@ -4,8 +4,8 @@ from typing import Optional
 
 
 class CreatePostRequest(BaseModel):
-    title: constr(min_length=1) = Field(..., description="Post title")
-    content: constr(min_length=1) = Field(..., description="Post content")
+    title: str
+    content: str
     image: str | None = None
 
 

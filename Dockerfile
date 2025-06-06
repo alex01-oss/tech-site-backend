@@ -1,20 +1,21 @@
-FROM python:3.13
+FROM python:3.13-slim
 
-RUN apt-get update && apt-get install -y \
-    curl \
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
-    && curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+    gcc \
+    libpq-dev \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
 
-ENV PATH="/root/.cargo/bin:${PATH}"
+COPY requirements.txt .
 
-WORKDIR /
-
-COPY requirements.txt requirements.txt
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
 EXPOSE 8080
 
-CMD [ "python", "-m", "flask", "run", "--host=0.0.0.0", "--port=8080"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]

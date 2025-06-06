@@ -5,8 +5,6 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from app.core.database import Base, engine
-
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
@@ -16,6 +14,7 @@ config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
+from app.core.database import Base
 from app.models.cart_item import CartItem
 from app.models.product_grinding_wheels import ProductGrindingWheels
 from app.models.bond import Bond
@@ -28,9 +27,6 @@ from app.models.refresh_token import RefreshToken
 from app.models.post import Post
 
 target_metadata = Base.metadata
-
-Base.metadata.drop_all(engine)
-Base.metadata.create_all(engine)
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:

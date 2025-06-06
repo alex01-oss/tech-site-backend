@@ -55,6 +55,8 @@ def create_refresh_token(identity: Union[str, Any], db: Session) -> str:
     return encoded_jwt
 
 def decode_token(token: str) -> dict:
+    if not token or len(token) < 20:
+        raise HTTPException(status_code=401, detail="Invalid token format")
     try:
         unverified_payload = jwt.get_unverified_claims(token)
         token_type = unverified_payload.get("type")
