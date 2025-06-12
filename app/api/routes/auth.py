@@ -1,13 +1,13 @@
+
 from fastapi import APIRouter, Body, Depends, HTTPException
 from psycopg2 import IntegrityError
-
-from app.schemas.user_schema import LoginRequest, LoginResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, UserData
-from app.core.security import create_access_token, create_refresh_token, decode_token, hash_password, verify_password, oauth2_scheme
-from app.models.refresh_token import RefreshToken
-from app.api.dependencies import get_db
 from sqlalchemy.orm import Session
-from app.models.user import User
 
+from backend.app.api.dependencies import get_db
+from backend.app.core.security import issue_tokens, verify_password, hash_password, decode_token, oauth2_scheme
+from backend.app.models import User, RefreshToken
+from backend.app.schemas.user_schema import LoginRequest, RegisterRequest, RefreshTokenRequest, LogoutRequest, \
+    MessageResponse, TokenResponse, TokenBundle
 
 router = APIRouter(
     prefix="/api/auth",
@@ -15,7 +15,7 @@ router = APIRouter(
 )
 
 
-@router.post("/login", response_model=LoginResponse)
+@router.post("/login", response_model=TokenResponse)
 async def login(
         user_data: LoginRequest,
         db: Session = Depends(get_db)
@@ -28,20 +28,13 @@ async def login(
     if not verify_password(user_data.password, user.password_hash):
         raise HTTPException(status_code=400, detail="Incorrect password")
 
-    access_token = create_access_token(user.id)
-    refresh_token = create_refresh_token(user.id, db)
-
-    user_data = UserData.model_validate(user)
-
-    return LoginResponse(
+    return TokenResponse(
         message="Login successful",
-        user=user_data,
-        access_token=access_token,
-        refresh_token=refresh_token,
+        **issue_tokens(user.id, db)
     )
-    
 
-@router.post("/register", response_model=RegisterResponse)
+
+@router.post("/register", response_model=TokenResponse)
 async def register(
     user: RegisterRequest,
     db: Session = Depends(get_db)
@@ -62,20 +55,9 @@ async def register(
         db.add(new_user)
         db.commit()
 
-        access_token = create_access_token(new_user.id)
-        refresh_token = create_refresh_token(new_user.id, db)
-
-        return RegisterResponse(
+        return TokenResponse(
             message="User registered successfully",
-            access_token=access_token,
-            refresh_token=refresh_token,
-            user=UserData(
-                id=new_user.id,
-                full_name=new_user.full_name,
-                email=new_user.email,
-                phone=new_user.phone,
-                role=new_user.role,
-            )
+            **issue_tokens(new_user.id, db)
         )
 
     except IntegrityError:
@@ -86,7 +68,7 @@ async def register(
         )
         
 
-@router.post("/refresh", response_model=RefreshTokenResponse)
+@router.post("/refresh", response_model=TokenBundle)
 async def refresh_token(
         refresh_data: RefreshTokenRequest = Body(...),
         db: Session = Depends(get_db),
@@ -111,17 +93,12 @@ async def refresh_token(
     db.delete(token_record)
     db.commit()
 
-    new_access_token = create_access_token(user_id)
-    new_refresh_token = create_refresh_token(user_id, db)
-
-    return RefreshTokenResponse(
-        access_token=new_access_token,
-        refresh_token=new_refresh_token,
-        token_type="bearer"
+    return TokenBundle(
+        **issue_tokens(int(user_id), db)
     )
 
 
-@router.post("/logout", response_model=LogoutResponse)
+@router.post("/logout", response_model=MessageResponse)
 async def logout(
     logout_data: LogoutRequest = Body(...),
     access_token: str = Depends(oauth2_scheme),
@@ -142,6 +119,6 @@ async def logout(
     if not refresh_token_entry:
         raise HTTPException(status_code=404, detail="Refresh token not found")
 
-    return LogoutResponse(
+    return MessageResponse(
         message="Successfully logged out",
     )

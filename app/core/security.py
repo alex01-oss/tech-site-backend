@@ -7,10 +7,10 @@ from jose import jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
-from app.api.dependencies import get_db
-from app.core.settings import settings
-from app.models.refresh_token import RefreshToken
-from app.models.user import User
+from backend.app.api.dependencies import get_db
+from backend.app.core.settings import settings
+from backend.app.models.refresh_token import RefreshToken
+from backend.app.models.user import User
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
@@ -140,3 +140,13 @@ def admin_required(user=Depends(get_current_user)):
             detail="Admin access only"
         )
     return user
+
+def issue_tokens(user_id: int, db: Session) -> dict:
+    access_token = create_access_token(user_id)
+    refresh_token = create_refresh_token(user_id, db)
+    
+    return {
+        "access_token": access_token,
+        "refresh_token": refresh_token,
+        "token_type": "bearer"
+    }

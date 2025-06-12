@@ -4,14 +4,15 @@ import uuid
 from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
 from starlette.responses import FileResponse
 
-from app.core.security import admin_required
-from app.schemas.post_schema import ImageUploadResponse
-from app.schemas.user_schema import UserData
+from backend.app.core.security import admin_required
+from backend.app.schemas.post_schema import ImageUploadResponse
+from backend.app.schemas.user_schema import UserData
 
 router = APIRouter(
     prefix="/api/images",
     tags=["Media"]
 )
+
 
 @router.get("/{filename}")
 async def serve_image(filename: str):
@@ -21,6 +22,7 @@ async def serve_image(filename: str):
         return FileResponse(file_path, media_type="image/png")
 
     raise HTTPException(status_code=404, detail="File not found")
+
 
 @router.post("/upload-image")
 async def upload_image(

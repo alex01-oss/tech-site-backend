@@ -1,15 +1,15 @@
 from fastapi import APIRouter, Depends, HTTPException
 
-from app.api.dependencies import get_db
-from app.core.security import get_current_user
-from app.models.cart_item import CartItem
-from app.models.product_grinding_wheels import ProductGrindingWheels
-from app.models.user import User
-from app.schemas.cart_schema import CartListResponse, CartRequest, CartResponse, GetCartResponse, UpdateCartItemRequest
+from backend.app.api.dependencies import get_db
+from backend.app.core.security import get_current_user
+from backend.app.models.cart_item import CartItem
+from backend.app.models.product_grinding_wheels import ProductGrindingWheels
+from backend.app.models.user import User
+from backend.app.schemas.cart_schema import CartListResponse, CartRequest, CartResponse, GetCartResponse, \
+    UpdateCartItemRequest
 from sqlalchemy.orm import Session
 
-from app.schemas.catalog_schema import CatalogItemSchema
-
+from backend.app.schemas.catalog_schema import CatalogItemSchema
 
 router = APIRouter(
     prefix="/api/cart",
@@ -92,32 +92,32 @@ async def remove_from_cart(
         db: Session = Depends(get_db)
 ):
     try:
-      if not code:
-        raise HTTPException(status_code=400, detail="Article is empty")
-      
-      item = db.query(CartItem).filter_by(user_id=user.id, product_code=code).first()
-      
-      if not item:
-        raise HTTPException(status_code=404, detail="Item not found")
-      
-      db.delete(item)
-      db.commit()
-      
-      return CartResponse(
-        message="Successfully removed from cart",
-      )
-        
+        if not code:
+            raise HTTPException(status_code=400, detail="Article is empty")
+
+        item = db.query(CartItem).filter_by(user_id=user.id, product_code=code).first()
+
+        if not item:
+            raise HTTPException(status_code=404, detail="Item not found")
+
+        db.delete(item)
+        db.commit()
+
+        return CartResponse(
+            message="Successfully removed from cart",
+        )
+
     except Exception:
-      db.rollback()
-      raise HTTPException(status_code=400, detail="Failed to remove item")
+        db.rollback()
+        raise HTTPException(status_code=400, detail="Failed to remove item")
 
 
 @router.put("items/{code}", response_model=CartResponse)
 async def update_cart_item(
-    code: str,
-    data: UpdateCartItemRequest,
-    db: Session = Depends(get_db),
-    user: User = Depends(get_current_user)
+        code: str,
+        data: UpdateCartItemRequest,
+        db: Session = Depends(get_db),
+        user: User = Depends(get_current_user)
 ):
     item = db.query(CartItem).filter_by(user_id=user.id, product_code=code).first()
 

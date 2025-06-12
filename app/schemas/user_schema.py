@@ -1,7 +1,7 @@
-from typing import Optional
-
 from pydantic import BaseModel, EmailStr, Field
 
+
+# base gto
 
 class UserData(BaseModel):
     id: int
@@ -14,52 +14,32 @@ class UserData(BaseModel):
         from_attributes = True
 
 
-class UserResponse(BaseModel):
-    user: UserData
+class TokenBundle(BaseModel):
+    access_token: str
+    refresh_token: str
+    token_type: str = "bearer"
 
+
+# request
 
 class RegisterRequest(BaseModel):
     full_name: str
-    email: str
+    email: EmailStr
     phone: str
     password: str
 
 
-class RegisterResponse(BaseModel):
-    message: str
-    user: UserData
-    access_token: str
-    refresh_token: str
-
-
 class LoginRequest(BaseModel):
-    email: str
+    email: EmailStr
     password: str
-
-
-class LoginResponse(BaseModel):
-    message: str
-    user: UserData
-    access_token: str
-    refresh_token: str
 
 
 class RefreshTokenRequest(BaseModel):
     refresh_token: str
 
 
-class RefreshTokenResponse(BaseModel):
-    access_token: str
-    refresh_token: str
-    token_type: str = "bearer"
-
-
 class LogoutRequest(BaseModel):
     refresh_token: str
-
-
-class LogoutResponse(BaseModel):
-    message: str
 
 
 class UpdateUserRequest(BaseModel):
@@ -67,3 +47,17 @@ class UpdateUserRequest(BaseModel):
     email: EmailStr | None = None
     phone: str | None = Field(None, min_length=8, max_length=20)
     password: str | None = Field(None, min_length=6)
+
+
+# response
+
+class MessageResponse(BaseModel):
+    message: str
+
+
+class TokenResponse(TokenBundle):
+    message: str
+
+
+class UserResponse(BaseModel):
+    user: UserData

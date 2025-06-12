@@ -41,6 +41,7 @@ class CatalogItemSchema(BaseModel):
     class Config:
         from_attributes = True
 
+
 class CatalogItemDetailedSchema(BaseModel):
     item: CatalogItemSchema
     bond: Optional[BondSchema]

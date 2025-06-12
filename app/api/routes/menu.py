@@ -2,30 +2,30 @@ import json
 from typing import Dict, Any
 
 from fastapi import APIRouter, HTTPException
-from app.utils.cache import redis_client
 
+from backend.app.utils.cache import cache_set, cache_get
 
 router = APIRouter(
     prefix="/api/menu",
     tags=["Menu"]
 )
 
+
 @router.get("", response_model=Dict[str, Any])
 async def return_menu():
     try:
-        
         cache_key = "menu_data"
-        cached = redis_client.get(cache_key)
+        cached = await cache_get(cache_key)
         if cached:
-            return json.loads(cached)
-        
+            return cached
+
         with open('menu.json', 'r') as file:
             menu_data = json.load(file)
-            
-        redis_client.set(cache_key, json.dumps(menu_data), ex=3600)
-        
+
+        await cache_set(cache_key, menu_data, ex=1800)
+
         return menu_data
-    
+
     except Exception as e:
         raise HTTPException(
             status_code=400,

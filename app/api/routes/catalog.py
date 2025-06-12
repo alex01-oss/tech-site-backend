@@ -1,22 +1,20 @@
 import math
+import traceback
 from typing import Optional
-from fastapi import APIRouter, Depends, HTTPException, logger
-from app.api.dependencies import get_db
-from app.core.security import get_current_user_optional
-from app.models.bond import Bond
-from app.models.cart_item import CartItem
-from app.models.equipment_code import EquipmentCode
-from app.models.equipment_model import EquipmentModel
-from app.models.product_grinding_wheels import ProductGrindingWheels
-from app.models.user import User
-from app.schemas.catalog_schema import CatalogItemDetailedSchema, CatalogItemSchema, CatalogQuerySchema, CatalogResponseSchema, EquipmentModelSchema
-from sqlalchemy.orm import Session, joinedload
-from app.utils.cache import cache_get, cache_set
 
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session, joinedload
+
+from backend.app.api.dependencies import get_db
+from backend.app.core.security import get_current_user_optional
+from backend.app.models import (ProductGrindingWheels, EquipmentModel, EquipmentCode, CartItem, User)
+from backend.app.schemas.catalog_schema import (CatalogQuerySchema, CatalogResponseSchema, CatalogItemDetailedSchema, EquipmentModelSchema)
+from backend.app.utils.cache import cache_get, cache_set
+from backend.app.utils.catalog_helpers import build_catalog_item, make_cache_key
 
 router = APIRouter(
     prefix="/api/catalog",
-    tags=["Authorization"]
+    tags=["Catalog"]
 )
 
 
@@ -27,8 +25,9 @@ async def get_catalog_items(
         user: Optional[User] = Depends(get_current_user_optional)
 ):
     try:
-        cache_key = f"catalog:{query_params.page}:{user.id if user else 0}"
-        cached = cache_get(cache_key)
+        cache_key = make_cache_key(query_params, user.id if user else 0)
+        cached = await cache_get(cache_key)
+
         if cached:
             return cached
 
@@ -61,7 +60,7 @@ async def get_catalog_items(
             query = query.filter(ProductGrindingWheels.grid_size == query_params.grid_size)
 
         total_items = query.count()
-        total_pages = math.ceil(total_items / query_params.items_per_page) if total_items > 0 else 1
+        total_pages = math.ceil(total_items / query_params.items_per_page) or 1
         offset = (query_params.page - 1) * query_params.items_per_page
         catalog_items = query.offset(offset).limit(query_params.items_per_page).all()
 
@@ -70,22 +69,7 @@ async def get_catalog_items(
             cart_items = db.query(CartItem.product_code).filter_by(user_id=user.id).all()
             cart_product_codes = {item.product_code for item in cart_items}
 
-        items = []
-        for item in catalog_items:
-            is_in_cart = item.code in cart_product_codes if user else False
-            image_url = item.shape_info.img_url if item.shape_info else None
-
-            catalog_item = CatalogItemSchema(
-                code=str(item.code),
-                shape=str(item.shape),
-                dimensions=str(item.dimensions),
-                images=image_url,
-                name_bond=str(item.name_bond),
-                grid_size=str(item.grid_size),
-                is_in_cart=is_in_cart
-            )
-
-            items.append(catalog_item)
+        items = [build_catalog_item(item, item.code in cart_product_codes) for item in catalog_items]
 
         response = CatalogResponseSchema(
             items=items,
@@ -95,31 +79,34 @@ async def get_catalog_items(
             items_per_page=query_params.items_per_page
         )
 
+        await cache_set(cache_key, response.model_dump(), ex=300)
         return response
 
     except Exception as e:
-        import traceback
-        error_msg = f"Failed to load catalog data: {str(e)}\nTraceback: {traceback.format_exc()}"
-        raise HTTPException(status_code=500, detail=error_msg)
-    
-    
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to load catalog data: {str(e)}\nTraceback: {traceback.format_exc()}"
+        )
+
+
 @router.get("/{code}", response_model=CatalogItemDetailedSchema)
 async def get_catalog_item(
-    code: str,
-    db: Session = Depends(get_db),
-    user: Optional[User] = Depends(get_current_user_optional)
+        code: str,
+        db: Session = Depends(get_db),
+        user: Optional[User] = Depends(get_current_user_optional)
 ):
     try:
         cache_key = f"catalog_data:{code}"
-        cached_data = cache_get(cache_key)
-        if cached_data:
-            return CatalogItemDetailedSchema(**cached_data)
+        cached = await cache_get(cache_key)
+        if cached:
+            return CatalogItemDetailedSchema(**cached)
 
         item = db.query(ProductGrindingWheels).options(
             joinedload(ProductGrindingWheels.equipment_codes)
             .joinedload(EquipmentCode.equipment_model)
             .joinedload(EquipmentModel.producer),
-            joinedload(ProductGrindingWheels.shape_info)
+            joinedload(ProductGrindingWheels.shape_info),
+            joinedload(ProductGrindingWheels.bond)
         ).filter(ProductGrindingWheels.code == code).first()
 
         if not item:
@@ -133,33 +120,24 @@ async def get_catalog_item(
             for ec in item.equipment_codes
         ]
 
-        bond = db.query(Bond).filter(Bond.name_bond == item.name_bond).first()
-        image_url = item.shape_info.img_url if item.shape_info else None
-
         is_in_cart = False
         if user:
-            cart_item = db.query(CartItem.product_code).filter_by(user_id=user.id, product_code=code).first()
+            cart_item = db.query(CartItem).filter_by(user_id=user.id, product_code=code).first()
             is_in_cart = cart_item is not None
 
-        product = CatalogItemSchema(
-            code=str(item.code),
-            shape=str(item.shape),
-            dimensions=str(item.dimensions),
-            images=image_url,
-            name_bond=str(item.name_bond),
-            grid_size=str(item.grid_size),
-            is_in_cart=is_in_cart
-        )
+        product = build_catalog_item(item, is_in_cart)
 
         response = CatalogItemDetailedSchema(
             item=product,
-            bond=bond,
+            bond=item.bond,
             machines=machines
         )
 
-        cache_set(cache_key, response.dict())
+        await cache_set(cache_key, response.model_dump(), ex=600)
         return response
 
     except Exception as e:
-        logger.error(f"Error in get_catalog_item: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail="Internal server error")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error in get_catalog_item: {str(e)}\nTraceback: {traceback.format_exc()}"
+        )

@@ -1,6 +1,6 @@
-import redis
+import redis.asyncio as redis
 import json
-from app.core.settings import settings
+from backend.app.core.settings import settings
 
 redis_client = redis.Redis(
     host=settings.CACHE_REDIS_HOST,
@@ -9,9 +9,11 @@ redis_client = redis.Redis(
     decode_responses=settings.CACHE_REDIS_DECODE_RESPONSES
 )
 
-def cache_get(key: str):
-    value = redis_client.get(key)
+
+async def cache_get(key: str):
+    value = await redis_client.get(key)
     return json.loads(value) if value else None
 
-def cache_set(key: str, value, ex: int = 300):
-    redis_client.set(key, json.dumps(value), ex=ex)
+
+async def cache_set(key: str, value, ex: int = 300):
+    await redis_client.set(key, json.dumps(value), ex=ex)

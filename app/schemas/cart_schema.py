@@ -2,7 +2,7 @@ from typing import List
 
 from pydantic import BaseModel, Field
 
-from app.schemas.catalog_schema import CatalogItemSchema
+from backend.app.schemas.catalog_schema import CatalogItemSchema
 
 
 class CartRequest(BaseModel):

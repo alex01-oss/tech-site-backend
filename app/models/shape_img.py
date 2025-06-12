@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
-from app.core.database import Base
+from backend.app.core.database import Base
 
 
 class ShapeImg(Base):

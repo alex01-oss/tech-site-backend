@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, ForeignKey, String, DateTime, func
 from sqlalchemy.orm import relationship
 
-from app.core.database import Base
+from backend.app.core.database import Base
 
 
 class RefreshToken(Base):
