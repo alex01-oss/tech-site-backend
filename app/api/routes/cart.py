@@ -1,15 +1,16 @@
 from fastapi import APIRouter, Depends, HTTPException
 
-from backend.app.api.dependencies import get_db
-from backend.app.core.security import get_current_user
-from backend.app.models.cart_item import CartItem
-from backend.app.models.product_grinding_wheels import ProductGrindingWheels
-from backend.app.models.user import User
-from backend.app.schemas.cart_schema import CartListResponse, CartRequest, CartResponse, GetCartResponse, \
+from app.api.dependencies import get_db
+from app.core.security import get_current_user
+from app.models.cart_item import CartItem
+from app.models.product_grinding_wheels import ProductGrindingWheels
+from app.models.user import User
+from app.schemas.cart_schema import CartListResponse, CartRequest, CartResponse, GetCartResponse, \
     UpdateCartItemRequest
 from sqlalchemy.orm import Session
 
-from backend.app.schemas.catalog_schema import CatalogItemSchema
+from app.schemas.catalog_schema import CatalogItemSchema
+from sqlalchemy import func
 
 router = APIRouter(
     prefix="/api/cart",
@@ -140,3 +141,17 @@ async def update_cart_item(
     db.commit()
     db.refresh(item)
     return item
+
+@router.get("/count", response_model=int)
+async def get_cart_count(
+        db: Session = Depends(get_db),
+        user: User = Depends(get_current_user)
+):
+    try:
+        total_quantity = db.query(
+            func.coalesce(func.sum(CartItem.quantity), 0)
+        ).filter_by(user_id=user.id).scalar()
+
+        return total_quantity
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

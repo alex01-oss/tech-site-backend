@@ -3,7 +3,7 @@ from typing import Dict, Any
 
 from fastapi import APIRouter, HTTPException
 
-from backend.app.utils.cache import cache_set, cache_get
+from app.utils.cache import cache_set, cache_get
 
 router = APIRouter(
     prefix="/api/menu",

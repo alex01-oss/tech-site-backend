@@ -5,12 +5,12 @@ from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session, joinedload
 
-from backend.app.api.dependencies import get_db
-from backend.app.core.security import get_current_user_optional
-from backend.app.models import (ProductGrindingWheels, EquipmentModel, EquipmentCode, CartItem, User)
-from backend.app.schemas.catalog_schema import (CatalogQuerySchema, CatalogResponseSchema, CatalogItemDetailedSchema, EquipmentModelSchema)
-from backend.app.utils.cache import cache_get, cache_set
-from backend.app.utils.catalog_helpers import build_catalog_item, make_cache_key
+from app.api.dependencies import get_db
+from app.core.security import get_current_user_optional
+from app.models import (ProductGrindingWheels, EquipmentModel, EquipmentCode, CartItem, User)
+from app.schemas.catalog_schema import (CatalogQuerySchema, CatalogResponseSchema, CatalogItemDetailedSchema, EquipmentModelSchema)
+from app.utils.cache import cache_get, cache_set
+from app.utils.catalog_helpers import build_catalog_item, make_cache_key
 
 router = APIRouter(
     prefix="/api/catalog",

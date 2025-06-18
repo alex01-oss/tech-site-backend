@@ -1,8 +1,7 @@
 from sqlalchemy import Column, Integer, ForeignKey, String
 from sqlalchemy.orm import relationship
 
-from backend.app.core.database import Base
-
+from app.core.database import Base
 
 class CartItem(Base):
     __tablename__ = 'cart'

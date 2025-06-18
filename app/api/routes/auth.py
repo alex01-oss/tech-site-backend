@@ -3,10 +3,10 @@ from fastapi import APIRouter, Body, Depends, HTTPException
 from psycopg2 import IntegrityError
 from sqlalchemy.orm import Session
 
-from backend.app.api.dependencies import get_db
-from backend.app.core.security import issue_tokens, verify_password, hash_password, decode_token, oauth2_scheme
-from backend.app.models import User, RefreshToken
-from backend.app.schemas.user_schema import LoginRequest, RegisterRequest, RefreshTokenRequest, LogoutRequest, \
+from app.api.dependencies import get_db
+from app.core.security import issue_tokens, verify_password, hash_password, decode_token, oauth2_scheme
+from app.models import User, RefreshToken
+from app.schemas.user_schema import LoginRequest, RegisterRequest, RefreshTokenRequest, LogoutRequest, \
     MessageResponse, TokenResponse, TokenBundle
 
 router = APIRouter(

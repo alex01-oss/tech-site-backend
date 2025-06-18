@@ -1,8 +1,7 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, func
 from sqlalchemy.orm import relationship
 
-from backend.app.core.database import Base
-
+from app.core.database import Base
 
 class Post(Base):
     __tablename__ = "posts"

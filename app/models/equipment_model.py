@@ -1,8 +1,7 @@
 from sqlalchemy import Column, String, Integer, ForeignKey
 from sqlalchemy.orm import relationship
 
-from backend.app.core.database import Base
-
+from app.core.database import Base
 
 class EquipmentModel(Base):
     __tablename__ = 'equipment_model'

@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, DeclarativeBase
 
-from backend.app.core.settings import settings
+from app.core.settings import settings
 
 load_dotenv()
 DATABASE_URL = settings.SQLALCHEMY_DATABASE_URI

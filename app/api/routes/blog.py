@@ -1,15 +1,15 @@
 import datetime
 from fastapi import APIRouter, Depends, HTTPException
 
-from backend.app.api.dependencies import get_db
-from backend.app.core.security import admin_required, get_current_user
-from backend.app.models.post import Post
-from backend.app.models.user import User
-from backend.app.schemas.post_schema import CreatePostRequest, DeletePostResponse, EditPostRequest, PostResponse
+from app.api.dependencies import get_db
+from app.core.security import admin_required, get_current_user
+from app.models.post import Post
+from app.models.user import User
+from app.schemas.post_schema import CreatePostRequest, DeletePostResponse, EditPostRequest, PostResponse
 from sqlalchemy.orm import Session
 
-from backend.app.schemas.user_schema import UserData
-from backend.app.utils.cache import cache_get, cache_set, redis_client
+from app.schemas.user_schema import UserData
+from app.utils.cache import cache_get, cache_set, redis_client
 
 router = APIRouter(
     prefix="/api/blog",

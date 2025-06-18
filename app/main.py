@@ -10,8 +10,8 @@ from sqlalchemy import text
 from sqlalchemy.orm import Session
 from starlette.staticfiles import StaticFiles
 
-from backend.app.api.dependencies import get_db
-from backend.app.api.routes import auth, users, catalog, cart, blog, media, menu
+from app.api.dependencies import get_db
+from app.api.routes import auth, users, catalog, cart, blog, media, menu
 
 app = FastAPI(title="Search App API")
 

@@ -4,9 +4,9 @@ import uuid
 from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
 from starlette.responses import FileResponse
 
-from backend.app.core.security import admin_required
-from backend.app.schemas.post_schema import ImageUploadResponse
-from backend.app.schemas.user_schema import UserData
+from app.core.security import admin_required
+from app.schemas.post_schema import ImageUploadResponse
+from app.schemas.user_schema import UserData
 
 router = APIRouter(
     prefix="/api/images",

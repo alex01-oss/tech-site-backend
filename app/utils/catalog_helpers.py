@@ -1,4 +1,4 @@
-from backend.app.schemas.catalog_schema import CatalogItemSchema, CatalogQuerySchema
+from app.schemas.catalog_schema import CatalogItemSchema, CatalogQuerySchema
 import hashlib
 
 

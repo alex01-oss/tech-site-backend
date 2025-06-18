@@ -7,10 +7,10 @@ from jose import jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
-from backend.app.api.dependencies import get_db
-from backend.app.core.settings import settings
-from backend.app.models.refresh_token import RefreshToken
-from backend.app.models.user import User
+from app.api.dependencies import get_db
+from app.core.settings import settings
+from app.models.refresh_token import RefreshToken
+from app.models.user import User
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 

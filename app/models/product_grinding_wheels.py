@@ -1,8 +1,7 @@
 from sqlalchemy import Column, String, ForeignKey
 from sqlalchemy.orm import relationship
 
-from backend.app.core.database import Base
-
+from app.core.database import Base
 
 class ProductGrindingWheels(Base):
     __tablename__ = 'product_grinding_wheels'

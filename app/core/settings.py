@@ -5,6 +5,14 @@ from pydantic.v1 import BaseSettings
 
 load_dotenv()
 
+def strtobool(val: str) -> bool:
+    val = val.lower()
+    if val in ("y", "yes", "t", "true", "on", "1"):
+        return True
+    elif val in ("n", "no", "f", "false", "off", "0"):
+        return False
+    raise ValueError(f"invalid truth value {val!r}")
+
 class Settings(BaseSettings):
     SQLALCHEMY_DATABASE_URI: str = os.getenv('DATABASE_URL')
     ITEMS_PER_PAGE: int = int(os.getenv('ITEMS_PER_PAGE'))
@@ -21,9 +29,14 @@ class Settings(BaseSettings):
     CACHE_REDIS_PORT: int = int(os.getenv("CACHE_REDIS_PORT"))
     CACHE_REDIS_DB: int = int(os.getenv("CACHE_REDIS_DB"))
     CACHE_DEFAULT_TIMEOUT: int = int(os.getenv("CACHE_DEFAULT_TIMEOUT"))
-    CACHE_REDIS_DECODE_RESPONSES: bool = os.getenv("CACHE_REDIS_DECODE_RESPONSES")
+    CACHE_REDIS_DECODE_RESPONSES: bool = bool(strtobool(os.getenv("CACHE_REDIS_DECODE_RESPONSES", "False")))
+    CACHE_REDIS_PASSWORD: str = os.getenv("REDIS_PASSWORD")
+
 
     LIMIT_PER_MINUTE: str = "5 per minute"
     LIMIT_PER_DAY: str = "1000 per day"
+
+    class Config:
+        env_file = ".env"
 
 settings = Settings()

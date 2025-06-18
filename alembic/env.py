@@ -11,16 +11,16 @@ if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
 from backend.app.core.database import Base
-from backend.app.models.cart_item import CartItem
-from backend.app.models.product_grinding_wheels import ProductGrindingWheels
-from backend.app.models.bond import Bond
-from backend.app.models.equipment_code import EquipmentCode
-from backend.app.models.equipment_model import EquipmentModel
-from backend.app.models.producer_name import ProducerName
-from backend.app.models.shape_img import ShapeImg
-from backend.app.models.user import User
-from backend.app.models.refresh_token import RefreshToken
-from backend.app.models.post import Post
+from app.models.cart_item import CartItem
+from app.models.product_grinding_wheels import ProductGrindingWheels
+from app.models.bond import Bond
+from app.models.equipment_code import EquipmentCode
+from app.models.equipment_model import EquipmentModel
+from app.models.producer_name import ProducerName
+from app.models.shape_img import ShapeImg
+from app.models.user import User
+from app.models.refresh_token import RefreshToken
+from app.models.post import Post
 
 target_metadata = Base.metadata
 

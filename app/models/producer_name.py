@@ -1,8 +1,7 @@
 from sqlalchemy import Column, String, Integer
 from sqlalchemy.orm import relationship
 
-from backend.app.core.database import Base
-
+from app.core.database import Base
 
 class ProducerName(Base):
     __tablename__ = 'producer_name'
