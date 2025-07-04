@@ -56,6 +56,38 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Generator",
         "importPath": "typing",
         "description": "typing",
@@ -136,14 +168,6 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "op",
         "importPath": "alembic",
         "description": "alembic",
@@ -186,6 +210,14 @@
     },
     {
         "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -505,6 +537,14 @@
         "documentation": {}
     },
     {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "fileConfig",
         "importPath": "logging.config",
         "description": "logging.config",
@@ -514,98 +554,10 @@
     },
     {
         "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
+        "importPath": "backend.app.core.database",
+        "description": "backend.app.core.database",
         "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "isExtraImport": true,
-        "detail": "app.core.database",
+        "detail": "backend.app.core.database",
         "documentation": {}
     },
     {
@@ -622,22 +574,6 @@
         "description": "app.models.cart_item",
         "isExtraImport": true,
         "detail": "app.models.cart_item",
-        "documentation": {}
-    },
-    {
-        "label": "CartItem",
-        "importPath": "app.models.cart_item",
-        "description": "app.models.cart_item",
-        "isExtraImport": true,
-        "detail": "app.models.cart_item",
-        "documentation": {}
-    },
-    {
-        "label": "ProductGrindingWheels",
-        "importPath": "app.models.product_grinding_wheels",
-        "description": "app.models.product_grinding_wheels",
-        "isExtraImport": true,
-        "detail": "app.models.product_grinding_wheels",
         "documentation": {}
     },
     {
@@ -665,35 +601,11 @@
         "documentation": {}
     },
     {
-        "label": "Bond",
-        "importPath": "app.models.bond",
-        "description": "app.models.bond",
-        "isExtraImport": true,
-        "detail": "app.models.bond",
-        "documentation": {}
-    },
-    {
         "label": "EquipmentCode",
         "importPath": "app.models.equipment_code",
         "description": "app.models.equipment_code",
         "isExtraImport": true,
         "detail": "app.models.equipment_code",
-        "documentation": {}
-    },
-    {
-        "label": "EquipmentCode",
-        "importPath": "app.models.equipment_code",
-        "description": "app.models.equipment_code",
-        "isExtraImport": true,
-        "detail": "app.models.equipment_code",
-        "documentation": {}
-    },
-    {
-        "label": "EquipmentModel",
-        "importPath": "app.models.equipment_model",
-        "description": "app.models.equipment_model",
-        "isExtraImport": true,
-        "detail": "app.models.equipment_model",
         "documentation": {}
     },
     {
@@ -758,30 +670,6 @@
         "description": "app.models.user",
         "isExtraImport": true,
         "detail": "app.models.user",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.models.user",
-        "description": "app.models.user",
-        "isExtraImport": true,
-        "detail": "app.models.user",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.models.user",
-        "description": "app.models.user",
-        "isExtraImport": true,
-        "detail": "app.models.user",
-        "documentation": {}
-    },
-    {
-        "label": "RefreshToken",
-        "importPath": "app.models.refresh_token",
-        "description": "app.models.refresh_token",
-        "isExtraImport": true,
-        "detail": "app.models.refresh_token",
         "documentation": {}
     },
     {
@@ -921,14 +809,6 @@
         "documentation": {}
     },
     {
-        "label": "logger",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -970,6 +850,30 @@
     },
     {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1065,119 +969,223 @@
         "documentation": {}
     },
     {
-        "label": "LoginRequest",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "LoginResponse",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "LogoutRequest",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "LogoutResponse",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "RefreshTokenRequest",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "joinedload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "RefreshTokenResponse",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "RegisterRequest",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "RegisterResponse",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "UserData",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "UserData",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "UserData",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "UpdateUserRequest",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "UserData",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "UserResponse",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "create_access_token",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "issue_tokens",
         "importPath": "app.core.security",
         "description": "app.core.security",
         "isExtraImport": true,
@@ -1185,15 +1193,7 @@
         "documentation": {}
     },
     {
-        "label": "create_refresh_token",
-        "importPath": "app.core.security",
-        "description": "app.core.security",
-        "isExtraImport": true,
-        "detail": "app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "decode_token",
+        "label": "verify_password",
         "importPath": "app.core.security",
         "description": "app.core.security",
         "isExtraImport": true,
@@ -1209,7 +1209,7 @@
         "documentation": {}
     },
     {
-        "label": "verify_password",
+        "label": "decode_token",
         "importPath": "app.core.security",
         "description": "app.core.security",
         "isExtraImport": true,
@@ -1281,211 +1281,139 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.api.dependencies",
-        "description": "app.api.dependencies",
+        "label": "User",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.api.dependencies",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.api.dependencies",
-        "description": "app.api.dependencies",
+        "label": "RefreshToken",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.api.dependencies",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.api.dependencies",
-        "description": "app.api.dependencies",
+        "label": "ProductGrindingWheels",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.api.dependencies",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.api.dependencies",
-        "description": "app.api.dependencies",
+        "label": "EquipmentModel",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.api.dependencies",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.api.dependencies",
-        "description": "app.api.dependencies",
+        "label": "EquipmentCode",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.api.dependencies",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.api.dependencies",
-        "description": "app.api.dependencies",
+        "label": "CartItem",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.api.dependencies",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.api.dependencies",
-        "description": "app.api.dependencies",
+        "label": "User",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.api.dependencies",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "LoginRequest",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "RegisterRequest",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "RefreshTokenRequest",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "LogoutRequest",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "joinedload",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "\\",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "UserData",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "UserData",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "UpdateUserRequest",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "UserData",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "UserResponse",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
@@ -1515,6 +1443,22 @@
     },
     {
         "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1562,6 +1506,62 @@
         "documentation": {}
     },
     {
+        "label": "cache_get",
+        "importPath": "app.utils.cache",
+        "description": "app.utils.cache",
+        "isExtraImport": true,
+        "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache_set",
+        "importPath": "app.utils.cache",
+        "description": "app.utils.cache",
+        "isExtraImport": true,
+        "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "importPath": "app.utils.cache",
+        "description": "app.utils.cache",
+        "isExtraImport": true,
+        "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache_get",
+        "importPath": "app.utils.cache",
+        "description": "app.utils.cache",
+        "isExtraImport": true,
+        "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache_set",
+        "importPath": "app.utils.cache",
+        "description": "app.utils.cache",
+        "isExtraImport": true,
+        "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache_set",
+        "importPath": "app.utils.cache",
+        "description": "app.utils.cache",
+        "isExtraImport": true,
+        "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache_get",
+        "importPath": "app.utils.cache",
+        "description": "app.utils.cache",
+        "isExtraImport": true,
+        "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
         "label": "CartListResponse",
         "importPath": "app.schemas.cart_schema",
         "description": "app.schemas.cart_schema",
@@ -1594,27 +1594,11 @@
         "documentation": {}
     },
     {
-        "label": "UpdateCartItemRequest",
+        "label": "\\",
         "importPath": "app.schemas.cart_schema",
         "description": "app.schemas.cart_schema",
         "isExtraImport": true,
         "detail": "app.schemas.cart_schema",
-        "documentation": {}
-    },
-    {
-        "label": "CatalogItemSchema",
-        "importPath": "app.schemas.catalog_schema",
-        "description": "app.schemas.catalog_schema",
-        "isExtraImport": true,
-        "detail": "app.schemas.catalog_schema",
-        "documentation": {}
-    },
-    {
-        "label": "CatalogItemDetailedSchema",
-        "importPath": "app.schemas.catalog_schema",
-        "description": "app.schemas.catalog_schema",
-        "isExtraImport": true,
-        "detail": "app.schemas.catalog_schema",
         "documentation": {}
     },
     {
@@ -1642,6 +1626,14 @@
         "documentation": {}
     },
     {
+        "label": "CatalogItemDetailedSchema",
+        "importPath": "app.schemas.catalog_schema",
+        "description": "app.schemas.catalog_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.catalog_schema",
+        "documentation": {}
+    },
+    {
         "label": "EquipmentModelSchema",
         "importPath": "app.schemas.catalog_schema",
         "description": "app.schemas.catalog_schema",
@@ -1658,6 +1650,22 @@
         "documentation": {}
     },
     {
+        "label": "CatalogItemSchema",
+        "importPath": "app.schemas.catalog_schema",
+        "description": "app.schemas.catalog_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.catalog_schema",
+        "documentation": {}
+    },
+    {
+        "label": "CatalogQuerySchema",
+        "importPath": "app.schemas.catalog_schema",
+        "description": "app.schemas.catalog_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.catalog_schema",
+        "documentation": {}
+    },
+    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
@@ -1667,27 +1675,28 @@
         "documentation": {}
     },
     {
-        "label": "cache_get",
-        "importPath": "app.utils.cache",
-        "description": "app.utils.cache",
+        "label": "traceback",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "app.utils.cache",
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
         "documentation": {}
     },
     {
-        "label": "cache_set",
-        "importPath": "app.utils.cache",
-        "description": "app.utils.cache",
+        "label": "build_catalog_item",
+        "importPath": "app.utils.catalog_helpers",
+        "description": "app.utils.catalog_helpers",
         "isExtraImport": true,
-        "detail": "app.utils.cache",
+        "detail": "app.utils.catalog_helpers",
         "documentation": {}
     },
     {
-        "label": "redis_client",
-        "importPath": "app.utils.cache",
-        "description": "app.utils.cache",
+        "label": "make_cache_key",
+        "importPath": "app.utils.catalog_helpers",
+        "description": "app.utils.catalog_helpers",
         "isExtraImport": true,
-        "detail": "app.utils.cache",
+        "detail": "app.utils.catalog_helpers",
         "documentation": {}
     },
     {
@@ -1726,6 +1735,31 @@
         "documentation": {}
     },
     {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -1735,11 +1769,91 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "SessionLocal",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
         "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
         "documentation": {}
     },
     {
@@ -1751,11 +1865,11 @@
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -1789,14 +1903,6 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -1872,22 +1978,6 @@
         "documentation": {}
     },
     {
-        "label": "constr",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -1912,12 +2002,21 @@
         "documentation": {}
     },
     {
-        "label": "redis",
+        "label": "redis.asyncio",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "redis",
-        "description": "redis",
-        "detail": "redis",
+        "importPath": "redis.asyncio",
+        "description": "redis.asyncio",
+        "detail": "redis.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
         "documentation": {}
     },
     {
@@ -1947,14 +2046,6 @@
         "documentation": {}
     },
     {
-        "label": "StaticFiles",
-        "importPath": "starlette.staticfiles",
-        "description": "starlette.staticfiles",
-        "isExtraImport": true,
-        "detail": "starlette.staticfiles",
-        "documentation": {}
-    },
-    {
         "label": "Limiter",
         "importPath": "slowapi",
         "description": "slowapi",
@@ -1968,6 +2059,14 @@
         "description": "slowapi.util",
         "isExtraImport": true,
         "detail": "slowapi.util",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "starlette.staticfiles",
+        "description": "starlette.staticfiles",
+        "isExtraImport": true,
+        "detail": "starlette.staticfiles",
         "documentation": {}
     },
     {
@@ -2020,6 +2119,14 @@
     },
     {
         "label": "menu",
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "isExtraImport": true,
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
+        "label": "sidebar",
         "importPath": "app.api.routes",
         "description": "app.api.routes",
         "isExtraImport": true,
@@ -2099,6 +2206,39 @@
         "documentation": {}
     },
     {
+        "label": "HttpUser",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "task",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "between",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
         "label": "upgrade",
         "kind": 2,
         "importPath": "alembic.versions.016779cf4e97_initial",
@@ -2139,7 +2279,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():\n        context.run_migrations()",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2148,7 +2288,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "peekOfCode": "def run_migrations_online() -> None:\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection, target_metadata=target_metadata\n        )",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2157,7 +2297,7 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\nfrom app.core.database import Base\nfrom app.models.cart_item import CartItem\nfrom app.models.product_grinding_wheels import ProductGrindingWheels\nfrom app.models.bond import Bond\nfrom app.models.equipment_code import EquipmentCode",
+        "peekOfCode": "config = context.config\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\nfrom backend.app.core.database import Base\nfrom app.models.cart_item import CartItem\nfrom app.models.product_grinding_wheels import ProductGrindingWheels\nfrom app.models.bond import Bond\nfrom app.models.equipment_code import EquipmentCode\nfrom app.models.equipment_model import EquipmentModel\nfrom app.models.producer_name import ProducerName",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2166,7 +2306,7 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "peekOfCode": "target_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2175,7 +2315,7 @@
         "kind": 5,
         "importPath": "app.api.routes.auth",
         "description": "app.api.routes.auth",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/auth\",\n    tags=[\"Authorization\"]\n)\n@router.post(\"/login\", response_model=LoginResponse)\nasync def login(\n        user_data: LoginRequest,\n        db: Session = Depends(get_db)\n):\n    user = db.query(User).filter(User.email == user_data.email).first()",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/auth\",\n    tags=[\"Authorization\"]\n)\n@router.post(\"/login\", response_model=TokenResponse)\nasync def login(\n        user_data: LoginRequest,\n        db: Session = Depends(get_db)\n):\n    user = db.query(User).filter(User.email == user_data.email).first()",
         "detail": "app.api.routes.auth",
         "documentation": {}
     },
@@ -2202,7 +2342,7 @@
         "kind": 5,
         "importPath": "app.api.routes.catalog",
         "description": "app.api.routes.catalog",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/catalog\",\n    tags=[\"Authorization\"]\n)\n@router.get(\"\", response_model=CatalogResponseSchema)\nasync def get_catalog_items(\n        query_params: CatalogQuerySchema = Depends(),\n        db: Session = Depends(get_db),\n        user: Optional[User] = Depends(get_current_user_optional)\n):",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/catalog\",\n    tags=[\"Catalog\"]\n)\n@router.get(\"\", response_model=CatalogResponseSchema)\nasync def get_catalog_items(\n        query_params: CatalogQuerySchema = Depends(),\n        db: Session = Depends(get_db),\n        user: Optional[User] = Depends(get_current_user_optional)\n):",
         "detail": "app.api.routes.catalog",
         "documentation": {}
     },
@@ -2220,8 +2360,17 @@
         "kind": 5,
         "importPath": "app.api.routes.menu",
         "description": "app.api.routes.menu",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/menu\",\n    tags=[\"Menu\"]\n)\n@router.get(\"\", response_model=Dict[str, Any])\nasync def return_menu():\n    try:\n        cache_key = \"menu_data\"\n        cached = redis_client.get(cache_key)\n        if cached:",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/menu\",\n    tags=[\"Menu\"]\n)\n@router.get(\"\", response_model=Dict[str, Any])\nasync def return_menu():\n    try:\n        cache_key = \"menu_data\"\n        cached = await cache_get(cache_key)\n        if cached:",
         "detail": "app.api.routes.menu",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.routes.sidebar",
+        "description": "app.api.routes.sidebar",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/filters\",\n    tags=[\"Products\"]\n)\n@router.get(\"\", response_model=List[Dict[str, Any]])\nasync def get_sidebar_filters():\n    try:\n        csv_path = Path(__file__).resolve().parents[3] / \"data.csv\"\n        if not csv_path.exists():\n            raise FileNotFoundError(f\"File not found at the calculated path: {csv_path}\")",
+        "detail": "app.api.routes.sidebar",
         "documentation": {}
     },
     {
@@ -2243,6 +2392,15 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass",
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
         "label": "DATABASE_URL",
         "kind": 5,
         "importPath": "app.core.database",
@@ -2256,7 +2414,7 @@
         "kind": 5,
         "importPath": "app.core.database",
         "description": "app.core.database",
-        "peekOfCode": "engine = create_engine(\n    DATABASE_URL,\n    pool_size=20,\n    max_overflow=30,\n    pool_recycle=3600,\n    pool_pre_ping=True\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "peekOfCode": "engine = create_engine(\n    DATABASE_URL,\n    pool_size=20,\n    max_overflow=30,\n    pool_recycle=3600,\n    pool_pre_ping=True\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nclass Base(DeclarativeBase):\n    pass",
         "detail": "app.core.database",
         "documentation": {}
     },
@@ -2265,16 +2423,7 @@
         "kind": 5,
         "importPath": "app.core.database",
         "description": "app.core.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
-        "detail": "app.core.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "kind": 5,
-        "importPath": "app.core.database",
-        "description": "app.core.database",
-        "peekOfCode": "Base = declarative_base()",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nclass Base(DeclarativeBase):\n    pass",
         "detail": "app.core.database",
         "documentation": {}
     },
@@ -2409,7 +2558,16 @@
         "kind": 2,
         "importPath": "app.core.security",
         "description": "app.core.security",
-        "peekOfCode": "def admin_required(user=Depends(get_current_user)):\n    if user.role != \"admin\":\n        raise HTTPException(\n            status_code=403,\n            detail=\"Admin access only\"\n        )\n    return user",
+        "peekOfCode": "def admin_required(user=Depends(get_current_user)):\n    if user.role != \"admin\":\n        raise HTTPException(\n            status_code=403,\n            detail=\"Admin access only\"\n        )\n    return user\ndef issue_tokens(user_id: int, db: Session) -> dict:\n    access_token = create_access_token(user_id)\n    refresh_token = create_refresh_token(user_id, db)",
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "issue_tokens",
+        "kind": 2,
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "peekOfCode": "def issue_tokens(user_id: int, db: Session) -> dict:\n    access_token = create_access_token(user_id)\n    refresh_token = create_refresh_token(user_id, db)\n    return {\n        \"access_token\": access_token,\n        \"refresh_token\": refresh_token,\n        \"token_type\": \"bearer\"\n    }",
         "detail": "app.core.security",
         "documentation": {}
     },
@@ -2437,6 +2595,15 @@
         "importPath": "app.core.settings",
         "description": "app.core.settings",
         "peekOfCode": "class Settings(BaseSettings):\n    SQLALCHEMY_DATABASE_URI: str = os.getenv('DATABASE_URL')\n    ITEMS_PER_PAGE: int = int(os.getenv('ITEMS_PER_PAGE'))\n    ACCESS_TOKEN_SECRET_KEY: str = os.getenv(\"SECRET_KEY\")\n    REFRESH_TOKEN_SECRET_KEY: str = os.getenv(\"SUPER_SECRET_KEY\")\n    ACCESS_TOKEN_EXPIRE_MINUTES=int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'))\n    REFRESH_TOKEN_EXPIRE_MINUTES=int(os.getenv('REFRESH_TOKEN_EXPIRE_MINUTES'))\n    ALGORITHM: str = os.getenv('ALGORITHM')\n    CACHE_TYPE: str = \"RedisCache\"\n    CACHE_REDIS_HOST: str = os.getenv(\"CACHE_REDIS_HOST\")",
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "strtobool",
+        "kind": 2,
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "peekOfCode": "def strtobool(val: str) -> bool:\n    val = val.lower()\n    if val in (\"y\", \"yes\", \"t\", \"true\", \"on\", \"1\"):\n        return True\n    elif val in (\"n\", \"no\", \"f\", \"false\", \"off\", \"0\"):\n        return False\n    raise ValueError(f\"invalid truth value {val!r}\")\nclass Settings(BaseSettings):\n    SQLALCHEMY_DATABASE_URI: str = os.getenv('DATABASE_URL')\n    ITEMS_PER_PAGE: int = int(os.getenv('ITEMS_PER_PAGE'))",
         "detail": "app.core.settings",
         "documentation": {}
     },
@@ -2688,16 +2855,16 @@
         "kind": 6,
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
-        "peekOfCode": "class UserData(BaseModel):\n    id: int\n    full_name: str\n    email: str\n    phone: str\n    role: str\n    class Config:\n        from_attributes = True\nclass UserResponse(BaseModel):\n    user: UserData",
+        "peekOfCode": "class UserData(BaseModel):\n    id: int\n    full_name: str\n    email: str\n    phone: str\n    role: str\n    class Config:\n        from_attributes = True\nclass TokenBundle(BaseModel):\n    access_token: str",
         "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "UserResponse",
+        "label": "TokenBundle",
         "kind": 6,
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
-        "peekOfCode": "class UserResponse(BaseModel):\n    user: UserData\nclass RegisterRequest(BaseModel):\n    full_name: str\n    email: str\n    phone: str\n    password: str\nclass RegisterResponse(BaseModel):\n    message: str\n    user: UserData",
+        "peekOfCode": "class TokenBundle(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n# request\nclass RegisterRequest(BaseModel):\n    full_name: str\n    email: EmailStr\n    phone: str\n    password: str",
         "detail": "app.schemas.user_schema",
         "documentation": {}
     },
@@ -2706,16 +2873,7 @@
         "kind": 6,
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
-        "peekOfCode": "class RegisterRequest(BaseModel):\n    full_name: str\n    email: str\n    phone: str\n    password: str\nclass RegisterResponse(BaseModel):\n    message: str\n    user: UserData\n    access_token: str\n    refresh_token: str",
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "RegisterResponse",
-        "kind": 6,
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "peekOfCode": "class RegisterResponse(BaseModel):\n    message: str\n    user: UserData\n    access_token: str\n    refresh_token: str\nclass LoginRequest(BaseModel):\n    email: str\n    password: str\nclass LoginResponse(BaseModel):\n    message: str",
+        "peekOfCode": "class RegisterRequest(BaseModel):\n    full_name: str\n    email: EmailStr\n    phone: str\n    password: str\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str\nclass RefreshTokenRequest(BaseModel):\n    refresh_token: str",
         "detail": "app.schemas.user_schema",
         "documentation": {}
     },
@@ -2724,16 +2882,7 @@
         "kind": 6,
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    email: str\n    password: str\nclass LoginResponse(BaseModel):\n    message: str\n    user: UserData\n    access_token: str\n    refresh_token: str\nclass RefreshTokenRequest(BaseModel):\n    refresh_token: str",
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "LoginResponse",
-        "kind": 6,
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "peekOfCode": "class LoginResponse(BaseModel):\n    message: str\n    user: UserData\n    access_token: str\n    refresh_token: str\nclass RefreshTokenRequest(BaseModel):\n    refresh_token: str\nclass RefreshTokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    password: str\nclass RefreshTokenRequest(BaseModel):\n    refresh_token: str\nclass LogoutRequest(BaseModel):\n    refresh_token: str\nclass UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)\n    email: EmailStr | None = None",
         "detail": "app.schemas.user_schema",
         "documentation": {}
     },
@@ -2742,16 +2891,7 @@
         "kind": 6,
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
-        "peekOfCode": "class RefreshTokenRequest(BaseModel):\n    refresh_token: str\nclass RefreshTokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\nclass LogoutRequest(BaseModel):\n    refresh_token: str\nclass LogoutResponse(BaseModel):\n    message: str",
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "RefreshTokenResponse",
-        "kind": 6,
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "peekOfCode": "class RefreshTokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\nclass LogoutRequest(BaseModel):\n    refresh_token: str\nclass LogoutResponse(BaseModel):\n    message: str\nclass UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)",
+        "peekOfCode": "class RefreshTokenRequest(BaseModel):\n    refresh_token: str\nclass LogoutRequest(BaseModel):\n    refresh_token: str\nclass UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)\n    email: EmailStr | None = None\n    phone: str | None = Field(None, min_length=8, max_length=20)\n    password: str | None = Field(None, min_length=6)\n# response",
         "detail": "app.schemas.user_schema",
         "documentation": {}
     },
@@ -2760,16 +2900,7 @@
         "kind": 6,
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
-        "peekOfCode": "class LogoutRequest(BaseModel):\n    refresh_token: str\nclass LogoutResponse(BaseModel):\n    message: str\nclass UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)\n    email: EmailStr | None = None\n    phone: str | None = Field(None, min_length=8, max_length=20)\n    password: str | None = Field(None, min_length=6)",
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "LogoutResponse",
-        "kind": 6,
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "peekOfCode": "class LogoutResponse(BaseModel):\n    message: str\nclass UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)\n    email: EmailStr | None = None\n    phone: str | None = Field(None, min_length=8, max_length=20)\n    password: str | None = Field(None, min_length=6)",
+        "peekOfCode": "class LogoutRequest(BaseModel):\n    refresh_token: str\nclass UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)\n    email: EmailStr | None = None\n    phone: str | None = Field(None, min_length=8, max_length=20)\n    password: str | None = Field(None, min_length=6)\n# response\nclass MessageResponse(BaseModel):\n    message: str",
         "detail": "app.schemas.user_schema",
         "documentation": {}
     },
@@ -2778,26 +2909,35 @@
         "kind": 6,
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
-        "peekOfCode": "class UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)\n    email: EmailStr | None = None\n    phone: str | None = Field(None, min_length=8, max_length=20)\n    password: str | None = Field(None, min_length=6)",
+        "peekOfCode": "class UpdateUserRequest(BaseModel):\n    full_name: str | None = Field(None, min_length=2)\n    email: EmailStr | None = None\n    phone: str | None = Field(None, min_length=8, max_length=20)\n    password: str | None = Field(None, min_length=6)\n# response\nclass MessageResponse(BaseModel):\n    message: str\nclass TokenResponse(TokenBundle):\n    message: str",
         "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "cache_get",
-        "kind": 2,
-        "importPath": "app.utils.cache",
-        "description": "app.utils.cache",
-        "peekOfCode": "def cache_get(key: str):\n    value = redis_client.get(key)\n    return json.loads(value) if value else None\ndef cache_set(key: str, value, ex: int = 300):\n    redis_client.set(key, json.dumps(value), ex=ex)",
-        "detail": "app.utils.cache",
+        "label": "MessageResponse",
+        "kind": 6,
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "peekOfCode": "class MessageResponse(BaseModel):\n    message: str\nclass TokenResponse(TokenBundle):\n    message: str\nclass UserResponse(BaseModel):\n    user: UserData",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
-        "label": "cache_set",
-        "kind": 2,
-        "importPath": "app.utils.cache",
-        "description": "app.utils.cache",
-        "peekOfCode": "def cache_set(key: str, value, ex: int = 300):\n    redis_client.set(key, json.dumps(value), ex=ex)",
-        "detail": "app.utils.cache",
+        "label": "TokenResponse",
+        "kind": 6,
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "peekOfCode": "class TokenResponse(TokenBundle):\n    message: str\nclass UserResponse(BaseModel):\n    user: UserData",
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "peekOfCode": "class UserResponse(BaseModel):\n    user: UserData",
+        "detail": "app.schemas.user_schema",
         "documentation": {}
     },
     {
@@ -2805,8 +2945,26 @@
         "kind": 5,
         "importPath": "app.utils.cache",
         "description": "app.utils.cache",
-        "peekOfCode": "redis_client = redis.Redis(\n    host=settings.CACHE_REDIS_HOST,\n    port=settings.CACHE_REDIS_PORT,\n    db=settings.CACHE_REDIS_DB,\n    decode_responses=settings.CACHE_REDIS_DECODE_RESPONSES\n)\ndef cache_get(key: str):\n    value = redis_client.get(key)\n    return json.loads(value) if value else None\ndef cache_set(key: str, value, ex: int = 300):",
+        "peekOfCode": "redis_client = redis.Redis(\n    host=settings.CACHE_REDIS_HOST,\n    port=settings.CACHE_REDIS_PORT,\n    db=settings.CACHE_REDIS_DB,\n    decode_responses=settings.CACHE_REDIS_DECODE_RESPONSES,\n    password=settings.CACHE_REDIS_PASSWORD\n)\nasync def cache_get(key: str):\n    value = await redis_client.get(key)\n    return json.loads(value) if value else None",
         "detail": "app.utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "build_catalog_item",
+        "kind": 2,
+        "importPath": "app.utils.catalog_helpers",
+        "description": "app.utils.catalog_helpers",
+        "peekOfCode": "def build_catalog_item(item, is_in_cart: bool = False) -> CatalogItemSchema:\n    return CatalogItemSchema(\n        code=str(item.code),\n        shape=str(item.shape),\n        dimensions=str(item.dimensions),\n        images=item.shape_info.img_url if item.shape_info else None,\n        name_bond=str(item.name_bond),\n        grid_size=str(item.grid_size),\n        is_in_cart=is_in_cart,\n    )",
+        "detail": "app.utils.catalog_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "make_cache_key",
+        "kind": 2,
+        "importPath": "app.utils.catalog_helpers",
+        "description": "app.utils.catalog_helpers",
+        "peekOfCode": "def make_cache_key(params: CatalogQuerySchema, user_id: int):\n    raw_key = f\"{params.page}:{params.items_per_page}:{params.search}:{params.search_type}:{params.name_bond}:{params.grid_size}:{user_id}\"\n    hashed_key = hashlib.md5(raw_key.encode()).hexdigest()\n    return f\"catalog:{hashed_key}\"",
+        "detail": "app.utils.catalog_helpers",
         "documentation": {}
     },
     {
@@ -3113,6 +3271,15 @@
         "description": "venv.Scripts.pywin32_testall",
         "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
         "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "CatalogUser",
+        "kind": 6,
+        "importPath": "locustfile",
+        "description": "locustfile",
+        "peekOfCode": "class CatalogUser(HttpUser):\n    wait_time = between(1, 3)\n    host = \"http://127.0.0.1:8080\"\n    @task(2)\n    def search_with_params(self):\n        # Валідні search_type\n        search_types = [\"code\", \"shape\", \"dimensions\", \"machine\"]\n        search_values = {\n            \"code\": random.choice([\"3C3042\", \"3-3048\", \"W-0000\"]),\n            \"shape\": random.choice([\"12V9-20\", \"14F1\"]),",
+        "detail": "locustfile",
         "documentation": {}
     }
 ]
