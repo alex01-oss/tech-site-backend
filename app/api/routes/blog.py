@@ -1,4 +1,5 @@
 import datetime
+from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException
 
 from app.api.dependencies import get_db
@@ -102,15 +103,22 @@ async def update_post(
 
 @router.get("", response_model=list[PostResponse])
 async def get_all_posts(
-        db: Session = Depends(get_db)
+        db: Session = Depends(get_db),
+        limit: Optional[int] = None
 ):
     try:
-        cache_key = "posts_list"
+        cache_key = f"posts_list_limit_{limit if limit is not None else 'all'}"
         cached = await cache_get(cache_key)
         if cached:
             return [PostResponse(**p) for p in cached]
 
-        posts = db.query(Post).order_by(Post.created_at.desc()).all()
+        query = db.query(Post).order_by(Post.created_at.desc())
+        
+        if limit is not None:
+            query = query.limit(limit)
+            
+        posts = query.all()
+        
         serialized = [PostResponse.model_validate(post).model_dump(mode="json") for post in posts]
 
         await cache_set(cache_key, serialized, ex=600)

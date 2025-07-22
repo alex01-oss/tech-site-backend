@@ -17,12 +17,11 @@ router = APIRouter(
     tags=["Catalog"]
 )
 
-
 @router.get("", response_model=CatalogResponseSchema)
 async def get_catalog_items(
-        query_params: CatalogQuerySchema = Depends(),
-        db: Session = Depends(get_db),
-        user: Optional[User] = Depends(get_current_user_optional)
+    query_params: CatalogQuerySchema = Depends(),
+    db: Session = Depends(get_db),
+    user: Optional[User] = Depends(get_current_user_optional)
 ):
     try:
         cache_key = make_cache_key(query_params, user.id if user else 0)
@@ -36,22 +35,19 @@ async def get_catalog_items(
             joinedload(ProductGrindingWheels.shape_info)
         )
 
-        if query_params.search:
-            search_query = query_params.search.lower()
+        if query_params.search_code:
+            query = query.filter(ProductGrindingWheels.code.ilike(f"%{query_params.search_code.lower()}%"))
 
-            if query_params.search_type == 'code':
-                query = query.filter(ProductGrindingWheels.code.ilike(f"%{search_query}%"))
+        if query_params.search_shape:
+            query = query.filter(ProductGrindingWheels.shape.ilike(f"%{query_params.search_shape.lower()}%"))
 
-            elif query_params.search_type == 'shape':
-                query = query.filter(ProductGrindingWheels.shape.ilike(f"%{search_query}%"))
+        if query_params.search_dimensions:
+            query = query.filter(ProductGrindingWheels.dimensions.ilike(f"%{query_params.search_dimensions.lower()}%"))
 
-            elif query_params.search_type == 'dimensions':
-                query = query.filter(ProductGrindingWheels.dimensions.ilike(f"%{search_query}%"))
-
-            elif query_params.search_type == 'machine':
-                query = query.join(EquipmentCode, EquipmentCode.code == ProductGrindingWheels.code) \
-                    .join(EquipmentModel, EquipmentCode.name_equipment == EquipmentModel.name_equipment) \
-                    .filter(EquipmentModel.name_equipment.ilike(f"%{search_query}%"))
+        if query_params.search_machine:
+            query = query.join(EquipmentCode, EquipmentCode.code == ProductGrindingWheels.code) \
+                         .join(EquipmentModel, EquipmentCode.name_equipment == EquipmentModel.name_equipment) \
+                         .filter(EquipmentModel.name_equipment.ilike(f"%{query_params.search_machine.lower()}%"))
 
         if query_params.name_bond:
             query = query.filter(ProductGrindingWheels.name_bond == query_params.name_bond)
@@ -70,7 +66,7 @@ async def get_catalog_items(
             cart_product_codes = {item.product_code for item in cart_items}
 
         items = [build_catalog_item(item, item.code in cart_product_codes) for item in catalog_items]
-
+        
         response = CatalogResponseSchema(
             items=items,
             total_items=total_items,
@@ -83,6 +79,8 @@ async def get_catalog_items(
         return response
 
     except Exception as e:
+        print(f"Error in get_catalog_items: {e}")
+        print(traceback.format_exc())
         raise HTTPException(
             status_code=500,
             detail=f"Failed to load catalog data: {str(e)}\nTraceback: {traceback.format_exc()}"

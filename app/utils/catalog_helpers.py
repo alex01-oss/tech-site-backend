@@ -15,6 +15,16 @@ def build_catalog_item(item, is_in_cart: bool = False) -> CatalogItemSchema:
 
 
 def make_cache_key(params: CatalogQuerySchema, user_id: int):
-    raw_key = f"{params.page}:{params.items_per_page}:{params.search}:{params.search_type}:{params.name_bond}:{params.grid_size}:{user_id}"
+    raw_key = (
+        f"{params.page}:"
+        f"{params.items_per_page}:"
+        f"code_{params.search_code or ''}:"
+        f"shape_{params.search_shape or ''}:"
+        f"dimensions_{params.search_dimensions or ''}:"
+        f"machine_{params.search_machine or ''}:"
+        f"bond_{params.name_bond or ''}:"
+        f"grid_{params.grid_size or ''}:"
+        f"user_{user_id}"
+    )
     hashed_key = hashlib.md5(raw_key.encode()).hexdigest()
     return f"catalog:{hashed_key}"

@@ -2342,7 +2342,7 @@
         "kind": 5,
         "importPath": "app.api.routes.catalog",
         "description": "app.api.routes.catalog",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/catalog\",\n    tags=[\"Catalog\"]\n)\n@router.get(\"\", response_model=CatalogResponseSchema)\nasync def get_catalog_items(\n        query_params: CatalogQuerySchema = Depends(),\n        db: Session = Depends(get_db),\n        user: Optional[User] = Depends(get_current_user_optional)\n):",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/catalog\",\n    tags=[\"Catalog\"]\n)\n@router.get(\"\", response_model=CatalogResponseSchema)\nasync def get_catalog_items(\n    query_params: CatalogQuerySchema = Depends(),\n    db: Session = Depends(get_db),\n    user: Optional[User] = Depends(get_current_user_optional)\n):",
         "detail": "app.api.routes.catalog",
         "documentation": {}
     },
@@ -2756,7 +2756,7 @@
         "kind": 6,
         "importPath": "app.schemas.catalog_schema",
         "description": "app.schemas.catalog_schema",
-        "peekOfCode": "class CatalogQuerySchema(BaseModel):\n    page: int = Field(default=1, ge=1)\n    items_per_page: int = Field(default=8, ge=1, le=100)\n    search: str = \"\"\n    search_type: Optional[Literal[\"code\", \"shape\", \"dimensions\", \"machine\"]] = \"code\"\n    name_bond: Optional[str] = None\n    grid_size: Optional[str] = None\nclass BondSchema(BaseModel):\n    name_bond: str\n    bond_description: str",
+        "peekOfCode": "class CatalogQuerySchema(BaseModel):\n    page: int = Field(default=1, ge=1)\n    items_per_page: int = Field(default=8, ge=1, le=100)\n    search_code: Optional[str] = Field(default=None)\n    search_shape: Optional[str] = Field(default=None)\n    search_dimensions: Optional[str] = Field(default=None)\n    search_machine: Optional[str] = Field(default=None)\n    name_bond: Optional[str] = Field(default=None)\n    grid_size: Optional[str] = Field(default=None)\nclass BondSchema(BaseModel):",
         "detail": "app.schemas.catalog_schema",
         "documentation": {}
     },
@@ -2963,7 +2963,7 @@
         "kind": 2,
         "importPath": "app.utils.catalog_helpers",
         "description": "app.utils.catalog_helpers",
-        "peekOfCode": "def make_cache_key(params: CatalogQuerySchema, user_id: int):\n    raw_key = f\"{params.page}:{params.items_per_page}:{params.search}:{params.search_type}:{params.name_bond}:{params.grid_size}:{user_id}\"\n    hashed_key = hashlib.md5(raw_key.encode()).hexdigest()\n    return f\"catalog:{hashed_key}\"",
+        "peekOfCode": "def make_cache_key(params: CatalogQuerySchema, user_id: int):\n    raw_key = (\n        f\"{params.page}:\"\n        f\"{params.items_per_page}:\"\n        f\"code_{params.search_code or ''}:\"\n        f\"shape_{params.search_shape or ''}:\"\n        f\"dimensions_{params.search_dimensions or ''}:\"\n        f\"machine_{params.search_machine or ''}:\"\n        f\"bond_{params.name_bond or ''}:\"\n        f\"grid_{params.grid_size or ''}:\"",
         "detail": "app.utils.catalog_helpers",
         "documentation": {}
     },
