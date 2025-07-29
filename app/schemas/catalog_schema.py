@@ -1,4 +1,4 @@
-from typing import List, Optional, Literal
+from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -12,8 +12,11 @@ class CatalogQuerySchema(BaseModel):
     search_dimensions: Optional[str] = Field(default=None)
     search_machine: Optional[str] = Field(default=None)
 
-    name_bond: Optional[str] = Field(default=None)
-    grid_size: Optional[str] = Field(default=None)
+    name_bond: Optional[List[str]] = Field(default=None)
+    grid_size: Optional[List[str]] = Field(default=None)
+    
+    class Config:
+        populate_by_name = True
 
 
 class BondSchema(BaseModel):

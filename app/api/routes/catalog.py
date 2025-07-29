@@ -10,7 +10,7 @@ from app.core.security import get_current_user_optional
 from app.models import (ProductGrindingWheels, EquipmentModel, EquipmentCode, CartItem, User)
 from app.schemas.catalog_schema import (CatalogQuerySchema, CatalogResponseSchema, CatalogItemDetailedSchema, EquipmentModelSchema)
 from app.utils.cache import cache_get, cache_set
-from app.utils.catalog_helpers import build_catalog_item, make_cache_key
+from app.utils.catalog_helpers import build_catalog_item, make_cache_key, parse_query_params
 
 router = APIRouter(
     prefix="/api/catalog",
@@ -19,11 +19,15 @@ router = APIRouter(
 
 @router.get("", response_model=CatalogResponseSchema)
 async def get_catalog_items(
-    query_params: CatalogQuerySchema = Depends(),
+    query_params: CatalogQuerySchema = Depends(parse_query_params),
     db: Session = Depends(get_db),
     user: Optional[User] = Depends(get_current_user_optional)
 ):
     try:
+        print(f"DEBUG: query_params = {query_params}")
+        print(f"DEBUG: name_bond = {query_params.name_bond}")
+        print(f"DEBUG: grid_size = {query_params.grid_size}")
+        
         cache_key = make_cache_key(query_params, user.id if user else 0)
         cached = await cache_get(cache_key)
 
@@ -50,10 +54,10 @@ async def get_catalog_items(
                          .filter(EquipmentModel.name_equipment.ilike(f"%{query_params.search_machine.lower()}%"))
 
         if query_params.name_bond:
-            query = query.filter(ProductGrindingWheels.name_bond == query_params.name_bond)
+            query = query.filter(ProductGrindingWheels.name_bond.in_(query_params.name_bond))
 
         if query_params.grid_size:
-            query = query.filter(ProductGrindingWheels.grid_size == query_params.grid_size)
+            query = query.filter(ProductGrindingWheels.grid_size.in_(query_params.grid_size))
 
         total_items = query.count()
         total_pages = math.ceil(total_items / query_params.items_per_page) or 1

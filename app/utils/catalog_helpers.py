@@ -1,3 +1,5 @@
+from typing import List, Optional
+from fastapi import Query
 from app.schemas.catalog_schema import CatalogItemSchema, CatalogQuerySchema
 import hashlib
 
@@ -28,3 +30,24 @@ def make_cache_key(params: CatalogQuerySchema, user_id: int):
     )
     hashed_key = hashlib.md5(raw_key.encode()).hexdigest()
     return f"catalog:{hashed_key}"
+
+def parse_query_params(
+    page: int = Query(1, ge=1),
+    items_per_page: int = Query(8, ge=1, le=100),
+    search_code: Optional[str] = Query(None),
+    search_shape: Optional[str] = Query(None),
+    search_dimensions: Optional[str] = Query(None),
+    search_machine: Optional[str] = Query(None),
+    name_bond: Optional[List[str]] = Query(None),
+    grid_size: Optional[List[str]] = Query(None),
+) -> CatalogQuerySchema:
+    return CatalogQuerySchema(
+        page=page,
+        items_per_page=items_per_page,
+        search_code=search_code,
+        search_shape=search_shape,
+        search_dimensions=search_dimensions,
+        search_machine=search_machine,
+        name_bond=name_bond,
+        grid_size=grid_size
+    )

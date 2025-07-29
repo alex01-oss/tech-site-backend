@@ -11,7 +11,7 @@ from sqlalchemy.orm import Session
 from starlette.staticfiles import StaticFiles
 
 from app.api.dependencies import get_db
-from app.api.routes import auth, users, catalog, cart, blog, media, menu, sidebar
+from app.api.routes import auth, filters, users, catalog, cart, blog, media, menu
 
 app = FastAPI(title="Search App API")
 
@@ -36,7 +36,7 @@ app.include_router(cart.router)
 app.include_router(blog.router)
 app.include_router(media.router)
 app.include_router(menu.router)
-app.include_router(sidebar.router)
+app.include_router(filters.router)
 
 @app.get("/health")
 async def health_check():

@@ -40,15 +40,7 @@
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -73,6 +65,22 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -152,7 +160,31 @@
         "documentation": {}
     },
     {
-        "label": "Literal",
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -817,6 +849,30 @@
         "documentation": {}
     },
     {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -873,30 +929,6 @@
         "documentation": {}
     },
     {
-        "label": "Query",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -930,6 +962,14 @@
     },
     {
         "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1700,6 +1740,39 @@
         "documentation": {}
     },
     {
+        "label": "parse_query_params",
+        "importPath": "app.utils.catalog_helpers",
+        "description": "app.utils.catalog_helpers",
+        "isExtraImport": true,
+        "detail": "app.utils.catalog_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -1732,31 +1805,6 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "csv",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "csv",
-        "description": "csv",
-        "detail": "csv",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -2002,12 +2050,12 @@
         "documentation": {}
     },
     {
-        "label": "redis.asyncio",
+        "label": "redis",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "redis.asyncio",
-        "description": "redis.asyncio",
-        "detail": "redis.asyncio",
+        "importPath": "redis",
+        "description": "redis",
+        "detail": "redis",
         "documentation": {}
     },
     {
@@ -2078,6 +2126,14 @@
         "documentation": {}
     },
     {
+        "label": "filters",
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "isExtraImport": true,
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
         "label": "users",
         "importPath": "app.api.routes",
         "description": "app.api.routes",
@@ -2119,14 +2175,6 @@
     },
     {
         "label": "menu",
-        "importPath": "app.api.routes",
-        "description": "app.api.routes",
-        "isExtraImport": true,
-        "detail": "app.api.routes",
-        "documentation": {}
-    },
-    {
-        "label": "sidebar",
         "importPath": "app.api.routes",
         "description": "app.api.routes",
         "isExtraImport": true,
@@ -2342,8 +2390,17 @@
         "kind": 5,
         "importPath": "app.api.routes.catalog",
         "description": "app.api.routes.catalog",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/catalog\",\n    tags=[\"Catalog\"]\n)\n@router.get(\"\", response_model=CatalogResponseSchema)\nasync def get_catalog_items(\n    query_params: CatalogQuerySchema = Depends(),\n    db: Session = Depends(get_db),\n    user: Optional[User] = Depends(get_current_user_optional)\n):",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/catalog\",\n    tags=[\"Catalog\"]\n)\n@router.get(\"\", response_model=CatalogResponseSchema)\nasync def get_catalog_items(\n    query_params: CatalogQuerySchema = Depends(parse_query_params),\n    db: Session = Depends(get_db),\n    user: Optional[User] = Depends(get_current_user_optional)\n):",
         "detail": "app.api.routes.catalog",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.routes.filters",
+        "description": "app.api.routes.filters",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/filters\",\n    tags=[\"Products\"]\n)\n@router.get(\"\", response_model=List[Dict[str, Any]])\nasync def get_sidebar_filters():\n    try:\n        csv_path = Path(__file__).resolve().parents[3] / \"data.csv\"\n        if not csv_path.exists():\n            raise FileNotFoundError(f\"File not found at the calculated path: {csv_path}\")",
+        "detail": "app.api.routes.filters",
         "documentation": {}
     },
     {
@@ -2362,15 +2419,6 @@
         "description": "app.api.routes.menu",
         "peekOfCode": "router = APIRouter(\n    prefix=\"/api/menu\",\n    tags=[\"Menu\"]\n)\n@router.get(\"\", response_model=Dict[str, Any])\nasync def return_menu():\n    try:\n        cache_key = \"menu_data\"\n        cached = await cache_get(cache_key)\n        if cached:",
         "detail": "app.api.routes.menu",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "app.api.routes.sidebar",
-        "description": "app.api.routes.sidebar",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/filters\",\n    tags=[\"Products\"]\n)\n@router.get(\"\", response_model=List[Dict[str, Any]])\nasync def get_sidebar_filters():\n    try:\n        csv_path = Path(__file__).resolve().parents[3] / \"data.csv\"\n        if not csv_path.exists():\n            raise FileNotFoundError(f\"File not found at the calculated path: {csv_path}\")",
-        "detail": "app.api.routes.sidebar",
         "documentation": {}
     },
     {
@@ -2756,7 +2804,7 @@
         "kind": 6,
         "importPath": "app.schemas.catalog_schema",
         "description": "app.schemas.catalog_schema",
-        "peekOfCode": "class CatalogQuerySchema(BaseModel):\n    page: int = Field(default=1, ge=1)\n    items_per_page: int = Field(default=8, ge=1, le=100)\n    search_code: Optional[str] = Field(default=None)\n    search_shape: Optional[str] = Field(default=None)\n    search_dimensions: Optional[str] = Field(default=None)\n    search_machine: Optional[str] = Field(default=None)\n    name_bond: Optional[str] = Field(default=None)\n    grid_size: Optional[str] = Field(default=None)\nclass BondSchema(BaseModel):",
+        "peekOfCode": "class CatalogQuerySchema(BaseModel):\n    page: int = Field(default=1, ge=1)\n    items_per_page: int = Field(default=8, ge=1, le=100)\n    search_code: Optional[str] = Field(default=None)\n    search_shape: Optional[str] = Field(default=None)\n    search_dimensions: Optional[str] = Field(default=None)\n    search_machine: Optional[str] = Field(default=None)\n    name_bond: Optional[List[str]] = Field(default=None)\n    grid_size: Optional[List[str]] = Field(default=None)\n    class Config:",
         "detail": "app.schemas.catalog_schema",
         "documentation": {}
     },
@@ -2945,7 +2993,7 @@
         "kind": 5,
         "importPath": "app.utils.cache",
         "description": "app.utils.cache",
-        "peekOfCode": "redis_client = redis.Redis(\n    host=settings.CACHE_REDIS_HOST,\n    port=settings.CACHE_REDIS_PORT,\n    db=settings.CACHE_REDIS_DB,\n    decode_responses=settings.CACHE_REDIS_DECODE_RESPONSES,\n    password=settings.CACHE_REDIS_PASSWORD\n)\nasync def cache_get(key: str):\n    value = await redis_client.get(key)\n    return json.loads(value) if value else None",
+        "peekOfCode": "redis_client = redis.Redis(\n    host=settings.CACHE_REDIS_HOST,\n    port=settings.CACHE_REDIS_PORT,\n    db=settings.CACHE_REDIS_DB,\n    decode_responses=settings.CACHE_REDIS_DECODE_RESPONSES,\n    password=settings.CACHE_REDIS_PASSWORD\n)\nasync def cache_get(key: str) -> Optional[Any]:\n    if settings.DISABLE_REDIS_CACHE:\n        # print(f\"CACHE_GET: Cache disabled, returning None for key: {key}\")",
         "detail": "app.utils.cache",
         "documentation": {}
     },
@@ -2964,6 +3012,15 @@
         "importPath": "app.utils.catalog_helpers",
         "description": "app.utils.catalog_helpers",
         "peekOfCode": "def make_cache_key(params: CatalogQuerySchema, user_id: int):\n    raw_key = (\n        f\"{params.page}:\"\n        f\"{params.items_per_page}:\"\n        f\"code_{params.search_code or ''}:\"\n        f\"shape_{params.search_shape or ''}:\"\n        f\"dimensions_{params.search_dimensions or ''}:\"\n        f\"machine_{params.search_machine or ''}:\"\n        f\"bond_{params.name_bond or ''}:\"\n        f\"grid_{params.grid_size or ''}:\"",
+        "detail": "app.utils.catalog_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "parse_query_params",
+        "kind": 2,
+        "importPath": "app.utils.catalog_helpers",
+        "description": "app.utils.catalog_helpers",
+        "peekOfCode": "def parse_query_params(\n    page: int = Query(1, ge=1),\n    items_per_page: int = Query(8, ge=1, le=100),\n    search_code: Optional[str] = Query(None),\n    search_shape: Optional[str] = Query(None),\n    search_dimensions: Optional[str] = Query(None),\n    search_machine: Optional[str] = Query(None),\n    name_bond: Optional[List[str]] = Query(None),\n    grid_size: Optional[List[str]] = Query(None),\n) -> CatalogQuerySchema:",
         "detail": "app.utils.catalog_helpers",
         "documentation": {}
     },

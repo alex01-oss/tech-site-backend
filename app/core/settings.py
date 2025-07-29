@@ -31,7 +31,8 @@ class Settings(BaseSettings):
     CACHE_DEFAULT_TIMEOUT: int = int(os.getenv("CACHE_DEFAULT_TIMEOUT"))
     CACHE_REDIS_DECODE_RESPONSES: bool = bool(strtobool(os.getenv("CACHE_REDIS_DECODE_RESPONSES", "False")))
     CACHE_REDIS_PASSWORD: str = os.getenv("REDIS_PASSWORD")
-
+    
+    DISABLE_REDIS_CACHE: bool = os.getenv("DISABLE_REDIS_CACHE", "False").lower() == "true"
 
     LIMIT_PER_MINUTE: str = "5 per minute"
     LIMIT_PER_DAY: str = "1000 per day"
