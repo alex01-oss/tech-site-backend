@@ -32,6 +32,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -769,6 +777,22 @@
         "documentation": {}
     },
     {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -1006,6 +1030,14 @@
         "description": "psycopg2",
         "isExtraImport": true,
         "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -1457,6 +1489,15 @@
         "documentation": {}
     },
     {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
@@ -1805,15 +1846,6 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
         "documentation": {}
     },
     {
@@ -2365,6 +2397,24 @@
         "description": "app.api.routes.auth",
         "peekOfCode": "router = APIRouter(\n    prefix=\"/api/auth\",\n    tags=[\"Authorization\"]\n)\n@router.post(\"/login\", response_model=TokenResponse)\nasync def login(\n        user_data: LoginRequest,\n        db: Session = Depends(get_db)\n):\n    user = db.query(User).filter(User.email == user_data.email).first()",
         "detail": "app.api.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.api.routes.autocomplete",
+        "description": "app.api.routes.autocomplete",
+        "peekOfCode": "logger = logging.getLogger(\"app\")\nrouter = APIRouter(\n    prefix='api/autocomplete',\n    tags=['Autocomplete']\n)\n@router.get('/code', response_model=List[str])\nasync def autocomplete_code(\n    q: str,\n    db: Session = Depends\n):",
+        "detail": "app.api.routes.autocomplete",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.routes.autocomplete",
+        "description": "app.api.routes.autocomplete",
+        "peekOfCode": "router = APIRouter(\n    prefix='api/autocomplete',\n    tags=['Autocomplete']\n)\n@router.get('/code', response_model=List[str])\nasync def autocomplete_code(\n    q: str,\n    db: Session = Depends\n):\n    pass",
+        "detail": "app.api.routes.autocomplete",
         "documentation": {}
     },
     {

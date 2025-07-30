@@ -1,6 +1,7 @@
 import datetime
 from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy import and_
 
 from app.api.dependencies import get_db
 from app.core.security import admin_required, get_current_user
@@ -55,7 +56,7 @@ async def delete_post(
     await redis_client.delete("posts_list")
     await redis_client.delete(f"post:{post_id}")
 
-    post = db.query(Post).filter(Post.id == post_id).first()
+    post = db.query(Post).filter(and_(Post.id == post_id)).first()
     if not post:
         raise HTTPException(status_code=404, detail="Post not found")
 
@@ -80,7 +81,7 @@ async def update_post(
     await redis_client.delete("posts_list")
     await redis_client.delete(f"post:{post_id}")
 
-    post = db.query(Post).filter(Post.id == post_id).first()
+    post = db.query(Post).filter(and_(Post.id == post_id)).first()
     if not post:
         raise HTTPException(status_code=404, detail="Post not found")
 
@@ -140,7 +141,7 @@ async def get_post_by_id(
         if cached:
             return PostResponse(**cached)
 
-        post = db.query(Post).filter(Post.id == post_id).first()
+        post = db.query(Post).filter(and_(Post.id == post_id)).first()
 
         if not post:
             raise HTTPException(status_code=404, detail="Post not found")
