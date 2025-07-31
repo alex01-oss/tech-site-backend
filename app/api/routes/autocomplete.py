@@ -91,8 +91,7 @@ async def autocomplete_dimensions(
 async def autocomplete_machine(
         q: str = Query(
             ...,
-            min_length=3,
-            max_length=5,
+            min_length=1,
             description="Query string for product machine name autocomplete"
         ),
         db: Session = Depends(get_db)

@@ -257,6 +257,46 @@
         "documentation": {}
     },
     {
+        "label": "distinct",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "func",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -777,6 +817,14 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -785,7 +833,7 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1257,6 +1305,14 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
         "label": "issue_tokens",
         "importPath": "app.core.security",
         "description": "app.core.security",
@@ -1362,6 +1418,38 @@
     },
     {
         "label": "RefreshToken",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductGrindingWheels",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "EquipmentModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "EquipmentCode",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProducerName",
         "importPath": "app.models",
         "description": "app.models",
         "isExtraImport": true,
@@ -2214,6 +2302,14 @@
         "documentation": {}
     },
     {
+        "label": "autocomplete",
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "isExtraImport": true,
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
         "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
@@ -2400,20 +2496,11 @@
         "documentation": {}
     },
     {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "app.api.routes.autocomplete",
-        "description": "app.api.routes.autocomplete",
-        "peekOfCode": "logger = logging.getLogger(\"app\")\nrouter = APIRouter(\n    prefix='api/autocomplete',\n    tags=['Autocomplete']\n)\n@router.get('/code', response_model=List[str])\nasync def autocomplete_code(\n    q: str,\n    db: Session = Depends\n):",
-        "detail": "app.api.routes.autocomplete",
-        "documentation": {}
-    },
-    {
         "label": "router",
         "kind": 5,
         "importPath": "app.api.routes.autocomplete",
         "description": "app.api.routes.autocomplete",
-        "peekOfCode": "router = APIRouter(\n    prefix='api/autocomplete',\n    tags=['Autocomplete']\n)\n@router.get('/code', response_model=List[str])\nasync def autocomplete_code(\n    q: str,\n    db: Session = Depends\n):\n    pass",
+        "peekOfCode": "router = APIRouter(\n    prefix='/api/autocomplete',\n    tags=['Autocomplete']\n)\n@router.get('/code', response_model=List[str])\nasync def autocomplete_code(\n        q: str = Query(\n            ...,\n            min_length=1,\n            max_length=5,",
         "detail": "app.api.routes.autocomplete",
         "documentation": {}
     },

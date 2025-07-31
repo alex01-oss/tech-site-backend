@@ -33,10 +33,12 @@ class Settings(BaseSettings):
     CACHE_REDIS_PASSWORD: str = os.getenv("REDIS_PASSWORD")
     
     DISABLE_REDIS_CACHE: bool = os.getenv("DISABLE_REDIS_CACHE", "False").lower() == "true"
+    HTTPS_ENABLED: bool = os.getenv("HTTPS_ENABLED", "False").lower() == "false"
 
     LIMIT_PER_MINUTE: str = "5 per minute"
     LIMIT_PER_DAY: str = "1000 per day"
-
+    
+    CORS_ORIGINS = ["http://localhost:3000"]
     class Config:
         env_file = ".env"
 
