@@ -226,3 +226,13 @@ def issue_tokens(user_id: int, db: Session, request: Request) -> dict:
         "refresh_token": refresh_token,
         "token_type": "bearer"
     }
+
+def cleanup_expired_tokens(db: Session):
+    now = datetime.now(UTC)
+    deleted_count = db.query(RefreshToken).filter(
+        RefreshToken.expires_at < now,
+    ).delete()
+    db.commit()
+
+    print(f"DEBUG: Purging refresh tokens. Deleted {deleted_count} expired records.")
+    return deleted_count

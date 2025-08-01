@@ -1,4 +1,5 @@
 import os.path
+from contextlib import asynccontextmanager
 from datetime import datetime, UTC
 
 import uvicorn
@@ -12,8 +13,18 @@ from starlette.staticfiles import StaticFiles
 
 from app.api.dependencies import get_db
 from app.api.routes import auth, filters, users, catalog, cart, blog, media, menu, autocomplete
+from app.tasks.scheduler import start_scheduler, stop_scheduler
 
-app = FastAPI(title="Search App API")
+
+@asynccontextmanager
+async def lifespan_context(app_instance: FastAPI):
+    app_instance.state.limiter = Limiter(key_func=get_remote_address) # type: ignore
+    start_scheduler()
+    yield
+    stop_scheduler()
+
+
+app = FastAPI(title="Search App API", lifespan=lifespan_context)
 
 app.add_middleware(
     CORSMiddleware,
@@ -22,9 +33,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-limiter = Limiter(key_func=get_remote_address)
-app.state.limiter = limiter
 
 if os.path.exists("images"):
     app.mount("/images", StaticFiles(directory="images"), name="images")
@@ -38,6 +46,7 @@ app.include_router(media.router)
 app.include_router(menu.router)
 app.include_router(filters.router)
 app.include_router(autocomplete.router)
+
 
 @app.get("/health")
 async def health_check():
