@@ -1,6 +1,6 @@
 from typing import Optional
 
-from fastapi import APIRouter, Body, Depends, HTTPException, Response, Cookie
+from fastapi import APIRouter, Body, Depends, HTTPException, Response, Cookie, Request
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 from starlette import status
@@ -31,6 +31,7 @@ def set_auth_cookies(response: Response, tokens: dict):
         max_age=settings.REFRESH_TOKEN_EXPIRE_MINUTES * 60,
     )
 
+
 def delete_auth_cookies(response: Response):
     response.delete_cookie(
         key="access_token",
@@ -45,6 +46,7 @@ def delete_auth_cookies(response: Response):
         samesite="lax",
     )
 
+
 router = APIRouter(
     prefix="/api/auth",
     tags=["Authorization"]
@@ -55,6 +57,7 @@ router = APIRouter(
 async def login(
         user_data: LoginRequest,
         response: Response,
+        request: Request,
         db: Session = Depends(get_db),
 ):
     # noinspection PyTypeChecker
@@ -66,7 +69,7 @@ async def login(
     if not verify_password(user_data.password, user.password_hash):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Incorrect password")
 
-    tokens = issue_tokens(user.id, db)
+    tokens = issue_tokens(user.id, db, request)
 
     set_auth_cookies(response, tokens)
 
@@ -80,6 +83,7 @@ async def login(
 async def register(
         user_data: RegisterRequest,
         response: Response,
+        request: Request,
         db: Session = Depends(get_db)
 ):
     try:
@@ -100,7 +104,7 @@ async def register(
         db.commit()
         db.refresh(new_user)
 
-        tokens = issue_tokens(new_user.id, db)
+        tokens = issue_tokens(new_user.id, db, request)
 
         set_auth_cookies(response, tokens)
 
@@ -120,6 +124,7 @@ async def register(
 @router.post("/refresh", response_model=TokenBundle)
 async def refresh_token_route(
         response: Response,
+        request: Request,
         db: Session = Depends(get_db),
         refresh_data: Optional[RefreshTokenRequest] = Body(None),
         refresh_token_cookie: Optional[str] = Cookie(None, alias="refresh_token")
@@ -142,26 +147,33 @@ async def refresh_token_route(
     try:
         payload = decode_token(token_str)
     except HTTPException as e:
+        delete_auth_cookies(response)
         raise e
 
     user_id = payload.get("sub")
     token_type = payload.get("type")
+    jti = payload.get("jti")
 
-    if not user_id or token_type != "refresh":
+    if not user_id or token_type != "refresh" or not jti:
+        delete_auth_cookies(response)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid refresh token")
 
     token_record = db.query(RefreshToken).filter_by(
         user_id=int(user_id),
-        refresh_token=token_str
+        jti=jti,
+        is_revoked=False
     ).first()
 
-    if not token_record:
+    if not token_record or token_record.refresh_token != token_str:
+        if token_record and token_record.is_revoked:
+            print(f"DEBUG: Revoked token (JTI: {jti}) attempted by user {user_id}. All user tokens may be compromised.")
+        delete_auth_cookies(response)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid or revoked token")
 
     db.delete(token_record)
     db.commit()
 
-    new_tokens = issue_tokens(int(user_id), db)
+    new_tokens = issue_tokens(int(user_id), db, request)
 
     set_auth_cookies(response, new_tokens)
 
@@ -196,29 +208,44 @@ async def logout(
     try:
         payload = decode_token(refresh_token_to_revoke)
         token_user_id = payload.get("sub")
+        jti = payload.get("jti")
         token_type = payload.get("type")
 
-        if not token_user_id or token_type != "refresh" or int(token_user_id) != user_id:
+        if not token_user_id or token_type != "refresh" or not jti or int(token_user_id) != user_id:
             delete_auth_cookies(response)
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="Provided refresh token is invalid or does not belong to user"
             )
     except HTTPException as e:
+        print(f"DEBUG: Logout failed due to token error, but clearing cookies: {e.detail}")
         delete_auth_cookies(response)
         raise e
 
-    refresh_token_entry = db.query(RefreshToken).filter_by(
+    token_record = db.query(RefreshToken).filter_by(
         user_id=user_id,
-        refresh_token=refresh_token_to_revoke
-    ).delete()
-    db.commit()
+        jti=jti,
+    ).first()
 
-    if not refresh_token_entry:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Refresh token not found")
+    if token_record:
+        db.delete(token_record)
+        db.commit()
+    else:
+        print(f"DEBUG: Refresh token with JTI {jti} not found for user {user_id} during logout.")
 
     delete_auth_cookies(response)
 
-    return MessageResponse(
-        message="Successfully logged out",
-    )
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+@router.post("/logout-all", response_model=MessageResponse)
+async def logout_all(
+        response: Response,
+        db: Session = Depends(get_db),
+        user: User = Depends(get_current_user)
+):
+    # noinspection PyTypeChecker
+    db.query(RefreshToken).filter(RefreshToken.user_id == user.id).delete()
+    db.commit()
+    delete_auth_cookies(response)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)

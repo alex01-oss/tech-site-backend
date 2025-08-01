@@ -1,7 +1,8 @@
+import uuid
 from datetime import timedelta, datetime, UTC
 from typing import Union, Optional
 
-from fastapi import Depends, HTTPException, Header, Cookie
+from fastapi import Depends, HTTPException, Header, Cookie, Request
 from fastapi.security import OAuth2PasswordBearer
 from jose import jwt, JWTError, ExpiredSignatureError
 from jose.exceptions import JWTClaimsError
@@ -36,23 +37,28 @@ def create_access_token(identity: Union[str, int]) -> str:
     return jwt.encode(to_encode, settings.ACCESS_TOKEN_SECRET_KEY, algorithm=settings.ALGORITHM)
 
 
-def create_refresh_token(identity: Union[str, int], db: Session) -> str:
-    # noinspection PyTypeChecker
-    db.query(RefreshToken).filter(RefreshToken.user_id == int(identity)).delete()
-    db.commit()
+def create_refresh_token(identity: Union[str, int], db: Session, request: Request) -> str:
 
-    expire = datetime.now(UTC) + timedelta(minutes=settings.REFRESH_TOKEN_EXPIRE_MINUTES)
+    jti = str(uuid.uuid4())
+    expire_at = datetime.now(UTC) + timedelta(minutes=settings.REFRESH_TOKEN_EXPIRE_MINUTES)
     to_encode = {
         "sub": str(identity),
-        "exp": expire,
-        "type": "refresh"
+        "exp": expire_at,
+        "type": "refresh",
+        "jti": jti,
     }
     encoded_jwt = jwt.encode(to_encode, settings.REFRESH_TOKEN_SECRET_KEY, algorithm=settings.ALGORITHM)
 
     refresh_token_db_entry = RefreshToken(
         user_id=int(identity),
+        jti=jti,
         refresh_token=encoded_jwt,
-        created_at=datetime.now(UTC)
+        created_at=datetime.now(UTC),
+        expires_at=expire_at,
+        last_used_at=datetime.now(UTC),
+        is_revoked=False,
+        device_info=request.headers.get("User-Agent"),
+        ip_address=request.client.host,
     )
     db.add(refresh_token_db_entry)
     db.commit()
@@ -211,9 +217,9 @@ def admin_required(user=Depends(get_current_user)) -> User:
     return user
 
 
-def issue_tokens(user_id: int, db: Session) -> dict:
+def issue_tokens(user_id: int, db: Session, request: Request) -> dict:
     access_token = create_access_token(user_id)
-    refresh_token = create_refresh_token(user_id, db)
+    refresh_token = create_refresh_token(user_id, db, request)
 
     return {
         "access_token": access_token,

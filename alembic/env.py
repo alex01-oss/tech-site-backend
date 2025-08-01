@@ -10,7 +10,7 @@ config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-from backend.app.core.database import Base
+from app.core.database import Base
 from app.models.cart_item import CartItem
 from app.models.product_grinding_wheels import ProductGrindingWheels
 from app.models.bond import Bond
