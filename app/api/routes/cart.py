@@ -1,4 +1,7 @@
-from fastapi import APIRouter, Depends, HTTPException
+import logging
+
+from fastapi import APIRouter, Depends, HTTPException, Response
+from starlette import status
 
 from app.api.dependencies import get_db
 from app.core.security import get_current_user
@@ -12,6 +15,8 @@ from sqlalchemy.orm import Session
 from app.schemas.catalog_schema import CatalogItemSchema
 from sqlalchemy import func
 
+logger = logging.getLogger(__name__)
+
 router = APIRouter(
     prefix="/api/cart",
     tags=["Cart"]
@@ -23,34 +28,31 @@ async def get_cart(
         db: Session = Depends(get_db),
         user: User = Depends(get_current_user)
 ):
-    try:
-        cart_items = db.query(CartItem).filter_by(user_id=user.id).all()
+    cart_items = db.query(CartItem).filter_by(user_id=user.id).all()
 
-        cart = []
-        for item in cart_items:
-            product = item.product
-            if not product:
-                continue
+    cart = []
+    for item in cart_items:
+        product = item.product
+        if not product:
+            logger.warning(f"Product with code {item.product_code} not found for user {user.id} in cart.")
+            continue
 
-            image_url = product.shape_info.img_url if product.shape_info else None
+        image_url = product.shape_info.img_url if product.shape_info else None
 
-            cart.append(GetCartResponse(
-                product=CatalogItemSchema(
-                    code=product.code,
-                    shape=product.shape,
-                    dimensions=product.dimensions,
-                    images=image_url,
-                    name_bond=product.name_bond,
-                    grid_size=product.grid_size,
-                    is_in_cart=True
-                ),
-                quantity=str(item.quantity),
-            ))
+        cart.append(GetCartResponse(
+            product=CatalogItemSchema(
+                code=product.code,
+                shape=product.shape,
+                dimensions=product.dimensions,
+                images=image_url,
+                name_bond=product.name_bond,
+                grid_size=product.grid_size,
+                is_in_cart=True
+            ),
+            quantity=str(item.quantity),
+        ))
 
-        return CartListResponse(cart=cart)
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    return CartListResponse(cart=cart)
 
 
 @router.post("/items", response_model=CartResponse)
@@ -59,31 +61,28 @@ async def add_to_cart(
         user: User = Depends(get_current_user),
         db: Session = Depends(get_db)
 ):
-    try:
-        if not item.code:
-            raise HTTPException(status_code=400, detail="Article is empty")
+    if not item.code:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Article is empty")
 
-        catalog_item = db.query(ProductGrindingWheels).filter_by(code=item.code).first()
-        if not catalog_item:
-            raise HTTPException(status_code=404, detail="Product not found in catalog")
+    catalog_item = db.query(ProductGrindingWheels).filter_by(code=item.code).first()
+    if not catalog_item:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Product not found in catalog")
 
-        existing_item = db.query(CartItem).filter_by(user_id=user.id, product_code=item.code).first()
-        if existing_item:
-            return {"message": "item already in cart"}
+    existing_item = db.query(CartItem).filter_by(user_id=user.id, product_code=item.code).first()
+    if existing_item:
+        logger.info(f"User {user.id} attempted to add existing item {item.code} to cart.")
+        return CartResponse(message="Item already in cart")
 
-        new_item = CartItem(
-            user_id=user.id,
-            product_code=item.code,
-            quantity=1,
-        )
-        db.add(new_item)
-        db.commit()
+    new_item = CartItem(
+        user_id=user.id,
+        product_code=item.code,
+        quantity=1,
+    )
+    db.add(new_item)
+    db.commit()
 
-        return {"message": "item added to cart"}
-
-    except Exception as e:
-        db.rollback()
-        raise HTTPException(status_code=400, detail=str(e))
+    logger.info(f"User {user.id} added new item {item.code} to cart.")
+    return CartResponse(message="Item added to cart")
 
 
 @router.delete("/items/{code}", response_model=CartResponse)
@@ -92,25 +91,19 @@ async def remove_from_cart(
         user: User = Depends(get_current_user),
         db: Session = Depends(get_db)
 ):
-    try:
-        if not code:
-            raise HTTPException(status_code=400, detail="Article is empty")
+    if not code:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Article is empty")
 
-        item = db.query(CartItem).filter_by(user_id=user.id, product_code=code).first()
+    item = db.query(CartItem).filter_by(user_id=user.id, product_code=code).first()
 
-        if not item:
-            raise HTTPException(status_code=404, detail="Item not found")
+    if not item:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Item not found")
 
-        db.delete(item)
-        db.commit()
+    db.delete(item)
+    db.commit()
+    logger.info(f"User {user.id} removed item {code} from cart.")
 
-        return CartResponse(
-            message="Successfully removed from cart",
-        )
-
-    except Exception:
-        db.rollback()
-        raise HTTPException(status_code=400, detail="Failed to remove item")
+    return CartResponse(message="Successfully removed from cart")
 
 
 @router.put("items/{code}", response_model=CartResponse)
@@ -126,10 +119,12 @@ async def update_cart_item(
         if item:
             db.delete(item)
             db.commit()
-        raise HTTPException(status_code=204, detail="Item removed from cart")
+            logger.info(f"User {user.id} removed item {code} from cart by setting quantity to 0.")
+        return Response(status_code=status.HTTP_204_NO_CONTENT)
 
     if item:
         item.quantity = data.quantity
+        logger.info(f"User {user.id} updated quantity for item {code} to {data.quantity}.")
     else:
         item = CartItem(
             user_id=user.id,
@@ -137,21 +132,20 @@ async def update_cart_item(
             quantity=data.quantity
         )
         db.add(item)
+        logger.info(f"User {user.id} added new item {code} with quantity {data.quantity} to cart.")
 
     db.commit()
     db.refresh(item)
     return item
+
 
 @router.get("/count", response_model=int)
 async def get_cart_count(
         db: Session = Depends(get_db),
         user: User = Depends(get_current_user)
 ):
-    try:
-        total_quantity = db.query(
-            func.coalesce(func.sum(CartItem.quantity), 0)
-        ).filter_by(user_id=user.id).scalar()
+    total_quantity = db.query(
+        func.coalesce(func.sum(CartItem.quantity), 0)
+    ).filter_by(user_id=user.id).scalar()
 
-        return total_quantity
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    return total_quantity

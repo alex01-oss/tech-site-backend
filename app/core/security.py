@@ -1,8 +1,9 @@
+import logging
 import uuid
 from datetime import timedelta, datetime, UTC
 from typing import Union, Optional
 
-from fastapi import Depends, HTTPException, Header, Cookie, Request
+from fastapi import Depends, HTTPException, Header, Cookie, Request, Response
 from fastapi.security import OAuth2PasswordBearer
 from jose import jwt, JWTError, ExpiredSignatureError
 from jose.exceptions import JWTClaimsError
@@ -14,9 +15,45 @@ from app.api.dependencies import get_db
 from app.core.settings import settings
 from app.models import RefreshToken, User
 
+logger = logging.getLogger(__name__)
+
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="api/auth/login")
+
+
+def set_auth_cookies(response: Response, tokens: dict):
+    response.set_cookie(
+        key="access_token",
+        value=f"Bearer {tokens['access_token']}",
+        httponly=True,
+        secure=settings.HTTPS_ENABLED,
+        samesite="lax",
+        max_age=settings.ACCESS_TOKEN_EXPIRE_MINUTES * 60,
+    )
+    response.set_cookie(
+        key="refresh_token",
+        value=f"Bearer {tokens['refresh_token']}",
+        httponly=True,
+        secure=settings.HTTPS_ENABLED,
+        samesite="lax",
+        max_age=settings.REFRESH_TOKEN_EXPIRE_MINUTES * 60,
+    )
+
+
+def delete_auth_cookies(response: Response):
+    response.delete_cookie(
+        key="access_token",
+        secure=settings.HTTPS_ENABLED,
+        httponly=True,
+        samesite="lax",
+    )
+    response.delete_cookie(
+        key="refresh_token",
+        secure=settings.HTTPS_ENABLED,
+        httponly=True,
+        samesite="lax",
+    )
 
 
 def hash_password(password) -> str:
@@ -38,7 +75,6 @@ def create_access_token(identity: Union[str, int]) -> str:
 
 
 def create_refresh_token(identity: Union[str, int], db: Session, request: Request) -> str:
-
     jti = str(uuid.uuid4())
     expire_at = datetime.now(UTC) + timedelta(minutes=settings.REFRESH_TOKEN_EXPIRE_MINUTES)
     to_encode = {
@@ -77,17 +113,11 @@ def decode_token(token: str) -> dict:
     try:
         unverified_payload = jwt.get_unverified_claims(token)
         token_type = unverified_payload.get("type")
-    except JWTError:
+    except JWTError as e:
+        logger.error(f"Could not decode token: {e}", exc_info=True)
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Could not decode token (JWT Error)",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-    except Exception as e:
-        print(f"Error getting unverified claims: {e}")
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Could not decode token (general error)",
+            detail="Invalid token format",
             headers={"WWW-Authenticate": "Bearer"},
         )
 
@@ -110,51 +140,42 @@ def decode_token(token: str) -> dict:
             detail="Token has expired",
             headers={"WWW-Authenticate": "Bearer"},
         )
-    except JWTClaimsError:
+    except (JWTClaimsError, JWTError):
+        logger.warning("Token verification failed (claims or JWT error).")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Token verification failed (claims error)",
+            detail="Token verification failed",
             headers={"WWW-Authenticate": "Bearer"},
         )
-    except JWTError:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Token verification failed (JWT error)",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-    except Exception as e:
-        print(f"Error verifying token: {e}")
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Token verification failed (general error)",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
+
+
+def get_token_from_request(
+        authorization: Optional[str] = Header(None, alias="Authorization"),
+        access_token_cookie: Optional[str] = Cookie(None, alias="access_token")
+) -> Optional[str]:
+    token = None
+    if authorization:
+        token = authorization[7:] if authorization.startswith("Bearer ") else authorization
+    elif access_token_cookie:
+        token = access_token_cookie[7:] if access_token_cookie.startswith("Bearer ") else access_token_cookie
+    return token
 
 
 def get_current_user(
         db: Session = Depends(get_db),
-        authorization: Optional[str] = Header(None, alias="Authorization"),
-        access_token_cookie: Optional[str] = Cookie(None, alias="access_token")
+        token: str = Depends(get_token_from_request),
 ) -> User:
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
         detail="Could not validate credentials",
         headers={"WWW-Authenticate": "Bearer"},
     )
-
-    token = None
-    if authorization:
-        token = authorization[7:] if authorization.startswith("Bearer ") else authorization
-    elif access_token_cookie:
-        token = access_token_cookie[7:] if access_token_cookie.startswith("Bearer ") else access_token_cookie
-
     if not token:
         raise credentials_exception
 
     try:
         payload = decode_token(token)
-    except HTTPException as e:
-        print(f"Unexpected error during token decoding: {e}")
+    except HTTPException:
         raise credentials_exception
 
     if payload.get("type") != "access":
@@ -182,16 +203,9 @@ def get_current_user(
 
 def get_current_user_optional(
         db: Session = Depends(get_db),
-        authorization: Optional[str] = Header(None, alias="Authorization"),
-        access_token_cookie: Optional[str] = Cookie(None, alias="access_token")
+        token: str = Depends(get_token_from_request)
 
 ) -> Optional[User]:
-    token = None
-    if authorization:
-        token = authorization[7:] if authorization.startswith("Bearer ") else authorization
-    elif access_token_cookie:
-        token = access_token_cookie[7:] if access_token_cookie.startswith("Bearer ") else access_token_cookie
-
     if not token:
         return None
     try:
@@ -202,9 +216,6 @@ def get_current_user_optional(
         # noinspection PyTypeChecker
         return db.query(User).filter(User.id == int(user_id)).first()
     except HTTPException:
-        return None
-    except Exception as e:
-        print(f"DEBUG: Unexpected error in get_current_user_optional: {e}")
         return None
 
 
@@ -226,6 +237,7 @@ def issue_tokens(user_id: int, db: Session, request: Request) -> dict:
         "refresh_token": refresh_token,
         "token_type": "bearer"
     }
+
 
 def cleanup_expired_tokens(db: Session):
     now = datetime.now(UTC)

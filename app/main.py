@@ -1,14 +1,17 @@
+import logging
 import os.path
 from contextlib import asynccontextmanager
 from datetime import datetime, UTC
 
 import uvicorn
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 from sqlalchemy import text
 from sqlalchemy.orm import Session
+from starlette import status
+from starlette.responses import JSONResponse
 from starlette.staticfiles import StaticFiles
 
 from app.api.dependencies import get_db
@@ -18,13 +21,33 @@ from app.tasks.scheduler import start_scheduler, stop_scheduler
 
 @asynccontextmanager
 async def lifespan_context(app_instance: FastAPI):
-    app_instance.state.limiter = Limiter(key_func=get_remote_address) # type: ignore
+    app_instance.state.limiter = Limiter(key_func=get_remote_address)  # type: ignore
     start_scheduler()
     yield
     stop_scheduler()
 
 
 app = FastAPI(title="Search App API", lifespan=lifespan_context)
+
+
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request: Request, exc: HTTPException):
+    logging.error(f"HTTP Exception: {exc.detail} - Status Code: {exc.status_code}")
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"detail": exc.detail}
+    )
+
+
+@app.exception_handler(Exception)
+async def general_exception_handler(request: Request, exc: Exception):
+    logging.error(f"Internal Server Error: {exc}", exc_info=True)
+
+    return JSONResponse(
+        status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+        content={"detail": "An internal server error occurred."}
+    )
+
 
 app.add_middleware(
     CORSMiddleware,
