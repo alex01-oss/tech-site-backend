@@ -1,33 +1,35 @@
-from sqlalchemy import Integer, Column, String
-from sqlalchemy.orm import relationship
+from typing import TYPE_CHECKING
+
+from sqlalchemy import Integer, String
+from sqlalchemy.orm import relationship, Mapped, mapped_column
 
 from app.core.database import Base
+
+if TYPE_CHECKING:
+    from app.models.cart_item import CartItem
+    from app.models.post import Post
+    from app.models.refresh_token import RefreshToken
 
 
 class User(Base):
     __tablename__ = 'users'
 
-    id = Column(Integer, primary_key=True, index=True)
-    role = Column(String, index=True, default='user')
-    full_name = Column(String, nullable=False, index=True)
-    email = Column(String, unique=True, nullable=False, index=True)
-    phone = Column(String, unique=True, nullable=False, index=True)
-    password_hash = Column(String, nullable=False)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    role: Mapped[str] = mapped_column(String, index=True, default='user')
+    full_name: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    email: Mapped[str] = mapped_column(String, unique=True, nullable=False, index=True)
+    phone: Mapped[str] = mapped_column(String, unique=True, nullable=False, index=True)
+    password_hash: Mapped[str] = mapped_column(String, nullable=False)
 
-    cart_items = relationship(
-        "CartItem",
+    cart_items: Mapped[list["CartItem"]] = relationship(
         back_populates="user",
         cascade="all, delete-orphan"
     )
-
-    posts = relationship(
-        "Post",
+    posts: Mapped[list["Post"]] = relationship(
         back_populates="user",
         cascade="all, delete-orphan"
     )
-
-    refresh_tokens = relationship(
-        "RefreshToken",
+    refresh_tokens: Mapped[list["RefreshToken"]] = relationship(
         back_populates="user",
         cascade="all, delete-orphan"
     )

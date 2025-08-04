@@ -1,15 +1,23 @@
-from sqlalchemy import Column, Integer, ForeignKey, String
-from sqlalchemy.orm import relationship
+from typing import TYPE_CHECKING
+
+from sqlalchemy import Integer, ForeignKey
+from sqlalchemy.orm import relationship, Mapped, mapped_column
 
 from app.core.database import Base
 
+if TYPE_CHECKING:
+    from app.models.user import User
+    from app.models.catalog import Catalog
+
+
 class CartItem(Base):
-    __tablename__ = 'cart'
+    __tablename__ = 'cart_item'
 
-    id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'), nullable=False)
-    product_code = Column(String, ForeignKey('product_grinding_wheels.code'), nullable=False)
-    quantity = Column(Integer, default=1)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    quantity: Mapped[int] = mapped_column(Integer, default=1)
 
-    user = relationship("User", back_populates="cart_items")
-    product = relationship("ProductGrindingWheels", back_populates="cart_items")
+    user_id: Mapped[int] = mapped_column(ForeignKey('users.id', ondelete='CASCADE'), nullable=False)
+    product_id: Mapped[int] = mapped_column(ForeignKey('catalog.id'), nullable=False)
+
+    user: Mapped["User"] = relationship(back_populates="cart_items")
+    product: Mapped["Catalog"] = relationship(back_populates="cart_items")

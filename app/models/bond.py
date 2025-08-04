@@ -1,15 +1,22 @@
-from sqlalchemy import Column, String, Integer
-from sqlalchemy.orm import relationship
+from typing import List, TYPE_CHECKING
+
+from sqlalchemy import Integer, String, Text
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.core.database import Base
+
+if TYPE_CHECKING:
+    from app.models.bond_to_code import BondToCode
 
 
 class Bond(Base):
     __tablename__ = 'bond'
 
-    id = Column(Integer, primary_key=True)
-    name_bond = Column(String, nullable=False, unique=True, index=True)
-    bond_description = Column(String, nullable=False)
-    bond_cooling = Column(String, nullable=False)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    name_bond: Mapped[str] = mapped_column(String(50))
+    bond_description: Mapped[str] = mapped_column(Text)
+    bond_cooling: Mapped[str] = mapped_column(Text)
 
-    products = relationship("ProductGrindingWheels", back_populates="bond")
+    bond_to_codes: Mapped[List["BondToCode"]] = relationship(
+        "BondToCode", back_populates="bond"
+    )
