@@ -10,7 +10,7 @@ def build_catalog_item(item, is_in_cart: bool = False) -> CatalogItemSchema:
         shape=str(item.shape),
         dimensions=str(item.dimensions),
         images=item.shape_info.img_url if item.shape_info else None,
-        name_bond=str(item.name_bond),
+        name_bonds=List(item.name_bonds),
         grid_size=str(item.grid_size),
         is_in_cart=is_in_cart,
     )
@@ -27,6 +27,7 @@ def make_cache_key(params: CatalogQuerySchema, user_id: int):
         f"bond_{params.name_bond or ''}:"
         f"grid_{params.grid_size or ''}:"
         f"user_{user_id}"
+        f"category_{params.category_name or ''}"
     )
     hashed_key = hashlib.md5(raw_key.encode()).hexdigest()
     return f"catalog:{hashed_key}"
@@ -40,6 +41,7 @@ def parse_query_params(
     search_machine: Optional[str] = Query(None),
     name_bond: Optional[List[str]] = Query(None),
     grid_size: Optional[List[str]] = Query(None),
+    category_name: Optional[str] = None
 ) -> CatalogQuerySchema:
     return CatalogQuerySchema(
         page=page,
@@ -49,5 +51,6 @@ def parse_query_params(
         search_dimensions=search_dimensions,
         search_machine=search_machine,
         name_bond=name_bond,
-        grid_size=grid_size
+        grid_size=grid_size,
+        category_name=category_name,
     )

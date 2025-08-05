@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 
 class CatalogQuerySchema(BaseModel):
@@ -12,28 +12,33 @@ class CatalogQuerySchema(BaseModel):
     search_dimensions: Optional[str] = Field(default=None)
     search_machine: Optional[str] = Field(default=None)
 
-    name_bond: Optional[List[str]] = Field(default=None)
-    grid_size: Optional[List[str]] = Field(default=None)
-    
+    bond_ids: Optional[List[int]] = Field(default=None)
+    grid_size_ids: Optional[List[int]] = Field(default=None)
+    mounting_ids: Optional[List[int]] = Field(default=None)
+
+    category_id: Optional[int] = None
+
     class Config:
         populate_by_name = True
+
+
+class MountingSchema(BaseModel):
+    mm: str
+    inch: str
+    model_config = ConfigDict(from_attributes=True)
 
 
 class BondSchema(BaseModel):
     name_bond: str
     bond_description: str
     bond_cooling: str
-
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class EquipmentModelSchema(BaseModel):
-    name_equipment: str
+    model: str
     name_producer: str
-
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class CatalogItemSchema(BaseModel):
@@ -41,18 +46,18 @@ class CatalogItemSchema(BaseModel):
     shape: Optional[str] = None
     dimensions: Optional[str] = None
     images: Optional[str] = None
-    name_bond: Optional[str] = None
+    name_bonds: Optional[List[str]] = None
     grid_size: Optional[str] = None
     is_in_cart: bool = False
-
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class CatalogItemDetailedSchema(BaseModel):
     item: CatalogItemSchema
-    bond: Optional[BondSchema]
-    machines: List[EquipmentModelSchema] = []
+    bonds: Optional[List[BondSchema]] = None
+    machines: Optional[List[EquipmentModelSchema]] = None
+    mounting: Optional[MountingSchema] = None
+    model_config = ConfigDict(from_attributes=True)
 
 
 class CatalogResponseSchema(BaseModel):

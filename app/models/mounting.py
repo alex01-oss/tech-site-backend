@@ -16,6 +16,6 @@ class Mounting(Base):
     mm: Mapped[str] = mapped_column(String(10))
     inch: Mapped[str] = mapped_column(String(10))
 
-    code_grinding_wheels: Mapped[List["Catalog"]] = relationship(
+    catalog: Mapped[List["Catalog"]] = relationship(
         "Catalog", back_populates="mounting"
     )

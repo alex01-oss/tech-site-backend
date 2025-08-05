@@ -1,8 +1,6 @@
 from pydantic import BaseModel, EmailStr, Field
 
 
-# base gto
-
 class UserData(BaseModel):
     id: int
     full_name: str
@@ -19,8 +17,6 @@ class TokenBundle(BaseModel):
     refresh_token: str
     token_type: str = "bearer"
 
-
-# request
 
 class RegisterRequest(BaseModel):
     full_name: str
@@ -48,8 +44,6 @@ class UpdateUserRequest(BaseModel):
     phone: str | None = Field(None, min_length=8, max_length=20)
     password: str | None = Field(None, min_length=6)
 
-
-# response
 
 class MessageResponse(BaseModel):
     message: str

@@ -6,7 +6,7 @@ from app.schemas.catalog_schema import CatalogItemSchema
 
 
 class CartRequest(BaseModel):
-    code: str
+    product_id: int
 
 
 class CartResponse(BaseModel):

@@ -20,4 +20,4 @@ class CartItem(Base):
     product_id: Mapped[int] = mapped_column(ForeignKey('catalog.id'), nullable=False)
 
     user: Mapped["User"] = relationship(back_populates="cart_items")
-    product: Mapped["Catalog"] = relationship(back_populates="cart_items")
+    catalog: Mapped["Catalog"] = relationship(back_populates="cart_items")

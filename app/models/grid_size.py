@@ -15,6 +15,6 @@ class GridSize(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     grid_size: Mapped[str] = mapped_column(String(50))
 
-    code_grinding_wheels: Mapped[List["Catalog"]] = relationship(
+    catalog: Mapped[List["Catalog"]] = relationship(
         "Catalog", back_populates="grid_size"
     )

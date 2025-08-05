@@ -14,6 +14,6 @@ class Categories(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     name: Mapped[str] = mapped_column(String(100))
 
-    code_grinding_wheels: Mapped[List["Catalog"]] = relationship(
+    catalog: Mapped[List["Catalog"]] = relationship(
         "Catalog", back_populates="category"
     )
