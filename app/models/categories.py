@@ -13,6 +13,7 @@ class Categories(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     name: Mapped[str] = mapped_column(String(100))
+    img_url: Mapped[str] = mapped_column(String(255))
 
     catalog: Mapped[List["Catalog"]] = relationship(
         "Catalog", back_populates="category"

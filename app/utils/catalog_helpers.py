@@ -17,18 +17,24 @@ def build_catalog_item(item, is_in_cart: bool = False) -> CatalogItemSchema:
 
 
 def make_cache_key(params: CatalogQuerySchema, user_id: int):
-    raw_key = (
-        f"{params.page}:"
-        f"{params.items_per_page}:"
-        f"code_{params.search_code or ''}:"
-        f"shape_{params.search_shape or ''}:"
-        f"dimensions_{params.search_dimensions or ''}:"
-        f"machine_{params.search_machine or ''}:"
-        f"bond_{params.name_bond or ''}:"
-        f"grid_{params.grid_size or ''}:"
-        f"user_{user_id}"
-        f"category_{params.category_name or ''}"
-    )
+    key_parts = [
+        f"page_{params.page}",
+        f"ipp_{params.items_per_page}",
+        f"code_{params.search_code or ''}",
+        f"shape_{params.search_shape or ''}",
+        f"dims_{params.search_dimensions or ''}",
+        f"machine_{params.search_machine or ''}",
+        f"user_{user_id}",
+        f"category_{params.category_id or ''}",
+    ]
+    if params.bond_ids:
+        key_parts.append(f"bonds_{','.join(map(str, sorted(params.bond_ids)))}")
+    if params.grid_size_ids:
+        key_parts.append(f"grids_{','.join(map(str, sorted(params.grid_size_ids)))}")
+    if params.mounting_ids:
+        key_parts.append(f"mountings_{','.join(map(str, sorted(params.mounting_ids)))}")
+    
+    raw_key = ":".join(key_parts)
     hashed_key = hashlib.md5(raw_key.encode()).hexdigest()
     return f"catalog:{hashed_key}"
 
@@ -39,9 +45,12 @@ def parse_query_params(
     search_shape: Optional[str] = Query(None),
     search_dimensions: Optional[str] = Query(None),
     search_machine: Optional[str] = Query(None),
-    name_bond: Optional[List[str]] = Query(None),
-    grid_size: Optional[List[str]] = Query(None),
-    category_name: Optional[str] = None
+    
+    bond_ids: Optional[List[int]] = Query(None),
+    grid_size_ids: Optional[List[int]] = Query(None),
+    mounting_ids: Optional[List[int]] = Query(None),
+    
+    category_id: Optional[int] = Query(None, alias="category")
 ) -> CatalogQuerySchema:
     return CatalogQuerySchema(
         page=page,
@@ -50,7 +59,8 @@ def parse_query_params(
         search_shape=search_shape,
         search_dimensions=search_dimensions,
         search_machine=search_machine,
-        name_bond=name_bond,
-        grid_size=grid_size,
-        category_name=category_name,
+        bond_ids=bond_ids,
+        grid_size_ids=grid_size_ids,
+        mounting_ids=mounting_ids,
+        category_id=category_id,
     )
