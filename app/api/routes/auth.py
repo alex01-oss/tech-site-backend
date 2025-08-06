@@ -198,7 +198,7 @@ async def logout(
 
 
 @router.post("/logout-all", response_model=MessageResponse)
-async def logout_all(
+async def logout_other_devices(
         response: Response,
         db: Session = Depends(get_db),
         user: User = Depends(get_current_user)
@@ -209,3 +209,7 @@ async def logout_all(
     delete_auth_cookies(response)
     logger.info(f"All refresh tokens for user {user.id} have been revoked.")
     return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+@router.post("/forgot-password", response_model=str)
+async def forgot_password():
+    pass
