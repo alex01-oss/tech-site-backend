@@ -456,14 +456,6 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
@@ -585,7 +577,7 @@
         "documentation": {}
     },
     {
-        "label": "distinct",
+        "label": "and_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -625,7 +617,7 @@
         "documentation": {}
     },
     {
-        "label": "func",
+        "label": "and_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -946,14 +938,6 @@
     },
     {
         "label": "func",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "distinct",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1305,14 +1289,6 @@
         "documentation": {}
     },
     {
-        "label": "EquipmentModel",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
         "label": "EquipmentCode",
         "importPath": "app.models",
         "description": "app.models",
@@ -1338,14 +1314,6 @@
     },
     {
         "label": "BondToCode",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
-        "label": "Shape",
         "importPath": "app.models",
         "description": "app.models",
         "isExtraImport": true,
@@ -1802,6 +1770,14 @@
         "documentation": {}
     },
     {
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -2194,14 +2170,6 @@
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "status",
         "importPath": "starlette",
         "description": "starlette",
@@ -2522,11 +2490,19 @@
         "documentation": {}
     },
     {
-        "label": "get_autocomplete_results",
-        "importPath": "app.utils.autocomplete_util",
-        "description": "app.utils.autocomplete_util",
+        "label": "apply_catalog_filters",
+        "importPath": "app.utils.apply_catalog_filters",
+        "description": "app.utils.apply_catalog_filters",
         "isExtraImport": true,
-        "detail": "app.utils.autocomplete_util",
+        "detail": "app.utils.apply_catalog_filters",
+        "documentation": {}
+    },
+    {
+        "label": "apply_catalog_filters",
+        "importPath": "app.utils.apply_catalog_filters",
+        "description": "app.utils.apply_catalog_filters",
+        "isExtraImport": true,
+        "detail": "app.utils.apply_catalog_filters",
         "documentation": {}
     },
     {
@@ -2739,6 +2715,14 @@
         "documentation": {}
     },
     {
+        "label": "BondToCode",
+        "importPath": "app.models.bond_to_code",
+        "description": "app.models.bond_to_code",
+        "isExtraImport": true,
+        "detail": "app.models.bond_to_code",
+        "documentation": {}
+    },
+    {
         "label": "CartItem",
         "importPath": "app.models.cart_item",
         "description": "app.models.cart_item",
@@ -2889,6 +2873,22 @@
         "importPath": "math",
         "description": "math",
         "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "EquipmentModel",
+        "importPath": "app.models.equipment_model",
+        "description": "app.models.equipment_model",
+        "isExtraImport": true,
+        "detail": "app.models.equipment_model",
+        "documentation": {}
+    },
+    {
+        "label": "EquipmentModel",
+        "importPath": "app.models.equipment_model",
+        "description": "app.models.equipment_model",
+        "isExtraImport": true,
+        "detail": "app.models.equipment_model",
         "documentation": {}
     },
     {
@@ -3204,6 +3204,22 @@
         "description": "apscheduler.triggers.interval",
         "isExtraImport": true,
         "detail": "apscheduler.triggers.interval",
+        "documentation": {}
+    },
+    {
+        "label": "EquipmentCode",
+        "importPath": "app.models.equipment_code",
+        "description": "app.models.equipment_code",
+        "isExtraImport": true,
+        "detail": "app.models.equipment_code",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "importPath": "app.models.shape",
+        "description": "app.models.shape",
+        "isExtraImport": true,
+        "detail": "app.models.shape",
         "documentation": {}
     },
     {
@@ -4469,12 +4485,12 @@
         "documentation": {}
     },
     {
-        "label": "get_autocomplete_results",
+        "label": "apply_catalog_filters",
         "kind": 2,
-        "importPath": "app.utils.autocomplete_util",
-        "description": "app.utils.autocomplete_util",
-        "peekOfCode": "def get_autocomplete_results(\n    db: Session,\n    column: Any,\n    q: str,\n    category_id: Optional[int] = None\n):\n    query = db.query(distinct(column)) \\\n        .filter(func.lower(column).like(f'%{q.lower()}%'))\n    if category_id:\n        query = query.join(Catalog, Catalog.id == column.foreign_keys[0].parent) \\",
-        "detail": "app.utils.autocomplete_util",
+        "importPath": "app.utils.apply_catalog_filters",
+        "description": "app.utils.apply_catalog_filters",
+        "peekOfCode": "def apply_catalog_filters(query: Any, search_params: dict):\n    if search_params.get('category_id'):\n        query = query.filter(Catalog.category_id == search_params['category_id'])\n    if search_params.get('search_code'):\n        query = query.filter(func.lower(Catalog.code).like(f\"%{search_params['search_code'].lower()}%\"))\n    if search_params.get('search_shape'):\n        query = query.join(Catalog.shape).filter(func.lower(Shape.shape).like(f\"%{search_params['search_shape'].lower()}%\"))\n    if search_params.get('search_dimensions'):\n        query = query.filter(func.lower(Catalog.dimensions).like(f\"%{search_params['search_dimensions'].lower()}%\"))\n    if search_params.get('search_machine'):",
+        "detail": "app.utils.apply_catalog_filters",
         "documentation": {}
     },
     {

@@ -2,12 +2,12 @@ import logging
 from typing import List, Optional
 
 from fastapi import APIRouter, Depends, Query
-from sqlalchemy import distinct, func, select
+from sqlalchemy import and_, func, select
 from sqlalchemy.orm import Session
 
 from app.api.dependencies import get_db
 from app.models import EquipmentModel, EquipmentCode, Catalog, Producer, Shape
-from app.utils.autocomplete_util import get_autocomplete_results
+from app.utils.apply_catalog_filters import apply_catalog_filters
 
 logger = logging.getLogger(__name__)
 
@@ -26,15 +26,28 @@ async def autocomplete_code(
             description="Query string for product code autocomplete"
         ),
         db: Session = Depends(get_db),
-        category_id: Optional[int] = Query(None)
+        category_id: Optional[int] = Query(None),
+        search_shape: Optional[str] = Query(None),
+        search_dimensions: Optional[str] = Query(None),
+        search_machine: Optional[str] = Query(None),
+        bond_ids: Optional[list[str]] = Query(None),
+        grid_size_ids: Optional[list[str]] = Query(None),
+        mounting_ids: Optional[list[str]] = Query(None),
 ):
-    query = db.query(distinct(Catalog.code)).filter(func.lower(Catalog.code).like(f'%{q.lower()}%'))
-    if category_id:
-        query = query.filter(Catalog.category_id == category_id)
-
-    results = query.order_by(Catalog.code).limit(10).all()
-    return [r[0] for r in results]
-
+    base_query = select(Catalog.code).distinct().filter(func.lower(Catalog.code).like(f'%{q.lower()}%'))
+    
+    search_params = {
+        'category_id': category_id,
+        'search_shape': search_shape,
+        'search_dimensions': search_dimensions,
+        'search_machine': search_machine,
+        'bond_ids': bond_ids,
+        'grid_size_ids': grid_size_ids,
+        'mounting_ids': mounting_ids
+    }
+    query = apply_catalog_filters(base_query, search_params)
+    results = db.scalars(query.order_by(Catalog.code).limit(10)).all()
+    return list(results)
 
 
 @router.get('/shape', response_model=List[str])
@@ -46,17 +59,31 @@ async def autocomplete_shape(
             description="Query string for product shape autocomplete",
         ),
         db: Session = Depends(get_db),
-        category_id: Optional[int] = Query(None)
+        category_id: Optional[int] = Query(None),
+        search_code: Optional[str] = Query(None),
+        search_dimensions: Optional[str] = Query(None),
+        search_machine: Optional[str] = Query(None),
+        bond_ids: Optional[list[str]] = Query(None),
+        grid_size_ids: Optional[list[str]] = Query(None),
+        mounting_ids: Optional[list[str]] = Query(None),
 ):
-    query = db.query(Shape.shape) \
+    base_query = select(Shape.shape) \
         .join(Catalog, Catalog.shape_id == Shape.id) \
         .filter(func.lower(Shape.shape).like(f'{q.lower()}%'))
 
-    if category_id:
-        query = query.filter(Catalog.category_id == category_id)
+    search_params = {
+        'category_id': category_id,
+        'search_code': search_code,
+        'search_dimensions': search_dimensions,
+        'search_machine': search_machine,
+        'bond_ids': bond_ids,
+        'grid_size_ids': grid_size_ids,
+        'mounting_ids': mounting_ids
+    }
 
-    results = query.distinct().order_by(Shape.shape).limit(10).all()
-    return [r[0] for r in results]
+    query = apply_catalog_filters(base_query, search_params)
+    results = db.scalars(query.distinct().order_by(Shape.shape).limit(10)).all()
+    return list(results)
 
 
 @router.get('/dimensions', response_model=List[str])
@@ -68,14 +95,29 @@ async def autocomplete_dimensions(
             description="Query string for product dimensions autocomplete"
         ),
         db: Session = Depends(get_db),
-        category_id: Optional[int] = Query(None)
+        category_id: Optional[int] = Query(None),
+        search_code: Optional[str] = Query(None),
+        search_shape: Optional[str] = Query(None),
+        search_machine: Optional[str] = Query(None),
+        bond_ids: Optional[list[str]] = Query(None),
+        grid_size_ids: Optional[list[str]] = Query(None),
+        mounting_ids: Optional[list[str]] = Query(None),
 ):
-    query = db.query(distinct(Catalog.dimensions)).filter(func.lower(Catalog.dimensions).like(f'%{q.lower()}%'))
-    if category_id:
-        query = query.filter(Catalog.category_id == category_id)
+    base_query = select(Catalog.dimensions).distinct().filter(func.lower(Catalog.dimensions).like(f'%{q.lower()}%'))
 
-    results = query.order_by(Catalog.dimensions).limit(10).all()
-    return [r[0] for r in results]
+    search_params = {
+        'category_id': category_id,
+        'search_code': search_code,
+        'search_shape': search_shape,
+        'search_machine': search_machine,
+        'bond_ids': bond_ids,
+        'grid_size_ids': grid_size_ids,
+        'mounting_ids': mounting_ids
+    }
+
+    query = apply_catalog_filters(base_query, search_params)
+    results = db.scalars(query.order_by(Catalog.dimensions).limit(10)).all()
+    return list(results)
 
 
 @router.get('/machine', response_model=List[str])
@@ -86,13 +128,37 @@ async def autocomplete_machine(
             description="Query string for product machine name autocomplete"
         ),
         db: Session = Depends(get_db),
-        category_id: Optional[int] = Query(None)
+        category_id: Optional[int] = Query(None),
+        search_code: Optional[str] = Query(None),
+        search_shape: Optional[str] = Query(None),
+        search_dimensions: Optional[str] = Query(None),
+        bond_ids: Optional[list[str]] = Query(None),
+        grid_size_ids: Optional[list[str]] = Query(None),
+        mounting_ids: Optional[list[str]] = Query(None),
 ):
+    base_query = select(Catalog)
+    
+    search_params = {
+        'category_id': category_id,
+        'search_code': search_code,
+        'search_shape': search_shape,
+        'search_dimensions': search_dimensions,
+        'bond_ids': bond_ids,
+        'grid_size_ids': grid_size_ids,
+        'mounting_ids': mounting_ids
+    }
+    
+    filtered_query = apply_catalog_filters(base_query, search_params)
+    
+    catalog_ids = filtered_query.distinct().subquery()
+    
     machine_query = (
         select(EquipmentModel.model.label("name"))
         .join(EquipmentCode, EquipmentCode.equipment_model_id == EquipmentModel.id)
-        .join(Catalog, Catalog.id == EquipmentCode.catalog_id)
-        .filter(func.lower(EquipmentModel.model).like(f"{q.lower()}%"))
+        .filter(and_(
+            EquipmentCode.catalog_id.in_(select(catalog_ids)),
+            func.lower(EquipmentModel.model).like(f"{q.lower()}%")
+        ))
         .distinct()
     )
 
@@ -100,24 +166,13 @@ async def autocomplete_machine(
         select(Producer.name_producer.label("name"))
         .join(EquipmentModel, EquipmentModel.producer_id == Producer.id)
         .join(EquipmentCode, EquipmentCode.equipment_model_id == EquipmentModel.id)
-        .join(Catalog, Catalog.id == EquipmentCode.catalog_id)
-        .filter(func.lower(Producer.name_producer).like(f"{q.lower()}%"))
+        .filter(and_(
+            EquipmentCode.catalog_id.in_(select(catalog_ids)),
+            func.lower(Producer.name_producer).like(f"{q.lower()}%")
+        ))
         .distinct()
     )
-
-    if category_id:
-        machine_query = machine_query.filter(Catalog.category_id == category_id)
-        producer_query = producer_query.filter(Catalog.category_id == category_id)
 
     combined_query = machine_query.union(producer_query)
-    subquery_alias = combined_query.subquery()
-
-    results_query = (
-        db.query(subquery_alias.c.name)
-        .distinct()
-        .order_by(subquery_alias.c.name)
-        .limit(10)
-    )
-
-    results = results_query.all()
-    return [r[0] for r in results]
+    results = db.scalars(combined_query.order_by("name").limit(10)).all()
+    return list(results)
