@@ -42,12 +42,14 @@ class EquipmentModelSchema(BaseModel):
 
 
 class CatalogItemSchema(BaseModel):
+    id: int
     code: str
-    shape: Optional[str] = None
-    dimensions: Optional[str] = None
-    images: Optional[str] = None
+    shape: str
+    dimensions: str
+    images: str
     name_bonds: Optional[List[str]] = None
     grid_size: Optional[str] = None
+    mounting: Optional[MountingSchema]
     is_in_cart: bool = False
     model_config = ConfigDict(from_attributes=True)
 

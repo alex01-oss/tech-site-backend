@@ -8,10 +8,11 @@ from starlette import status
 from app.api.dependencies import get_db
 from app.core.security import get_current_user
 from app.models import User, Catalog
+from app.models.bond_to_code import BondToCode
 from app.models.cart_item import CartItem
 from app.schemas.cart_schema import CartListResponse, CartRequest, CartResponse, GetCartResponse, \
     UpdateCartItemRequest
-from app.schemas.catalog_schema import CatalogItemSchema
+from app.schemas.catalog_schema import CatalogItemSchema, MountingSchema
 
 logger = logging.getLogger(__name__)
 
@@ -23,33 +24,50 @@ router = APIRouter(
 
 @router.get("", response_model=CartListResponse)
 async def get_cart(
-        db: Session = Depends(get_db),
-        user: User = Depends(get_current_user)
+    db: Session = Depends(get_db),
+    user: User = Depends(get_current_user)
 ):
+    logger.info(f"Fetching cart for user: {user.id}")
+
     cart_items = db.query(CartItem).options(
         joinedload(CartItem.catalog)
-        .joinedload(Catalog.shape)
+            .joinedload(Catalog.shape),
+        joinedload(CartItem.catalog)
+            .joinedload(Catalog.grid_size),
+        joinedload(CartItem.catalog)
+            .joinedload(Catalog.mounting),
+        joinedload(CartItem.catalog)
+            .joinedload(Catalog.bond_to_codes)
+            .joinedload(BondToCode.bond)
     ).filter_by(user_id=user.id).all()
 
     cart = []
     for item in cart_items:
         product = item.catalog
         if not product:
+            logger.warning(f"Product with id {item.product_id} not found for cart item {item.id}")
             continue
 
-        image_url = product.shape.img_url if product.shape else None
+        name_bonds = [btc.bond.name_bond for btc in product.bond_to_codes]
+
+        product_schema = CatalogItemSchema(
+            id=int(product.id),
+            code=str(product.code),
+            shape=product.shape.shape,
+            dimensions=str(product.dimensions),
+            images=product.shape.img_url,
+            grid_size=product.grid_size.grid_size,
+            mounting=MountingSchema(
+                mm=product.mounting.mm,
+                inch=product.mounting.inch
+            ) if product.mounting else None,
+            is_in_cart=True,
+            name_bonds=name_bonds
+        )
 
         cart.append(GetCartResponse(
-            product=CatalogItemSchema(
-                code=product.code,
-                shape=product.shape.shape,
-                dimensions=product.dimensions,
-                images=image_url,
-                name_bonds=[b.bond.name_bond for b in product.bond_to_codes],
-                grid_size=product.grid_size.grid_size,
-                is_in_cart=True
-            ),
-            quantity=str(item.quantity),
+            product=product_schema,
+            quantity=item.quantity,
         ))
 
     return CartListResponse(cart=cart)

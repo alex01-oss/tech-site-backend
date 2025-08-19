@@ -50,7 +50,7 @@ def parse_query_params(
     grid_size_ids: Optional[List[int]] = Query(None),
     mounting_ids: Optional[List[int]] = Query(None),
     
-    category_id: Optional[int] = Query(None, alias="category")
+    category_id: Optional[int] = Query(None)
 ) -> CatalogQuerySchema:
     return CatalogQuerySchema(
         page=page,

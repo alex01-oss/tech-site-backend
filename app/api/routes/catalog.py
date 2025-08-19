@@ -22,7 +22,7 @@ router = APIRouter(
 )
 
 
-@router.get("", response_model=CatalogResponseSchema)
+@router.get("", response_model=CatalogResponseSchema, response_model_exclude_none=True)
 async def get_catalog_items(
         query_params: CatalogQuerySchema = Depends(parse_query_params),
         db: Session = Depends(get_db),
@@ -80,11 +80,13 @@ async def get_catalog_items(
 
     items = [
         CatalogItemSchema(
+            id=int(item.id),
             code=str(item.code),
             shape=item.shape.shape,
             dimensions=str(item.dimensions),
             images=item.shape.img_url,
             grid_size=item.grid_size.grid_size,
+            mounting=MountingSchema(mm=item.mounting.mm, inch=item.mounting.inch) if item.mounting else None,
             is_in_cart=item.id in cart_product_ids,
             name_bonds=[btc.bond.name_bond for btc in item.bond_to_codes]
         )
@@ -103,7 +105,7 @@ async def get_catalog_items(
     return response
 
 
-@router.get("/{item_id}", response_model=CatalogItemDetailedSchema)
+@router.get("/{item_id}", response_model=CatalogItemDetailedSchema, response_model_exclude_none=True)
 async def get_catalog_item(
         item_id: int,
         db: Session = Depends(get_db),
@@ -143,11 +145,13 @@ async def get_catalog_item(
     bonds = [BondSchema.model_validate(btc.bond) for btc in item.bond_to_codes]
 
     product = CatalogItemSchema(
+        id=int(item.id),
         code=str(item.code),
         shape=item.shape.shape,
         dimensions=str(item.dimensions),
         images=item.shape.img_url,
         grid_size=item.grid_size.grid_size,
+        mounting=MountingSchema(mm=item.mounting.mm, inch=item.mounting.inch) if item.mounting else None,
         is_in_cart=is_in_cart,
     )
 

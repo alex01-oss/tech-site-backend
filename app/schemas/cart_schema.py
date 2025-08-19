@@ -19,7 +19,7 @@ class UpdateCartItemRequest(BaseModel):
 
 class GetCartResponse(BaseModel):
     product: CatalogItemSchema
-    quantity: str
+    quantity: int
 
     class Config:
         from_attributes = True

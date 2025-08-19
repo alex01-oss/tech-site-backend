@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel, ConfigDict
 
@@ -21,8 +21,8 @@ class MountingFilterSchema(BaseModel):
 
 class FilterResponseSchema(BaseModel):
     bonds: List[BondFilterSchema]
-    grids: List[GridFilterSchema]
-    mountings: List[MountingFilterSchema]
+    grids: Optional[List[GridFilterSchema]] = None
+    mountings: Optional[List[MountingFilterSchema]] = None
 
 class CategorySchema(BaseModel):
     id: int

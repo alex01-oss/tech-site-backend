@@ -1,8 +1,8 @@
 import logging
-from typing import List
+from typing import List, Optional
 
 from fastapi import APIRouter, Depends, Query
-from sqlalchemy import func, and_, select
+from sqlalchemy import distinct, func, select
 from sqlalchemy.orm import Session
 
 from app.api.dependencies import get_db
@@ -25,9 +25,16 @@ async def autocomplete_code(
             max_length=5,
             description="Query string for product code autocomplete"
         ),
-        db: Session = Depends(get_db)
+        db: Session = Depends(get_db),
+        category_id: Optional[int] = Query(None)
 ):
-    return get_autocomplete_results(db, Catalog.code, q)
+    query = db.query(distinct(Catalog.code)).filter(func.lower(Catalog.code).like(f'%{q.lower()}%'))
+    if category_id:
+        query = query.filter(Catalog.category_id == category_id)
+
+    results = query.order_by(Catalog.code).limit(10).all()
+    return [r[0] for r in results]
+
 
 
 @router.get('/shape', response_model=List[str])
@@ -36,18 +43,19 @@ async def autocomplete_shape(
             ...,
             min_length=1,
             max_length=6,
-            description="Query string for product shape autocomplete"
+            description="Query string for product shape autocomplete",
         ),
-        db: Session = Depends(get_db)
+        db: Session = Depends(get_db),
+        category_id: Optional[int] = Query(None)
 ):
-    results = (
-        db.query(Shape.shape)
-        .join(Catalog, Catalog.shape_id == Shape.id)
+    query = db.query(Shape.shape) \
+        .join(Catalog, Catalog.shape_id == Shape.id) \
         .filter(func.lower(Shape.shape).like(f'{q.lower()}%'))
-        .distinct()
-        .order_by(Shape.shape)
-        .all()
-    )
+
+    if category_id:
+        query = query.filter(Catalog.category_id == category_id)
+
+    results = query.distinct().order_by(Shape.shape).limit(10).all()
     return [r[0] for r in results]
 
 
@@ -59,9 +67,15 @@ async def autocomplete_dimensions(
             max_length=25,
             description="Query string for product dimensions autocomplete"
         ),
-        db: Session = Depends(get_db)
+        db: Session = Depends(get_db),
+        category_id: Optional[int] = Query(None)
 ):
-    return get_autocomplete_results(db, Catalog.dimensions, q)
+    query = db.query(distinct(Catalog.dimensions)).filter(func.lower(Catalog.dimensions).like(f'%{q.lower()}%'))
+    if category_id:
+        query = query.filter(Catalog.category_id == category_id)
+
+    results = query.order_by(Catalog.dimensions).limit(10).all()
+    return [r[0] for r in results]
 
 
 @router.get('/machine', response_model=List[str])
@@ -71,7 +85,8 @@ async def autocomplete_machine(
             min_length=1,
             description="Query string for product machine name autocomplete"
         ),
-        db: Session = Depends(get_db)
+        db: Session = Depends(get_db),
+        category_id: Optional[int] = Query(None)
 ):
     machine_query = (
         select(EquipmentModel.model.label("name"))
@@ -90,8 +105,11 @@ async def autocomplete_machine(
         .distinct()
     )
 
-    combined_query = machine_query.union(producer_query)
+    if category_id:
+        machine_query = machine_query.filter(Catalog.category_id == category_id)
+        producer_query = producer_query.filter(Catalog.category_id == category_id)
 
+    combined_query = machine_query.union(producer_query)
     subquery_alias = combined_query.subquery()
 
     results_query = (
@@ -102,5 +120,4 @@ async def autocomplete_machine(
     )
 
     results = results_query.all()
-
     return [r[0] for r in results]
