@@ -7,8 +7,7 @@ from sqlalchemy.orm import Session
 from starlette import status
 
 from app.api.dependencies import get_db
-from app.core.security import issue_tokens, verify_password, hash_password, decode_token, get_current_user, \
-    set_auth_cookies, delete_auth_cookies
+from app.core.security import add_to_blacklist, decode_token, delete_auth_cookies, get_current_user, hash_password, issue_tokens, set_auth_cookies, verify_password
 from app.models import User, RefreshToken
 from app.schemas.user_schema import LoginRequest, RegisterRequest, RefreshTokenRequest, LogoutRequest, \
     MessageResponse, TokenResponse, TokenBundle
@@ -28,7 +27,6 @@ async def login(
         request: Request,
         db: Session = Depends(get_db),
 ):
-    # noinspection PyTypeChecker
     user = db.query(User).filter(User.email == user_data.email).first()
 
     if not user:
@@ -54,11 +52,16 @@ async def register(
         request: Request,
         db: Session = Depends(get_db)
 ):
+    existing_user = db.query(User).filter(
+        (User.email == user_data.email) | (User.phone == user_data.phone)
+    ).first()
+    if existing_user:
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail="A user with this email or phone number already exists."
+        )
+    
     try:
-        # noinspection PyTypeChecker
-        if db.query(User).filter(User.email == user_data.email).first():
-            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Email already registered")
-
         hashed_password = hash_password(user_data.password)
 
         new_user = User(
@@ -148,9 +151,24 @@ async def logout(
         db: Session = Depends(get_db),
         current_user: User = Depends(get_current_user),
         logout_data: Optional[LogoutRequest] = Body(None),
+        access_token_cookie: Optional[str] = Cookie(None, alias="access_token"),
         refresh_token_cookie: Optional[str] = Cookie(None, alias="refresh_token")
 ):
     user_id = current_user.id
+    
+    if access_token_cookie:
+        try:
+            payload = decode_token(access_token_cookie)
+            jti = payload.get("jti")
+            exp = payload.get("exp")
+            
+            if jti and exp:
+                add_to_blacklist(jti, exp, db)
+                logging.info(f"Access token with JTI {jti} successfully blacklisted for user {user_id}.")
+            else:
+                logging.warning("Access token missing JTI or exp claim. Cannot blacklist.")
+        except HTTPException as e:
+            logging.warning(f"Failed to decode access token for blacklisting: {e.detail}")
 
     refresh_token_to_revoke = logout_data.refresh_token if logout_data and logout_data.refresh_token else refresh_token_cookie
 
@@ -203,7 +221,6 @@ async def logout_other_devices(
         db: Session = Depends(get_db),
         user: User = Depends(get_current_user)
 ):
-    # noinspection PyTypeChecker
     db.query(RefreshToken).filter(RefreshToken.user_id == user.id).delete()
     db.commit()
     delete_auth_cookies(response)

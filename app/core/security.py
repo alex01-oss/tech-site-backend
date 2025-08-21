@@ -14,6 +14,7 @@ from starlette import status
 from app.api.dependencies import get_db
 from app.core.settings import settings
 from app.models import RefreshToken, User
+from app.models.tokens_blacklist import TokenBlacklist
 
 logger = logging.getLogger(__name__)
 
@@ -22,13 +23,14 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="api/auth/login")
 
 
-def set_auth_cookies(response: Response, tokens: dict):
+def set_auth_cookies(response: Response, tokens: dict):    
     response.set_cookie(
         key="access_token",
         value=f"Bearer {tokens['access_token']}",
         httponly=True,
         secure=settings.HTTPS_ENABLED,
         samesite="lax",
+        path="/",
         max_age=settings.ACCESS_TOKEN_EXPIRE_MINUTES * 60,
     )
     response.set_cookie(
@@ -37,23 +39,21 @@ def set_auth_cookies(response: Response, tokens: dict):
         httponly=True,
         secure=settings.HTTPS_ENABLED,
         samesite="lax",
+        path="/",
         max_age=settings.REFRESH_TOKEN_EXPIRE_MINUTES * 60,
     )
 
 
 def delete_auth_cookies(response: Response):
-    response.delete_cookie(
-        key="access_token",
-        secure=settings.HTTPS_ENABLED,
-        httponly=True,
-        samesite="lax",
-    )
-    response.delete_cookie(
-        key="refresh_token",
-        secure=settings.HTTPS_ENABLED,
-        httponly=True,
-        samesite="lax",
-    )
+    cookie_params = {
+        "secure": settings.HTTPS_ENABLED,
+        "httponly": True,
+        "samesite": "lax",
+        "path": "/",
+    }
+    
+    response.delete_cookie(key="access_token", **cookie_params)
+    response.delete_cookie(key="refresh_token", **cookie_params)
 
 
 def hash_password(password) -> str:
@@ -66,10 +66,12 @@ def verify_password(plain_password, hashed_password) -> bool:
 
 def create_access_token(identity: Union[str, int]) -> str:
     expire = datetime.now(UTC) + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
+    jti = str(uuid.uuid4())
     to_encode = {
         "sub": str(identity),
         "exp": expire,
-        "type": "access"
+        "type": "access",
+        "jti": jti
     }
     return jwt.encode(to_encode, settings.ACCESS_TOKEN_SECRET_KEY, algorithm=settings.ALGORITHM)
 
@@ -101,6 +103,17 @@ def create_refresh_token(identity: Union[str, int], db: Session, request: Reques
     db.refresh(refresh_token_db_entry)
 
     return encoded_jwt
+
+
+def add_to_blacklist(jti: str, exp: int, db: Session):
+    expires_at = datetime.fromtimestamp(exp, tz=UTC)
+    blacklist_entry = TokenBlacklist(expires_at=expires_at, jti=jti)
+    db.add(blacklist_entry)
+    db.commit()
+    
+    
+def is_blacklisted(jti: str, db: Session) -> bool:
+    return(db.query(TokenBlacklist).filter(TokenBlacklist.jti == jti).first()) is not None
 
 
 def decode_token(token: str) -> dict:
@@ -184,6 +197,14 @@ def get_current_user(
             detail="Use access token for authentication",
             headers={"WWW-Authenticate": "Bearer"},
         )
+        
+    jti = payload.get('jti')
+    if is_blacklisted(jti, db):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Token has been revoked",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
 
     user_id = payload.get("sub")
     if not user_id:
@@ -193,7 +214,6 @@ def get_current_user(
             headers={"WWW-Authenticate": "Bearer"},
         )
 
-    # noinspection PyTypeChecker
     user = db.query(User).filter(User.id == int(user_id)).first()
     if not user:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
@@ -209,11 +229,13 @@ def get_current_user_optional(
     if not token:
         return None
     try:
-        payload = decode_token(token)
+        payload = decode_token(token)        
         user_id = payload.get("sub")
-        if not user_id or payload.get("type") != "access":
+        jti = payload.get('jti')
+        
+        if not user_id or payload.get("type") != "access" or is_blacklisted(jti, db):
             return None
-        # noinspection PyTypeChecker
+        
         return db.query(User).filter(User.id == int(user_id)).first()
     except HTTPException:
         return None
@@ -244,7 +266,9 @@ def cleanup_expired_tokens(db: Session):
     deleted_count = db.query(RefreshToken).filter(
         RefreshToken.expires_at < now,
     ).delete()
+    deleted_blacklist_count = db.query(TokenBlacklist).filter(
+        TokenBlacklist.expires_at < now,
+    ).delete()
     db.commit()
 
-    print(f"DEBUG: Purging refresh tokens. Deleted {deleted_count} expired records.")
-    return deleted_count
+    return deleted_count + deleted_blacklist_count

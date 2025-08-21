@@ -12,6 +12,7 @@ from .producer import Producer
 from .refresh_token import RefreshToken
 from .shape import Shape
 from .user import User
+from .tokens_blacklist import TokenBlacklist
 
 
 __all__ = [
@@ -29,4 +30,5 @@ __all__ = [
     "RefreshToken",
     "Shape",
     "User",
+    "TokenBlacklist"
 ]
