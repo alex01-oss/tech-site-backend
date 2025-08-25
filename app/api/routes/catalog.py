@@ -59,11 +59,12 @@ async def get_catalog_items(
     }
 
     final_query = apply_catalog_filters(base_query, search_params).distinct()
+    sorted_query = final_query.order_by(Catalog.id.asc())
 
-    total_items = final_query.count()
+    total_items = sorted_query.count()
     total_pages = math.ceil(total_items / query_params.items_per_page) or 1
     offset = (query_params.page - 1) * query_params.items_per_page
-    catalog_items = final_query.offset(offset).limit(query_params.items_per_page).all()
+    catalog_items = sorted_query.offset(offset).limit(query_params.items_per_page).all()
 
     cart_product_ids = set()
     if user:
