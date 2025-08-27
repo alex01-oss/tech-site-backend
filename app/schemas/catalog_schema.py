@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field, ConfigDict
 
 class CatalogQuerySchema(BaseModel):
     page: int = Field(default=1, ge=1)
-    items_per_page: int = Field(default=8, ge=1, le=100)
+    items_per_page: int = Field(default=8, ge=1, le=12)
 
     search_code: Optional[str] = Field(default=None)
     search_shape: Optional[str] = Field(default=None)

@@ -1,5 +1,6 @@
 import datetime
 import logging
+import os
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -23,6 +24,7 @@ router = APIRouter(
     tags=["Blog"]
 )
 
+IMAGE_DIR = "app/static"
 
 @router.post("", response_model=PostResponse)
 async def create_post(
@@ -64,6 +66,14 @@ async def delete_post(
 
     if post.user_id != user.id:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="You are not allowed to delete this post")
+    
+    if post.image:
+        image_path = os.path.join(IMAGE_DIR, post.image)
+        
+        if os.path.exists(image_path):
+            os.remove(image_path)
+            logger.info(f"Deleted image file: {image_path}")
+
 
     db.delete(post)
     db.commit()
