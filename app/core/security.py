@@ -1,3 +1,4 @@
+import hashlib
 import logging
 import uuid
 from datetime import timedelta, datetime, UTC
@@ -56,12 +57,16 @@ def delete_auth_cookies(response: Response):
     response.delete_cookie(key="refresh_token", **cookie_params)
 
 
-def hash_password(password) -> str:
-    return pwd_context.hash(password)
+def hash_data(data) -> str:
+    return pwd_context.hash(data)
 
 
-def verify_password(plain_password, hashed_password) -> bool:
-    return pwd_context.verify(plain_password, hashed_password)
+def verify_data(plain_data, hashed_data) -> bool:
+    return pwd_context.verify(plain_data, hashed_data)
+
+
+def hash_for_check(data: str) -> str:
+    return hashlib.sha256(data.encode('utf-8')).hexdigest()
 
 
 def create_access_token(identity: Union[str, int]) -> str:
@@ -86,11 +91,12 @@ def create_refresh_token(identity: Union[str, int], db: Session, request: Reques
         "jti": jti,
     }
     encoded_jwt = jwt.encode(to_encode, settings.REFRESH_TOKEN_SECRET_KEY, algorithm=settings.ALGORITHM)
+    hashed_jwt = hash_data(encoded_jwt)
 
     refresh_token_db_entry = RefreshToken(
         user_id=int(identity),
         jti=jti,
-        refresh_token=encoded_jwt,
+        refresh_token=hashed_jwt,
         created_at=datetime.now(UTC),
         expires_at=expire_at,
         last_used_at=datetime.now(UTC),

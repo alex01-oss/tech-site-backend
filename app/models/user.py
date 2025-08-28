@@ -17,8 +17,10 @@ class User(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
     role: Mapped[str] = mapped_column(String, index=True, default='user')
     full_name: Mapped[str] = mapped_column(String, nullable=False, index=True)
-    email: Mapped[str] = mapped_column(String, unique=True, nullable=False, index=True)
-    phone: Mapped[str] = mapped_column(String, unique=True, nullable=False, index=True)
+    email: Mapped[str] = mapped_column(String, nullable=False)
+    phone: Mapped[str] = mapped_column(String, nullable=False)
+    email_hash: Mapped[str] = mapped_column(String, unique=True, index=True, nullable=False)
+    phone_hash: Mapped[str] = mapped_column(String, unique=True, index=True, nullable=False)
     password_hash: Mapped[str] = mapped_column(String, nullable=False)
 
     cart_items: Mapped[list["CartItem"]] = relationship(

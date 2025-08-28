@@ -1,4 +1,6 @@
+import base64
 import os
+import secrets
 
 from dotenv import load_dotenv
 from pydantic.v1 import BaseSettings
@@ -23,6 +25,8 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES=int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'))
     REFRESH_TOKEN_EXPIRE_MINUTES=int(os.getenv('REFRESH_TOKEN_EXPIRE_MINUTES'))
     ALGORITHM: str = os.getenv('ALGORITHM')
+    
+    ENCRYPTION_KEY = os.getenv("ENCRYPTION_KEY") or base64.urlsafe_b64encode(secrets.token_bytes(32)).decode()
     
     CACHE_TYPE: str = "RedisCache"
     CACHE_REDIS_HOST: str = os.getenv("CACHE_REDIS_HOST")

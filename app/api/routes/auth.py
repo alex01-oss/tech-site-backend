@@ -7,10 +7,13 @@ from sqlalchemy.orm import Session
 from starlette import status
 
 from app.api.dependencies import get_db
-from app.core.security import add_to_blacklist, decode_token, delete_auth_cookies, get_current_user, hash_password, issue_tokens, set_auth_cookies, verify_password
+from app.core.security import (add_to_blacklist, decode_token, delete_auth_cookies,
+    get_current_user, hash_data, hash_for_check, issue_tokens, set_auth_cookies, verify_data)
 from app.models import User, RefreshToken
-from app.schemas.user_schema import LoginRequest, RegisterRequest, RefreshTokenRequest, LogoutRequest, \
-    MessageResponse, TokenResponse, TokenBundle
+    
+from app.core.encryption import encryption_service
+from app.schemas.user_schema import AuthResponse, LoginRequest, LogoutRequest, MessageResponse, RefreshTokenRequest, RegisterRequest, TokenBundle, UserData
+
 
 logger = logging.getLogger(__name__)
 
@@ -20,41 +23,47 @@ router = APIRouter(
 )
 
 
-@router.post("/login", response_model=TokenResponse)
+@router.post("/login", response_model=AuthResponse)
 async def login(
         user_data: LoginRequest,
         response: Response,
         request: Request,
         db: Session = Depends(get_db),
 ):
-    user = db.query(User).filter(User.email == user_data.email).first()
+    hashed_email = hash_for_check(user_data.email)
+    user = db.query(User).filter(User.email_hash == hashed_email).first()
 
     if not user:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
 
-    if not verify_password(user_data.password, user.password_hash):
+    if not verify_data(user_data.password, user.password_hash):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Incorrect password")
 
     tokens = issue_tokens(user.id, db, request)
     set_auth_cookies(response, tokens)
 
     logger.info(f"Successful login for user_id: {user.id}")
-    return TokenResponse(
+    return AuthResponse(
         message="Login successful",
+        user=UserData.model_validate(user),
         **tokens
     )
 
 
-@router.post("/register", response_model=TokenResponse)
+@router.post("/register", response_model=AuthResponse)
 async def register(
         user_data: RegisterRequest,
         response: Response,
         request: Request,
         db: Session = Depends(get_db)
-):
+):    
+    hashed_email = hash_for_check(user_data.email)
+    hashed_phone = hash_for_check(user_data.phone)
+    
     existing_user = db.query(User).filter(
-        (User.email == user_data.email) | (User.phone == user_data.phone)
+        (User.email_hash == hashed_email) | (User.phone_hash == hashed_phone)
     ).first()
+    
     if existing_user:
         raise HTTPException(
             status_code=status.HTTP_409_CONFLICT,
@@ -62,12 +71,18 @@ async def register(
         )
     
     try:
-        hashed_password = hash_password(user_data.password)
+        encrypted_email = encryption_service.encrypt_data(user_data.email)
+        encrypted_phone = encryption_service.encrypt_data(user_data.phone)
+        
+        hashed_password = hash_data(user_data.password)
 
         new_user = User(
             full_name=user_data.full_name,
-            email=user_data.email,
-            phone=user_data.phone,
+            email=encrypted_email,
+            phone=encrypted_phone,
+            
+            email_hash=hashed_email,
+            phone_hash=hashed_phone,
             password_hash=hashed_password
         )
 
@@ -78,8 +93,9 @@ async def register(
         tokens = issue_tokens(new_user.id, db, request)
         set_auth_cookies(response, tokens)
 
-        return TokenResponse(
+        return AuthResponse(
             message="User registered successfully",
+            user=UserData.model_validate(new_user),
             **tokens
         )
 
@@ -128,10 +144,13 @@ async def refresh_token_route(
         is_revoked=False
     ).first()
 
-    if not token_record or token_record.refresh_token != token_str:
-        if token_record and token_record.is_revoked:
-            logger.warning(
-                f"Revoked token (JTI: {jti}) attempted by user {user_id}. All user tokens may be compromised.")
+    if not token_record:
+        delete_auth_cookies(response)
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid or revoked token")
+
+    if not verify_data(token_str, token_record.refresh_token):
+        if token_record.is_revoked:
+             logger.warning(...)
         delete_auth_cookies(response)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid or revoked token")
 

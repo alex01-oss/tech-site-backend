@@ -1,12 +1,21 @@
-from pydantic import BaseModel, EmailStr, Field
+from typing import Optional
+from pydantic import BaseModel, EmailStr, Field, field_validator
+
+from app.core.encryption import encryption_service
 
 
 class UserData(BaseModel):
     id: int
+    role: str
     full_name: str
     email: str
     phone: str
-    role: str
+
+    @field_validator('email', 'phone', mode='before')
+    def decrypt_sensitive_fields(cls, value: Optional[str]):
+        if value:
+            return encryption_service.decrypt_data(value)
+        return value
 
     class Config:
         from_attributes = True
@@ -39,17 +48,18 @@ class LogoutRequest(BaseModel):
 
 
 class UpdateUserRequest(BaseModel):
-    full_name: str | None = Field(None, min_length=2)
-    email: EmailStr | None = None
-    phone: str | None = Field(None, min_length=8, max_length=20)
-    password: str | None = Field(None, min_length=6)
+    full_name: Optional[str] = Field(None, min_length=1, max_length=100)
+    email: Optional[EmailStr] = None
+    phone: Optional[str] = Field(None, pattern=r'^\+?[1-9]\d{1,14}$')
+    password: Optional[str] = Field(None, min_length=8)
 
 
 class MessageResponse(BaseModel):
     message: str
 
 
-class TokenResponse(TokenBundle):
+class AuthResponse(TokenBundle):
+    user: UserData
     message: str
 
 
