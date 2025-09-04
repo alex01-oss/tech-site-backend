@@ -54,7 +54,7 @@ async def autocomplete_code(
 async def autocomplete_shape(
         q: str = Query(
             ...,
-            min_length=1,
+            min_length=0,
             max_length=6,
             description="Query string for product shape autocomplete",
         ),
@@ -150,7 +150,7 @@ async def autocomplete_machine(
     
     filtered_query = apply_catalog_filters(base_query, search_params)
     
-    catalog_ids = filtered_query.distinct().subquery()
+    catalog_ids = filtered_query.with_only_columns(Catalog.id).distinct().subquery()
     
     machine_query = (
         select(EquipmentModel.model.label("name"))
