@@ -24,7 +24,6 @@ class CatalogQuerySchema(BaseModel):
 
 class MountingSchema(BaseModel):
     mm: str
-    inch: str
     model_config = ConfigDict(from_attributes=True)
 
 

@@ -16,7 +16,6 @@ class GridFilterSchema(BaseModel):
 class MountingFilterSchema(BaseModel):
     id: int
     mm: str
-    inch: str
     model_config = ConfigDict(from_attributes=True)
 
 class FilterResponseSchema(BaseModel):

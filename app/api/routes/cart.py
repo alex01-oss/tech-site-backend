@@ -57,10 +57,7 @@ async def get_cart(
             dimensions=str(product.dimensions),
             images=product.shape.img_url,
             grid_size=product.grid_size.grid_size,
-            mounting=MountingSchema(
-                mm=product.mounting.mm,
-                inch=product.mounting.inch
-            ) if product.mounting else None,
+            mounting=MountingSchema(mm=product.mounting.mm) if product.mounting else None,
             is_in_cart=True,
             name_bonds=name_bonds
         )

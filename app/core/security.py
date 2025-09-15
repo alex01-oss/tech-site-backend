@@ -27,7 +27,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="api/auth/login")
 def set_auth_cookies(response: Response, tokens: dict):    
     response.set_cookie(
         key="access_token",
-        value=f"Bearer {tokens['access_token']}",
+        value=tokens['access_token'],
         httponly=True,
         secure=settings.HTTPS_ENABLED,
         samesite="lax",
@@ -36,7 +36,7 @@ def set_auth_cookies(response: Response, tokens: dict):
     )
     response.set_cookie(
         key="refresh_token",
-        value=f"Bearer {tokens['refresh_token']}",
+        value=tokens['refresh_token'],
         httponly=True,
         secure=settings.HTTPS_ENABLED,
         samesite="lax",

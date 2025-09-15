@@ -79,7 +79,7 @@ async def get_catalog_items(
             dimensions=str(item.dimensions),
             images=item.shape.img_url,
             grid_size=item.grid_size.grid_size,
-            mounting=MountingSchema(mm=item.mounting.mm, inch=item.mounting.inch) if item.mounting else None,
+            mounting=MountingSchema(mm=item.mounting.mm) if item.mounting else None,
             is_in_cart=item.id in cart_product_ids,
             name_bonds=[btc.bond.name_bond for btc in item.bond_to_codes]
         )
